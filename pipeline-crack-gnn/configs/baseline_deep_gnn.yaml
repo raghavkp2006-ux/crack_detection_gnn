@@ -1,0 +1,20 @@
+model:
+  type: deep_gnn
+  in_dim: 15
+  hidden_dim: 64
+  num_layers: 8
+  dropout: 0.3
+
+data:
+  graph_dir: data/graphs
+  train_ratio: 0.7
+  val_ratio: 0.15
+
+training:
+  epochs: 150
+  lr: 0.001
+  weight_decay: 0.0005
+  early_stopping_patience: 20
+  seed: 42
+
+output_dir: results/M1_deep_gnn
