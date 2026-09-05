@@ -279,14 +279,16 @@ In parallel with GNN research, the Defect Classification System (DCS) FastAPI ba
 ---
 
 ## 11. Sensor-Conditional Engineering Deployment Guidelines
-
+ 
 | Target Inspection Scenario | Recommended Model Architecture | Operating Threshold ($\tau^*$) | Rationale & Performance |
 |---|---|:---:|---|
-| **Optical Pipeline Wall Cameras** | **M4 (Hybrid Full PE)** | $\tau \approx 0.50$ | Dominates optical surface transfer (F1 = **0.1175 ± 0.1171**, 3x over M1). |
-| **3D Laser Profilometry Scanners** | **M1 (Deep GNN 8L)** | $\tau \approx 0.30$ | Excels on coordinate-free depth/range topologies (F1 = **0.2570 ± 0.1289**, 3.5x over M4). |
+| **Optical Pipeline Wall Cameras** | **M4 (Hybrid Full PE)** | Calibrate per-deployment (see note) | Dominates optical surface transfer (F1 = **0.1175 ± 0.1171**, 3x over M1). |
+| **3D Laser Profilometry Scanners** | **M1 (Deep GNN 8L)** | Calibrate per-deployment (see note) | Excels on coordinate-free depth/range topologies (F1 = **0.2570 ± 0.1289**, 3.5x over M4). |
 | **Edge Compute / Micro-Rovers (<10 MB RAM)** | **M2 (Shallow GNN 2L)** | $\tau \approx 0.60$ | Ultra-compact (8,706 params, 150+ FPS, F1 = **0.0745 ± 0.0357**). |
-| **Continuous Longitudinal Pipe Fissures** | **M4 (Hybrid Full PE)** | $\tau \approx 0.64$ | Proven superior on long cracks (**F1 = 0.8120 vs 0.7056**, $d=1.480$, $p<0.001$). |
+| **Continuous Longitudinal Pipe Fissures** | **M4 (Hybrid Full PE)** | $\tau^* = 0.66$ | Proven superior on long cracks (**F1 = 0.8120 vs 0.7056**, $d=1.480$, $p<0.001$). |
 | **Fatigue Web / Branched Networks** | **M1 (Deep GNN 8L)** | $\tau \approx 0.60$ | Proven superior on branched networks (**F1 = 0.7617 vs 0.7115**, $d=0.895$, $p<0.001$). |
+
+**Note on operating thresholds:** The current calibration pipeline (`run_tits_rigorous_evaluation.py`) fits a single $\tau^*$ per model shared across all sensors, not a per-sensor threshold. Aggregate $\tau^*$ values (M4: 0.57 ± 0.21, M1: 0.58 ± 0.32) exhibit high instability across calibration draws and should not be read as fixed per-sensor operating points. Before deployment on a specific sensor, $\tau^*$ must be calibrated on a held-out sample from that sensor specifically, following the 20%/80% calibration-evaluation split protocol, rather than reused from the aggregate multi-sensor calibration reported here.
 
 ---
 

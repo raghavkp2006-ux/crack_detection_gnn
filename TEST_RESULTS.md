@@ -112,11 +112,13 @@ $$\begin{aligned}
 
 | Inspection Sensor / Defect Context | Recommended Model | Operating Threshold | Expected Profile |
 |---|:---:|:---:|---|
-| **Optical Pipeline Surface Cameras** | **M4 (Hybrid Full PE)** | $\tau^* \approx 0.50$ | 3x higher optical F1 ($0.1175$ vs $0.0390$, $p = 0.0261$). |
-| **3D Laser Profilometry Scanners** | **M1 (Deep GNN 8L)** | $\tau^* \approx 0.30$ | 3.5x higher laser F1 ($0.2570$ vs $0.0739$, $p = 0.0007$). |
-| **Long Continuous Longitudinal Fissures** | **M4 (Hybrid Full PE)** | $\tau^* \approx 0.64$ | Disjoint 95% CIs (**0.8120 vs 0.7056**, $d = 1.480$, $p < 0.001$). |
+| **Optical Pipeline Surface Cameras** | **M4 (Hybrid Full PE)** | Calibrate per-deployment (see note) | 3x higher optical F1 ($0.1175$ vs $0.0390$, $p = 0.0261$). |
+| **3D Laser Profilometry Scanners** | **M1 (Deep GNN 8L)** | Calibrate per-deployment (see note) | 3.5x higher laser F1 ($0.2570$ vs $0.0739$, $p = 0.0007$). |
+| **Long Continuous Longitudinal Fissures** | **M4 (Hybrid Full PE)** | $\tau^* = 0.66$ | Disjoint 95% CIs (**0.8120 vs 0.7056**, $d = 1.480$, $p < 0.001$). |
 | **Fatigue Web / Branched Networks** | **M1 (Deep GNN 8L)** | $\tau^* \approx 0.60$ | Disjoint 95% CIs (**0.7617 vs 0.7115**, $d = 0.895$, $p < 0.001$). |
 | **Micro-Rover Edge Compute (<10 MB RAM)** | **M2 (Shallow GNN 2L)** | $\tau^* \approx 0.60$ | 8,706 parameters, 150+ FPS, solid F1 ($0.7199 \pm 0.0157$). |
+
+**Note on operating thresholds:** The current calibration pipeline (`run_tits_rigorous_evaluation.py`) fits a single $\tau^*$ per model shared across all sensors, not a per-sensor threshold. Section 4's $\tau^*$ values (M4: 0.57 ± 0.21, M1: 0.58 ± 0.32) are aggregate values with high instability (M1's std=0.32 spans $\tau^*=0.10$ to 0.88 across draws) and should not be read as fixed per-sensor operating points. Before deployment on a specific sensor, $\tau^*$ must be calibrated on a held-out sample from that sensor specifically, following the same 20%/80% split protocol as Section 4, rather than reused from the aggregate multi-sensor calibration reported here.
 
 ---
 
