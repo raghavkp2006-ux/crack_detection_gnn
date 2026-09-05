@@ -94,7 +94,7 @@ This report delivers the statistically rigorous, multi-seed empirical verificati
 
 ### 4.2. Routing Error Rate Breakdown by Morphology Bucket
 
-To diagnose where the 20.3% routing error originates, we analyzed routing accuracy across each true ground-truth morphology category:
+Note that "Routing Accuracy" and "Exact Category Match" are distinct metrics. The router collapses three morphology categories onto two models (Long_Elongated and Thin_Fine_Fissure both route to M4; only Branched_Complex routes to M1). A first-pass mask can therefore be mis-classified into the wrong category yet still be routed to the correct model, simply because two of the three categories share the same destination. This is why Long and Thin show materially higher Routing Accuracy than Category Accuracy, while Branched — the only category mapping to M1 — shows identical values for both, since any category error there is automatically also a routing error.
 
 | True Morphology Bucket | Total Images ($N$) | Correctly Routed | Routing Accuracy | Routing Error Rate | Exact Category Match |
 |---|---|---|---|---|---|
@@ -159,9 +159,10 @@ To turn calibration instability from a single-draw caveat into a rigorous empiri
 ### Empirical Insights from Multi-Draw Stability:
 1. **Aggregate Micro Convergence:** Across 10 independent splits, aggregate performance across all architectures tightly clusters between **0.0723 and 0.0815 micro F1**, confirming that apparent gaps in single-draw benchmarks were primarily sampling noise.
 2. **Structural Instability of M1 Thresholds:** M1's optimal threshold swings wildly between $\\tau^* = 0.10$ and $\\tau^* = 0.88$ (std = 0.32). This proves that M1's threshold collapse is an intrinsic structural property of its compressed output probability distribution (mean = 0.0756) under heterogeneous cross-sensor mixing, rather than an artifact of an unlucky single split.
-3. **Decisive Modality Specialization (Equal Narrative Weight):**
-   - **Optical Cameras (AIGLE_RN):** M4 leads decisively (**0.1175 ± 0.1171 vs. M1's 0.0390 ± 0.0522**, 3.0x higher F1).
-   - **3D Laser Profilometry (LCMS):** M1 dominates decisively (**0.2570 ± 0.1289 vs. M4's 0.0739 ± 0.0429**, 3.5x higher F1).
+3. **Decisive Modality Specialization (Equal Narrative Weight, Statistically Verified):**
+   - **Optical Cameras (AIGLE_RN):** M4 leads decisively (**0.1175 ± 0.1171 vs. M1's 0.0390 ± 0.0522**, 3.0x higher F1). Paired t-test across the 10 calibration draws confirms this is statistically significant ($t=2.659$, $p=0.0261$, Cohen's $d=0.841$, Large effect).
+   - **3D Laser Profilometry (LCMS):** M1 dominates decisively (**0.2570 ± 0.1289 vs. M4's 0.0739 ± 0.0429**, 3.5x higher F1). Paired t-test confirms this is statistically significant ($t=-5.052$, $p=0.0007$, Cohen's $d=-1.598$, Very Large effect) — the strongest single-sensor effect size in this report.
+   - **ESAR:** M4 leads on point estimate (0.0780 vs. 0.0349) but this does not reach significance ($t=2.068$, $p=0.0686$, Cohen's $d=0.654$) and should not be cited as a settled finding.
    - **Conclusion:** Neither model generalizes uniformly across sensor modalities. Sensor type must be treated as a primary factor in model selection, not a secondary caveat.
 
 ---
@@ -188,22 +189,22 @@ Based on the completed empirical re-analyses in Part B, we evaluated whether mod
 2. **Routing Error Concentration Finding (B2):**
    - Routing misclassifications are overwhelmingly concentrated in Branched Cracks (34.88% error), where bounding-box heuristics fail on fragmented masks.
    - Retraining existing models will not resolve this heuristic flaw. If dynamic routing is pursued in the future, the solution is **topological graph skeletonization** or **joint end-to-end routing gates**.
-3. **Definitive Retraining Conclusion:**
-   - **No model retraining or data re-collection is required.**
-   - The morphology specialization finding ($d=1.480$ on Long, $d=0.895$ on Branched) stands as the primary, statistically definitive scientific contribution.
-   - The empirical limits of zero-shot cross-sensor transfer and two-stage routing are fully characterized and defensibly documented.
+3. **Definitive Conclusion (Scoped):** No model retraining or data re-collection is justified for the two questions investigated in this section — TITS calibration instability (driven by calibration sample scarcity, not model quality) and router degradation (driven by a bounding-box heuristic limitation, not model quality). The morphology specialization finding ($d=1.480$ on Long, $d=0.895$ on Branched) stands as a complete, statistically verified, and defensible scientific contribution independent of these two questions. Thin/Fine Fissure performance, where all four models cluster within a narrow, mediocre band (F1 $\approx$ 0.61–0.67), remains an open question outside the scope of this analysis and is a candidate for future targeted work.
 
 ---
 
 ## 8. Artifact Manifest & Verification
 
 All experimental artifacts, plots, checkpoints, and evaluation summaries are saved and directly inspectable:
-1. **Multi-Draw TITS Calibration Summary JSON:** `results/tits_multidraw_calibration.json`
-2. **Routing Error by Bucket JSON:** `results/routing_error_by_bucket.json`
-3. **Non-Circular Router Summary JSON:** `results/noncircular_router_validation.json`
-4. **Multi-Seed Summary JSON:** `results/multiseed/multiseed_summary.json`
-5. **Multi-Seed Error Bar Plot:** `results/plots/multiseed_benchmark_errorbars.png`
-6. **Morphology 95% CI Plot:** `results/plots/bucketed_significance_cis.png`
-7. **Residual Gate Trajectory Plot:** `results/plots/gate_trajectory_analysis.png`
-8. **Dirichlet Energy Curves:** `results/plots/dirichlet_energy_curves.png`
-9. **Interactive Visual Dashboard:** `dashboard/index.html` & `dashboard/predictions_data.json`
+1. **TITS Modality Significance JSON:** `results/tits_modality_significance.json`
+2. **Multi-Draw TITS Calibration Summary JSON:** `results/tits_multidraw_calibration.json`
+3. **Router Per-Image Categories JSON:** `results/router_per_image_categories.json`
+4. **Routing Error by Bucket JSON:** `results/routing_error_by_bucket.json`
+5. **Non-Circular Router Summary JSON:** `results/noncircular_router_validation.json`
+6. **Multi-Seed Summary JSON:** `results/multiseed/multiseed_summary.json`
+7. **Multi-Seed Error Bar Plot:** `results/plots/multiseed_benchmark_errorbars.png`
+8. **Morphology 95% CI Plot:** `results/plots/bucketed_significance_cis.png`
+9. **Residual Gate Trajectory Plot:** `results/plots/gate_trajectory_analysis.png`
+10. **Dirichlet Energy Curves:** `results/plots/dirichlet_energy_curves.png`
+11. **Interactive Visual Dashboard:** `dashboard/index.html` & `dashboard/predictions_data.json`
+12. **Reproducibility Scripts:** `analyze_tits_modality_significance.py` & `analyze_routing_error_by_bucket.py`

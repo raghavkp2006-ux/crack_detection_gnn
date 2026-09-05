@@ -1,0 +1,950 @@
+[
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Thin_Fine_Fissure",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Thin_Fine_Fissure",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Thin_Fine_Fissure",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Thin_Fine_Fissure",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Thin_Fine_Fissure",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Thin_Fine_Fissure",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Thin_Fine_Fissure",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Thin_Fine_Fissure",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Thin_Fine_Fissure",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Thin_Fine_Fissure",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Thin_Fine_Fissure",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Thin_Fine_Fissure",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Thin_Fine_Fissure",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Thin_Fine_Fissure",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Thin_Fine_Fissure",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Thin_Fine_Fissure",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Thin_Fine_Fissure",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Thin_Fine_Fissure",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Thin_Fine_Fissure",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Thin_Fine_Fissure",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Thin_Fine_Fissure",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Thin_Fine_Fissure",
+    "pred_category": "Thin_Fine_Fissure"
+  },
+  {
+    "gt_category": "Branched_Complex",
+    "pred_category": "Branched_Complex"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Thin_Fine_Fissure",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  },
+  {
+    "gt_category": "Long_Elongated",
+    "pred_category": "Long_Elongated"
+  }
+]

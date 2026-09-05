@@ -126,6 +126,7 @@ per_graph_max_single = []
 
 oracle_routes, pred_routes = [], []
 categories_gt = []
+per_image_categories = []
 
 with torch.no_grad():
     for i, data in enumerate(test_loader):
@@ -170,6 +171,7 @@ with torch.no_grad():
             pred_cat = classify_geometry(pred_ar, pred_afrac, best_ar_t, best_area_t)
         else:
             pred_cat = gt_cat
+        per_image_categories.append({'gt_category': gt_cat, 'pred_category': pred_cat})
             
         p_pred_routed = p4 if pred_cat in ['Long_Elongated', 'Thin_Fine_Fissure'] else p1
         pred_routes.append('M4' if pred_cat in ['Long_Elongated', 'Thin_Fine_Fissure'] else 'M1')
@@ -248,3 +250,7 @@ results_payload = {
 with open(os.path.join(RESULTS_DIR, 'noncircular_router_validation.json'), 'w') as f:
     json.dump(results_payload, f, indent=2)
 print('Saved validation results to results/noncircular_router_validation.json')
+
+with open(os.path.join(RESULTS_DIR, 'router_per_image_categories.json'), 'w') as f:
+    json.dump(per_image_categories, f, indent=2)
+print('Saved per-image categories to results/router_per_image_categories.json')

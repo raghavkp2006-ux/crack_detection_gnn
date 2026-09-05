@@ -202,6 +202,8 @@ To determine whether morphology specialization can be exploited dynamically at t
 
 ### Routing Error Rate Breakdown by Morphology Bucket:
 
+Note that "Routing Accuracy" and "Exact Category Match" are distinct metrics. The router collapses three morphology categories onto two models (Long_Elongated and Thin_Fine_Fissure both route to M4; only Branched_Complex routes to M1). A first-pass mask can therefore be mis-classified into the wrong category yet still be routed to the correct model, simply because two of the three categories share the same destination. This is why Long and Thin show materially higher Routing Accuracy than Category Accuracy, while Branched — the only category mapping to M1 — shows identical values for both, since any category error there is automatically also a routing error.
+
 | True Morphology Bucket | Total Images ($N$) | Correctly Routed | Routing Accuracy | Routing Error Rate | Exact Category Match |
 |---|---|---|---|---|---|
 | **Long / Elongated** | 128 | 112 | 87.50% | **12.50%** | 78.12% |
@@ -239,9 +241,10 @@ To quantify calibration instability directly, we evaluated all models across 10 
 | **M2 (Shallow GNN 2L)** | 0.61 ± 0.23 | 0.0745 ± 0.0357 | 0.0391 ± 0.0193 | 0.5682 ± 0.0080 | 0.0827 ± 0.0844 | 0.1180 ± 0.0856 | **0.0864 ± 0.0872** |
 | **M1 (Deep GNN 8L)** | 0.58 ± 0.32 | 0.0723 ± 0.0291 | 0.0377 ± 0.0157 | **0.6379 ± 0.0076** | 0.0390 ± 0.0522 | **0.2570 ± 0.1289** | 0.0349 ± 0.0585 |
 
-### 3. Symmetric Modality Specialization (Equal Narrative Weight):
-- **Optical Surface Cameras (AIGLE_RN):** M4 leads decisively (**0.1175 ± 0.1171 vs. M1's 0.0390 ± 0.0522**, 3.0x higher F1).
-- **3D Laser Profilometry (LCMS):** M1 dominates decisively (**0.2570 ± 0.1289 vs. M4's 0.0739 ± 0.0429**, 3.5x higher F1).
+### 3. Symmetric Modality Specialization (Equal Narrative Weight, Statistically Verified):
+- **Optical Surface Cameras (AIGLE_RN):** M4 leads decisively (**0.1175 ± 0.1171 vs. M1's 0.0390 ± 0.0522**, 3.0x higher F1). Paired t-test across the 10 calibration draws confirms this is statistically significant ($t=2.659$, $p=0.0261$, Cohen's $d=0.841$, Large effect).
+- **3D Laser Profilometry (LCMS):** M1 dominates decisively (**0.2570 ± 0.1289 vs. M4's 0.0739 ± 0.0429**, 3.5x higher F1). Paired t-test confirms this is statistically significant ($t=-5.052$, $p=0.0007$, Cohen's $d=-1.598$, Very Large effect) — the strongest single-sensor effect size in this report.
+- **ESAR:** M4 leads on point estimate (0.0780 vs. 0.0349) but this does not reach significance ($t=2.068$, $p=0.0686$, Cohen's $d=0.654$) and should not be cited as a settled finding.
 - **M1 Structural Instability:** M1's optimal threshold swings between $\tau^* = 0.10$ and $\tau^* = 0.88$ (std = 0.32). Because M1's probability mass is compressed near zero (mean = 0.0756), minor sampling shifts in calibration splits create threshold collapse.
 - **Cross-Sensor Performance Ceiling:** Aggregate micro F1s below 0.10 across all architectures confirm that zero-shot transfer across distinct physical sensor domains remains an open challenge requiring target-domain fine-tuning or domain adaptation.
 
@@ -292,7 +295,7 @@ In parallel with GNN research, the Defect Classification System (DCS) FastAPI ba
 Following completion of the script re-analyses in Next Steps (v4), we evaluated whether model retraining or additional data collection is justified:
 1. **Calibration Instability Root Cause:** The multi-draw benchmark proved that cross-sensor instability is driven by calibration sample scarcity ($N=15$ images across 3 sensors) and severe modality distribution shifts (optical RGB vs laser range profilometry). Retraining backbones on DeepCrack cannot resolve cross-sensor physical domain gaps. The appropriate engineering next step is gathering 30–50 calibration images per target sensor or applying unsupervised domain adaptation.
 2. **Router Degradation Root Cause:** Routing misclassifications are concentrated in Branched Cracks (34.88% error) due to bounding box aspect-ratio heuristic failures on fragmented masks. Retraining backbones does not fix this heuristic limitation. Future work should target graph-skeleton topological analysis or joint end-to-end routing gates.
-3. **Definitive Conclusion:** **No model retraining or data re-collection is required.** The morphology specialization finding ($d=1.480$ on Long, $d=0.895$ on Branched) stands as a complete, statistically verified, and defensible scientific contribution.
+3. **Definitive Conclusion (Scoped):** No model retraining or data re-collection is justified for the two questions investigated in this section — TITS calibration instability (driven by calibration sample scarcity, not model quality) and router degradation (driven by a bounding-box heuristic limitation, not model quality). The morphology specialization finding ($d=1.480$ on Long, $d=0.895$ on Branched) stands as a complete, statistically verified, and defensible scientific contribution independent of these two questions. Thin/Fine Fissure performance, where all four models cluster within a narrow, mediocre band (F1 $\approx$ 0.61–0.67), remains an open question outside the scope of this analysis and is a candidate for future targeted work.
 
 ---
 
@@ -308,10 +311,14 @@ All assets are versioned and directly inspectable in the repository:
 - `src/train.py` — Focal loss, warmup scheduling, and Dirichlet energy logging
 - `run_multiseed_experiment.py` — Multi-seed training and hypothesis testing suite
 - `run_noncircular_router_validation.py` — Non-circular validation and two-stage routing pipeline
+- `analyze_routing_error_by_bucket.py` — Reproducible breakdown of router error rate by morphology category
 - `run_tits_rigorous_evaluation.py` — TITS leak-free calibration evaluation
+- `analyze_tits_modality_significance.py` — Paired t-tests and Cohen's d across 10 TITS calibration draws
 
 ### Structured Empirical Metrics (JSON):
+- `results/tits_modality_significance.json` — Sensor modality divergence statistical significance report
 - `results/tits_multidraw_calibration.json` — 10-draw calibration stability summary metrics
+- `results/router_per_image_categories.json` — Per-image true vs predicted morphology category records
 - `results/routing_error_by_bucket.json` — Morphology bucket routing error breakdown
 - `results/noncircular_router_validation.json` — Non-circular router evaluation results
 - `results/multiseed/multiseed_summary.json` — Full 5-seed benchmark results and CIs
