@@ -21,3 +21,7 @@ pipeline-crack-gnn/data/
 Thumbs.db
 .vscode/
 .idea/
+
+# Internal summaries
+*summary.md
+
