@@ -1,0 +1,5453 @@
+[
+  {
+    "index": 0,
+    "id": "111212-1",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.39,
+    "area_fraction": 0.0181,
+    "n_nodes": 272,
+    "n_cracks": 7,
+    "m1": {
+      "f1": 0.9333,
+      "recall": 1.0,
+      "precision": 0.875
+    },
+    "m4": {
+      "f1": 0.9333,
+      "recall": 1.0,
+      "precision": 0.875
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 1,
+    "id": "11125-1",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.4,
+    "area_fraction": 0.0442,
+    "n_nodes": 286,
+    "n_cracks": 13,
+    "m1": {
+      "f1": 0.7407,
+      "recall": 0.7692,
+      "precision": 0.7143
+    },
+    "m4": {
+      "f1": 0.8182,
+      "recall": 0.6923,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0774,
+    "abs_diff": 0.0774,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 2,
+    "id": "11125-2",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0454,
+    "n_nodes": 299,
+    "n_cracks": 16,
+    "m1": {
+      "f1": 0.7586,
+      "recall": 0.6875,
+      "precision": 0.8462
+    },
+    "m4": {
+      "f1": 0.7692,
+      "recall": 0.625,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0106,
+    "abs_diff": 0.0106,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 3,
+    "id": "11125-3",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0424,
+    "n_nodes": 284,
+    "n_cracks": 9,
+    "m1": {
+      "f1": 0.5,
+      "recall": 0.3333,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.5,
+      "recall": 0.3333,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 4,
+    "id": "11129",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.54,
+    "area_fraction": 0.0315,
+    "n_nodes": 294,
+    "n_cracks": 9,
+    "m1": {
+      "f1": 0.6667,
+      "recall": 0.5556,
+      "precision": 0.8333
+    },
+    "m4": {
+      "f1": 0.8,
+      "recall": 0.6667,
+      "precision": 1.0
+    },
+    "f1_diff": 0.1333,
+    "abs_diff": 0.1333,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 5,
+    "id": "11142-1",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0223,
+    "n_nodes": 255,
+    "n_cracks": 5,
+    "m1": {
+      "f1": 0.7143,
+      "recall": 1.0,
+      "precision": 0.5556
+    },
+    "m4": {
+      "f1": 0.7143,
+      "recall": 1.0,
+      "precision": 0.5556
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 6,
+    "id": "11142-2",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0209,
+    "n_nodes": 250,
+    "n_cracks": 5,
+    "m1": {
+      "f1": 0.7143,
+      "recall": 1.0,
+      "precision": 0.5556
+    },
+    "m4": {
+      "f1": 0.6667,
+      "recall": 1.0,
+      "precision": 0.5
+    },
+    "f1_diff": -0.0476,
+    "abs_diff": 0.0476,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 7,
+    "id": "11169-1",
+    "category": "Long_Elongated",
+    "aspect_ratio": 4.81,
+    "area_fraction": 0.0252,
+    "n_nodes": 278,
+    "n_cracks": 10,
+    "m1": {
+      "f1": 0.6061,
+      "recall": 1.0,
+      "precision": 0.4348
+    },
+    "m4": {
+      "f1": 0.6667,
+      "recall": 1.0,
+      "precision": 0.5
+    },
+    "f1_diff": 0.0606,
+    "abs_diff": 0.0606,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 8,
+    "id": "11169-2",
+    "category": "Long_Elongated",
+    "aspect_ratio": 4.15,
+    "area_fraction": 0.03,
+    "n_nodes": 263,
+    "n_cracks": 10,
+    "m1": {
+      "f1": 0.8696,
+      "recall": 1.0,
+      "precision": 0.7692
+    },
+    "m4": {
+      "f1": 0.9524,
+      "recall": 1.0,
+      "precision": 0.9091
+    },
+    "f1_diff": 0.0828,
+    "abs_diff": 0.0828,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 9,
+    "id": "11171",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.07,
+    "area_fraction": 0.0273,
+    "n_nodes": 293,
+    "n_cracks": 6,
+    "m1": {
+      "f1": 0.2222,
+      "recall": 0.3333,
+      "precision": 0.1667
+    },
+    "m4": {
+      "f1": 0.125,
+      "recall": 0.1667,
+      "precision": 0.1
+    },
+    "f1_diff": -0.0972,
+    "abs_diff": 0.0972,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 10,
+    "id": "11174",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.33,
+    "area_fraction": 0.0218,
+    "n_nodes": 297,
+    "n_cracks": 4,
+    "m1": {
+      "f1": 0.5,
+      "recall": 1.0,
+      "precision": 0.3333
+    },
+    "m4": {
+      "f1": 0.5,
+      "recall": 1.0,
+      "precision": 0.3333
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 11,
+    "id": "11194",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 4.99,
+    "area_fraction": 0.0179,
+    "n_nodes": 291,
+    "n_cracks": 6,
+    "m1": {
+      "f1": 0.7059,
+      "recall": 1.0,
+      "precision": 0.5455
+    },
+    "m4": {
+      "f1": 0.625,
+      "recall": 0.8333,
+      "precision": 0.5
+    },
+    "f1_diff": -0.0809,
+    "abs_diff": 0.0809,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 12,
+    "id": "11215-1",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.1542,
+    "n_nodes": 257,
+    "n_cracks": 45,
+    "m1": {
+      "f1": 0.8101,
+      "recall": 0.7111,
+      "precision": 0.9412
+    },
+    "m4": {
+      "f1": 0.875,
+      "recall": 0.7778,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0649,
+    "abs_diff": 0.0649,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 13,
+    "id": "11215-10",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0655,
+    "n_nodes": 255,
+    "n_cracks": 19,
+    "m1": {
+      "f1": 0.95,
+      "recall": 1.0,
+      "precision": 0.9048
+    },
+    "m4": {
+      "f1": 0.973,
+      "recall": 0.9474,
+      "precision": 1.0
+    },
+    "f1_diff": 0.023,
+    "abs_diff": 0.023,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 14,
+    "id": "11215-11",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0957,
+    "n_nodes": 267,
+    "n_cracks": 28,
+    "m1": {
+      "f1": 0.9231,
+      "recall": 0.8571,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.963,
+      "recall": 0.9286,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0399,
+    "abs_diff": 0.0399,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 15,
+    "id": "11215-12",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0944,
+    "n_nodes": 269,
+    "n_cracks": 19,
+    "m1": {
+      "f1": 0.9474,
+      "recall": 0.9474,
+      "precision": 0.9474
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0526,
+    "abs_diff": 0.0526,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 16,
+    "id": "11215-13",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.1011,
+    "n_nodes": 270,
+    "n_cracks": 29,
+    "m1": {
+      "f1": 0.8627,
+      "recall": 0.7586,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9259,
+      "recall": 0.8621,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0632,
+    "abs_diff": 0.0632,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 17,
+    "id": "11215-14",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.1218,
+    "n_nodes": 257,
+    "n_cracks": 31,
+    "m1": {
+      "f1": 0.8519,
+      "recall": 0.7419,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9333,
+      "recall": 0.9032,
+      "precision": 0.9655
+    },
+    "f1_diff": 0.0815,
+    "abs_diff": 0.0815,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 18,
+    "id": "11215-15",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.26,
+    "area_fraction": 0.0791,
+    "n_nodes": 260,
+    "n_cracks": 23,
+    "m1": {
+      "f1": 0.9048,
+      "recall": 0.8261,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9778,
+      "recall": 0.9565,
+      "precision": 1.0
+    },
+    "f1_diff": 0.073,
+    "abs_diff": 0.073,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 19,
+    "id": "11215-2",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.1136,
+    "n_nodes": 261,
+    "n_cracks": 36,
+    "m1": {
+      "f1": 0.7241,
+      "recall": 0.5833,
+      "precision": 0.9545
+    },
+    "m4": {
+      "f1": 0.8571,
+      "recall": 0.75,
+      "precision": 1.0
+    },
+    "f1_diff": 0.133,
+    "abs_diff": 0.133,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 20,
+    "id": "11215-3",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0835,
+    "n_nodes": 260,
+    "n_cracks": 23,
+    "m1": {
+      "f1": 0.8571,
+      "recall": 0.7826,
+      "precision": 0.9474
+    },
+    "m4": {
+      "f1": 0.8205,
+      "recall": 0.6957,
+      "precision": 1.0
+    },
+    "f1_diff": -0.0366,
+    "abs_diff": 0.0366,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 21,
+    "id": "11215-4",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.34,
+    "area_fraction": 0.0491,
+    "n_nodes": 257,
+    "n_cracks": 12,
+    "m1": {
+      "f1": 0.8182,
+      "recall": 0.75,
+      "precision": 0.9
+    },
+    "m4": {
+      "f1": 0.9565,
+      "recall": 0.9167,
+      "precision": 1.0
+    },
+    "f1_diff": 0.1383,
+    "abs_diff": 0.1383,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 22,
+    "id": "11215-5",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.1441,
+    "n_nodes": 260,
+    "n_cracks": 39,
+    "m1": {
+      "f1": 0.806,
+      "recall": 0.6923,
+      "precision": 0.9643
+    },
+    "m4": {
+      "f1": 0.9167,
+      "recall": 0.8462,
+      "precision": 1.0
+    },
+    "f1_diff": 0.1107,
+    "abs_diff": 0.1107,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 23,
+    "id": "11215-6",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.075,
+    "n_nodes": 262,
+    "n_cracks": 22,
+    "m1": {
+      "f1": 0.8205,
+      "recall": 0.7273,
+      "precision": 0.9412
+    },
+    "m4": {
+      "f1": 0.9268,
+      "recall": 0.8636,
+      "precision": 1.0
+    },
+    "f1_diff": 0.1063,
+    "abs_diff": 0.1063,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 24,
+    "id": "11215-7",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0692,
+    "n_nodes": 257,
+    "n_cracks": 20,
+    "m1": {
+      "f1": 0.8649,
+      "recall": 0.8,
+      "precision": 0.9412
+    },
+    "m4": {
+      "f1": 0.8571,
+      "recall": 0.75,
+      "precision": 1.0
+    },
+    "f1_diff": -0.0077,
+    "abs_diff": 0.0077,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 25,
+    "id": "11215-8",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0477,
+    "n_nodes": 247,
+    "n_cracks": 12,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9091,
+      "recall": 0.8333,
+      "precision": 1.0
+    },
+    "f1_diff": -0.0909,
+    "abs_diff": 0.0909,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 26,
+    "id": "11215-9",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.67,
+    "area_fraction": 0.0387,
+    "n_nodes": 256,
+    "n_cracks": 8,
+    "m1": {
+      "f1": 0.8421,
+      "recall": 1.0,
+      "precision": 0.7273
+    },
+    "m4": {
+      "f1": 0.8421,
+      "recall": 1.0,
+      "precision": 0.7273
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 27,
+    "id": "11216",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.74,
+    "area_fraction": 0.0163,
+    "n_nodes": 301,
+    "n_cracks": 2,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 28,
+    "id": "11217",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0615,
+    "n_nodes": 288,
+    "n_cracks": 22,
+    "m1": {
+      "f1": 0.5333,
+      "recall": 0.3636,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.087,
+      "recall": 0.0455,
+      "precision": 1.0
+    },
+    "f1_diff": -0.4464,
+    "abs_diff": 0.4464,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 29,
+    "id": "11218-1",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.07,
+    "area_fraction": 0.0759,
+    "n_nodes": 297,
+    "n_cracks": 19,
+    "m1": {
+      "f1": 0.7879,
+      "recall": 0.6842,
+      "precision": 0.9286
+    },
+    "m4": {
+      "f1": 0.75,
+      "recall": 0.6316,
+      "precision": 0.9231
+    },
+    "f1_diff": -0.0379,
+    "abs_diff": 0.0379,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 30,
+    "id": "11218-2",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.09,
+    "area_fraction": 0.0933,
+    "n_nodes": 298,
+    "n_cracks": 22,
+    "m1": {
+      "f1": 0.8718,
+      "recall": 0.7727,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.8421,
+      "recall": 0.7273,
+      "precision": 1.0
+    },
+    "f1_diff": -0.0297,
+    "abs_diff": 0.0297,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 31,
+    "id": "11218-3",
+    "category": "Long_Elongated",
+    "aspect_ratio": 2.01,
+    "area_fraction": 0.0514,
+    "n_nodes": 303,
+    "n_cracks": 13,
+    "m1": {
+      "f1": 0.9167,
+      "recall": 0.8462,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.8696,
+      "recall": 0.7692,
+      "precision": 1.0
+    },
+    "f1_diff": -0.0471,
+    "abs_diff": 0.0471,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 32,
+    "id": "11220-1",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 4.53,
+    "area_fraction": 0.016,
+    "n_nodes": 289,
+    "n_cracks": 4,
+    "m1": {
+      "f1": 0.4706,
+      "recall": 1.0,
+      "precision": 0.3077
+    },
+    "m4": {
+      "f1": 0.4615,
+      "recall": 0.75,
+      "precision": 0.3333
+    },
+    "f1_diff": -0.009,
+    "abs_diff": 0.009,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 33,
+    "id": "11222-1",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.24,
+    "area_fraction": 0.0238,
+    "n_nodes": 291,
+    "n_cracks": 6,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9231,
+      "recall": 1.0,
+      "precision": 0.8571
+    },
+    "f1_diff": -0.0769,
+    "abs_diff": 0.0769,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 34,
+    "id": "11222-2",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.12,
+    "area_fraction": 0.0234,
+    "n_nodes": 292,
+    "n_cracks": 6,
+    "m1": {
+      "f1": 0.8571,
+      "recall": 1.0,
+      "precision": 0.75
+    },
+    "m4": {
+      "f1": 0.8,
+      "recall": 1.0,
+      "precision": 0.6667
+    },
+    "f1_diff": -0.0571,
+    "abs_diff": 0.0571,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 35,
+    "id": "11222-3",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.33,
+    "area_fraction": 0.0208,
+    "n_nodes": 290,
+    "n_cracks": 5,
+    "m1": {
+      "f1": 0.7143,
+      "recall": 1.0,
+      "precision": 0.5556
+    },
+    "m4": {
+      "f1": 0.8333,
+      "recall": 1.0,
+      "precision": 0.7143
+    },
+    "f1_diff": 0.119,
+    "abs_diff": 0.119,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 36,
+    "id": "11231-1",
+    "category": "Long_Elongated",
+    "aspect_ratio": 2.02,
+    "area_fraction": 0.1131,
+    "n_nodes": 252,
+    "n_cracks": 24,
+    "m1": {
+      "f1": 0.9787,
+      "recall": 0.9583,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9565,
+      "recall": 0.9167,
+      "precision": 1.0
+    },
+    "f1_diff": -0.0222,
+    "abs_diff": 0.0222,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 37,
+    "id": "11231-2",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.7,
+    "area_fraction": 0.185,
+    "n_nodes": 249,
+    "n_cracks": 46,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.8916,
+      "recall": 0.8043,
+      "precision": 1.0
+    },
+    "f1_diff": -0.1084,
+    "abs_diff": 0.1084,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 38,
+    "id": "11231-3",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.88,
+    "area_fraction": 0.1925,
+    "n_nodes": 249,
+    "n_cracks": 51,
+    "m1": {
+      "f1": 0.8571,
+      "recall": 0.7647,
+      "precision": 0.975
+    },
+    "m4": {
+      "f1": 0.8444,
+      "recall": 0.7451,
+      "precision": 0.9744
+    },
+    "f1_diff": -0.0127,
+    "abs_diff": 0.0127,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 39,
+    "id": "11231-4",
+    "category": "Long_Elongated",
+    "aspect_ratio": 2.15,
+    "area_fraction": 0.1891,
+    "n_nodes": 253,
+    "n_cracks": 45,
+    "m1": {
+      "f1": 0.8462,
+      "recall": 0.7333,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9024,
+      "recall": 0.8222,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0563,
+    "abs_diff": 0.0563,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 40,
+    "id": "11231-5",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.3,
+    "area_fraction": 0.0153,
+    "n_nodes": 296,
+    "n_cracks": 6,
+    "m1": {
+      "f1": 0.9091,
+      "recall": 0.8333,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0909,
+    "abs_diff": 0.0909,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 41,
+    "id": "11231-6",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.62,
+    "area_fraction": 0.1496,
+    "n_nodes": 256,
+    "n_cracks": 35,
+    "m1": {
+      "f1": 0.8889,
+      "recall": 0.8,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.8889,
+      "recall": 0.8,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 42,
+    "id": "11231-7",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.1584,
+    "n_nodes": 258,
+    "n_cracks": 35,
+    "m1": {
+      "f1": 0.9231,
+      "recall": 0.8571,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9231,
+      "recall": 0.8571,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 43,
+    "id": "11231-8",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.44,
+    "area_fraction": 0.0643,
+    "n_nodes": 274,
+    "n_cracks": 18,
+    "m1": {
+      "f1": 0.9714,
+      "recall": 0.9444,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.875,
+      "recall": 0.7778,
+      "precision": 1.0
+    },
+    "f1_diff": -0.0964,
+    "abs_diff": 0.0964,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 44,
+    "id": "11231-9",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.11,
+    "area_fraction": 0.1105,
+    "n_nodes": 261,
+    "n_cracks": 24,
+    "m1": {
+      "f1": 0.9787,
+      "recall": 0.9583,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9091,
+      "recall": 0.8333,
+      "precision": 1.0
+    },
+    "f1_diff": -0.0696,
+    "abs_diff": 0.0696,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 45,
+    "id": "11236-1",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 3.92,
+    "area_fraction": 0.0231,
+    "n_nodes": 304,
+    "n_cracks": 7,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 46,
+    "id": "11236-2",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.12,
+    "area_fraction": 0.026,
+    "n_nodes": 294,
+    "n_cracks": 9,
+    "m1": {
+      "f1": 0.8,
+      "recall": 0.6667,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.8235,
+      "recall": 0.7778,
+      "precision": 0.875
+    },
+    "f1_diff": 0.0235,
+    "abs_diff": 0.0235,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 47,
+    "id": "11236-3",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.8,
+    "area_fraction": 0.0227,
+    "n_nodes": 299,
+    "n_cracks": 7,
+    "m1": {
+      "f1": 0.9231,
+      "recall": 0.8571,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0769,
+    "abs_diff": 0.0769,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 48,
+    "id": "11236-4",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.21,
+    "area_fraction": 0.0249,
+    "n_nodes": 297,
+    "n_cracks": 7,
+    "m1": {
+      "f1": 0.9333,
+      "recall": 1.0,
+      "precision": 0.875
+    },
+    "m4": {
+      "f1": 0.875,
+      "recall": 1.0,
+      "precision": 0.7778
+    },
+    "f1_diff": -0.0583,
+    "abs_diff": 0.0583,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 49,
+    "id": "11236-5",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.15,
+    "area_fraction": 0.0224,
+    "n_nodes": 300,
+    "n_cracks": 7,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.875,
+      "recall": 1.0,
+      "precision": 0.7778
+    },
+    "f1_diff": -0.125,
+    "abs_diff": 0.125,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 50,
+    "id": "11236-6",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.81,
+    "area_fraction": 0.0255,
+    "n_nodes": 288,
+    "n_cracks": 7,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.875,
+      "recall": 1.0,
+      "precision": 0.7778
+    },
+    "f1_diff": -0.125,
+    "abs_diff": 0.125,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 51,
+    "id": "11236-7",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 6.11,
+    "area_fraction": 0.0104,
+    "n_nodes": 301,
+    "n_cracks": 1,
+    "m1": {
+      "f1": 0.3333,
+      "recall": 1.0,
+      "precision": 0.2
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.6667,
+    "abs_diff": 0.6667,
+    "disagree": true,
+    "winner": "M4"
+  },
+  {
+    "index": 52,
+    "id": "11239-1",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 8.73,
+    "area_fraction": 0.0118,
+    "n_nodes": 286,
+    "n_cracks": 3,
+    "m1": {
+      "f1": 0.5,
+      "recall": 1.0,
+      "precision": 0.3333
+    },
+    "m4": {
+      "f1": 0.5,
+      "recall": 1.0,
+      "precision": 0.3333
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 53,
+    "id": "11239-2",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 6.1,
+    "area_fraction": 0.0162,
+    "n_nodes": 285,
+    "n_cracks": 5,
+    "m1": {
+      "f1": 0.7143,
+      "recall": 1.0,
+      "precision": 0.5556
+    },
+    "m4": {
+      "f1": 0.7143,
+      "recall": 1.0,
+      "precision": 0.5556
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 54,
+    "id": "11239-3",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 4.27,
+    "area_fraction": 0.0173,
+    "n_nodes": 273,
+    "n_cracks": 5,
+    "m1": {
+      "f1": 0.7143,
+      "recall": 1.0,
+      "precision": 0.5556
+    },
+    "m4": {
+      "f1": 0.7143,
+      "recall": 1.0,
+      "precision": 0.5556
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 55,
+    "id": "11240-1",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.77,
+    "area_fraction": 0.066,
+    "n_nodes": 251,
+    "n_cracks": 14,
+    "m1": {
+      "f1": 0.9032,
+      "recall": 1.0,
+      "precision": 0.8235
+    },
+    "m4": {
+      "f1": 0.9655,
+      "recall": 1.0,
+      "precision": 0.9333
+    },
+    "f1_diff": 0.0623,
+    "abs_diff": 0.0623,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 56,
+    "id": "11240-10",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0301,
+    "n_nodes": 254,
+    "n_cracks": 5,
+    "m1": {
+      "f1": 0.5714,
+      "recall": 0.8,
+      "precision": 0.4444
+    },
+    "m4": {
+      "f1": 0.5714,
+      "recall": 0.8,
+      "precision": 0.4444
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 57,
+    "id": "11240-11",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.02,
+    "area_fraction": 0.011,
+    "n_nodes": 265,
+    "n_cracks": 1,
+    "m1": {
+      "f1": 0.3333,
+      "recall": 1.0,
+      "precision": 0.2
+    },
+    "m4": {
+      "f1": 0.5,
+      "recall": 1.0,
+      "precision": 0.3333
+    },
+    "f1_diff": 0.1667,
+    "abs_diff": 0.1667,
+    "disagree": true,
+    "winner": "M4"
+  },
+  {
+    "index": 58,
+    "id": "11240-12",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.41,
+    "area_fraction": 0.0072,
+    "n_nodes": 282,
+    "n_cracks": 0,
+    "m1": {
+      "f1": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "m4": {
+      "f1": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 59,
+    "id": "11240-2",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.84,
+    "area_fraction": 0.0524,
+    "n_nodes": 259,
+    "n_cracks": 15,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 60,
+    "id": "11240-3",
+    "category": "Long_Elongated",
+    "aspect_ratio": 2.45,
+    "area_fraction": 0.043,
+    "n_nodes": 265,
+    "n_cracks": 12,
+    "m1": {
+      "f1": 0.96,
+      "recall": 1.0,
+      "precision": 0.9231
+    },
+    "m4": {
+      "f1": 0.9231,
+      "recall": 1.0,
+      "precision": 0.8571
+    },
+    "f1_diff": -0.0369,
+    "abs_diff": 0.0369,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 61,
+    "id": "11240-4",
+    "category": "Long_Elongated",
+    "aspect_ratio": 4.65,
+    "area_fraction": 0.0365,
+    "n_nodes": 269,
+    "n_cracks": 11,
+    "m1": {
+      "f1": 0.8462,
+      "recall": 1.0,
+      "precision": 0.7333
+    },
+    "m4": {
+      "f1": 0.6471,
+      "recall": 1.0,
+      "precision": 0.4783
+    },
+    "f1_diff": -0.1991,
+    "abs_diff": 0.1991,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 62,
+    "id": "11240-5",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0542,
+    "n_nodes": 269,
+    "n_cracks": 13,
+    "m1": {
+      "f1": 0.963,
+      "recall": 1.0,
+      "precision": 0.9286
+    },
+    "m4": {
+      "f1": 0.963,
+      "recall": 1.0,
+      "precision": 0.9286
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 63,
+    "id": "11240-6",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0516,
+    "n_nodes": 262,
+    "n_cracks": 13,
+    "m1": {
+      "f1": 0.963,
+      "recall": 1.0,
+      "precision": 0.9286
+    },
+    "m4": {
+      "f1": 0.963,
+      "recall": 1.0,
+      "precision": 0.9286
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 64,
+    "id": "11240-7",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.66,
+    "area_fraction": 0.0359,
+    "n_nodes": 263,
+    "n_cracks": 8,
+    "m1": {
+      "f1": 0.8889,
+      "recall": 1.0,
+      "precision": 0.8
+    },
+    "m4": {
+      "f1": 0.9412,
+      "recall": 1.0,
+      "precision": 0.8889
+    },
+    "f1_diff": 0.0523,
+    "abs_diff": 0.0523,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 65,
+    "id": "11240-8",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0425,
+    "n_nodes": 256,
+    "n_cracks": 11,
+    "m1": {
+      "f1": 0.8571,
+      "recall": 0.8182,
+      "precision": 0.9
+    },
+    "m4": {
+      "f1": 0.9565,
+      "recall": 1.0,
+      "precision": 0.9167
+    },
+    "f1_diff": 0.0994,
+    "abs_diff": 0.0994,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 66,
+    "id": "11240-9",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0348,
+    "n_nodes": 260,
+    "n_cracks": 12,
+    "m1": {
+      "f1": 0.88,
+      "recall": 0.9167,
+      "precision": 0.8462
+    },
+    "m4": {
+      "f1": 0.8889,
+      "recall": 1.0,
+      "precision": 0.8
+    },
+    "f1_diff": 0.0089,
+    "abs_diff": 0.0089,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 67,
+    "id": "11247-1",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.27,
+    "area_fraction": 0.0547,
+    "n_nodes": 309,
+    "n_cracks": 20,
+    "m1": {
+      "f1": 0.6207,
+      "recall": 0.45,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.5185,
+      "recall": 0.35,
+      "precision": 1.0
+    },
+    "f1_diff": -0.1022,
+    "abs_diff": 0.1022,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 68,
+    "id": "11247-10",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.83,
+    "area_fraction": 0.022,
+    "n_nodes": 311,
+    "n_cracks": 11,
+    "m1": {
+      "f1": 0.4286,
+      "recall": 0.2727,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.3077,
+      "recall": 0.1818,
+      "precision": 1.0
+    },
+    "f1_diff": -0.1209,
+    "abs_diff": 0.1209,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 69,
+    "id": "11247-12",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 3.08,
+    "area_fraction": 0.0119,
+    "n_nodes": 311,
+    "n_cracks": 5,
+    "m1": {
+      "f1": 0.3333,
+      "recall": 0.2,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.3333,
+      "recall": 0.2,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 70,
+    "id": "11247-2",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0526,
+    "n_nodes": 306,
+    "n_cracks": 19,
+    "m1": {
+      "f1": 0.3478,
+      "recall": 0.2105,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.2727,
+      "recall": 0.1579,
+      "precision": 1.0
+    },
+    "f1_diff": -0.0751,
+    "abs_diff": 0.0751,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 71,
+    "id": "11247-3",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.1,
+    "area_fraction": 0.0448,
+    "n_nodes": 310,
+    "n_cracks": 19,
+    "m1": {
+      "f1": 0.1905,
+      "recall": 0.1053,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.2727,
+      "recall": 0.1579,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0823,
+    "abs_diff": 0.0823,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 72,
+    "id": "11247-4",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.12,
+    "area_fraction": 0.045,
+    "n_nodes": 311,
+    "n_cracks": 24,
+    "m1": {
+      "f1": 0.08,
+      "recall": 0.0417,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.1538,
+      "recall": 0.0833,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0738,
+    "abs_diff": 0.0738,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 73,
+    "id": "11247-5",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.77,
+    "area_fraction": 0.0362,
+    "n_nodes": 312,
+    "n_cracks": 17,
+    "m1": {
+      "f1": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "m4": {
+      "f1": 0.2105,
+      "recall": 0.1176,
+      "precision": 1.0
+    },
+    "f1_diff": 0.2105,
+    "abs_diff": 0.2105,
+    "disagree": true,
+    "winner": "M4"
+  },
+  {
+    "index": 74,
+    "id": "11247-6",
+    "category": "Long_Elongated",
+    "aspect_ratio": 2.2,
+    "area_fraction": 0.0373,
+    "n_nodes": 311,
+    "n_cracks": 17,
+    "m1": {
+      "f1": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "m4": {
+      "f1": 0.381,
+      "recall": 0.2353,
+      "precision": 1.0
+    },
+    "f1_diff": 0.381,
+    "abs_diff": 0.381,
+    "disagree": true,
+    "winner": "M4"
+  },
+  {
+    "index": 75,
+    "id": "11247-7",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.16,
+    "area_fraction": 0.0434,
+    "n_nodes": 309,
+    "n_cracks": 18,
+    "m1": {
+      "f1": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "m4": {
+      "f1": 0.2,
+      "recall": 0.1111,
+      "precision": 1.0
+    },
+    "f1_diff": 0.2,
+    "abs_diff": 0.2,
+    "disagree": true,
+    "winner": "M4"
+  },
+  {
+    "index": 76,
+    "id": "11247-8",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.2,
+    "area_fraction": 0.041,
+    "n_nodes": 308,
+    "n_cracks": 17,
+    "m1": {
+      "f1": 0.1111,
+      "recall": 0.0588,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.3,
+      "recall": 0.1765,
+      "precision": 1.0
+    },
+    "f1_diff": 0.1889,
+    "abs_diff": 0.1889,
+    "disagree": true,
+    "winner": "M4"
+  },
+  {
+    "index": 77,
+    "id": "11247-9",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.8,
+    "area_fraction": 0.0244,
+    "n_nodes": 309,
+    "n_cracks": 11,
+    "m1": {
+      "f1": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "m4": {
+      "f1": 0.4286,
+      "recall": 0.2727,
+      "precision": 1.0
+    },
+    "f1_diff": 0.4286,
+    "abs_diff": 0.4286,
+    "disagree": true,
+    "winner": "M4"
+  },
+  {
+    "index": 78,
+    "id": "11248-1",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 7.25,
+    "area_fraction": 0.0076,
+    "n_nodes": 307,
+    "n_cracks": 1,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 79,
+    "id": "11248-2",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 4.47,
+    "area_fraction": 0.0123,
+    "n_nodes": 306,
+    "n_cracks": 3,
+    "m1": {
+      "f1": 0.6667,
+      "recall": 0.6667,
+      "precision": 0.6667
+    },
+    "m4": {
+      "f1": 0.5,
+      "recall": 0.3333,
+      "precision": 1.0
+    },
+    "f1_diff": -0.1667,
+    "abs_diff": 0.1667,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 80,
+    "id": "11248-3",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 5.26,
+    "area_fraction": 0.0155,
+    "n_nodes": 305,
+    "n_cracks": 5,
+    "m1": {
+      "f1": 0.5455,
+      "recall": 0.6,
+      "precision": 0.5
+    },
+    "m4": {
+      "f1": 0.6667,
+      "recall": 0.6,
+      "precision": 0.75
+    },
+    "f1_diff": 0.1212,
+    "abs_diff": 0.1212,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 81,
+    "id": "11249-1",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.16,
+    "area_fraction": 0.0411,
+    "n_nodes": 291,
+    "n_cracks": 11,
+    "m1": {
+      "f1": 0.88,
+      "recall": 1.0,
+      "precision": 0.7857
+    },
+    "m4": {
+      "f1": 0.9565,
+      "recall": 1.0,
+      "precision": 0.9167
+    },
+    "f1_diff": 0.0765,
+    "abs_diff": 0.0765,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 82,
+    "id": "11249-2",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.61,
+    "area_fraction": 0.0471,
+    "n_nodes": 276,
+    "n_cracks": 12,
+    "m1": {
+      "f1": 0.8571,
+      "recall": 1.0,
+      "precision": 0.75
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.1429,
+    "abs_diff": 0.1429,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 83,
+    "id": "11249-3",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.81,
+    "area_fraction": 0.0425,
+    "n_nodes": 276,
+    "n_cracks": 10,
+    "m1": {
+      "f1": 0.8696,
+      "recall": 1.0,
+      "precision": 0.7692
+    },
+    "m4": {
+      "f1": 0.9091,
+      "recall": 1.0,
+      "precision": 0.8333
+    },
+    "f1_diff": 0.0395,
+    "abs_diff": 0.0395,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 84,
+    "id": "11249-4",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.31,
+    "area_fraction": 0.0434,
+    "n_nodes": 297,
+    "n_cracks": 13,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 85,
+    "id": "11249-5",
+    "category": "Long_Elongated",
+    "aspect_ratio": 2.73,
+    "area_fraction": 0.055,
+    "n_nodes": 292,
+    "n_cracks": 15,
+    "m1": {
+      "f1": 0.9375,
+      "recall": 1.0,
+      "precision": 0.8824
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0625,
+    "abs_diff": 0.0625,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 86,
+    "id": "11249-6",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 2.16,
+    "area_fraction": 0.0228,
+    "n_nodes": 295,
+    "n_cracks": 6,
+    "m1": {
+      "f1": 0.8,
+      "recall": 1.0,
+      "precision": 0.6667
+    },
+    "m4": {
+      "f1": 0.8,
+      "recall": 1.0,
+      "precision": 0.6667
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 87,
+    "id": "11249-7",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.4,
+    "area_fraction": 0.0248,
+    "n_nodes": 304,
+    "n_cracks": 8,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9412,
+      "recall": 1.0,
+      "precision": 0.8889
+    },
+    "f1_diff": -0.0588,
+    "abs_diff": 0.0588,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 88,
+    "id": "11249-8",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.78,
+    "area_fraction": 0.0301,
+    "n_nodes": 303,
+    "n_cracks": 10,
+    "m1": {
+      "f1": 0.9091,
+      "recall": 1.0,
+      "precision": 0.8333
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0909,
+    "abs_diff": 0.0909,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 89,
+    "id": "11258-1",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.79,
+    "area_fraction": 0.0232,
+    "n_nodes": 281,
+    "n_cracks": 5,
+    "m1": {
+      "f1": 0.4545,
+      "recall": 1.0,
+      "precision": 0.2941
+    },
+    "m4": {
+      "f1": 0.4,
+      "recall": 1.0,
+      "precision": 0.25
+    },
+    "f1_diff": -0.0545,
+    "abs_diff": 0.0545,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 90,
+    "id": "11258-2",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.53,
+    "area_fraction": 0.0242,
+    "n_nodes": 270,
+    "n_cracks": 6,
+    "m1": {
+      "f1": 0.2727,
+      "recall": 1.0,
+      "precision": 0.1579
+    },
+    "m4": {
+      "f1": 0.3158,
+      "recall": 1.0,
+      "precision": 0.1875
+    },
+    "f1_diff": 0.0431,
+    "abs_diff": 0.0431,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 91,
+    "id": "11266-1",
+    "category": "Long_Elongated",
+    "aspect_ratio": 6.97,
+    "area_fraction": 0.052,
+    "n_nodes": 259,
+    "n_cracks": 14,
+    "m1": {
+      "f1": 0.75,
+      "recall": 0.6429,
+      "precision": 0.9
+    },
+    "m4": {
+      "f1": 0.75,
+      "recall": 0.6429,
+      "precision": 0.9
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 92,
+    "id": "11266-2",
+    "category": "Long_Elongated",
+    "aspect_ratio": 9.07,
+    "area_fraction": 0.0439,
+    "n_nodes": 263,
+    "n_cracks": 13,
+    "m1": {
+      "f1": 0.7273,
+      "recall": 0.6154,
+      "precision": 0.8889
+    },
+    "m4": {
+      "f1": 0.7826,
+      "recall": 0.6923,
+      "precision": 0.9
+    },
+    "f1_diff": 0.0553,
+    "abs_diff": 0.0553,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 93,
+    "id": "11266-3",
+    "category": "Long_Elongated",
+    "aspect_ratio": 7.88,
+    "area_fraction": 0.0488,
+    "n_nodes": 272,
+    "n_cracks": 17,
+    "m1": {
+      "f1": 0.6923,
+      "recall": 0.5294,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.6897,
+      "recall": 0.5882,
+      "precision": 0.8333
+    },
+    "f1_diff": -0.0027,
+    "abs_diff": 0.0027,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 94,
+    "id": "11266-4",
+    "category": "Long_Elongated",
+    "aspect_ratio": 8.5,
+    "area_fraction": 0.0379,
+    "n_nodes": 260,
+    "n_cracks": 10,
+    "m1": {
+      "f1": 0.6316,
+      "recall": 0.6,
+      "precision": 0.6667
+    },
+    "m4": {
+      "f1": 0.6087,
+      "recall": 0.7,
+      "precision": 0.5385
+    },
+    "f1_diff": -0.0229,
+    "abs_diff": 0.0229,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 95,
+    "id": "11266-5",
+    "category": "Long_Elongated",
+    "aspect_ratio": 5.91,
+    "area_fraction": 0.0352,
+    "n_nodes": 266,
+    "n_cracks": 11,
+    "m1": {
+      "f1": 0.8,
+      "recall": 0.7273,
+      "precision": 0.8889
+    },
+    "m4": {
+      "f1": 0.7273,
+      "recall": 0.7273,
+      "precision": 0.7273
+    },
+    "f1_diff": -0.0727,
+    "abs_diff": 0.0727,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 96,
+    "id": "11267-1",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0537,
+    "n_nodes": 284,
+    "n_cracks": 13,
+    "m1": {
+      "f1": 0.8182,
+      "recall": 0.6923,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.6316,
+      "recall": 0.4615,
+      "precision": 1.0
+    },
+    "f1_diff": -0.1866,
+    "abs_diff": 0.1866,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 97,
+    "id": "11267-2",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0528,
+    "n_nodes": 285,
+    "n_cracks": 16,
+    "m1": {
+      "f1": 0.64,
+      "recall": 0.5,
+      "precision": 0.8889
+    },
+    "m4": {
+      "f1": 0.72,
+      "recall": 0.5625,
+      "precision": 1.0
+    },
+    "f1_diff": 0.08,
+    "abs_diff": 0.08,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 98,
+    "id": "11267-3",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.052,
+    "n_nodes": 282,
+    "n_cracks": 12,
+    "m1": {
+      "f1": 0.8696,
+      "recall": 0.8333,
+      "precision": 0.9091
+    },
+    "m4": {
+      "f1": 0.8571,
+      "recall": 0.75,
+      "precision": 1.0
+    },
+    "f1_diff": -0.0124,
+    "abs_diff": 0.0124,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 99,
+    "id": "11267-4",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.053,
+    "n_nodes": 285,
+    "n_cracks": 13,
+    "m1": {
+      "f1": 0.8333,
+      "recall": 0.7692,
+      "precision": 0.9091
+    },
+    "m4": {
+      "f1": 0.7826,
+      "recall": 0.6923,
+      "precision": 0.9
+    },
+    "f1_diff": -0.0507,
+    "abs_diff": 0.0507,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 100,
+    "id": "11267-5",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0535,
+    "n_nodes": 283,
+    "n_cracks": 11,
+    "m1": {
+      "f1": 0.7778,
+      "recall": 0.6364,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.8421,
+      "recall": 0.7273,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0643,
+    "abs_diff": 0.0643,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 101,
+    "id": "11269-1",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.76,
+    "area_fraction": 0.0272,
+    "n_nodes": 301,
+    "n_cracks": 8,
+    "m1": {
+      "f1": 0.8889,
+      "recall": 1.0,
+      "precision": 0.8
+    },
+    "m4": {
+      "f1": 0.8421,
+      "recall": 1.0,
+      "precision": 0.7273
+    },
+    "f1_diff": -0.0468,
+    "abs_diff": 0.0468,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 102,
+    "id": "11269-2",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.52,
+    "area_fraction": 0.034,
+    "n_nodes": 294,
+    "n_cracks": 9,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 103,
+    "id": "11269-3",
+    "category": "Long_Elongated",
+    "aspect_ratio": 2.99,
+    "area_fraction": 0.0406,
+    "n_nodes": 297,
+    "n_cracks": 12,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9091,
+      "recall": 0.8333,
+      "precision": 1.0
+    },
+    "f1_diff": -0.0909,
+    "abs_diff": 0.0909,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 104,
+    "id": "11269-4",
+    "category": "Long_Elongated",
+    "aspect_ratio": 7.06,
+    "area_fraction": 0.0443,
+    "n_nodes": 301,
+    "n_cracks": 13,
+    "m1": {
+      "f1": 0.9286,
+      "recall": 1.0,
+      "precision": 0.8667
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0714,
+    "abs_diff": 0.0714,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 105,
+    "id": "11269-5",
+    "category": "Long_Elongated",
+    "aspect_ratio": 13.95,
+    "area_fraction": 0.0472,
+    "n_nodes": 300,
+    "n_cracks": 13,
+    "m1": {
+      "f1": 0.963,
+      "recall": 1.0,
+      "precision": 0.9286
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.037,
+    "abs_diff": 0.037,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 106,
+    "id": "11269-6",
+    "category": "Long_Elongated",
+    "aspect_ratio": 13.6,
+    "area_fraction": 0.0488,
+    "n_nodes": 296,
+    "n_cracks": 13,
+    "m1": {
+      "f1": 0.8966,
+      "recall": 1.0,
+      "precision": 0.8125
+    },
+    "m4": {
+      "f1": 0.9286,
+      "recall": 1.0,
+      "precision": 0.8667
+    },
+    "f1_diff": 0.032,
+    "abs_diff": 0.032,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 107,
+    "id": "11270-1",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 3.1,
+    "area_fraction": 0.0183,
+    "n_nodes": 298,
+    "n_cracks": 6,
+    "m1": {
+      "f1": 0.9231,
+      "recall": 1.0,
+      "precision": 0.8571
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0769,
+    "abs_diff": 0.0769,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 108,
+    "id": "11270-2",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 3.07,
+    "area_fraction": 0.0164,
+    "n_nodes": 296,
+    "n_cracks": 3,
+    "m1": {
+      "f1": 0.75,
+      "recall": 1.0,
+      "precision": 0.6
+    },
+    "m4": {
+      "f1": 0.75,
+      "recall": 1.0,
+      "precision": 0.6
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 109,
+    "id": "11271-1",
+    "category": "Long_Elongated",
+    "aspect_ratio": 3.2,
+    "area_fraction": 0.0944,
+    "n_nodes": 268,
+    "n_cracks": 21,
+    "m1": {
+      "f1": 0.9545,
+      "recall": 1.0,
+      "precision": 0.913
+    },
+    "m4": {
+      "f1": 0.9756,
+      "recall": 0.9524,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0211,
+    "abs_diff": 0.0211,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 110,
+    "id": "11271-2",
+    "category": "Long_Elongated",
+    "aspect_ratio": 3.59,
+    "area_fraction": 0.0584,
+    "n_nodes": 280,
+    "n_cracks": 12,
+    "m1": {
+      "f1": 0.6667,
+      "recall": 0.8333,
+      "precision": 0.5556
+    },
+    "m4": {
+      "f1": 0.8,
+      "recall": 0.8333,
+      "precision": 0.7692
+    },
+    "f1_diff": 0.1333,
+    "abs_diff": 0.1333,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 111,
+    "id": "11271-3",
+    "category": "Long_Elongated",
+    "aspect_ratio": 3.12,
+    "area_fraction": 0.0605,
+    "n_nodes": 283,
+    "n_cracks": 15,
+    "m1": {
+      "f1": 0.6875,
+      "recall": 0.7333,
+      "precision": 0.6471
+    },
+    "m4": {
+      "f1": 0.6667,
+      "recall": 0.7333,
+      "precision": 0.6111
+    },
+    "f1_diff": -0.0208,
+    "abs_diff": 0.0208,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 112,
+    "id": "11271-4",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.37,
+    "area_fraction": 0.0609,
+    "n_nodes": 287,
+    "n_cracks": 16,
+    "m1": {
+      "f1": 0.8571,
+      "recall": 0.75,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.8966,
+      "recall": 0.8125,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0394,
+    "abs_diff": 0.0394,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 113,
+    "id": "11271-5",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.3,
+    "area_fraction": 0.0527,
+    "n_nodes": 278,
+    "n_cracks": 15,
+    "m1": {
+      "f1": 0.875,
+      "recall": 0.9333,
+      "precision": 0.8235
+    },
+    "m4": {
+      "f1": 0.8889,
+      "recall": 0.8,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0139,
+    "abs_diff": 0.0139,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 114,
+    "id": "11271-6",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.67,
+    "area_fraction": 0.052,
+    "n_nodes": 284,
+    "n_cracks": 15,
+    "m1": {
+      "f1": 0.9286,
+      "recall": 0.8667,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9286,
+      "recall": 0.8667,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 115,
+    "id": "11275-1",
+    "category": "Long_Elongated",
+    "aspect_ratio": 2.55,
+    "area_fraction": 0.032,
+    "n_nodes": 296,
+    "n_cracks": 10,
+    "m1": {
+      "f1": 0.8889,
+      "recall": 0.8,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9474,
+      "recall": 0.9,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0585,
+    "abs_diff": 0.0585,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 116,
+    "id": "11275-2",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.15,
+    "area_fraction": 0.0327,
+    "n_nodes": 296,
+    "n_cracks": 8,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9412,
+      "recall": 1.0,
+      "precision": 0.8889
+    },
+    "f1_diff": -0.0588,
+    "abs_diff": 0.0588,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 117,
+    "id": "11275-3",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.54,
+    "area_fraction": 0.0496,
+    "n_nodes": 291,
+    "n_cracks": 12,
+    "m1": {
+      "f1": 0.8889,
+      "recall": 1.0,
+      "precision": 0.8
+    },
+    "m4": {
+      "f1": 0.96,
+      "recall": 1.0,
+      "precision": 0.9231
+    },
+    "f1_diff": 0.0711,
+    "abs_diff": 0.0711,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 118,
+    "id": "11276-1",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0201,
+    "n_nodes": 278,
+    "n_cracks": 5,
+    "m1": {
+      "f1": 0.2222,
+      "recall": 1.0,
+      "precision": 0.125
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.7778,
+    "abs_diff": 0.7778,
+    "disagree": true,
+    "winner": "M4"
+  },
+  {
+    "index": 119,
+    "id": "11284-1",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.01,
+    "area_fraction": 0.0182,
+    "n_nodes": 277,
+    "n_cracks": 4,
+    "m1": {
+      "f1": 0.6667,
+      "recall": 0.5,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.8,
+      "recall": 1.0,
+      "precision": 0.6667
+    },
+    "f1_diff": 0.1333,
+    "abs_diff": 0.1333,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 120,
+    "id": "11286-1",
+    "category": "Long_Elongated",
+    "aspect_ratio": 3.51,
+    "area_fraction": 0.0308,
+    "n_nodes": 299,
+    "n_cracks": 9,
+    "m1": {
+      "f1": 0.9474,
+      "recall": 1.0,
+      "precision": 0.9
+    },
+    "m4": {
+      "f1": 0.9474,
+      "recall": 1.0,
+      "precision": 0.9
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 121,
+    "id": "11286-2",
+    "category": "Long_Elongated",
+    "aspect_ratio": 4.25,
+    "area_fraction": 0.028,
+    "n_nodes": 297,
+    "n_cracks": 7,
+    "m1": {
+      "f1": 0.9333,
+      "recall": 1.0,
+      "precision": 0.875
+    },
+    "m4": {
+      "f1": 0.8235,
+      "recall": 1.0,
+      "precision": 0.7
+    },
+    "f1_diff": -0.1098,
+    "abs_diff": 0.1098,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 122,
+    "id": "11286-3",
+    "category": "Long_Elongated",
+    "aspect_ratio": 4.81,
+    "area_fraction": 0.0363,
+    "n_nodes": 294,
+    "n_cracks": 11,
+    "m1": {
+      "f1": 0.8696,
+      "recall": 0.9091,
+      "precision": 0.8333
+    },
+    "m4": {
+      "f1": 0.9091,
+      "recall": 0.9091,
+      "precision": 0.9091
+    },
+    "f1_diff": 0.0395,
+    "abs_diff": 0.0395,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 123,
+    "id": "11289-1",
+    "category": "Long_Elongated",
+    "aspect_ratio": 3.83,
+    "area_fraction": 0.0451,
+    "n_nodes": 291,
+    "n_cracks": 12,
+    "m1": {
+      "f1": 0.9565,
+      "recall": 0.9167,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.8696,
+      "recall": 0.8333,
+      "precision": 0.9091
+    },
+    "f1_diff": -0.087,
+    "abs_diff": 0.087,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 124,
+    "id": "11289-10",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.24,
+    "area_fraction": 0.023,
+    "n_nodes": 293,
+    "n_cracks": 7,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.875,
+      "recall": 1.0,
+      "precision": 0.7778
+    },
+    "f1_diff": -0.125,
+    "abs_diff": 0.125,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 125,
+    "id": "11289-11",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 2.19,
+    "area_fraction": 0.0228,
+    "n_nodes": 288,
+    "n_cracks": 6,
+    "m1": {
+      "f1": 0.8,
+      "recall": 1.0,
+      "precision": 0.6667
+    },
+    "m4": {
+      "f1": 0.8,
+      "recall": 1.0,
+      "precision": 0.6667
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 126,
+    "id": "11289-2",
+    "category": "Long_Elongated",
+    "aspect_ratio": 2.08,
+    "area_fraction": 0.0423,
+    "n_nodes": 291,
+    "n_cracks": 10,
+    "m1": {
+      "f1": 0.9524,
+      "recall": 1.0,
+      "precision": 0.9091
+    },
+    "m4": {
+      "f1": 0.9524,
+      "recall": 1.0,
+      "precision": 0.9091
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 127,
+    "id": "11289-3",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.58,
+    "area_fraction": 0.0266,
+    "n_nodes": 295,
+    "n_cracks": 6,
+    "m1": {
+      "f1": 0.8,
+      "recall": 1.0,
+      "precision": 0.6667
+    },
+    "m4": {
+      "f1": 0.8,
+      "recall": 1.0,
+      "precision": 0.6667
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 128,
+    "id": "11289-4",
+    "category": "Long_Elongated",
+    "aspect_ratio": 2.01,
+    "area_fraction": 0.037,
+    "n_nodes": 292,
+    "n_cracks": 12,
+    "m1": {
+      "f1": 0.9565,
+      "recall": 0.9167,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9565,
+      "recall": 0.9167,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 129,
+    "id": "11289-5",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.15,
+    "area_fraction": 0.0304,
+    "n_nodes": 286,
+    "n_cracks": 7,
+    "m1": {
+      "f1": 0.875,
+      "recall": 1.0,
+      "precision": 0.7778
+    },
+    "m4": {
+      "f1": 0.875,
+      "recall": 1.0,
+      "precision": 0.7778
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 130,
+    "id": "11289-6",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.28,
+    "area_fraction": 0.0492,
+    "n_nodes": 279,
+    "n_cracks": 10,
+    "m1": {
+      "f1": 0.9524,
+      "recall": 1.0,
+      "precision": 0.9091
+    },
+    "m4": {
+      "f1": 0.9524,
+      "recall": 1.0,
+      "precision": 0.9091
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 131,
+    "id": "11289-7",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.02,
+    "area_fraction": 0.0548,
+    "n_nodes": 287,
+    "n_cracks": 12,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 132,
+    "id": "11289-8",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.16,
+    "area_fraction": 0.0253,
+    "n_nodes": 298,
+    "n_cracks": 7,
+    "m1": {
+      "f1": 0.875,
+      "recall": 1.0,
+      "precision": 0.7778
+    },
+    "m4": {
+      "f1": 0.875,
+      "recall": 1.0,
+      "precision": 0.7778
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 133,
+    "id": "11289-9",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.06,
+    "area_fraction": 0.0203,
+    "n_nodes": 300,
+    "n_cracks": 7,
+    "m1": {
+      "f1": 0.875,
+      "recall": 1.0,
+      "precision": 0.7778
+    },
+    "m4": {
+      "f1": 0.875,
+      "recall": 1.0,
+      "precision": 0.7778
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 134,
+    "id": "11294",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.51,
+    "area_fraction": 0.0144,
+    "n_nodes": 283,
+    "n_cracks": 0,
+    "m1": {
+      "f1": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "m4": {
+      "f1": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 135,
+    "id": "11295",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.06,
+    "area_fraction": 0.0093,
+    "n_nodes": 300,
+    "n_cracks": 1,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 136,
+    "id": "11296-1",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.22,
+    "area_fraction": 0.0396,
+    "n_nodes": 296,
+    "n_cracks": 13,
+    "m1": {
+      "f1": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "m4": {
+      "f1": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 137,
+    "id": "11296-10",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0285,
+    "n_nodes": 294,
+    "n_cracks": 7,
+    "m1": {
+      "f1": 0.8333,
+      "recall": 0.7143,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.6,
+      "recall": 0.4286,
+      "precision": 1.0
+    },
+    "f1_diff": -0.2333,
+    "abs_diff": 0.2333,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 138,
+    "id": "11296-11",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0298,
+    "n_nodes": 291,
+    "n_cracks": 8,
+    "m1": {
+      "f1": 0.5455,
+      "recall": 0.375,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.6667,
+      "recall": 0.5,
+      "precision": 1.0
+    },
+    "f1_diff": 0.1212,
+    "abs_diff": 0.1212,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 139,
+    "id": "11296-12",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.05,
+    "area_fraction": 0.0387,
+    "n_nodes": 301,
+    "n_cracks": 13,
+    "m1": {
+      "f1": 0.7,
+      "recall": 0.5385,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.6316,
+      "recall": 0.4615,
+      "precision": 1.0
+    },
+    "f1_diff": -0.0684,
+    "abs_diff": 0.0684,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 140,
+    "id": "11296-13",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0381,
+    "n_nodes": 300,
+    "n_cracks": 12,
+    "m1": {
+      "f1": 0.8571,
+      "recall": 0.75,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.8,
+      "recall": 0.6667,
+      "precision": 1.0
+    },
+    "f1_diff": -0.0571,
+    "abs_diff": 0.0571,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 141,
+    "id": "11296-14",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.27,
+    "area_fraction": 0.0318,
+    "n_nodes": 302,
+    "n_cracks": 11,
+    "m1": {
+      "f1": 0.9,
+      "recall": 0.8182,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.1,
+    "abs_diff": 0.1,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 142,
+    "id": "11296-15",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.03,
+    "n_nodes": 293,
+    "n_cracks": 9,
+    "m1": {
+      "f1": 0.9412,
+      "recall": 0.8889,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.8235,
+      "recall": 0.7778,
+      "precision": 0.875
+    },
+    "f1_diff": -0.1176,
+    "abs_diff": 0.1176,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 143,
+    "id": "11296-16",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 2.09,
+    "area_fraction": 0.0173,
+    "n_nodes": 296,
+    "n_cracks": 3,
+    "m1": {
+      "f1": 0.8,
+      "recall": 0.6667,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.5,
+      "recall": 0.3333,
+      "precision": 1.0
+    },
+    "f1_diff": -0.3,
+    "abs_diff": 0.3,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 144,
+    "id": "11296-17",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.37,
+    "area_fraction": 0.011,
+    "n_nodes": 293,
+    "n_cracks": 1,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "f1_diff": -1.0,
+    "abs_diff": 1.0,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 145,
+    "id": "11296-18",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.41,
+    "area_fraction": 0.0217,
+    "n_nodes": 296,
+    "n_cracks": 7,
+    "m1": {
+      "f1": 0.8333,
+      "recall": 0.7143,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.5455,
+      "recall": 0.4286,
+      "precision": 0.75
+    },
+    "f1_diff": -0.2879,
+    "abs_diff": 0.2879,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 146,
+    "id": "11296-19",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 3.15,
+    "area_fraction": 0.015,
+    "n_nodes": 300,
+    "n_cracks": 5,
+    "m1": {
+      "f1": 0.7692,
+      "recall": 1.0,
+      "precision": 0.625
+    },
+    "m4": {
+      "f1": 0.8333,
+      "recall": 1.0,
+      "precision": 0.7143
+    },
+    "f1_diff": 0.0641,
+    "abs_diff": 0.0641,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 147,
+    "id": "11296-2",
+    "category": "Long_Elongated",
+    "aspect_ratio": 2.31,
+    "area_fraction": 0.0353,
+    "n_nodes": 303,
+    "n_cracks": 9,
+    "m1": {
+      "f1": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "m4": {
+      "f1": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 148,
+    "id": "11296-20",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 8.35,
+    "area_fraction": 0.0143,
+    "n_nodes": 302,
+    "n_cracks": 5,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.75,
+      "recall": 0.6,
+      "precision": 1.0
+    },
+    "f1_diff": -0.25,
+    "abs_diff": 0.25,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 149,
+    "id": "11296-21",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 3.15,
+    "area_fraction": 0.0171,
+    "n_nodes": 299,
+    "n_cracks": 4,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 150,
+    "id": "11296-22",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0347,
+    "n_nodes": 306,
+    "n_cracks": 15,
+    "m1": {
+      "f1": 0.5,
+      "recall": 0.3333,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.5,
+      "recall": 0.3333,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 151,
+    "id": "11296-23",
+    "category": "Long_Elongated",
+    "aspect_ratio": 2.28,
+    "area_fraction": 0.0256,
+    "n_nodes": 301,
+    "n_cracks": 8,
+    "m1": {
+      "f1": 0.4,
+      "recall": 0.25,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.4,
+      "recall": 0.25,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 152,
+    "id": "11296-3",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0451,
+    "n_nodes": 302,
+    "n_cracks": 13,
+    "m1": {
+      "f1": 0.1333,
+      "recall": 0.0769,
+      "precision": 0.5
+    },
+    "m4": {
+      "f1": 0.1429,
+      "recall": 0.0769,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0095,
+    "abs_diff": 0.0095,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 153,
+    "id": "11296-4",
+    "category": "Long_Elongated",
+    "aspect_ratio": 2.48,
+    "area_fraction": 0.0413,
+    "n_nodes": 303,
+    "n_cracks": 13,
+    "m1": {
+      "f1": 0.2667,
+      "recall": 0.1538,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.2667,
+      "recall": 0.1538,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 154,
+    "id": "11296-5",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.15,
+    "area_fraction": 0.0358,
+    "n_nodes": 299,
+    "n_cracks": 11,
+    "m1": {
+      "f1": 0.625,
+      "recall": 0.4545,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.625,
+      "recall": 0.4545,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 155,
+    "id": "11296-6",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.2,
+    "area_fraction": 0.0283,
+    "n_nodes": 305,
+    "n_cracks": 7,
+    "m1": {
+      "f1": 0.7273,
+      "recall": 0.5714,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.6,
+      "recall": 0.4286,
+      "precision": 1.0
+    },
+    "f1_diff": -0.1273,
+    "abs_diff": 0.1273,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 156,
+    "id": "11296-7",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.16,
+    "area_fraction": 0.0217,
+    "n_nodes": 298,
+    "n_cracks": 5,
+    "m1": {
+      "f1": 0.75,
+      "recall": 0.6,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.75,
+      "recall": 0.6,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 157,
+    "id": "11296-8",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.41,
+    "area_fraction": 0.0333,
+    "n_nodes": 300,
+    "n_cracks": 10,
+    "m1": {
+      "f1": 0.75,
+      "recall": 0.6,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.75,
+      "recall": 0.6,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 158,
+    "id": "11296-9",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.42,
+    "area_fraction": 0.0408,
+    "n_nodes": 295,
+    "n_cracks": 10,
+    "m1": {
+      "f1": 0.75,
+      "recall": 0.6,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.7059,
+      "recall": 0.6,
+      "precision": 0.8571
+    },
+    "f1_diff": -0.0441,
+    "abs_diff": 0.0441,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 159,
+    "id": "11300",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 14.7,
+    "area_fraction": 0.0195,
+    "n_nodes": 292,
+    "n_cracks": 4,
+    "m1": {
+      "f1": 0.8889,
+      "recall": 1.0,
+      "precision": 0.8
+    },
+    "m4": {
+      "f1": 0.8889,
+      "recall": 1.0,
+      "precision": 0.8
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 160,
+    "id": "11301-1",
+    "category": "Long_Elongated",
+    "aspect_ratio": 4.09,
+    "area_fraction": 0.1044,
+    "n_nodes": 286,
+    "n_cracks": 20,
+    "m1": {
+      "f1": 0.9744,
+      "recall": 0.95,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9744,
+      "recall": 0.95,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 161,
+    "id": "11301-2",
+    "category": "Long_Elongated",
+    "aspect_ratio": 4.53,
+    "area_fraction": 0.1313,
+    "n_nodes": 291,
+    "n_cracks": 31,
+    "m1": {
+      "f1": 0.7778,
+      "recall": 0.6774,
+      "precision": 0.913
+    },
+    "m4": {
+      "f1": 0.9841,
+      "recall": 1.0,
+      "precision": 0.9688
+    },
+    "f1_diff": 0.2063,
+    "abs_diff": 0.2063,
+    "disagree": true,
+    "winner": "M4"
+  },
+  {
+    "index": 162,
+    "id": "11301-3",
+    "category": "Long_Elongated",
+    "aspect_ratio": 3.65,
+    "area_fraction": 0.1734,
+    "n_nodes": 295,
+    "n_cracks": 49,
+    "m1": {
+      "f1": 0.6757,
+      "recall": 0.5102,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.8193,
+      "recall": 0.6939,
+      "precision": 1.0
+    },
+    "f1_diff": 0.1436,
+    "abs_diff": 0.1436,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 163,
+    "id": "11301-4",
+    "category": "Long_Elongated",
+    "aspect_ratio": 5.44,
+    "area_fraction": 0.1099,
+    "n_nodes": 289,
+    "n_cracks": 24,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 164,
+    "id": "11301-5",
+    "category": "Long_Elongated",
+    "aspect_ratio": 3.91,
+    "area_fraction": 0.1488,
+    "n_nodes": 286,
+    "n_cracks": 35,
+    "m1": {
+      "f1": 0.8333,
+      "recall": 0.7143,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.8525,
+      "recall": 0.7429,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0191,
+    "abs_diff": 0.0191,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 165,
+    "id": "11301-6",
+    "category": "Long_Elongated",
+    "aspect_ratio": 2.44,
+    "area_fraction": 0.1446,
+    "n_nodes": 287,
+    "n_cracks": 35,
+    "m1": {
+      "f1": 0.6275,
+      "recall": 0.4571,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9231,
+      "recall": 0.8571,
+      "precision": 1.0
+    },
+    "f1_diff": 0.2956,
+    "abs_diff": 0.2956,
+    "disagree": true,
+    "winner": "M4"
+  },
+  {
+    "index": 166,
+    "id": "11302-1",
+    "category": "Long_Elongated",
+    "aspect_ratio": 2.33,
+    "area_fraction": 0.1039,
+    "n_nodes": 300,
+    "n_cracks": 27,
+    "m1": {
+      "f1": 0.902,
+      "recall": 0.8519,
+      "precision": 0.9583
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.098,
+    "abs_diff": 0.098,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 167,
+    "id": "11302-2",
+    "category": "Long_Elongated",
+    "aspect_ratio": 3.2,
+    "area_fraction": 0.1026,
+    "n_nodes": 300,
+    "n_cracks": 26,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9804,
+      "recall": 0.9615,
+      "precision": 1.0
+    },
+    "f1_diff": -0.0196,
+    "abs_diff": 0.0196,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 168,
+    "id": "11304",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 5.36,
+    "area_fraction": 0.0169,
+    "n_nodes": 297,
+    "n_cracks": 3,
+    "m1": {
+      "f1": 0.5,
+      "recall": 1.0,
+      "precision": 0.3333
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.5,
+    "abs_diff": 0.5,
+    "disagree": true,
+    "winner": "M4"
+  },
+  {
+    "index": 169,
+    "id": "11305-1",
+    "category": "Long_Elongated",
+    "aspect_ratio": 4.61,
+    "area_fraction": 0.0586,
+    "n_nodes": 295,
+    "n_cracks": 17,
+    "m1": {
+      "f1": 0.4545,
+      "recall": 0.2941,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.4545,
+      "recall": 0.2941,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 170,
+    "id": "11305-2",
+    "category": "Long_Elongated",
+    "aspect_ratio": 4.15,
+    "area_fraction": 0.0584,
+    "n_nodes": 304,
+    "n_cracks": 21,
+    "m1": {
+      "f1": 0.5,
+      "recall": 0.3333,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.5,
+      "recall": 0.3333,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 171,
+    "id": "11308-1",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 3.4,
+    "area_fraction": 0.0167,
+    "n_nodes": 288,
+    "n_cracks": 3,
+    "m1": {
+      "f1": 0.4615,
+      "recall": 1.0,
+      "precision": 0.3
+    },
+    "m4": {
+      "f1": 0.3529,
+      "recall": 1.0,
+      "precision": 0.2143
+    },
+    "f1_diff": -0.1086,
+    "abs_diff": 0.1086,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 172,
+    "id": "11308-2",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.73,
+    "area_fraction": 0.0162,
+    "n_nodes": 283,
+    "n_cracks": 4,
+    "m1": {
+      "f1": 0.5714,
+      "recall": 1.0,
+      "precision": 0.4
+    },
+    "m4": {
+      "f1": 0.4706,
+      "recall": 1.0,
+      "precision": 0.3077
+    },
+    "f1_diff": -0.1008,
+    "abs_diff": 0.1008,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 173,
+    "id": "11309-1",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.68,
+    "area_fraction": 0.0228,
+    "n_nodes": 266,
+    "n_cracks": 2,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.6667,
+      "recall": 1.0,
+      "precision": 0.5
+    },
+    "f1_diff": -0.3333,
+    "abs_diff": 0.3333,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 174,
+    "id": "IMG109-1",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 6.06,
+    "area_fraction": 0.0069,
+    "n_nodes": 306,
+    "n_cracks": 1,
+    "m1": {
+      "f1": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "m4": {
+      "f1": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 175,
+    "id": "IMG24-1",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 2.73,
+    "area_fraction": 0.0075,
+    "n_nodes": 313,
+    "n_cracks": 2,
+    "m1": {
+      "f1": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "m4": {
+      "f1": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 176,
+    "id": "IMG24-2",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.54,
+    "area_fraction": 0.009,
+    "n_nodes": 311,
+    "n_cracks": 4,
+    "m1": {
+      "f1": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "m4": {
+      "f1": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 177,
+    "id": "IMG24-3",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 9.22,
+    "area_fraction": 0.009,
+    "n_nodes": 315,
+    "n_cracks": 4,
+    "m1": {
+      "f1": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "m4": {
+      "f1": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 178,
+    "id": "IMG6-1",
+    "category": "Long_Elongated",
+    "aspect_ratio": 2.94,
+    "area_fraction": 0.0388,
+    "n_nodes": 287,
+    "n_cracks": 10,
+    "m1": {
+      "f1": 0.9524,
+      "recall": 1.0,
+      "precision": 0.9091
+    },
+    "m4": {
+      "f1": 0.8,
+      "recall": 0.8,
+      "precision": 0.8
+    },
+    "f1_diff": -0.1524,
+    "abs_diff": 0.1524,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 179,
+    "id": "IMG6-2",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.67,
+    "area_fraction": 0.0208,
+    "n_nodes": 296,
+    "n_cracks": 5,
+    "m1": {
+      "f1": 0.6667,
+      "recall": 0.8,
+      "precision": 0.5714
+    },
+    "m4": {
+      "f1": 0.6667,
+      "recall": 0.8,
+      "precision": 0.5714
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 180,
+    "id": "IMG_5776-1",
+    "category": "Long_Elongated",
+    "aspect_ratio": 3.37,
+    "area_fraction": 0.0413,
+    "n_nodes": 276,
+    "n_cracks": 13,
+    "m1": {
+      "f1": 0.8696,
+      "recall": 0.7692,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9167,
+      "recall": 0.8462,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0471,
+    "abs_diff": 0.0471,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 181,
+    "id": "IMG_5776-2",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 7.68,
+    "area_fraction": 0.0201,
+    "n_nodes": 287,
+    "n_cracks": 6,
+    "m1": {
+      "f1": 0.8571,
+      "recall": 1.0,
+      "precision": 0.75
+    },
+    "m4": {
+      "f1": 0.8,
+      "recall": 1.0,
+      "precision": 0.6667
+    },
+    "f1_diff": -0.0571,
+    "abs_diff": 0.0571,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 182,
+    "id": "IMG_5778-1",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 5.41,
+    "area_fraction": 0.0212,
+    "n_nodes": 275,
+    "n_cracks": 9,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 183,
+    "id": "IMG_6469-1",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.61,
+    "area_fraction": 0.0347,
+    "n_nodes": 300,
+    "n_cracks": 11,
+    "m1": {
+      "f1": 0.7778,
+      "recall": 0.6364,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.5333,
+      "recall": 0.3636,
+      "precision": 1.0
+    },
+    "f1_diff": -0.2444,
+    "abs_diff": 0.2444,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 184,
+    "id": "IMG_6469-2",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.01,
+    "area_fraction": 0.0407,
+    "n_nodes": 296,
+    "n_cracks": 13,
+    "m1": {
+      "f1": 0.7619,
+      "recall": 0.6154,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "f1_diff": -0.7619,
+    "abs_diff": 0.7619,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 185,
+    "id": "IMG_6469-3",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.08,
+    "area_fraction": 0.0362,
+    "n_nodes": 290,
+    "n_cracks": 13,
+    "m1": {
+      "f1": 0.4706,
+      "recall": 0.3077,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.2667,
+      "recall": 0.1538,
+      "precision": 1.0
+    },
+    "f1_diff": -0.2039,
+    "abs_diff": 0.2039,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 186,
+    "id": "IMG_6469-4",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.78,
+    "area_fraction": 0.0434,
+    "n_nodes": 294,
+    "n_cracks": 13,
+    "m1": {
+      "f1": 0.6087,
+      "recall": 0.5385,
+      "precision": 0.7
+    },
+    "m4": {
+      "f1": 0.4706,
+      "recall": 0.3077,
+      "precision": 1.0
+    },
+    "f1_diff": -0.1381,
+    "abs_diff": 0.1381,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 187,
+    "id": "IMG_6469-5",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.16,
+    "area_fraction": 0.0423,
+    "n_nodes": 282,
+    "n_cracks": 13,
+    "m1": {
+      "f1": 0.7407,
+      "recall": 0.7692,
+      "precision": 0.7143
+    },
+    "m4": {
+      "f1": 0.7826,
+      "recall": 0.6923,
+      "precision": 0.9
+    },
+    "f1_diff": 0.0419,
+    "abs_diff": 0.0419,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 188,
+    "id": "IMG_6469-6",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.94,
+    "area_fraction": 0.0334,
+    "n_nodes": 292,
+    "n_cracks": 12,
+    "m1": {
+      "f1": 0.8696,
+      "recall": 0.8333,
+      "precision": 0.9091
+    },
+    "m4": {
+      "f1": 0.9091,
+      "recall": 0.8333,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0395,
+    "abs_diff": 0.0395,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 189,
+    "id": "IMG_6469-7",
+    "category": "Long_Elongated",
+    "aspect_ratio": 2.8,
+    "area_fraction": 0.0274,
+    "n_nodes": 290,
+    "n_cracks": 8,
+    "m1": {
+      "f1": 0.9412,
+      "recall": 1.0,
+      "precision": 0.8889
+    },
+    "m4": {
+      "f1": 0.9333,
+      "recall": 0.875,
+      "precision": 1.0
+    },
+    "f1_diff": -0.0078,
+    "abs_diff": 0.0078,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 190,
+    "id": "IMG_6472-1",
+    "category": "Long_Elongated",
+    "aspect_ratio": 2.39,
+    "area_fraction": 0.0344,
+    "n_nodes": 301,
+    "n_cracks": 13,
+    "m1": {
+      "f1": 0.8696,
+      "recall": 0.7692,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.8696,
+      "recall": 0.7692,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 191,
+    "id": "IMG_6472-2",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 2.4,
+    "area_fraction": 0.0156,
+    "n_nodes": 302,
+    "n_cracks": 8,
+    "m1": {
+      "f1": 0.9333,
+      "recall": 0.875,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.4103,
+      "recall": 1.0,
+      "precision": 0.2581
+    },
+    "f1_diff": -0.5231,
+    "abs_diff": 0.5231,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 192,
+    "id": "IMG_6472-3",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 2.15,
+    "area_fraction": 0.0139,
+    "n_nodes": 291,
+    "n_cracks": 7,
+    "m1": {
+      "f1": 0.9231,
+      "recall": 0.8571,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.6667,
+      "recall": 1.0,
+      "precision": 0.5
+    },
+    "f1_diff": -0.2564,
+    "abs_diff": 0.2564,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 193,
+    "id": "IMG_6472-4",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.67,
+    "area_fraction": 0.0202,
+    "n_nodes": 289,
+    "n_cracks": 9,
+    "m1": {
+      "f1": 0.9474,
+      "recall": 1.0,
+      "precision": 0.9
+    },
+    "m4": {
+      "f1": 0.9474,
+      "recall": 1.0,
+      "precision": 0.9
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 194,
+    "id": "IMG_6472-5",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 2.65,
+    "area_fraction": 0.0211,
+    "n_nodes": 291,
+    "n_cracks": 7,
+    "m1": {
+      "f1": 0.7059,
+      "recall": 0.8571,
+      "precision": 0.6
+    },
+    "m4": {
+      "f1": 0.75,
+      "recall": 0.8571,
+      "precision": 0.6667
+    },
+    "f1_diff": 0.0441,
+    "abs_diff": 0.0441,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 195,
+    "id": "IMG_6472-6",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 6.3,
+    "area_fraction": 0.0137,
+    "n_nodes": 287,
+    "n_cracks": 5,
+    "m1": {
+      "f1": 0.5882,
+      "recall": 1.0,
+      "precision": 0.4167
+    },
+    "m4": {
+      "f1": 0.4545,
+      "recall": 1.0,
+      "precision": 0.2941
+    },
+    "f1_diff": -0.1337,
+    "abs_diff": 0.1337,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 196,
+    "id": "IMG_6472-7",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 2.09,
+    "area_fraction": 0.0179,
+    "n_nodes": 296,
+    "n_cracks": 7,
+    "m1": {
+      "f1": 0.7368,
+      "recall": 1.0,
+      "precision": 0.5833
+    },
+    "m4": {
+      "f1": 0.8235,
+      "recall": 1.0,
+      "precision": 0.7
+    },
+    "f1_diff": 0.0867,
+    "abs_diff": 0.0867,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 197,
+    "id": "IMG_6472-8",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 5.57,
+    "area_fraction": 0.0188,
+    "n_nodes": 294,
+    "n_cracks": 9,
+    "m1": {
+      "f1": 0.6923,
+      "recall": 1.0,
+      "precision": 0.5294
+    },
+    "m4": {
+      "f1": 0.8889,
+      "recall": 0.8889,
+      "precision": 0.8889
+    },
+    "f1_diff": 0.1966,
+    "abs_diff": 0.1966,
+    "disagree": true,
+    "winner": "M4"
+  },
+  {
+    "index": 198,
+    "id": "IMG_6514-1",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.95,
+    "area_fraction": 0.0375,
+    "n_nodes": 272,
+    "n_cracks": 15,
+    "m1": {
+      "f1": 0.6818,
+      "recall": 1.0,
+      "precision": 0.5172
+    },
+    "m4": {
+      "f1": 0.6818,
+      "recall": 1.0,
+      "precision": 0.5172
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 199,
+    "id": "IMG_6514-2",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.88,
+    "area_fraction": 0.0414,
+    "n_nodes": 279,
+    "n_cracks": 14,
+    "m1": {
+      "f1": 0.5957,
+      "recall": 1.0,
+      "precision": 0.4242
+    },
+    "m4": {
+      "f1": 0.6512,
+      "recall": 1.0,
+      "precision": 0.4828
+    },
+    "f1_diff": 0.0554,
+    "abs_diff": 0.0554,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 200,
+    "id": "IMG_6514-3",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.15,
+    "area_fraction": 0.0391,
+    "n_nodes": 269,
+    "n_cracks": 15,
+    "m1": {
+      "f1": 0.6,
+      "recall": 1.0,
+      "precision": 0.4286
+    },
+    "m4": {
+      "f1": 0.2857,
+      "recall": 1.0,
+      "precision": 0.1667
+    },
+    "f1_diff": -0.3143,
+    "abs_diff": 0.3143,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 201,
+    "id": "IMG_6516-1",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.67,
+    "area_fraction": 0.0435,
+    "n_nodes": 284,
+    "n_cracks": 14,
+    "m1": {
+      "f1": 0.6667,
+      "recall": 0.9286,
+      "precision": 0.52
+    },
+    "m4": {
+      "f1": 0.6875,
+      "recall": 0.7857,
+      "precision": 0.6111
+    },
+    "f1_diff": 0.0208,
+    "abs_diff": 0.0208,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 202,
+    "id": "IMG_6516-2",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.95,
+    "area_fraction": 0.0339,
+    "n_nodes": 273,
+    "n_cracks": 9,
+    "m1": {
+      "f1": 0.1731,
+      "recall": 1.0,
+      "precision": 0.0947
+    },
+    "m4": {
+      "f1": 0.2609,
+      "recall": 1.0,
+      "precision": 0.15
+    },
+    "f1_diff": 0.0878,
+    "abs_diff": 0.0878,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 203,
+    "id": "IMG_6516-3",
+    "category": "Long_Elongated",
+    "aspect_ratio": 2.89,
+    "area_fraction": 0.0379,
+    "n_nodes": 276,
+    "n_cracks": 12,
+    "m1": {
+      "f1": 0.3158,
+      "recall": 1.0,
+      "precision": 0.1875
+    },
+    "m4": {
+      "f1": 0.7586,
+      "recall": 0.9167,
+      "precision": 0.6471
+    },
+    "f1_diff": 0.4428,
+    "abs_diff": 0.4428,
+    "disagree": true,
+    "winner": "M4"
+  },
+  {
+    "index": 204,
+    "id": "IMG_6516-4",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.97,
+    "area_fraction": 0.0384,
+    "n_nodes": 277,
+    "n_cracks": 11,
+    "m1": {
+      "f1": 0.2558,
+      "recall": 1.0,
+      "precision": 0.1467
+    },
+    "m4": {
+      "f1": 0.2895,
+      "recall": 1.0,
+      "precision": 0.1692
+    },
+    "f1_diff": 0.0337,
+    "abs_diff": 0.0337,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 205,
+    "id": "IMG_6522-1",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.39,
+    "area_fraction": 0.0306,
+    "n_nodes": 301,
+    "n_cracks": 11,
+    "m1": {
+      "f1": 0.7857,
+      "recall": 1.0,
+      "precision": 0.6471
+    },
+    "m4": {
+      "f1": 0.8696,
+      "recall": 0.9091,
+      "precision": 0.8333
+    },
+    "f1_diff": 0.0839,
+    "abs_diff": 0.0839,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 206,
+    "id": "IMG_6522-3",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.98,
+    "area_fraction": 0.0317,
+    "n_nodes": 303,
+    "n_cracks": 11,
+    "m1": {
+      "f1": 0.88,
+      "recall": 1.0,
+      "precision": 0.7857
+    },
+    "m4": {
+      "f1": 0.2558,
+      "recall": 1.0,
+      "precision": 0.1467
+    },
+    "f1_diff": -0.6242,
+    "abs_diff": 0.6242,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 207,
+    "id": "IMG_6526-1",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 13.52,
+    "area_fraction": 0.0193,
+    "n_nodes": 298,
+    "n_cracks": 5,
+    "m1": {
+      "f1": 0.75,
+      "recall": 0.6,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.5714,
+      "recall": 0.4,
+      "precision": 1.0
+    },
+    "f1_diff": -0.1786,
+    "abs_diff": 0.1786,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 208,
+    "id": "IMG_6526-2",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 6.89,
+    "area_fraction": 0.0205,
+    "n_nodes": 294,
+    "n_cracks": 9,
+    "m1": {
+      "f1": 0.5,
+      "recall": 0.3333,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.3636,
+      "recall": 0.2222,
+      "precision": 1.0
+    },
+    "f1_diff": -0.1364,
+    "abs_diff": 0.1364,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 209,
+    "id": "IMG_6526-3",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 11.15,
+    "area_fraction": 0.0117,
+    "n_nodes": 293,
+    "n_cracks": 4,
+    "m1": {
+      "f1": 0.8571,
+      "recall": 0.75,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.4,
+      "recall": 0.25,
+      "precision": 1.0
+    },
+    "f1_diff": -0.4571,
+    "abs_diff": 0.4571,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 210,
+    "id": "IMG_6526-4",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 7.66,
+    "area_fraction": 0.0225,
+    "n_nodes": 289,
+    "n_cracks": 7,
+    "m1": {
+      "f1": 0.6,
+      "recall": 0.4286,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.4444,
+      "recall": 0.2857,
+      "precision": 1.0
+    },
+    "f1_diff": -0.1556,
+    "abs_diff": 0.1556,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 211,
+    "id": "IMG_6528-1",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 6.86,
+    "area_fraction": 0.0181,
+    "n_nodes": 250,
+    "n_cracks": 7,
+    "m1": {
+      "f1": 0.6,
+      "recall": 0.4286,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.25,
+      "recall": 0.1429,
+      "precision": 1.0
+    },
+    "f1_diff": -0.35,
+    "abs_diff": 0.35,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 212,
+    "id": "IMG_6528-3",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 8.14,
+    "area_fraction": 0.008,
+    "n_nodes": 258,
+    "n_cracks": 3,
+    "m1": {
+      "f1": 0.3,
+      "recall": 1.0,
+      "precision": 0.1765
+    },
+    "m4": {
+      "f1": 0.5455,
+      "recall": 1.0,
+      "precision": 0.375
+    },
+    "f1_diff": 0.2455,
+    "abs_diff": 0.2455,
+    "disagree": true,
+    "winner": "M4"
+  },
+  {
+    "index": 213,
+    "id": "IMG_6533-3",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 2.28,
+    "area_fraction": 0.0221,
+    "n_nodes": 278,
+    "n_cracks": 8,
+    "m1": {
+      "f1": 0.8421,
+      "recall": 1.0,
+      "precision": 0.7273
+    },
+    "m4": {
+      "f1": 0.7778,
+      "recall": 0.875,
+      "precision": 0.7
+    },
+    "f1_diff": -0.0643,
+    "abs_diff": 0.0643,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 214,
+    "id": "IMG_6536-1",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 2.86,
+    "area_fraction": 0.0199,
+    "n_nodes": 295,
+    "n_cracks": 10,
+    "m1": {
+      "f1": 0.9091,
+      "recall": 1.0,
+      "precision": 0.8333
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0909,
+    "abs_diff": 0.0909,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 215,
+    "id": "IMG_6536-2",
+    "category": "Long_Elongated",
+    "aspect_ratio": 4.28,
+    "area_fraction": 0.0276,
+    "n_nodes": 298,
+    "n_cracks": 12,
+    "m1": {
+      "f1": 0.8889,
+      "recall": 1.0,
+      "precision": 0.8
+    },
+    "m4": {
+      "f1": 0.7273,
+      "recall": 0.6667,
+      "precision": 0.8
+    },
+    "f1_diff": -0.1616,
+    "abs_diff": 0.1616,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 216,
+    "id": "IMG_6536-3",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 5.37,
+    "area_fraction": 0.0228,
+    "n_nodes": 291,
+    "n_cracks": 10,
+    "m1": {
+      "f1": 0.9474,
+      "recall": 0.9,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9474,
+      "recall": 0.9,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 217,
+    "id": "IMG_6536-4",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 3.79,
+    "area_fraction": 0.0202,
+    "n_nodes": 299,
+    "n_cracks": 9,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 218,
+    "id": "IMG_6536-5",
+    "category": "Long_Elongated",
+    "aspect_ratio": 2.96,
+    "area_fraction": 0.0289,
+    "n_nodes": 297,
+    "n_cracks": 10,
+    "m1": {
+      "f1": 0.7692,
+      "recall": 1.0,
+      "precision": 0.625
+    },
+    "m4": {
+      "f1": 0.8,
+      "recall": 1.0,
+      "precision": 0.6667
+    },
+    "f1_diff": 0.0308,
+    "abs_diff": 0.0308,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 219,
+    "id": "IMG_6536-7",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 4.32,
+    "area_fraction": 0.0139,
+    "n_nodes": 275,
+    "n_cracks": 4,
+    "m1": {
+      "f1": 0.8,
+      "recall": 1.0,
+      "precision": 0.6667
+    },
+    "m4": {
+      "f1": 0.6667,
+      "recall": 1.0,
+      "precision": 0.5
+    },
+    "f1_diff": -0.1333,
+    "abs_diff": 0.1333,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 220,
+    "id": "IMG_6537-1",
+    "category": "Long_Elongated",
+    "aspect_ratio": 3.6,
+    "area_fraction": 0.0256,
+    "n_nodes": 278,
+    "n_cracks": 10,
+    "m1": {
+      "f1": 0.5714,
+      "recall": 0.6,
+      "precision": 0.5455
+    },
+    "m4": {
+      "f1": 0.6316,
+      "recall": 0.6,
+      "precision": 0.6667
+    },
+    "f1_diff": 0.0602,
+    "abs_diff": 0.0602,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 221,
+    "id": "IMG_6537-2",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 5.08,
+    "area_fraction": 0.0241,
+    "n_nodes": 282,
+    "n_cracks": 11,
+    "m1": {
+      "f1": 0.8696,
+      "recall": 0.9091,
+      "precision": 0.8333
+    },
+    "m4": {
+      "f1": 0.9524,
+      "recall": 0.9091,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0828,
+    "abs_diff": 0.0828,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 222,
+    "id": "IMG_6537-3",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 4.79,
+    "area_fraction": 0.0221,
+    "n_nodes": 292,
+    "n_cracks": 8,
+    "m1": {
+      "f1": 0.8421,
+      "recall": 1.0,
+      "precision": 0.7273
+    },
+    "m4": {
+      "f1": 0.8889,
+      "recall": 1.0,
+      "precision": 0.8
+    },
+    "f1_diff": 0.0468,
+    "abs_diff": 0.0468,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 223,
+    "id": "IMG_6537-4",
+    "category": "Long_Elongated",
+    "aspect_ratio": 5.23,
+    "area_fraction": 0.0295,
+    "n_nodes": 294,
+    "n_cracks": 12,
+    "m1": {
+      "f1": 0.8,
+      "recall": 0.8333,
+      "precision": 0.7692
+    },
+    "m4": {
+      "f1": 0.8,
+      "recall": 0.8333,
+      "precision": 0.7692
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 224,
+    "id": "IMG_6537-5",
+    "category": "Long_Elongated",
+    "aspect_ratio": 3.73,
+    "area_fraction": 0.0278,
+    "n_nodes": 291,
+    "n_cracks": 12,
+    "m1": {
+      "f1": 0.8,
+      "recall": 1.0,
+      "precision": 0.6667
+    },
+    "m4": {
+      "f1": 0.7742,
+      "recall": 1.0,
+      "precision": 0.6316
+    },
+    "f1_diff": -0.0258,
+    "abs_diff": 0.0258,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 225,
+    "id": "IMG_6538-1",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 3.99,
+    "area_fraction": 0.0071,
+    "n_nodes": 295,
+    "n_cracks": 1,
+    "m1": {
+      "f1": 0.5,
+      "recall": 1.0,
+      "precision": 0.3333
+    },
+    "m4": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "f1_diff": 0.5,
+    "abs_diff": 0.5,
+    "disagree": true,
+    "winner": "M4"
+  },
+  {
+    "index": 226,
+    "id": "IMG_6538-3",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 5.26,
+    "area_fraction": 0.0071,
+    "n_nodes": 299,
+    "n_cracks": 2,
+    "m1": {
+      "f1": 0.3333,
+      "recall": 0.5,
+      "precision": 0.25
+    },
+    "m4": {
+      "f1": 0.8,
+      "recall": 1.0,
+      "precision": 0.6667
+    },
+    "f1_diff": 0.4667,
+    "abs_diff": 0.4667,
+    "disagree": true,
+    "winner": "M4"
+  },
+  {
+    "index": 227,
+    "id": "IMG_6542-1",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.48,
+    "area_fraction": 0.0286,
+    "n_nodes": 302,
+    "n_cracks": 10,
+    "m1": {
+      "f1": 0.9474,
+      "recall": 0.9,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9474,
+      "recall": 0.9,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0,
+    "abs_diff": 0.0,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 228,
+    "id": "IMG_6542-2",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.53,
+    "area_fraction": 0.0296,
+    "n_nodes": 304,
+    "n_cracks": 11,
+    "m1": {
+      "f1": 0.625,
+      "recall": 0.4545,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.7778,
+      "recall": 0.6364,
+      "precision": 1.0
+    },
+    "f1_diff": 0.1528,
+    "abs_diff": 0.1528,
+    "disagree": true,
+    "winner": "M4"
+  },
+  {
+    "index": 229,
+    "id": "IMG_6542-3",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.82,
+    "area_fraction": 0.016,
+    "n_nodes": 303,
+    "n_cracks": 5,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.75,
+      "recall": 0.6,
+      "precision": 1.0
+    },
+    "f1_diff": -0.25,
+    "abs_diff": 0.25,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 230,
+    "id": "IMG_6542-4",
+    "category": "Long_Elongated",
+    "aspect_ratio": 3.36,
+    "area_fraction": 0.0427,
+    "n_nodes": 297,
+    "n_cracks": 11,
+    "m1": {
+      "f1": 0.9,
+      "recall": 0.8182,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9524,
+      "recall": 0.9091,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0524,
+    "abs_diff": 0.0524,
+    "disagree": false,
+    "winner": "M4"
+  },
+  {
+    "index": 231,
+    "id": "IMG_6542-5",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 2.78,
+    "area_fraction": 0.0199,
+    "n_nodes": 295,
+    "n_cracks": 5,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9091,
+      "recall": 1.0,
+      "precision": 0.8333
+    },
+    "f1_diff": -0.0909,
+    "abs_diff": 0.0909,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 232,
+    "id": "IMG_6542-7",
+    "category": "Thin_Fine_Fissure",
+    "aspect_ratio": 1.69,
+    "area_fraction": 0.0144,
+    "n_nodes": 299,
+    "n_cracks": 4,
+    "m1": {
+      "f1": 0.75,
+      "recall": 0.75,
+      "precision": 0.75
+    },
+    "m4": {
+      "f1": 0.5714,
+      "recall": 0.5,
+      "precision": 0.6667
+    },
+    "f1_diff": -0.1786,
+    "abs_diff": 0.1786,
+    "disagree": true,
+    "winner": "M1"
+  },
+  {
+    "index": 233,
+    "id": "IMG_6544-1",
+    "category": "Long_Elongated",
+    "aspect_ratio": 3.6,
+    "area_fraction": 0.0483,
+    "n_nodes": 294,
+    "n_cracks": 16,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9677,
+      "recall": 0.9375,
+      "precision": 1.0
+    },
+    "f1_diff": -0.0323,
+    "abs_diff": 0.0323,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 234,
+    "id": "IMG_6544-2",
+    "category": "Branched_Complex",
+    "aspect_ratio": 1.94,
+    "area_fraction": 0.0862,
+    "n_nodes": 290,
+    "n_cracks": 19,
+    "m1": {
+      "f1": 0.8824,
+      "recall": 0.7895,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9143,
+      "recall": 0.8421,
+      "precision": 1.0
+    },
+    "f1_diff": 0.0319,
+    "abs_diff": 0.0319,
+    "disagree": false,
+    "winner": "Tie"
+  },
+  {
+    "index": 235,
+    "id": "IMG_6544-3",
+    "category": "Long_Elongated",
+    "aspect_ratio": 4.18,
+    "area_fraction": 0.088,
+    "n_nodes": 291,
+    "n_cracks": 24,
+    "m1": {
+      "f1": 1.0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.9333,
+      "recall": 0.875,
+      "precision": 1.0
+    },
+    "f1_diff": -0.0667,
+    "abs_diff": 0.0667,
+    "disagree": false,
+    "winner": "M1"
+  },
+  {
+    "index": 236,
+    "id": "IMG_6544-4",
+    "category": "Long_Elongated",
+    "aspect_ratio": 2.34,
+    "area_fraction": 0.1621,
+    "n_nodes": 289,
+    "n_cracks": 49,
+    "m1": {
+      "f1": 0.7901,
+      "recall": 0.6531,
+      "precision": 1.0
+    },
+    "m4": {
+      "f1": 0.6757,
+      "recall": 0.5102,
+      "precision": 1.0
+    },
+    "f1_diff": -0.1144,
+    "abs_diff": 0.1144,
+    "disagree": false,
+    "winner": "M1"
+  }
+]

@@ -11,13 +11,17 @@ class HybridGNNTransformer(nn.Module):
     """
     Hybrid GNN + Transformer model for pipeline crack detection.
     Combines a shallow GNN encoder with Positional Encoding and a Transformer stack.
+    Supports learned residual gating (Step 3) and relative positional bias (Step 4).
     """
     def __init__(self, in_dim: int, hidden_dim: int = 64, gnn_layers: int = 2, 
                  transformer_layers: int = 2, heads: int = 4, pe_dim: int = 32, 
                  num_freqs: int = 8, gnn_dropout: float = 0.3, transformer_dropout: float = 0.1, 
-                 use_pe: bool = True):
+                 use_pe: bool = True, use_gate: bool = False, use_rel_bias: bool = False,
+                 init_temperature: float = 1.0):
         super().__init__()
         self.use_pe = use_pe
+        self.use_gate = use_gate
+        self.use_rel_bias = use_rel_bias
         self.gnn_layers = gnn_layers
         
         # Shallow GNN encoder
@@ -40,13 +44,33 @@ class HybridGNNTransformer(nn.Module):
             self.pe_fusion = PositionalEncodingFusion(hidden_dim=hidden_dim, pe_dim=pe_dim, num_freqs=num_freqs)
             
         # Transformer Stack
-        self.transformer = TransformerStack(dim=hidden_dim, num_layers=transformer_layers, 
-                                            heads=heads, dropout=transformer_dropout)
-                                            
+        self.transformer = TransformerStack(
+            dim=hidden_dim, num_layers=transformer_layers, heads=heads,
+            dropout=transformer_dropout, use_rel_bias=use_rel_bias,
+            init_temperature=init_temperature
+        )
+        
+        # Learned Residual Gate (Step 3)
+        if use_gate:
+            # Initialize to 0.0 so sigmoid(0.0) = 0.5 (equal 50/50 weighting initially)
+            self.gate = nn.Parameter(torch.tensor(0.0, dtype=torch.float32))
+            
         # Classification head
         self.head = nn.Linear(hidden_dim, 2)
         
         self.gnn_layer_outputs = []
+
+    def get_gate_weight(self):
+        """Returns the current learned sigmoid gate value (transformer weight)."""
+        if self.use_gate:
+            return torch.sigmoid(self.gate).item()
+        return None
+
+    def get_temperatures(self):
+        """Returns the current learned temperature values from transformer blocks."""
+        if self.use_rel_bias:
+            return [torch.clamp(layer.temperature, min=1e-3).item() for layer in self.transformer.layers]
+        return []
 
     def forward(self, x: torch.Tensor, edge_index: torch.Tensor, pos: torch.Tensor) -> torch.Tensor:
         """
@@ -73,15 +97,26 @@ class HybridGNNTransformer(nn.Module):
         else:
             x = self.proj(x)
             
+        x_gnn = x
+        
         # PE fusion
         if self.use_pe:
-            x = self.pe_fusion(x, pos)
+            x_trans_in = self.pe_fusion(x_gnn, pos)
+        else:
+            x_trans_in = x_gnn
             
         # Transformer
-        x = self.transformer(x)
+        x_trans = self.transformer(x_trans_in, pos=pos)
+        
+        # Gate fusion (Step 3)
+        if self.use_gate:
+            alpha = torch.sigmoid(self.gate)
+            x_out = alpha * x_trans + (1.0 - alpha) * x_gnn
+        else:
+            x_out = x_trans
         
         # Head
-        logits = self.head(x)
+        logits = self.head(x_out)
         return logits
 
 
@@ -120,12 +155,16 @@ def build_model(config: dict) -> nn.Module:
         num_freqs = model_config.get('num_freqs', 8)
         transformer_dropout = model_config.get('transformer_dropout', 0.1)
         use_pe = model_config.get('use_pe', True)
+        use_gate = model_config.get('use_gate', False)
+        use_rel_bias = model_config.get('use_rel_bias', False)
+        init_temperature = float(model_config.get('init_temperature', 1.0))
         
         return HybridGNNTransformer(
             in_dim=in_dim, hidden_dim=hidden_dim, gnn_layers=gnn_layers,
             transformer_layers=transformer_layers, heads=heads, pe_dim=pe_dim,
             num_freqs=num_freqs, gnn_dropout=dropout, transformer_dropout=transformer_dropout,
-            use_pe=use_pe
+            use_pe=use_pe, use_gate=use_gate, use_rel_bias=use_rel_bias,
+            init_temperature=init_temperature
         )
         
     else:

@@ -12,6 +12,7 @@ import torch
 import numpy as np
 from torch.utils.data import Subset
 from torch_geometric.loader import DataLoader
+from typing import Optional
 from sklearn.metrics import f1_score, classification_report
 
 from src.models.hybrid_model import build_model
@@ -36,6 +37,53 @@ def get_class_weights(dataset) -> torch.Tensor:
     weight_no_crack = num_total / (2.0 * num_no_crack) if num_no_crack > 0 else 1.0
 
     return torch.tensor([weight_no_crack, weight_crack], dtype=torch.float32)
+
+
+def get_inverted_class_weights(dataset) -> torch.Tensor:
+    """Computes inverted class frequencies [n_neg/n_total, n_pos/n_total] inverted -> [n_pos/n_total, n_neg/n_total]."""
+    all_y = torch.cat([dataset[i].y for i in range(len(dataset))])
+    num_crack = all_y.sum().item()
+    num_total = all_y.numel()
+    num_no_crack = num_total - num_crack
+
+    w_no_crack = num_crack / num_total if num_total > 0 else 0.5
+    w_crack = num_no_crack / num_total if num_total > 0 else 0.5
+
+    return torch.tensor([w_no_crack, w_crack], dtype=torch.float32)
+
+
+class FocalLoss(torch.nn.Module):
+    """
+    Focal Loss with gamma focusing parameter and inverted class weights alpha:
+    FL(p_t) = - alpha_t * (1 - p_t)^gamma * log(p_t)
+    """
+
+    def __init__(self, alpha: Optional[torch.Tensor] = None, gamma: float = 2.0, reduction: str = 'mean'):
+        super().__init__()
+        self.alpha = alpha
+        self.gamma = gamma
+        self.reduction = reduction
+
+    def forward(self, inputs: torch.Tensor, targets: torch.Tensor) -> torch.Tensor:
+        log_p = torch.nn.functional.log_softmax(inputs, dim=1)
+        p = torch.exp(log_p)
+
+        log_pt = log_p.gather(1, targets.unsqueeze(1)).squeeze(1)
+        pt = p.gather(1, targets.unsqueeze(1)).squeeze(1)
+
+        focal_weight = (1.0 - pt) ** self.gamma
+        loss = -focal_weight * log_pt
+
+        if self.alpha is not None:
+            alpha = self.alpha.to(inputs.device)
+            alpha_t = alpha.gather(0, targets)
+            loss = alpha_t * loss
+
+        if self.reduction == 'mean':
+            return loss.mean()
+        elif self.reduction == 'sum':
+            return loss.sum()
+        return loss
 
 
 class EarlyStopping:
@@ -164,6 +212,7 @@ def log_dirichlet_energy(model, data, edge_index, model_type: str):
 def main():
     parser = argparse.ArgumentParser(description='Train pipeline crack detection model')
     parser.add_argument('--config', type=str, required=True, help='Path to YAML config file')
+    parser.add_argument('--weights', type=str, default=None, help='Path to checkpoint weights to resume/continue training from')
     args = parser.parse_args()
 
     config = load_config(args.config)
@@ -196,9 +245,27 @@ def main():
     print(f"Model type: {config['model']['type']}")
     print(f"Total parameters: {sum(p.numel() for p in model.parameters()):,}")
 
-    # --- Optimizer & Scheduler ---
-    weights = get_class_weights(train_dataset).to(device)
-    criterion = torch.nn.CrossEntropyLoss(weight=weights)
+    if args.weights and os.path.exists(args.weights):
+        print(f"Loading checkpoint weights from {args.weights} to continue training...")
+        model.load_state_dict(torch.load(args.weights, map_location=device))
+
+    # --- Loss Criterion ---
+    loss_type = config['training'].get('loss', 'weighted_ce')
+    gamma = float(config['training'].get('focal_gamma', 2.0))
+
+    if loss_type == 'focal':
+        alpha = get_inverted_class_weights(train_dataset).to(device)
+        print(f"Using Focal Loss (gamma={gamma}, alpha=[{alpha[0]:.4f}, {alpha[1]:.4f}])")
+        criterion = FocalLoss(alpha=alpha, gamma=gamma)
+    elif loss_type == 'inverted_ce':
+        weights = get_inverted_class_weights(train_dataset).to(device)
+        weights = weights * 2.0
+        print(f"Using Inverted Frequency Weighted CE (weights=[{weights[0]:.4f}, {weights[1]:.4f}])")
+        criterion = torch.nn.CrossEntropyLoss(weight=weights)
+    else:
+        weights = get_class_weights(train_dataset).to(device)
+        print(f"Using Standard Class-Weighted CE (weights=[{weights[0]:.4f}, {weights[1]:.4f}])")
+        criterion = torch.nn.CrossEntropyLoss(weight=weights)
 
     optimizer = torch.optim.Adam(
         model.parameters(),
@@ -230,6 +297,7 @@ def main():
     )
 
     train_losses, val_losses, val_f1_scores = [], [], []
+    gate_history, temp_history = [], []
 
     for epoch in range(config['training']['epochs']):
         train_loss = train_one_epoch(model, train_loader, optimizer, criterion, device, config)
@@ -251,11 +319,22 @@ def main():
         current_lr = optimizer.param_groups[0]['lr']
         early_stopping(val_f1, model)
 
+        extra_info = []
+        if hasattr(model, 'get_gate_weight') and model.get_gate_weight() is not None:
+            gw = model.get_gate_weight()
+            gate_history.append(gw)
+            extra_info.append(f"Gate(Trans): {gw:.4f}")
+        if hasattr(model, 'get_temperatures') and model.get_temperatures():
+            temps = model.get_temperatures()
+            temp_history.append(temps)
+            extra_info.append(f"Temps: {[round(t, 3) for t in temps]}")
+
+        extra_str = f" | {' | '.join(extra_info)}" if extra_info else ""
         print(
             f"Epoch {epoch + 1:03d} | "
             f"Train Loss: {train_loss:.4f} | Val Loss: {val_loss:.4f} | "
             f"Val F1: {val_f1:.4f} | Val IoU: {val_iou:.4f} | "
-            f"LR: {current_lr:.6f}"
+            f"LR: {current_lr:.6f}{extra_str}"
         )
 
         if early_stopping.early_stop:
@@ -277,6 +356,10 @@ def main():
     print("=" * 50)
     print(classification_report(test_labels, test_preds, zero_division=0))
     print(f"F1: {test_f1:.4f} | IoU: {test_iou:.4f} | ROC-AUC: {test_auc:.4f}")
+    if hasattr(model, 'get_gate_weight') and model.get_gate_weight() is not None:
+        print(f"Final Best Checkpoint Gate(Transformer): {model.get_gate_weight():.4f} (GNN weight: {1.0 - model.get_gate_weight():.4f})")
+    if hasattr(model, 'get_temperatures') and model.get_temperatures():
+        print(f"Final Best Checkpoint Temperatures: {model.get_temperatures()}")
 
     # Save results
     results = {
@@ -286,7 +369,15 @@ def main():
         'train_losses': [float(x) for x in train_losses],
         'val_losses': [float(x) for x in val_losses],
         'val_f1_scores': [float(x) for x in val_f1_scores],
+        'gate_history': [float(x) for x in gate_history],
+        'temp_history': [[float(t) for t in ts] for ts in temp_history],
     }
+    if hasattr(model, 'get_gate_weight') and model.get_gate_weight() is not None:
+        results['final_gate_transformer'] = float(model.get_gate_weight())
+        results['final_gate_gnn'] = float(1.0 - model.get_gate_weight())
+    if hasattr(model, 'get_temperatures') and model.get_temperatures():
+        results['final_temperatures'] = [float(t) for t in model.get_temperatures()]
+
     import json
 
     with open(os.path.join(config['output_dir'], 'results.json'), 'w') as f:

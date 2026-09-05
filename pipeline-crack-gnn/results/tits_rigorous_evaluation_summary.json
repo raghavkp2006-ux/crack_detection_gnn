@@ -1,0 +1,226 @@
+{
+  "M1_deep_gnn": {
+    "name": "M1 (Deep GNN 8L)",
+    "optimal_tau": 0.8200000000000002,
+    "calib_f1": 0.25787965616045844,
+    "eval_micro": {
+      "f1": 0.05065856129685917,
+      "iou": 0.02598752598752599,
+      "precision": 0.1893939393939394,
+      "recall": 0.029239766081871343,
+      "roc_auc": 0.6295503734454972
+    },
+    "eval_macro_weighted": {
+      "f1": 0.09005966452774963,
+      "iou": 0.05473453749315818,
+      "roc_auc": 0.78634246171999
+    },
+    "negative_control_lris": {
+      "n_graphs": 13,
+      "n_nodes": 3892,
+      "false_positives": 3133,
+      "fpr": 0.8049845837615622,
+      "specificity": 0.19501541623843777
+    },
+    "per_sensor": {
+      "AIGLE_RN": {
+        "n_graphs": 34,
+        "n_nodes": 10104,
+        "n_cracks": 573,
+        "f1": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "roc_auc": 0.7126256325688766
+      },
+      "ESAR": {
+        "n_graphs": 13,
+        "n_nodes": 3822,
+        "n_cracks": 244,
+        "f1": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "roc_auc": 0.7397380622932495
+      },
+      "LCMS": {
+        "n_graphs": 16,
+        "n_nodes": 4881,
+        "n_cracks": 38,
+        "f1": 0.3546099290780142,
+        "iou": 0.21551724137931033,
+        "precision": 0.24271844660194175,
+        "recall": 0.6578947368421053,
+        "roc_auc": 0.9808567982003324
+      }
+    }
+  },
+  "M2_shallow_gnn": {
+    "name": "M2 (Shallow GNN 2L)",
+    "optimal_tau": 0.8400000000000001,
+    "calib_f1": 0.16793893129770993,
+    "eval_micro": {
+      "f1": 0.03473491773308958,
+      "iou": 0.017674418604651163,
+      "precision": 0.0794979079497908,
+      "recall": 0.022222222222222223,
+      "roc_auc": 0.5558715378761818
+    },
+    "eval_macro_weighted": {
+      "f1": 0.045738358534567064,
+      "iou": 0.02513227513227513,
+      "roc_auc": 0.7661344772907074
+    },
+    "negative_control_lris": {
+      "n_graphs": 13,
+      "n_nodes": 3892,
+      "false_positives": 3715,
+      "fpr": 0.9545220966084276,
+      "specificity": 0.04547790339157243
+    },
+    "per_sensor": {
+      "AIGLE_RN": {
+        "n_graphs": 34,
+        "n_nodes": 10104,
+        "n_cracks": 573,
+        "f1": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "roc_auc": 0.7444098553759453
+      },
+      "ESAR": {
+        "n_graphs": 13,
+        "n_nodes": 3822,
+        "n_cracks": 244,
+        "f1": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "roc_auc": 0.7033613888150722
+      },
+      "LCMS": {
+        "n_graphs": 16,
+        "n_nodes": 4881,
+        "n_cracks": 38,
+        "f1": 0.18009478672985782,
+        "iou": 0.09895833333333333,
+        "precision": 0.10982658959537572,
+        "recall": 0.5,
+        "roc_auc": 0.8633024332460306
+      }
+    }
+  },
+  "M3_hybrid_no_pe": {
+    "name": "M3 (Hybrid No PE)",
+    "optimal_tau": 0.8400000000000001,
+    "calib_f1": 0.18858560794044665,
+    "eval_micro": {
+      "f1": 0.032450896669513236,
+      "iou": 0.016493055555555556,
+      "precision": 0.060126582278481014,
+      "recall": 0.022222222222222223,
+      "roc_auc": 0.579884239713961
+    },
+    "eval_macro_weighted": {
+      "f1": 0.03316423934980636,
+      "iou": 0.017740429505135387,
+      "roc_auc": 0.784620794847505
+    },
+    "negative_control_lris": {
+      "n_graphs": 13,
+      "n_nodes": 3892,
+      "false_positives": 3696,
+      "fpr": 0.9496402877697842,
+      "specificity": 0.05035971223021585
+    },
+    "per_sensor": {
+      "AIGLE_RN": {
+        "n_graphs": 34,
+        "n_nodes": 10104,
+        "n_cracks": 573,
+        "f1": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "roc_auc": 0.7997717744045655
+      },
+      "ESAR": {
+        "n_graphs": 13,
+        "n_nodes": 3822,
+        "n_cracks": 244,
+        "f1": 0.0,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "roc_auc": 0.6770003848656176
+      },
+      "LCMS": {
+        "n_graphs": 16,
+        "n_nodes": 4881,
+        "n_cracks": 38,
+        "f1": 0.13058419243986255,
+        "iou": 0.06985294117647059,
+        "precision": 0.07509881422924901,
+        "recall": 0.5,
+        "roc_auc": 0.839866546399035
+      }
+    }
+  },
+  "M4_hybrid_full": {
+    "name": "M4 (Hybrid Full PE)",
+    "optimal_tau": 0.5000000000000001,
+    "calib_f1": 0.16210739614994935,
+    "eval_micro": {
+      "f1": 0.09906569776064067,
+      "iou": 0.05211421438601966,
+      "precision": 0.05672554347826087,
+      "recall": 0.3906432748538012,
+      "roc_auc": 0.59742340849152
+    },
+    "eval_macro_weighted": {
+      "f1": 0.18692216836221978,
+      "iou": 0.10755894242881116,
+      "roc_auc": 0.7922198558675192
+    },
+    "negative_control_lris": {
+      "n_graphs": 13,
+      "n_nodes": 3892,
+      "false_positives": 3892,
+      "fpr": 1.0,
+      "specificity": 0.0
+    },
+    "per_sensor": {
+      "AIGLE_RN": {
+        "n_graphs": 34,
+        "n_nodes": 10104,
+        "n_cracks": 573,
+        "f1": 0.2889137737961926,
+        "iou": 0.168848167539267,
+        "precision": 0.21269579554822754,
+        "recall": 0.450261780104712,
+        "roc_auc": 0.821352862881718
+      },
+      "ESAR": {
+        "n_graphs": 13,
+        "n_nodes": 3822,
+        "n_cracks": 244,
+        "f1": 0.1288135593220339,
+        "iou": 0.06884057971014493,
+        "precision": 0.10982658959537572,
+        "recall": 0.1557377049180328,
+        "roc_auc": 0.6312815566897891
+      },
+      "LCMS": {
+        "n_graphs": 16,
+        "n_nodes": 4881,
+        "n_cracks": 38,
+        "f1": 0.01740325166017861,
+        "iou": 0.008778008778008778,
+        "precision": 0.008778008778008778,
+        "recall": 1.0,
+        "roc_auc": 0.8610745840442526
+      }
+    }
+  }
+}

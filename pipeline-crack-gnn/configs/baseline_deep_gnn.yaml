@@ -1,3 +1,4 @@
+# M1 — Deep GNN (8 layers) baseline to demonstrate over-smoothing
 model:
   type: deep_gnn
   in_dim: 15
@@ -5,8 +6,20 @@ model:
   num_layers: 8
   dropout: 0.3
 
+superpixels:
+  n_segments: 300
+  compactness: 10.0
+  sigma: 1.0
+
+graph:
+  k: 8
+  sigma: 0.1
+
+labels:
+  threshold: 0.3
+
 data:
-  graph_dir: data/graphs
+  graph_dir: data/graphs/train
   train_ratio: 0.7
   val_ratio: 0.15
 
@@ -14,6 +27,7 @@ training:
   epochs: 150
   lr: 0.001
   weight_decay: 0.0005
+  batch_size: 1
   early_stopping_patience: 20
   seed: 42
 

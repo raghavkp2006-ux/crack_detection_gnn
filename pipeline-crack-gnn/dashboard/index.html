@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pipeline Crack GNN — Per-Image Model Comparison & Router Inspection</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --m1-color: #f59e0b;
+      --m4-color: #10b981;
+      --danger: #ef4444;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 24px;
+    }
+    .header {
+      margin-bottom: 24px;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 16px;
+    }
+    .header h1 {
+      margin: 0 0 8px 0;
+      font-size: 24px;
+      color: var(--accent);
+    }
+    .header p {
+      margin: 0;
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      background: var(--card-bg);
+      padding: 16px;
+      border-radius: 8px;
+      border: 1px solid var(--card-border);
+      margin-bottom: 24px;
+      align-items: center;
+    }
+    .control-group {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    label {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+    }
+    select, input {
+      background: #0f172a;
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+    .badge {
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 600;
+      display: inline-block;
+    }
+    .badge-long { background: rgba(56, 189, 248, 0.2); color: #38bdf8; }
+    .badge-thin { background: rgba(244, 114, 182, 0.2); color: #f472b6; }
+    .badge-branched { background: rgba(168, 85, 247, 0.2); color: #c084fc; }
+    .badge-m4 { background: rgba(16, 185, 129, 0.2); color: var(--m4-color); }
+    .badge-m1 { background: rgba(245, 158, 11, 0.2); color: var(--m1-color); }
+    .badge-tie { background: rgba(148, 163, 184, 0.2); color: var(--text-muted); }
+
+    .summary-bar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .stat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      padding: 16px;
+      border-radius: 8px;
+    }
+    .stat-val {
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--accent);
+      margin-top: 4px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--card-bg);
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--card-border);
+    }
+    th, td {
+      padding: 12px 16px;
+      text-align: left;
+      border-bottom: 1px solid var(--card-border);
+      font-size: 14px;
+    }
+    th {
+      background: #1e293b;
+      color: var(--text-muted);
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+    tr:hover {
+      background: rgba(255, 255, 255, 0.02);
+    }
+    .diff-pos { color: var(--m4-color); font-weight: 600; }
+    .diff-neg { color: var(--m1-color); font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Pipeline Crack GNN — Model Disagreement & Router Dashboard</h1>
+    <p>Interactive inspection of Wuhan DeepCrack Holdout Benchmark (N=237 images) comparing M4 (Hybrid Full PE) vs. M1 (Deep GNN 8L)</p>
+  </div>
+
+  <div class="summary-bar">
+    <div class="stat-card">
+      <div class="label">Showing Images</div>
+      <div class="stat-val" id="stat-count">0 / 237</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">M4 Wins (F1 Lead &ge; 5%)</div>
+      <div class="stat-val" id="stat-m4-wins" style="color: var(--m4-color);">0</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">M1 Wins (F1 Lead &ge; 5%)</div>
+      <div class="stat-val" id="stat-m1-wins" style="color: var(--m1-color);">0</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Mean F1 Advantage (Filtered)</div>
+      <div class="stat-val" id="stat-mean-lead">+0.00%</div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <div class="control-group">
+      <label>Filter View</label>
+      <select id="filter-view" onchange="render()">
+        <option value="disagree" selected>Models Disagree (|F1 Diff| &ge; 0.15) [Router Opportunities]</option>
+        <option value="all">All Images (N=237)</option>
+        <option value="m4-wins">M4 Wins Only</option>
+        <option value="m1-wins">M1 Wins Only</option>
+      </select>
+    </div>
+
+    <div class="control-group">
+      <label>Morphology Bucket</label>
+      <select id="filter-cat" onchange="render()">
+        <option value="all">All Morphologies</option>
+        <option value="Long_Elongated">Long / Elongated (N=55)</option>
+        <option value="Thin_Fine_Fissure">Thin / Fine Fissure (N=84)</option>
+        <option value="Branched_Complex">Branched / Complex (N=98)</option>
+      </select>
+    </div>
+
+    <div class="control-group">
+      <label>Sort By</label>
+      <select id="sort-by" onchange="render()">
+        <option value="diff-desc">F1 Lead (M4 - M1) High &rarr; Low</option>
+        <option value="diff-asc">F1 Lead (M4 - M1) Low &rarr; High</option>
+        <option value="abs-diff">Absolute Disagreement High &rarr; Low</option>
+        <option value="id">Image ID</option>
+      </select>
+    </div>
+
+    <div class="control-group">
+      <label>Search Image ID</label>
+      <input type="text" id="search-id" placeholder="e.g. 1001" oninput="render()">
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Image ID</th>
+        <th>Category</th>
+        <th>Aspect Ratio</th>
+        <th>Area Frac</th>
+        <th>M1 F1 (Rec / Prec)</th>
+        <th>M4 F1 (Rec / Prec)</th>
+        <th>F1 Lead (M4 - M1)</th>
+        <th>Best Architecture</th>
+      </tr>
+    </thead>
+    <tbody id="table-body"></tbody>
+  </table>
+
+  <script>
+    let rawData = [];
+
+    async function init() {
+      try {
+        const resp = await fetch('predictions_data.json');
+        rawData = await resp.json();
+        render();
+      } catch (e) {
+        document.getElementById('table-body').innerHTML = `<tr><td colspan="8" style="color: var(--danger); text-align: center; padding: 24px;">Failed to load predictions_data.json: ${e.message}</td></tr>`;
+      }
+    }
+
+    function render() {
+      const view = document.getElementById('filter-view').value;
+      const cat = document.getElementById('filter-cat').value;
+      const sortBy = document.getElementById('sort-by').value;
+      const search = document.getElementById('search-id').value.trim().toLowerCase();
+
+      let filtered = rawData.filter(item => {
+        if (view === 'disagree' && !item.disagree) return false;
+        if (view === 'm4-wins' && item.winner !== 'M4') return false;
+        if (view === 'm1-wins' && item.winner !== 'M1') return false;
+        if (cat !== 'all' && item.category !== cat) return false;
+        if (search && !item.id.toLowerCase().includes(search)) return false;
+        return true;
+      });
+
+      filtered.sort((a, b) => {
+        if (sortBy === 'diff-desc') return b.f1_diff - a.f1_diff;
+        if (sortBy === 'diff-asc') return a.f1_diff - b.f1_diff;
+        if (sortBy === 'abs-diff') return b.abs_diff - a.abs_diff;
+        if (sortBy === 'id') return a.id.localeCompare(b.id);
+        return 0;
+      });
+
+      document.getElementById('stat-count').innerText = `${filtered.length} / ${rawData.length}`;
+      const m4Wins = filtered.filter(x => x.winner === 'M4').length;
+      const m1Wins = filtered.filter(x => x.winner === 'M1').length;
+      document.getElementById('stat-m4-wins').innerText = m4Wins;
+      document.getElementById('stat-m1-wins').innerText = m1Wins;
+
+      const meanLead = filtered.length ? (filtered.reduce((acc, x) => acc + x.f1_diff, 0) / filtered.length) : 0;
+      document.getElementById('stat-mean-lead').innerText = `${meanLead >= 0 ? '+' : ''}${(meanLead * 100).fixed(2)}%`;
+
+      const tbody = document.getElementById('table-body');
+      tbody.innerHTML = '';
+
+      if (!filtered.length) {
+        tbody.innerHTML = '<tr><td colspan="8" style="text-align: center; padding: 24px; color: var(--text-muted);">No images match current filter criteria.</td></tr>';
+        return;
+      }
+
+      filtered.forEach(item => {
+        const tr = document.createElement('tr');
+        const diffClass = item.f1_diff > 0 ? 'diff-pos' : (item.f1_diff < 0 ? 'diff-neg' : '');
+        const sign = item.f1_diff > 0 ? '+' : '';
+
+        let badgeClass = 'badge-branched';
+        if (item.category === 'Long_Elongated') badgeClass = 'badge-long';
+        else if (item.category === 'Thin_Fine_Fissure') badgeClass = 'badge-thin';
+
+        let winBadge = 'badge-tie';
+        if (item.winner === 'M4') winBadge = 'badge-m4';
+        else if (item.winner === 'M1') winBadge = 'badge-m1';
+
+        tr.innerHTML = `
+          <td><strong>${item.id}</strong></td>
+          <td><span class="badge ${badgeClass}">${item.category.replace(/_/g, ' ')}</span></td>
+          <td>${item.aspect_ratio}</td>
+          <td>${(item.area_fraction * 100).fixed(2)}%</td>
+          <td>${item.m1.f1.fixed(4)} <span style="color: var(--text-muted); font-size: 11px;">(${item.m1.recall.fixed(2)} / ${item.m1.precision.fixed(2)})</span></td>
+          <td>${item.m4.f1.fixed(4)} <span style="color: var(--text-muted); font-size: 11px;">(${item.m4.recall.fixed(2)} / ${item.m4.precision.fixed(2)})</span></td>
+          <td class="${diffClass}">${sign}${(item.f1_diff * 100).fixed(2)}%</td>
+          <td><span class="badge ${winBadge}">${item.winner}</span></td>
+        ;
+
+        tbody.appendChild(tr);
+      });
+    }
+
+    window.onload = init;
+  </script>
+</body>
+</html>

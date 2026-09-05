@@ -17,7 +17,8 @@ def compute_superpixels(image: np.ndarray, n_segments: int = 300, compactness: f
     Returns:
         np.ndarray: Integer mask indicating segment labels.
     """
-    segments = slic(image, n_segments=n_segments, compactness=compactness, sigma=sigma, start_label=start_label)
+    channel_axis = -1 if image.ndim == 3 else None
+    segments = slic(image, n_segments=n_segments, compactness=compactness, sigma=sigma, start_label=start_label, channel_axis=channel_axis)
     return segments
 
 def compute_and_cache_superpixels(image_path: str, output_dir: str, **kwargs) -> np.ndarray:

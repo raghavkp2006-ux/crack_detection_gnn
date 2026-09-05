@@ -1,0 +1,23 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+
+# Datasets & Processed Graphs (Large Binaries)
+DeepCrack/
+data/
+pipeline-crack-gnn/data/
+*.zip
+*.tar.gz
+
+# Operating System / Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

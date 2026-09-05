@@ -1,0 +1,35 @@
+data:
+  graph_dir: data/graphs/tits
+  train_ratio: 0.7
+  val_ratio: 0.15
+graph:
+  k: 8
+  sigma: 0.1
+labels:
+  threshold: 0.05
+model:
+  gnn_dropout: 0.3
+  gnn_layers: 2
+  heads: 4
+  hidden_dim: 64
+  in_dim: 15
+  num_freqs: 8
+  pe_dim: 32
+  transformer_dropout: 0.1
+  transformer_layers: 2
+  type: hybrid
+  use_pe: true
+output_dir: results/tits_M4_hybrid_full
+superpixels:
+  compactness: 10.0
+  n_segments: 300
+  sigma: 1.0
+training:
+  batch_size: 1
+  early_stopping_patience: 20
+  epochs: 100
+  grad_clip_norm: 1.0
+  lr: 0.0005
+  seed: 42
+  warmup_epochs: 3
+  weight_decay: 0.0005

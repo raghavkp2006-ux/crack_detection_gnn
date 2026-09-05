@@ -1,0 +1,27 @@
+data:
+  graph_dir: data/graphs/tits
+  train_ratio: 0.7
+  val_ratio: 0.15
+graph:
+  k: 8
+  sigma: 0.1
+labels:
+  threshold: 0.05
+model:
+  dropout: 0.3
+  hidden_dim: 64
+  in_dim: 15
+  num_layers: 8
+  type: deep_gnn
+output_dir: results/tits_M1_deep_gnn
+superpixels:
+  compactness: 10.0
+  n_segments: 300
+  sigma: 1.0
+training:
+  batch_size: 1
+  early_stopping_patience: 20
+  epochs: 100
+  lr: 0.0005
+  seed: 42
+  weight_decay: 0.0005
