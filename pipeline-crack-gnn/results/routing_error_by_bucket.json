@@ -1,0 +1,36 @@
+{
+  "overall": {
+    "total_n": 237,
+    "total_correct_routes": 189,
+    "error_rate": 0.2025
+  },
+  "by_bucket": {
+    "Long_Elongated": {
+      "n_images": 128,
+      "n_correctly_routed": 112,
+      "routing_accuracy": 0.875,
+      "routing_error_rate": 0.125,
+      "n_category_matched": 100,
+      "category_accuracy": 0.7812,
+      "category_error_rate": 0.2188
+    },
+    "Thin_Fine_Fissure": {
+      "n_images": 23,
+      "n_correctly_routed": 21,
+      "routing_accuracy": 0.913,
+      "routing_error_rate": 0.087,
+      "n_category_matched": 13,
+      "category_accuracy": 0.5652,
+      "category_error_rate": 0.4348
+    },
+    "Branched_Complex": {
+      "n_images": 86,
+      "n_correctly_routed": 56,
+      "routing_accuracy": 0.6512,
+      "routing_error_rate": 0.3488,
+      "n_category_matched": 56,
+      "category_accuracy": 0.6512,
+      "category_error_rate": 0.3488
+    }
+  }
+}
