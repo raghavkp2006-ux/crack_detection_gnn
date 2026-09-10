@@ -3,50 +3,142 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pipeline Crack GNN — Per-Image Model Comparison & Router Inspection</title>
+  <title>Pipeline Crack Detection — Multi-Model Dataset Browser & Live Testing</title>
   <style>
     :root {
-      --bg: #0f172a;
-      --card-bg: #1e293b;
-      --card-border: #334155;
+      --bg: #0b0f19;
+      --card-bg: #151d2e;
+      --card-bg-hover: #1e293b;
+      --card-border: #243247;
       --text: #f8fafc;
       --text-muted: #94a3b8;
       --accent: #38bdf8;
+      --accent-hover: #0284c7;
       --m1-color: #f59e0b;
+      --m2-color: #a855f7;
+      --m3-color: #ec4899;
       --m4-color: #10b981;
+      --dc-color: #818cf8;
       --danger: #ef4444;
+      --success: #22c55e;
     }
+    * { box-sizing: border-box; }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       background: var(--bg);
       color: var(--text);
       margin: 0;
       padding: 24px;
+      line-height: 1.5;
     }
     .header {
       margin-bottom: 24px;
       border-bottom: 1px solid var(--card-border);
       padding-bottom: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
     }
     .header h1 {
-      margin: 0 0 8px 0;
+      margin: 0 0 4px 0;
       font-size: 24px;
       color: var(--accent);
+      font-weight: 700;
     }
     .header p {
       margin: 0;
       color: var(--text-muted);
       font-size: 14px;
     }
+    .badge-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      background: rgba(34, 197, 94, 0.12);
+      color: var(--success);
+      font-size: 13px;
+      font-weight: 600;
+      border: 1px solid rgba(34, 197, 94, 0.25);
+    }
+    .pulse-dot {
+      width: 8px;
+      height: 8px;
+      background: var(--success);
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(1.3); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+    
+    .nav-tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 8px;
+    }
+    .tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 14px;
+      font-weight: 600;
+      padding: 8px 18px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .tab-btn:hover {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text);
+    }
+    .tab-btn.active {
+      background: var(--card-bg);
+      color: var(--accent);
+      border: 1px solid var(--card-border);
+    }
+
+    .summary-bar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 14px;
+      margin-bottom: 24px;
+    }
+    .stat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      padding: 14px 16px;
+      border-radius: 8px;
+    }
+    .stat-val {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--accent);
+      margin-top: 4px;
+    }
+    .label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+    }
+
     .controls {
       display: flex;
       flex-wrap: wrap;
-      gap: 16px;
+      gap: 14px;
       background: var(--card-bg);
       padding: 16px;
       border-radius: 8px;
       border: 1px solid var(--card-border);
-      margin-bottom: 24px;
+      margin-bottom: 20px;
       align-items: center;
     }
     .control-group {
@@ -54,52 +146,42 @@
       flex-direction: column;
       gap: 4px;
     }
-    label {
-      font-size: 12px;
+    .control-group label {
+      font-size: 11.5px;
       text-transform: uppercase;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.04em;
       color: var(--text-muted);
     }
     select, input {
-      background: #0f172a;
+      background: #0b0f19;
       border: 1px solid var(--card-border);
       color: var(--text);
       padding: 8px 12px;
       border-radius: 6px;
-      font-size: 14px;
+      font-size: 13.5px;
     }
+    select:focus, input:focus {
+      border-color: var(--accent);
+      outline: none;
+    }
+
     .badge {
-      padding: 4px 8px;
+      padding: 3px 8px;
       border-radius: 4px;
-      font-size: 12px;
+      font-size: 11.5px;
       font-weight: 600;
       display: inline-block;
+      white-space: nowrap;
     }
-    .badge-long { background: rgba(56, 189, 248, 0.2); color: #38bdf8; }
-    .badge-thin { background: rgba(244, 114, 182, 0.2); color: #f472b6; }
-    .badge-branched { background: rgba(168, 85, 247, 0.2); color: #c084fc; }
-    .badge-m4 { background: rgba(16, 185, 129, 0.2); color: var(--m4-color); }
+    .badge-long { background: rgba(56, 189, 248, 0.18); color: #38bdf8; }
+    .badge-thin { background: rgba(244, 114, 182, 0.18); color: #f472b6; }
+    .badge-branched { background: rgba(168, 85, 247, 0.18); color: #c084fc; }
     .badge-m1 { background: rgba(245, 158, 11, 0.2); color: var(--m1-color); }
+    .badge-m2 { background: rgba(168, 85, 247, 0.2); color: var(--m2-color); }
+    .badge-m3 { background: rgba(236, 72, 153, 0.2); color: var(--m3-color); }
+    .badge-m4 { background: rgba(16, 185, 129, 0.2); color: var(--m4-color); }
+    .badge-dc { background: rgba(129, 140, 248, 0.2); color: var(--dc-color); }
     .badge-tie { background: rgba(148, 163, 184, 0.2); color: var(--text-muted); }
-
-    .summary-bar {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 16px;
-      margin-bottom: 24px;
-    }
-    .stat-card {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      padding: 16px;
-      border-radius: 8px;
-    }
-    .stat-val {
-      font-size: 24px;
-      font-weight: 700;
-      color: var(--accent);
-      margin-top: 4px;
-    }
 
     table {
       width: 100%;
@@ -110,181 +192,723 @@
       border: 1px solid var(--card-border);
     }
     th, td {
-      padding: 12px 16px;
+      padding: 10px 12px;
       text-align: left;
       border-bottom: 1px solid var(--card-border);
-      font-size: 14px;
+      font-size: 13px;
     }
     th {
-      background: #1e293b;
+      background: #111827;
       color: var(--text-muted);
-      font-size: 12px;
+      font-size: 11px;
       text-transform: uppercase;
+      letter-spacing: 0.05em;
     }
     tr:hover {
-      background: rgba(255, 255, 255, 0.02);
+      background: rgba(255, 255, 255, 0.025);
+      cursor: pointer;
     }
-    .diff-pos { color: var(--m4-color); font-weight: 600; }
-    .diff-neg { color: var(--m1-color); font-weight: 600; }
+    .pagination {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 16px;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .page-controls {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+    }
+    .page-btn {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    .page-btn:hover:not(:disabled) {
+      background: var(--accent);
+      color: #0b0f19;
+    }
+    .page-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    /* Modal Inspection */
+    .modal-backdrop {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.78);
+      backdrop-filter: blur(4px);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .modal-backdrop.active { display: flex; }
+    .modal-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      max-width: 1050px;
+      width: 100%;
+      max-height: 92vh;
+      overflow-y: auto;
+      padding: 24px;
+      position: relative;
+    }
+    .modal-close {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      font-size: 24px;
+      cursor: pointer;
+    }
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+    .img-box {
+      background: #0b0f19;
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      overflow: hidden;
+      padding: 10px;
+      text-align: center;
+    }
+    .img-box img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+      display: block;
+      margin: 8px 0;
+    }
+    .model-metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 12px;
+      margin: 16px 0;
+    }
+    .model-box {
+      background: #0b0f19;
+      border: 1px solid var(--card-border);
+      border-radius: 6px;
+      padding: 12px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .model-box:hover {
+      border-color: rgba(56, 189, 248, 0.4);
+    }
+    .model-box.active {
+      border-color: var(--accent);
+      box-shadow: 0 0 10px rgba(56, 189, 248, 0.2);
+    }
+    
+    /* Upload view */
+    .upload-zone {
+      border: 2px dashed var(--card-border);
+      border-radius: 12px;
+      padding: 40px 20px;
+      text-align: center;
+      background: var(--card-bg);
+      cursor: pointer;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+    .upload-zone:hover {
+      border-color: var(--accent);
+    }
+    .btn {
+      background: var(--accent);
+      color: #0b0f19;
+      padding: 10px 22px;
+      font-weight: 700;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .btn:hover {
+      background: var(--accent-hover);
+    }
+    .btn-secondary {
+      background: #1e293b;
+      color: var(--text);
+      border: 1px solid var(--card-border);
+      padding: 6px 12px;
+      font-size: 12px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .btn-secondary:hover {
+      background: #334155;
+    }
+    .spinner {
+      border: 3px solid rgba(255,255,255,0.1);
+      border-top: 3px solid var(--accent);
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      animation: spin 1s linear infinite;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
   </style>
 </head>
 <body>
   <div class="header">
-    <h1>Pipeline Crack GNN — Model Disagreement & Router Dashboard</h1>
-    <p>Interactive inspection of Wuhan DeepCrack Holdout Benchmark (N=237 images) comparing M4 (Hybrid Full PE) vs. M1 (Deep GNN 8L)</p>
-  </div>
-
-  <div class="summary-bar">
-    <div class="stat-card">
-      <div class="label">Showing Images</div>
-      <div class="stat-val" id="stat-count">0 / 237</div>
+    <div>
+      <h1>Pipeline Crack Detection — Dataset Browser & Live Testing</h1>
+      <p>Holdout DeepCrack Benchmark (N=237 Images) & Live On-The-Fly Inference across M1–M4 & DeepCrack Baseline</p>
     </div>
-    <div class="stat-card">
-      <div class="label">M4 Wins (F1 Lead &ge; 5%)</div>
-      <div class="stat-val" id="stat-m4-wins" style="color: var(--m4-color);">0</div>
-    </div>
-    <div class="stat-card">
-      <div class="label">M1 Wins (F1 Lead &ge; 5%)</div>
-      <div class="stat-val" id="stat-m1-wins" style="color: var(--m1-color);">0</div>
-    </div>
-    <div class="stat-card">
-      <div class="label">Mean F1 Advantage (Filtered)</div>
-      <div class="stat-val" id="stat-mean-lead">+0.00%</div>
+    <div class="badge-status">
+      <div class="pulse-dot"></div>
+      Backend Engine Active (FastAPI + PyTorch GPU)
     </div>
   </div>
 
-  <div class="controls">
-    <div class="control-group">
-      <label>Filter View</label>
-      <select id="filter-view" onchange="render()">
-        <option value="disagree" selected>Models Disagree (|F1 Diff| &ge; 0.15) [Router Opportunities]</option>
-        <option value="all">All Images (N=237)</option>
-        <option value="m4-wins">M4 Wins Only</option>
-        <option value="m1-wins">M1 Wins Only</option>
-      </select>
+  <div class="nav-tabs">
+    <button class="tab-btn active" id="tab-benchmark-btn" onclick="switchTab('benchmark')">Full Dataset Browser (N=237)</button>
+    <button class="tab-btn" id="tab-upload-btn" onclick="switchTab('upload')">Live Upload & Multi-Model Inference</button>
+  </div>
+
+  <!-- BENCHMARK TAB -->
+  <div id="tab-benchmark">
+    <div class="summary-bar">
+      <div class="stat-card">
+        <div class="label">Total Test Images</div>
+        <div class="stat-val" id="stat-count">0 / 237</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">M4 Top Model</div>
+        <div class="stat-val" id="stat-m4-wins" style="color: var(--m4-color);">0</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">DeepCrack Top</div>
+        <div class="stat-val" id="stat-dc-wins" style="color: var(--dc-color);">0</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">M1 Top Model</div>
+        <div class="stat-val" id="stat-m1-wins" style="color: var(--m1-color);">0</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Disagreement Subset</div>
+        <div class="stat-val" id="stat-disagrees" style="color: var(--accent);">0</div>
+      </div>
     </div>
 
-    <div class="control-group">
-      <label>Morphology Bucket</label>
-      <select id="filter-cat" onchange="render()">
-        <option value="all">All Morphologies</option>
-        <option value="Long_Elongated">Long / Elongated (N=55)</option>
-        <option value="Thin_Fine_Fissure">Thin / Fine Fissure (N=84)</option>
-        <option value="Branched_Complex">Branched / Complex (N=98)</option>
-      </select>
+    <div class="controls">
+      <div class="control-group">
+        <label>Dataset Filter View</label>
+        <select id="filter-view" onchange="applyFilters()">
+          <option value="all" selected>All Dataset Images (N=237)</option>
+          <option value="disagree">M4 vs M1 Disagreements (|&Delta;F1| &ge; 0.15)</option>
+          <option value="m4-wins">M4 Dominates</option>
+          <option value="dc-wins">DeepCrack Dominates</option>
+          <option value="m1-wins">M1 Dominates</option>
+          <option value="m2-best">M2 Shallow Best</option>
+        </select>
+      </div>
+
+      <div class="control-group">
+        <label>Morphology Category</label>
+        <select id="filter-cat" onchange="applyFilters()">
+          <option value="all">All Morphologies</option>
+          <option value="Long_Elongated">Long / Longitudinal (M4 Preferred)</option>
+          <option value="Branched_Complex">Branched / Web (M1 Preferred)</option>
+          <option value="Thin_Fine_Fissure">Thin / Fine Fissures</option>
+        </select>
+      </div>
+
+      <div class="control-group">
+        <label>Sort By</label>
+        <select id="sort-by" onchange="applyFilters()">
+          <option value="id" selected>Image ID</option>
+          <option value="best-f1">Top Achieved F1 (High &rarr; Low)</option>
+          <option value="diff-desc">M4 vs M1 Lead (High &rarr; Low)</option>
+          <option value="diff-asc">M1 vs M4 Lead (High &rarr; Low)</option>
+          <option value="abs-diff">Disagreement Severity</option>
+        </select>
+      </div>
+
+      <div class="control-group">
+        <label>Jump to Image ID</label>
+        <input type="text" id="search-id" placeholder="e.g. 111212-1" oninput="applyFilters()">
+      </div>
+
+      <div class="control-group">
+        <label>Per Page</label>
+        <select id="per-page" onchange="changePerPage()">
+          <option value="25" selected>25 per page</option>
+          <option value="50">50 per page</option>
+          <option value="100">100 per page</option>
+          <option value="all">Show All</option>
+        </select>
+      </div>
     </div>
 
-    <div class="control-group">
-      <label>Sort By</label>
-      <select id="sort-by" onchange="render()">
-        <option value="diff-desc">F1 Lead (M4 - M1) High &rarr; Low</option>
-        <option value="diff-asc">F1 Lead (M4 - M1) Low &rarr; High</option>
-        <option value="abs-diff">Absolute Disagreement High &rarr; Low</option>
-        <option value="id">Image ID</option>
-      </select>
-    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Image ID</th>
+          <th>Morphology</th>
+          <th>Aspect Ratio</th>
+          <th>Area Frac</th>
+          <th>M1 (Deep 8L)</th>
+          <th>M2 (Shallow 2L)</th>
+          <th>M3 (No PE)</th>
+          <th>M4 (Full PE)</th>
+          <th>DeepCrack (Liu 2019)</th>
+          <th>Router Pick</th>
+          <th>Best Model</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
 
-    <div class="control-group">
-      <label>Search Image ID</label>
-      <input type="text" id="search-id" placeholder="e.g. 1001" oninput="render()">
+    <div class="pagination">
+      <div id="page-info" style="color: var(--text-muted); font-size: 13px;">Showing 1-25 of 237</div>
+      <div class="page-controls">
+        <button class="page-btn" id="btn-prev" onclick="prevPage()">&larr; Prev</button>
+        <span id="page-num" style="padding: 0 8px; font-weight: 600;">1 / 10</span>
+        <button class="page-btn" id="btn-next" onclick="nextPage()">Next &rarr;</button>
+      </div>
     </div>
   </div>
 
-  <table>
-    <thead>
-      <tr>
-        <th>Image ID</th>
-        <th>Category</th>
-        <th>Aspect Ratio</th>
-        <th>Area Frac</th>
-        <th>M1 F1 (Rec / Prec)</th>
-        <th>M4 F1 (Rec / Prec)</th>
-        <th>F1 Lead (M4 - M1)</th>
-        <th>Best Architecture</th>
-      </tr>
-    </thead>
-    <tbody id="table-body"></tbody>
-  </table>
+  <!-- UPLOAD TAB -->
+  <div id="tab-upload" style="display: none;">
+    <div class="upload-zone" onclick="document.getElementById('file-input').click()">
+      <h3 style="margin-top:0; color: var(--accent);">Upload Pipe Surface Scan for Real-Time Segmentation</h3>
+      <p style="color: var(--text-muted); margin-bottom: 16px;">Drag and drop or select high-resolution pipeline inspection image (JPG, PNG, TIFF)</p>
+      <input type="file" id="file-input" style="display:none;" accept="image/*" onchange="handleFileSelect(event)">
+      <button class="btn" type="button">Select Image File</button>
+    </div>
+
+    <div class="controls">
+      <div class="control-group">
+        <label>Select Execution Model</label>
+        <select id="upload-model">
+          <option value="M4" selected>M4 (Hybrid Full PE - Recommended)</option>
+          <option value="DeepCrack">DeepCrack (Liu et al. 2019, Pixel CNN)</option>
+          <option value="M1">M1 (Deep GNN 8L)</option>
+          <option value="M2">M2 (Shallow GNN 2L - Micro Rover)</option>
+          <option value="M3">M3 (Hybrid No PE)</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label>Operating Threshold (&tau;)</label>
+        <input type="number" id="upload-tau" placeholder="Default (Calibrated)" step="0.02" min="0.1" max="0.95">
+      </div>
+      <button class="btn" style="margin-top: 18px;" onclick="runUploadInference()">Execute Live Inference</button>
+    </div>
+
+    <!-- Loading State -->
+    <div id="upload-loading" style="display: none; background: var(--card-bg); border: 1px solid var(--card-border); padding: 24px; border-radius: 8px; text-align: center; margin-bottom: 24px;">
+      <div class="spinner"></div>
+      <span style="font-size: 15px; font-weight: 600; color: var(--accent);">Processing Image: Running SLIC / Feature Extraction / Neural Inference...</span>
+      <p style="color: var(--text-muted); font-size: 13px; margin: 8px 0 0 0;">Building graph topology and computing edge convolutions on GPU...</p>
+    </div>
+
+    <!-- Results Panel -->
+    <div id="upload-results" style="display: none; margin-top: 24px;">
+      <div class="summary-bar" id="upload-stats"></div>
+
+      <div style="background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 8px; padding: 16px; margin-bottom: 20px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+          <h3 style="margin: 0; color: var(--accent); font-size: 16px;">Quick Switch Model on this Scan:</h3>
+          <div style="display: flex; gap: 8px;">
+            <button class="btn-secondary" onclick="reRunUpload('M4')">Switch to M4</button>
+            <button class="btn-secondary" onclick="reRunUpload('DeepCrack')">Switch to DeepCrack</button>
+            <button class="btn-secondary" onclick="reRunUpload('M1')">Switch to M1</button>
+            <button class="btn-secondary" onclick="reRunUpload('M2')">Switch to M2</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="image-grid" id="upload-images"></div>
+      <div class="model-metrics-grid" id="upload-models-breakdown"></div>
+    </div>
+  </div>
+
+  <!-- INSPECT MODAL -->
+  <div class="modal-backdrop" id="inspect-modal" onclick="closeModal(event)">
+    <div class="modal-card" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal()">&times;</button>
+      <h2 id="modal-title" style="margin-top: 0; color: var(--accent);">Holdout Inspection</h2>
+      <div id="modal-meta" style="color: var(--text-muted); font-size: 13.5px; margin-bottom: 16px;"></div>
+
+      <div class="controls" style="margin-bottom: 16px; padding: 12px;">
+        <div class="control-group">
+          <label>Overlay Prediction Model</label>
+          <select id="modal-model-select" onchange="reloadModal()">
+            <option value="M4">M4 (Hybrid Full PE)</option>
+            <option value="DeepCrack">DeepCrack (Liu et al. 2019)</option>
+            <option value="M1">M1 (Deep GNN 8L)</option>
+            <option value="M2">M2 (Shallow GNN 2L)</option>
+            <option value="M3">M3 (Hybrid No PE)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label>Tune Operating Threshold (&tau;)</label>
+          <input type="number" id="modal-tau" step="0.02" min="0.1" max="0.95" placeholder="Default" onchange="reloadModal()">
+        </div>
+      </div>
+
+      <div class="model-metrics-grid" id="modal-metrics"></div>
+
+      <div class="image-grid">
+        <div class="img-box">
+          <div class="label">Original Inspection Scan</div>
+          <img id="modal-img-orig" alt="Original">
+        </div>
+        <div class="img-box">
+          <div class="label" id="modal-pred-label">Prediction Overlay</div>
+          <img id="modal-img-pred" alt="Prediction Overlay">
+        </div>
+        <div class="img-box" id="modal-gt-box">
+          <div class="label">Ground Truth Defect Mask</div>
+          <img id="modal-img-gt" alt="Ground Truth">
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script>
     let rawData = [];
+    let filteredData = [];
+    let currentPage = 1;
+    let itemsPerPage = 25;
+    let currentModalId = null;
+    let selectedUploadFile = null;
 
     async function init() {
       try {
-        const resp = await fetch('predictions_data.json');
+        let resp;
+        try {
+          resp = await fetch('/api/telemetry');
+        } catch (_) {
+          resp = await fetch('predictions_data.json');
+        }
+        if (!resp.ok) resp = await fetch('predictions_data.json');
         rawData = await resp.json();
-        render();
+        applyFilters();
       } catch (e) {
-        document.getElementById('table-body').innerHTML = `<tr><td colspan="8" style="color: var(--danger); text-align: center; padding: 24px;">Failed to load predictions_data.json: ${e.message}</td></tr>`;
+        document.getElementById('table-body').innerHTML = `<tr><td colspan="12" style="color: var(--danger); text-align: center; padding: 24px;">Failed to load telemetry data: ${e.message}</td></tr>`;
       }
     }
 
-    function render() {
+    function switchTab(tab) {
+      document.getElementById('tab-benchmark').style.display = tab === 'benchmark' ? 'block' : 'none';
+      document.getElementById('tab-upload').style.display = tab === 'upload' ? 'block' : 'none';
+      document.getElementById('tab-benchmark-btn').classList.toggle('active', tab === 'benchmark');
+      document.getElementById('tab-upload-btn').classList.toggle('active', tab === 'upload');
+    }
+
+    function applyFilters() {
       const view = document.getElementById('filter-view').value;
       const cat = document.getElementById('filter-cat').value;
       const sortBy = document.getElementById('sort-by').value;
       const search = document.getElementById('search-id').value.trim().toLowerCase();
 
-      let filtered = rawData.filter(item => {
+      filteredData = rawData.filter(item => {
         if (view === 'disagree' && !item.disagree) return false;
         if (view === 'm4-wins' && item.winner !== 'M4') return false;
+        if (view === 'dc-wins' && item.best_model !== 'DeepCrack') return false;
         if (view === 'm1-wins' && item.winner !== 'M1') return false;
+        if (view === 'm2-best' && item.best_model !== 'M2') return false;
         if (cat !== 'all' && item.category !== cat) return false;
         if (search && !item.id.toLowerCase().includes(search)) return false;
         return true;
       });
 
-      filtered.sort((a, b) => {
+      filteredData.sort((a, b) => {
         if (sortBy === 'diff-desc') return b.f1_diff - a.f1_diff;
         if (sortBy === 'diff-asc') return a.f1_diff - b.f1_diff;
         if (sortBy === 'abs-diff') return b.abs_diff - a.abs_diff;
-        if (sortBy === 'id') return a.id.localeCompare(b.id);
+        if (sortBy === 'best-f1') return (b.best_f1 || 0) - (a.best_f1 || 0);
+        if (sortBy === 'id') return a.id.localeCompare(b.id, undefined, { numeric: true });
         return 0;
       });
 
-      document.getElementById('stat-count').innerText = `${filtered.length} / ${rawData.length}`;
-      const m4Wins = filtered.filter(x => x.winner === 'M4').length;
-      const m1Wins = filtered.filter(x => x.winner === 'M1').length;
-      document.getElementById('stat-m4-wins').innerText = m4Wins;
-      document.getElementById('stat-m1-wins').innerText = m1Wins;
+      // Update Summary Bar
+      document.getElementById('stat-count').innerText = `${filteredData.length} / ${rawData.length}`;
+      document.getElementById('stat-m4-wins').innerText = rawData.filter(x => x.best_model === 'M4' || x.winner === 'M4').length;
+      document.getElementById('stat-dc-wins').innerText = rawData.filter(x => x.best_model === 'DeepCrack').length;
+      document.getElementById('stat-m1-wins').innerText = rawData.filter(x => x.best_model === 'M1' || x.winner === 'M1').length;
+      document.getElementById('stat-disagrees').innerText = rawData.filter(x => x.disagree).length;
 
-      const meanLead = filtered.length ? (filtered.reduce((acc, x) => acc + x.f1_diff, 0) / filtered.length) : 0;
-      document.getElementById('stat-mean-lead').innerText = `${meanLead >= 0 ? '+' : ''}${(meanLead * 100).fixed(2)}%`;
+      currentPage = 1;
+      renderTable();
+    }
 
+    function changePerPage() {
+      const val = document.getElementById('per-page').value;
+      itemsPerPage = val === 'all' ? filteredData.length : parseInt(val, 10);
+      currentPage = 1;
+      renderTable();
+    }
+
+    function prevPage() {
+      if (currentPage > 1) {
+        currentPage--;
+        renderTable();
+      }
+    }
+
+    function nextPage() {
+      const maxPage = Math.ceil(filteredData.length / itemsPerPage);
+      if (currentPage < maxPage) {
+        currentPage++;
+        renderTable();
+      }
+    }
+
+    function renderTable() {
       const tbody = document.getElementById('table-body');
       tbody.innerHTML = '';
 
-      if (!filtered.length) {
-        tbody.innerHTML = '<tr><td colspan="8" style="text-align: center; padding: 24px; color: var(--text-muted);">No images match current filter criteria.</td></tr>';
+      if (!filteredData.length) {
+        tbody.innerHTML = '<tr><td colspan="12" style="text-align: center; padding: 24px; color: var(--text-muted);">No images match your search or filter criteria.</td></tr>';
+        document.getElementById('page-info').innerText = '0 of 0';
+        document.getElementById('page-num').innerText = '1 / 1';
         return;
       }
 
-      filtered.forEach(item => {
+      const totalItems = filteredData.length;
+      const totalPages = Math.max(1, Math.ceil(totalItems / itemsPerPage));
+      const startIdx = (currentPage - 1) * itemsPerPage;
+      const endIdx = Math.min(startIdx + itemsPerPage, totalItems);
+
+      document.getElementById('page-info').innerText = `Showing ${startIdx + 1}–${endIdx} of ${totalItems} images`;
+      document.getElementById('page-num').innerText = `${currentPage} / ${totalPages}`;
+      document.getElementById('btn-prev').disabled = currentPage <= 1;
+      document.getElementById('btn-next').disabled = currentPage >= totalPages;
+
+      const pageItems = filteredData.slice(startIdx, endIdx);
+
+      pageItems.forEach(item => {
         const tr = document.createElement('tr');
-        const diffClass = item.f1_diff > 0 ? 'diff-pos' : (item.f1_diff < 0 ? 'diff-neg' : '');
-        const sign = item.f1_diff > 0 ? '+' : '';
+        tr.onclick = () => openInspect(item.id);
 
         let badgeClass = 'badge-branched';
         if (item.category === 'Long_Elongated') badgeClass = 'badge-long';
         else if (item.category === 'Thin_Fine_Fissure') badgeClass = 'badge-thin';
 
-        let winBadge = 'badge-tie';
-        if (item.winner === 'M4') winBadge = 'badge-m4';
-        else if (item.winner === 'M1') winBadge = 'badge-m1';
+        const m1F1 = item.m1 ? item.m1.f1.toFixed(4) : '-';
+        const m2F1 = item.m2 ? item.m2.f1.toFixed(4) : '-';
+        const m3F1 = item.m3 ? item.m3.f1.toFixed(4) : '-';
+        const m4F1 = item.m4 ? item.m4.f1.toFixed(4) : '-';
+        const dcF1 = item.deepcrack ? item.deepcrack.f1.toFixed(4) : '-';
+
+        const best = item.best_model || item.winner;
+        let bestBadge = 'badge-m4';
+        if (best === 'M1') bestBadge = 'badge-m1';
+        else if (best === 'M2') bestBadge = 'badge-m2';
+        else if (best === 'M3') bestBadge = 'badge-m3';
+        else if (best === 'DeepCrack') bestBadge = 'badge-dc';
+        else if (best === 'Tie') bestBadge = 'badge-tie';
+
+        const routerPick = item.router ? item.router.recommended : (item.category === 'Branched_Complex' ? 'M1' : 'M4');
 
         tr.innerHTML = `
           <td><strong>${item.id}</strong></td>
           <td><span class="badge ${badgeClass}">${item.category.replace(/_/g, ' ')}</span></td>
           <td>${item.aspect_ratio}</td>
-          <td>${(item.area_fraction * 100).fixed(2)}%</td>
-          <td>${item.m1.f1.fixed(4)} <span style="color: var(--text-muted); font-size: 11px;">(${item.m1.recall.fixed(2)} / ${item.m1.precision.fixed(2)})</span></td>
-          <td>${item.m4.f1.fixed(4)} <span style="color: var(--text-muted); font-size: 11px;">(${item.m4.recall.fixed(2)} / ${item.m4.precision.fixed(2)})</span></td>
-          <td class="${diffClass}">${sign}${(item.f1_diff * 100).fixed(2)}%</td>
-          <td><span class="badge ${winBadge}">${item.winner}</span></td>
-        ;
+          <td>${(item.area_fraction * 100).toFixed(2)}%</td>
+          <td>${m1F1}</td>
+          <td>${m2F1}</td>
+          <td>${m3F1}</td>
+          <td><strong style="color: var(--m4-color);">${m4F1}</strong></td>
+          <td><strong style="color: var(--dc-color);">${dcF1}</strong></td>
+          <td><span class="badge ${routerPick === 'M4' ? 'badge-m4' : 'badge-m1'}">${routerPick}</span></td>
+          <td><span class="badge ${bestBadge}">${best}</span></td>
+          <td><button class="tab-btn" style="padding: 3px 8px; font-size: 11.5px; background: rgba(56,189,248,0.12); color: var(--accent);">Inspect &rarr;</button></td>
+        `;
 
         tbody.appendChild(tr);
       });
+    }
+
+    async function openInspect(imageId) {
+      currentModalId = imageId;
+      document.getElementById('inspect-modal').classList.add('active');
+      document.getElementById('modal-title').innerText = `Holdout Inspection: Image ${imageId}`;
+      await reloadModal();
+    }
+
+    async function reloadModal() {
+      if (!currentModalId) return;
+      const model = document.getElementById('modal-model-select').value;
+      const tau = document.getElementById('modal-tau').value;
+
+      let url = `/api/inspect/${currentModalId}?model=${model}`;
+      if (tau) url += `&tau=${tau}`;
+
+      try {
+        const resp = await fetch(url);
+        if (!resp.ok) throw new Error(await resp.text());
+        const data = await resp.json();
+
+        document.getElementById('modal-meta').innerHTML = `
+          <strong>Category:</strong> ${data.category.replace(/_/g, ' ')} &nbsp;|&nbsp; 
+          <strong>Aspect Ratio:</strong> ${data.aspect_ratio} &nbsp;|&nbsp; 
+          <strong>Area Fraction:</strong> ${(data.area_fraction * 100).toFixed(2)}% &nbsp;|&nbsp; 
+          <strong>Superpixels:</strong> ${data.num_nodes} &nbsp;|&nbsp; 
+          <strong>Router Pick:</strong> <span class="badge badge-m4">${data.router_recommendation}</span>
+        `;
+
+        document.getElementById('modal-pred-label').innerText = `${model} Predicted Defect Overlay`;
+
+        // Render model cards
+        const mGrid = document.getElementById('modal-metrics');
+        mGrid.innerHTML = '';
+        for (const [mKey, mData] of Object.entries(data.model_comparison)) {
+          const isAct = mKey === model;
+          let col = isAct ? 'var(--accent)' : 'var(--text)';
+          if (mKey === 'DeepCrack') col = 'var(--dc-color)';
+          else if (mKey === 'M4') col = 'var(--m4-color)';
+
+          mGrid.innerHTML += `
+            <div class="model-box ${isAct ? 'active' : ''}" onclick="selectModalModel('${mKey}')">
+              <div class="label">${mKey} (&tau;=${mData.threshold})</div>
+              <div style="font-size: 17px; font-weight: 700; color: ${col}; margin: 4px 0;">F1: ${mData.f1}</div>
+              <div style="font-size: 11.5px; color: var(--text-muted);">Rec: ${mData.recall} | Prec: ${mData.precision}</div>
+            </div>
+          `;
+        }
+
+        // Render Images
+        document.getElementById('modal-img-orig').src = data.images.original;
+        document.getElementById('modal-img-pred').src = data.images.prediction_overlay;
+        if (data.images.ground_truth) {
+          document.getElementById('modal-gt-box').style.display = 'block';
+          document.getElementById('modal-img-gt').src = data.images.ground_truth;
+        } else {
+          document.getElementById('modal-gt-box').style.display = 'none';
+        }
+
+      } catch (err) {
+        alert('Inspection error: ' + err.message);
+      }
+    }
+
+    function selectModalModel(modelKey) {
+      document.getElementById('modal-model-select').value = modelKey;
+      reloadModal();
+    }
+
+    function closeModal(e) {
+      if (e && e.target !== document.getElementById('inspect-modal')) return;
+      document.getElementById('inspect-modal').classList.remove('active');
+      currentModalId = null;
+    }
+
+    function handleFileSelect(e) {
+      if (e.target.files && e.target.files[0]) {
+        selectedUploadFile = e.target.files[0];
+        document.querySelector('.upload-zone h3').innerText = `Selected File: ${selectedUploadFile.name}`;
+      }
+    }
+
+    async function runUploadInference(forceModel = null) {
+      if (!selectedUploadFile) {
+        alert('Please select an image file to upload first.');
+        return;
+      }
+      const model = forceModel || document.getElementById('upload-model').value;
+      if (forceModel) {
+        document.getElementById('upload-model').value = forceModel;
+      }
+      const tau = document.getElementById('upload-tau').value;
+
+      const fd = new FormData();
+      fd.append('file', selectedUploadFile);
+      fd.append('model', model);
+      if (tau) fd.append('tau', tau);
+
+      document.getElementById('upload-loading').style.display = 'block';
+      document.getElementById('upload-results').style.display = 'none';
+
+      try {
+        const resp = await fetch('/segment-crack', { method: 'POST', body: fd });
+        if (!resp.ok) {
+          const errData = await resp.json().catch(() => ({ detail: resp.statusText }));
+          throw new Error(errData.detail || 'Segmentation server error');
+        }
+        const data = await resp.json();
+        document.getElementById('upload-loading').style.display = 'none';
+        document.getElementById('upload-results').style.display = 'block';
+
+        // Render Stats
+        document.getElementById('upload-stats').innerHTML = `
+          <div class="stat-card">
+            <div class="label">Total Processing Time</div>
+            <div class="stat-val">${data.timing.total_sec}s</div>
+          </div>
+          <div class="stat-card">
+            <div class="label">Inference Model</div>
+            <div class="stat-val" style="color: var(--accent);">${data.model}</div>
+          </div>
+          <div class="stat-card">
+            <div class="label">Defect Area Fraction</div>
+            <div class="stat-val">${(data.metrics.crack_area_fraction * 100).toFixed(2)}%</div>
+          </div>
+          <div class="stat-card">
+            <div class="label">Morphology Classification</div>
+            <div class="stat-val" style="font-size: 17px;">${data.metrics.morphology_bucket.replace(/_/g, ' ')}</div>
+          </div>
+        `;
+
+        // Render Images
+        document.getElementById('upload-images').innerHTML = `
+          <div class="img-box">
+            <div class="label">Uploaded Inspection Scan (${data.image_dimensions[1]}x${data.image_dimensions[0]})</div>
+            <img src="${data.images.original}">
+          </div>
+          <div class="img-box">
+            <div class="label">${data.model} Predicted Defect Overlay (Aspect Ratio: ${data.metrics.aspect_ratio})</div>
+            <img src="${data.images.prediction_overlay}">
+          </div>
+        `;
+
+        // Multi-Model comparison cards
+        const mBreakdown = document.getElementById('upload-models-breakdown');
+        mBreakdown.innerHTML = '';
+        for (const [mKey, mData] of Object.entries(data.results)) {
+          const isAct = mKey === model;
+          mBreakdown.innerHTML += `
+            <div class="model-box ${isAct ? 'active' : ''}">
+              <div class="label">${mKey} Prediction (&tau;=${mData.threshold})</div>
+              <div style="font-size: 16px; font-weight: 700; color: ${isAct ? 'var(--accent)' : 'var(--text)'}; margin: 4px 0;">Defect Fraction: ${(mData.defect_fraction * 100).toFixed(2)}%</div>
+              <div style="font-size: 12px; color: var(--text-muted);">Defects: ${mData.defect_nodes || mData.defect_pixels} units</div>
+            </div>
+          `;
+        }
+
+      } catch (err) {
+        document.getElementById('upload-loading').style.display = 'none';
+        alert('Upload Inference Failed: ' + err.message);
+      }
+    }
+
+    function reRunUpload(modelName) {
+      runUploadInference(modelName);
     }
 
     window.onload = init;

@@ -137,6 +137,11 @@ All metrics and tables in this report are directly regeneratable from reproducib
 - `analyze_tits_modality_significance.py` $\rightarrow$ `results/tits_modality_significance.json`
 - `run_noncircular_router_validation.py` $\rightarrow$ `results/router_per_image_categories.json`
 - `analyze_routing_error_by_bucket.py` $\rightarrow$ `results/routing_error_by_bucket.json`
+- `eval_deepcrack_baseline.py` $\rightarrow$ `results/deepcrack_baseline_evaluation.json` (DeepCrack node-level evaluation with superpixel aggregation verification)
+- `train_deepcrack_multiseed.py` $\rightarrow$ `results/multiseed/deepcrack/deepcrack_multiseed_summary.json` (5-seed DeepCrack training & evaluation)
+- `run_deepcrack_comparative_analysis.py` $\rightarrow$ `results/deepcrack_comparison_master.json` (statistical tests, morphology buckets, TITS transfer)
 - `results/tits_multidraw_calibration.json` (10-draw calibration stability records)
-- `results/multiseed/multiseed_summary.json` (5-seed benchmark records)
+- `results/multiseed/multiseed_summary.json` (5-seed GNN benchmark records)
+- `model_comparison_FINAL.csv` (Final frozen efficiency, model/E2E latency, clDice, and connectivity ratio records)
 - `dashboard/index.html` & `dashboard/predictions_data.json` (Interactive Visual Telemetry)
+

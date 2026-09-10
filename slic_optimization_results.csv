@@ -1,0 +1,6 @@
+Configuration,n_segments,enforce_connectivity,SLIC_Latency_ms,SLIC_Latency_IQR_ms,Downstream_clDice,Downstream_Micro_CR,Downstream_Macro_CR,Notes
+"n_segments=300, enforce_connectivity=True (Default)",300,True,51.77,2.77,0.6182,0.2661,0.2755,Standard pipeline setting
+"n_segments=300, enforce_connectivity=False",300,False,45.36,5.98,0.7407,0.2994,0.2904,"6.41ms faster SLIC, preserves tiny disconnected components"
+"n_segments=200, enforce_connectivity=True",200,True,42.28,3.03,0.5732,0.2681,0.3215,Noticeable clDice drop (-0.0450)
+"n_segments=150, enforce_connectivity=True",150,True,41.31,2.78,0.5406,0.249,0.3196,Severe clDice degradation (-0.0776)
+"n_segments=100, enforce_connectivity=True",100,True,41.2,2.78,0.4678,0.255,0.3877,Severe under-segmentation; fails thin crack boundaries

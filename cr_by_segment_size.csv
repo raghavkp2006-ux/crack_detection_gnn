@@ -1,0 +1,4 @@
+Size_Bucket,Total_Segments,M4_Preserved,M4_CR,DeepCrack_Preserved,DeepCrack_CR
+Small (<50px),167,21,0.1257,12,0.0719
+Medium (50-200px),274,89,0.3248,69,0.2518
+Large (>200px),551,187,0.3394,253,0.4592

@@ -1,0 +1,5 @@
+Model,SLIC_median_ms,SLIC_iqr_ms,Features_median_ms,Features_iqr_ms,Graph_median_ms,Graph_iqr_ms,Forward_median_ms,Forward_iqr_ms,Recon_median_ms,Recon_iqr_ms,E2E_median_ms,E2E_iqr_ms
+M1,41.9,2.52,10.78,0.79,8.79,1.08,3.92,0.79,0.7,0.04,66.87,5.48
+M2,41.22,1.97,10.7,0.55,8.72,0.93,1.52,0.43,0.69,0.05,63.27,4.57
+M3,43.98,3.08,11.28,0.99,9.36,1.3,3.14,2.48,0.62,0.07,69.51,5.61
+M4,44.45,3.28,11.24,0.99,9.46,1.42,3.47,1.31,0.71,0.06,70.11,6.17

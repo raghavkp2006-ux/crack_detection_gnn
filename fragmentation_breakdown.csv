@@ -1,0 +1,3 @@
+Model,Total_GT_Segments,Preserved_Count,Preserved_Pct,Missed_Count,Missed_Pct,Fragmented_Count,Fragmented_Pct
+M4 (Hybrid GNN),992,297,29.94,474,47.78,221,22.28
+DeepCrack (Pixel CNN),992,334,33.67,473,47.68,185,18.65
