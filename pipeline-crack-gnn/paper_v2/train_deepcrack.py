@@ -11,7 +11,8 @@ LAB = None
 TEST_STEMS = []
 OFF = None
 
-def node_probs(prob, seg):
+def node_probs(prob, seg, image_stem):
+    assert prob.shape == seg.shape, f'probability/segments shape mismatch on {image_stem}: {prob.shape} != {seg.shape}'
     lab, inv = np.unique(seg, return_inverse=True); inv = inv.reshape(-1)
     s = np.bincount(inv, weights=prob.reshape(-1), minlength=len(lab)); c = np.bincount(inv, minlength=len(lab))
     return (s / c).astype(np.float32)
@@ -33,10 +34,13 @@ class DS(torch.utils.data.Dataset):
 def predict(model, stems, split, dev):
     model.eval(); out = []
     for st in stems:
-        x, _ = DS([st], split, False)[0]
+        x, mask = DS([st], split, False)[0]
+        seg = get_segments(st, split)
+        if split == 'test':
+            assert tuple(mask.shape[-2:]) == seg.shape, f'ground-truth/segments shape mismatch on {st}: {tuple(mask.shape[-2:])} != {seg.shape}'
         with torch.autocast('cuda', dtype=torch.float16, enabled=dev.type == 'cuda'):
             fused, _ = model(x[None].to(dev))
-        p = node_probs(torch.sigmoid(fused.float())[0, 0].cpu().numpy(), get_segments(st, split))
+        p = node_probs(torch.sigmoid(fused.float())[0, 0].cpu().numpy(), seg, st)
         if split == 'train' and len(p) != len(VAL_Y[st]):
             raise ValueError(f'validation node-count mismatch on {st}')
         out.append(p)
@@ -59,7 +63,7 @@ def run_seed(seed, a, dev):
     ckpt = os.path.join(out, 'best_model.pt'); best, bad, t0 = -1, 0, time.time()
     yv = np.concatenate([VAL_Y[s] for s in vas])
     for ep in range(a.max_epochs):
-        epoch_start = time.time()
+        epoch_start = time.perf_counter()
         model.train()
         for x, y in dl:
             x, y = x.to(dev), y.to(dev); opt.zero_grad()
@@ -68,12 +72,29 @@ def run_seed(seed, a, dev):
             loss = cb_bce(fused.float(), y) + sum(cb_bce(s.float(), y) for s in sides)
             scaler.scale(loss).backward(); scaler.step(opt); scaler.update()
         f1 = f1_score(yv, np.concatenate(predict(model, vas, 'train', dev)) >= 0.5, zero_division=0)
-        if ep == 0: print(f'seed {seed} first epoch (including validation): {time.time() - epoch_start:.1f}s', flush=True)
+        epoch_seconds = time.perf_counter() - epoch_start
+        if ep == 0: print(f'seed {seed} first epoch (including validation): {epoch_seconds}s', flush=True)
         sched.step(f1); print(f'seed {seed} ep {ep+1} val node-F1@0.5 {f1:.4f}', flush=True)
         if f1 > best: best, bad = f1, 0; torch.save(model.state_dict(), ckpt)
         else:
             bad += 1
             if bad >= a.patience: break
+        # Operational review gate, enabled by the requested run's environment.
+        # This stops at an epoch boundary without changing training parameters.
+        limit = float(os.environ.get('PAPER_V2_FIRST_EPOCH_LIMIT_SECONDS', '0'))
+        if seed == SEEDS[0] and ep == 0 and limit > 0:
+            paused = epoch_seconds > limit
+            timing = dict(seed=seed, completed_epochs=ep + 1,
+                          first_epoch_including_validation_seconds=epoch_seconds,
+                          limit_seconds=limit, paused=paused,
+                          estimated_max_epochs_seconds_per_seed=epoch_seconds * a.max_epochs,
+                          estimated_max_epochs_seconds_all_seeds=epoch_seconds * a.max_epochs * len(SEEDS),
+                          max_epochs=a.max_epochs, patience=a.patience, batch_size=a.bs)
+            with open(os.path.join(OUT, 'deepcrack_first_epoch.json'), 'x') as f:
+                json.dump(timing, f, indent=2)
+            if paused:
+                print('PAUSED after seed 42 epoch 1: first epoch exceeded the requested limit.', flush=True)
+                raise SystemExit(0)
     model.load_state_dict(torch.load(ckpt, map_location=dev))
     pv = np.concatenate(predict(model, vas, 'train', dev))
     tau, bvf = 0.5, -1

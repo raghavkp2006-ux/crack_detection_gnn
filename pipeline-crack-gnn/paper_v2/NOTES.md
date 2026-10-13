@@ -146,3 +146,15 @@ make_tables.py have not been executed in this stage. On continuation use --bs 1,
 check the first epoch duration, and if over about 40 s reduce max_epochs and
 patience while retaining all five seeds, as authorized by the user.
 factorial_train.log and factorial_verify.log preserve the actual command output.
+
+## Shape guards and ordered continuation — 2026-10-13
+
+Step 1 adds image-stem-specific probability/segment and test-GT/segment shape
+assertions to CNN prediction, plus image/segment, node-count, and reconstructed
+mask assertions in graph benchmarking. Dense CNN benchmarking does not map
+through segments. Added an environment-enabled epoch-boundary timing gate
+(`PAPER_V2_FIRST_EPOCH_LIMIT_SECONDS=40`) to enforce the user's step 3 stop rule
+without changing max_epochs, patience, seeds, splits, or primary threshold grid.
+The gate records unrounded first-epoch timing and simple maximum-epoch runtime
+extrapolations in a new JSON file. No experiments run during this code step.
+PowerShell expands the .py paths explicitly because Python does not expand globs.

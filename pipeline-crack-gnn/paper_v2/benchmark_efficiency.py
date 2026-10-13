@@ -48,9 +48,10 @@ def dc_analytic_gmacs(model, H, W):
     return float((macs + H * W * 5) / 1e9)
 
 @torch.no_grad()
-def graph_once(img, model, mt, tau, dev):
+def graph_once(img, model, mt, tau, dev, image_stem):
     torch.cuda.synchronize(dev); t = [time.perf_counter()]
     seg = compute_superpixels(img, 300, 10.0, 1.0); t.append(time.perf_counter())
+    assert seg.shape == img.shape[:2], f'image/segments shape mismatch on {image_stem}: {img.shape[:2]} != {seg.shape}'
     f, c = extract_node_features(img, seg); t.append(time.perf_counter())
     ei, ew = symmetrize_graph(*build_pirm_graph(f, k=8)); t.append(time.perf_counter())
     x = torch.from_numpy(f).to(dev); e = torch.from_numpy(ei).long().to(dev); p = torch.from_numpy(c).to(dev)
@@ -58,7 +59,10 @@ def graph_once(img, model, mt, tau, dev):
     pr = torch.softmax(o, 1)[:, 1].cpu().numpy()
     torch.cuda.synchronize(dev); t.append(time.perf_counter())
     lab, inv = np.unique(seg, return_inverse=True)
-    mask = (pr >= np.float32(tau))[inv.reshape(seg.shape)]; t.append(time.perf_counter())
+    assert pr.shape == (len(lab),), f'node probabilities/segments mismatch on {image_stem}: {pr.shape} != {(len(lab),)}'
+    mask = (pr >= np.float32(tau))[inv.reshape(seg.shape)]
+    assert mask.shape == seg.shape, f'mask/segments shape mismatch on {image_stem}: {mask.shape} != {seg.shape}'
+    t.append(time.perf_counter())
     return np.diff(t) * 1e3
 
 def dc_input(img, dev):
@@ -123,12 +127,13 @@ def main():
         model.eval(); tau = load_probs(key, 42)[1]; stage = []
         R['telemetry'][f'start_{key}'] = smi()
         for it in range(WARM + NIT):
-            s = graph_once(IMGS[it % len(IMGS)], model, mt, tau, dev)
+            s = graph_once(IMGS[it % len(IMGS)], model, mt, tau, dev, stems[it % len(IMGS)])
             if it >= WARM: stage.append(s)
             if it == WARM + NIT // 2: R['telemetry'][f'mid_{key}'] = smi()
         stage = np.array(stage); e2e = stage.sum(1)
         # Compare both counters on exactly the same real preprocessed graph.
         seg = compute_superpixels(IMGS[0], 300, 10.0, 1.0)
+        assert seg.shape == IMGS[0].shape[:2], f'image/segments shape mismatch on {stems[0]}: {IMGS[0].shape[:2]} != {seg.shape}'
         ft, ce = extract_node_features(IMGS[0], seg); ei, _ = symmetrize_graph(*build_pirm_graph(ft, 8))
         X, EI, P = torch.from_numpy(ft).to(dev), torch.from_numpy(ei).long().to(dev), torch.from_numpy(ce).to(dev)
         fv, unsupported = fvcore_count(model, (X, EI, P) if mt == 'hybrid' else (X, EI))
