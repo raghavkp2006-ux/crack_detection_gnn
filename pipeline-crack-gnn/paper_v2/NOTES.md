@@ -103,3 +103,46 @@ cache pixel geometry/node alignment with CNN inference remains a later-run check
 created here: producing them would require running the deferred analyses/benchmark.
 Only dataset_stats.json, predict_check.json, test_labels.npz and the 20 verified
 probability NPZ files are committed as generated artifacts.
+
+## Prompt 2 graph stage — 2026-10-13
+
+Executed on the existing Python 3.11 CUDA environment / RTX 5050 Laptop GPU.
+Skipped dataset_stats.py and the initial predict_all.py as requested.
+Ran run_factorial.py sequentially for all 20 missing graph cells, then predict_all.py.
+All 40 graph runs passed the F1 verification gate; maximum absolute error = 0.00000000.
+All seeds, graph settings, split logic and validation threshold grid stayed unchanged.
+
+| Model | Seed | τ* | Validation F1 | Holdout node F1 | Train seconds |
+| --- | --- | --- | --- | --- | --- |
+| M1_focal | 42 | 0.50 | 0.6851 | 0.4925 | 89.5 |
+| M1_focal | 123 | 0.62 | 0.6864 | 0.7603 | 139.6 |
+| M1_focal | 456 | 0.46 | 0.7011 | 0.7525 | 101.5 |
+| M1_focal | 789 | 0.58 | 0.7067 | 0.7300 | 131.9 |
+| M1_focal | 2026 | 0.58 | 0.7147 | 0.7345 | 82.8 |
+| M2_wce | 42 | 0.90 | 0.7050 | 0.6894 | 43.3 |
+| M2_wce | 123 | 0.80 | 0.7440 | 0.7728 | 46.0 |
+| M2_wce | 456 | 0.82 | 0.7916 | 0.7242 | 46.1 |
+| M2_wce | 789 | 0.90 | 0.6398 | 0.7221 | 36.9 |
+| M2_wce | 2026 | 0.86 | 0.7452 | 0.7237 | 34.8 |
+| M3_wce | 42 | 0.90 | 0.5450 | 0.5546 | 57.6 |
+| M3_wce | 123 | 0.50 | 0.5181 | 0.5528 | 56.1 |
+| M3_wce | 456 | 0.52 | 0.7172 | 0.6387 | 113.8 |
+| M3_wce | 789 | 0.68 | 0.5229 | 0.6422 | 63.9 |
+| M3_wce | 2026 | 0.66 | 0.5911 | 0.5569 | 96.9 |
+| M4_wce | 42 | 0.52 | 0.7459 | 0.6260 | 69.8 |
+| M4_wce | 123 | 0.76 | 0.6780 | 0.7539 | 62.9 |
+| M4_wce | 456 | 0.38 | 0.7393 | 0.6781 | 92.4 |
+| M4_wce | 789 | 0.88 | 0.6637 | 0.7260 | 77.9 |
+| M4_wce | 2026 | 0.84 | 0.7418 | 0.7769 | 64.4 |
+
+Review flags: M1 focal seed 42 has holdout F1 0.4925 versus validation F1 0.6851;
+its inference exactly reproduces the training result. M2 WCE seeds 42 and 789,
+and M3 WCE seed 42 select τ*=0.90, the top of the unchanged grid.
+No test-driven retuning or seed dropping was performed.
+
+Paused at the user-requested review checkpoint before starting DeepCrack.
+train_deepcrack.py, analyze_main.py, topology.py, benchmark_efficiency.py and
+make_tables.py have not been executed in this stage. On continuation use --bs 1,
+check the first epoch duration, and if over about 40 s reduce max_epochs and
+patience while retaining all five seeds, as authorized by the user.
+factorial_train.log and factorial_verify.log preserve the actual command output.
