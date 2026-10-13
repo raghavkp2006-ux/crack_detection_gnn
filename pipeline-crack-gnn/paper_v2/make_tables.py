@@ -131,6 +131,11 @@ def main():
         lines += [f'- {c}' for c in claims] or ['- No quantitative sentences found; inspect manuscript section markup.']
     else:
         lines += ['- Exact abstract/conclusion text unavailable. Rerun with --paper /path/to/manuscript.tex to inventory every quantitative sentence; author review remains required.']
+    sensitivity_path = Path(OUT, 'sensitivity_tau.json')
+    if sensitivity_path.is_file():
+        lines += ['', '## 10. Validation-only threshold sensitivity', '',
+                  'Secondary sweep through 0.98; primary thresholds and results are unchanged.', '',
+                  '```json', sensitivity_path.read_text(encoding='utf-8').rstrip(), '```', '']
     text = '\n'.join(lines) + '\n'
     Path(OUT, 'PAPER_NUMBERS.md').write_text(text, encoding='utf-8')
     print(text)

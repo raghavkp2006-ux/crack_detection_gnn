@@ -158,3 +158,13 @@ without changing max_epochs, patience, seeds, splits, or primary threshold grid.
 The gate records unrounded first-epoch timing and simple maximum-epoch runtime
 extrapolations in a new JSON file. No experiments run during this code step.
 PowerShell expands the .py paths explicitly because Python does not expand globs.
+
+Step 2 adds sensitivity_tau.py: all eight graph cells plus DeepCrack, all five
+seeds, the original 45 validation graphs per seed, validation-only maximization
+on 0.10–0.98 in 0.02 steps, with first-maximum tie handling. Test scores use the
+existing immutable test probabilities at the newly selected threshold. It saves
+old/new thresholds and test F1, validation curves/stems, the old-0.90 boundary
+count, and validation/test crack-node fractions per seed. Missing runs fail
+before inference; output uses exclusive creation. make_tables.py optionally
+includes the sensitivity JSON verbatim. The sensitivity script has not run in
+this code step.
