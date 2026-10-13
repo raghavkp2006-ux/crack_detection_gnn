@@ -5,7 +5,7 @@
 [![PyG](https://img.shields.io/badge/PyG-PyTorch--Geometric-orange.svg)](https://pyg.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-An end-to-end deep learning framework for automated surface and pipeline crack detection using **Position-Aware Interacting Region Map (PIRM) graphs**, **Shallow GNN encoders**, **2D Sinusoidal Positional Encoding**, and **Transformer Self-Attention**.
+A framework for crack segmentation using SLIC superpixels, feature-space kNN graphs, GraphSAGE encoders, positional encoding and Transformer attention.
 
 ---
 
@@ -35,7 +35,7 @@ Detecting cracks in civil infrastructure, industrial pipes, and concrete surface
 
 ### Our Solution
 This framework formulates crack detection as a **graph node classification problem on superpixel regions**:
-- **PIRM Graph Construction:** Groups homogeneous image regions into superpixel nodes (SLIC) and connects them via affinity kernels based on spatial proximity and feature similarity.
+- **Graph construction:** SLIC superpixel nodes connected by k=8 nearest neighbors on raw 15-D features.
 - **Hybrid GNN-Transformer Architecture:** 
   - A **Shallow GNN** captures fine-grained local connectivity without suffering from over-smoothing.
   - **2D Fourier/Sinusoidal Positional Encoding** injects metric spatial coordinates to break graph permutation invariance.
@@ -45,43 +45,48 @@ This framework formulates crack detection as a **graph node classification probl
 
 ## 🏗 System Architecture
 
+Each image is segmented with SLIC (target 300 superpixels, compactness 10,
+sigma 1, connectivity enforcement disabled). Nodes follow `np.unique(segments)`.
+The raw 15-D feature vector contains three mean RGB channels, intensity standard
+deviation, mean Sobel magnitude, and ten uniform-LBP bins. Normalized centroid
+coordinates are stored separately as `pos`; they are not part of the 15-D features.
+
+A k=8 nearest-neighbor graph uses Euclidean distance on the raw, unnormalized
+15-D features, then adds reverse edges. Gaussian edge weights are computed and
+stored but are unused by the models. `pirm_graph.py` is a legacy filename for
+this feature-space kNN builder.
+
+The graph encoders use GraphSAGE (`SAGEConv`), BatchNorm, ReLU and dropout 0.3.
+M1 has eight layers without residual connections; M2 has two layers with a
+residual connection. M3/M4 use the two-layer encoder followed by two Transformer
+blocks (four heads, width 64, FFN width 256, dropout 0.1). M4 concatenates 32-D
+sinusoidal centroid encodings and projects them to width 64 before attention.
+All variants use a single linear 64→2 classification head. Node probabilities
+are projected to the original image through its superpixel map.
+
+```text
+RGB image → SLIC → raw 15-D features → symmetrized feature kNN graph
+                                            ↓
+                                     GraphSAGE encoder
+                                            ↓
+                            optional centroid PE + Transformer
+                                            ↓
+                                   linear node classifier
+                                            ↓
+                              full-resolution superpixel mask
 ```
-Raw Image (H × W × 3)
-         │
-         ▼
-[SLIC Superpixel Segmentation] ─────────► Segments Array (N superpixels)
-         │
-         ├───► [Feature Extraction] ────► Node Features X ∈ ℝ^{N × 15}
-         │     (Color, Sobel, LBP, Normed Centroids)
-         │
-         └───► [PIRM Graph Generator] ──► Adjacency Edge Index & Edge Weights
-                        │
-                        ▼
-            PyG Graph Data (x, edge_index, pos, y)
-                        │
-         ┌──────────────┴──────────────┐
-         ▼                             ▼
-  [Shallow GNN (2-layer GCN)]    [2D Sinusoidal Positional Encoding]
-  (Local Structural Encoding)    (Spatial Frequency Coordinate Maps)
-         │                             │
-         └──────────────┬──────────────┘
-                        │ Feature Concatenation / Linear Projection
-                        ▼
-          [Transformer Multi-Head Attention Stack]
-          (Global Long-Range Dependency Capture)
-                        │
-                        ▼
-          [MLP Node Classification Head]
-                        │
-                        ▼
-           Predicted Crack Probabilities per Node
-                        │
-                        ▼
-       [Pixel Mask Reconstruction via Superpixel Lookup]
-                        │
-                        ▼
-           Binary Crack Segmentation Mask (H × W)
-```
+
+Training uses one graph per batch, Adam (lr 0.001, weight decay 5e-4), at most
+150 epochs and early-stopping patience 20. For each seed (42, 123, 456, 789,
+2026), `get_splits(dataset, 0.7, 0.15, seed)` selects 210 training and 45 validation
+graphs from the 300-image train directory; the remaining 45 are unused by the
+paper's holdout evaluation. The independent test directory has 237 images.
+Validation nodes alone select τ* from 0.10 to 0.90 in steps of 0.02.
+
+Paper v2's primary comparison uses focal loss (gamma 2) for M1–M4, plus
+DeepCrack-style (re-implemented). The full weighted-CE/focal grid is secondary.
+Correct graph parameter counts: M1 60,930; M2 10,626; M3 110,594; M4 116,802.
+See the [paper v2 workflow](pipeline-crack-gnn/paper_v2/README.md) for reproducible run order.
 
 ---
 
@@ -105,8 +110,8 @@ crack_detection_gnn/
 │
 ├── pipeline-crack-gnn/
 │   ├── configs/                           # Experiment YAML configurations
-│   │   ├── baseline_deep_gnn.yaml         # M1: 8-layer deep GCN
-│   │   ├── shallow_gnn.yaml               # M2: 2-layer shallow GCN
+│   │   ├── baseline_deep_gnn.yaml         # M1: 8-layer deep GraphSAGE
+│   │   ├── shallow_gnn.yaml               # M2: 2-layer shallow GraphSAGE
 │   │   ├── hybrid_no_pe.yaml              # M3: GNN + Transformer (no PE)
 │   │   └── hybrid_full.yaml               # M4: GNN + PE + Transformer (Full)
 │   │
@@ -120,7 +125,7 @@ crack_detection_gnn/
 │   │   ├── preprocessing/                 # Graph generation & feature pipeline
 │   │   │   ├── superpixel.py              # SLIC superpixel segmentation & caching
 │   │   │   ├── features.py                # 15D node features (Color, Sobel, LBP)
-│   │   │   ├── pirm_graph.py              # PIRM graph construction & PyG data builder
+│   │   │   ├── pirm_graph.py              # Feature kNN graph construction & PyG data builder
 │   │   │   └── build_dataset.py           # Batch preprocessing CLI runner
 │   │   │
 │   │   ├── utils/                         # Helper functions & utilities
@@ -242,47 +247,63 @@ The evaluation engine computes both standard predictive performance and mathemat
   Tracks the geometric separation between node embeddings in latent space.
 
 ### Geometric Bucket Analysis
-The ablation suite categorizes cracks into three geometric profiles:
-1. **Short / Compact Cracks:** High localized curvature, short diagonal footprint.
-2. **Long / Diagonal Cracks:** Elongated continuity requiring long-range contextual association.
-3. **Lighting-Variable Cracks:** Regions with substantial contrast and illumination shifts.
+
+Buckets use the white crack pixels of the original test mask, evaluated in order:
+1. **Thin:** crack area fraction <0.025.
+2. **Long:** otherwise, bounding-box aspect ratio max(h,w)/(min(h,w)+1e-5) ≥2.
+3. **Branched:** all remaining nonempty masks.
+
+Empty masks are recorded separately as Clean. Scores use node labels; bootstrap
+intervals resample whole images. These are geometry buckets, not lighting classes.
 
 ---
 
 ## 🔧 Configuration Reference
 
-Configurations are stored in YAML format inside `configs/`. Example configuration (`hybrid_full.yaml`):
+Configuration keys match `configs/hybrid_full.yaml` and the model factory:
 
 ```yaml
 model:
-  type: "hybrid"            # 'deep_gnn', 'shallow_gnn', or 'hybrid'
-  in_dim: 15               # 15D node feature vector
-  hidden_dim: 64           # Latent dimension
-  gnn_layers: 2            # Shallow GNN message-passing layers
-  transformer_layers: 2    # Multi-head self-attention layers
-  heads: 4                 # Attention heads
-  pe_dim: 32               # Positional encoding dimension
-  num_freqs: 8             # Number of Fourier frequency bands
-  use_pe: true             # Enable 2D spatial positional encoding
-  dropout: 0.1
-
+  type: hybrid
+  in_dim: 15
+  hidden_dim: 64
+  gnn_layers: 2
+  transformer_layers: 2
+  heads: 4
+  pe_dim: 32
+  num_freqs: 8
+  gnn_dropout: 0.3       # Factory currently uses model.dropout, default 0.3.
+  transformer_dropout: 0.1
+  use_pe: true
+superpixels:
+  n_segments: 300
+  compactness: 10.0
+  sigma: 1.0
+graph:
+  k: 8
+  sigma: 0.1           # Stored Gaussian weights; models use unweighted edges.
+labels:
+  threshold: 0.3       # Existing graph-label overlap threshold; do not regenerate labels.
 data:
-  n_segments: 200          # Target superpixels per image
-  compactness: 10.0        # SLIC compactness parameter
-  k_neighbors: 8           # PIRM k-NN graph connectivity
-  sigma: 0.1               # Radial basis kernel bandwidth
-  batch_size: 16
-  train_split: 0.7
-  val_split: 0.15
-  test_split: 0.15
-
+  graph_dir: data/graphs/train
+  train_ratio: 0.7
+  val_ratio: 0.15
 training:
-  epochs: 100
+  epochs: 150
   lr: 0.001
-  weight_decay: 1.0e-4
-  patience: 20
-  output_dir: "results/M4_hybrid_full"
+  weight_decay: 0.0005
+  warmup_epochs: 5
+  grad_clip_norm: 1.0
+  batch_size: 1
+  early_stopping_patience: 20
+  seed: 42
+output_dir: results/M4_hybrid_full
 ```
+
+The multi-seed runner chooses weighted CE or focal loss explicitly. Hybrid models
+use five warm-up epochs and gradient clipping as configured; graph-only models
+use their own unchanged YAML settings. Splits vary by seed, while the independent
+237-image holdout is fixed.
 
 ---
 

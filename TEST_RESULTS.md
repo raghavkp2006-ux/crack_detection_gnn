@@ -1,3 +1,6 @@
+> Superseded by results/paper_v2/PAPER_NUMBERS.md; parameter counts and several tables below are outdated.
+> Correct graph parameter counts: M1 60,930; M2 10,626; M3 110,594; M4 116,802.
+
 # Pipeline Crack Detection — Empirical Test Results & Benchmark Report (Post-Edit)
 
 **Project:** Pipeline Surface Crack Detection using Superpixel Graph Neural Networks & Transformer Hybrid  

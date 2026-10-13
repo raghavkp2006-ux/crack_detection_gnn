@@ -25,3 +25,7 @@ Thumbs.db
 # Internal summaries
 *summary.md
 
+
+# Paper v2 DeepCrack checkpoints are distributed through a GitHub Release.
+results/paper_v2/runs/DeepCrack/**/best_model.pt
+pipeline-crack-gnn/results/paper_v2/runs/DeepCrack/**/best_model.pt

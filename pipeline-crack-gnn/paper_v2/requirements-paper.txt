@@ -1,0 +1,6 @@
+-r ../requirements.txt
+torchvision>=0.16
+scipy>=1.11
+fvcore>=0.1.5.post20221221
+psutil>=5.9
+Pillow>=10
