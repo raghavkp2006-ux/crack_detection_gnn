@@ -1,0 +1,1918 @@
+{
+  "results\\comparison.json": [
+    11926,
+    1788458234554166400
+  ],
+  "results\\deepcrack_baseline_evaluation.json": [
+    7604,
+    1788854588346208400
+  ],
+  "results\\deepcrack_comparison_master.json": [
+    480185,
+    1788799247483742200
+  ],
+  "results\\full_evaluation_summary.json": [
+    8495,
+    1788548758495635400
+  ],
+  "results\\holdout_test_results.json": [
+    510,
+    1788465214622680400
+  ],
+  "results\\model_comparison.csv": [
+    546,
+    1789053251880371000
+  ],
+  "results\\model_comparison_FINAL.csv": [
+    546,
+    1789053247036017700
+  ],
+  "results\\noncircular_router_validation.json": [
+    1126,
+    1788622179212862600
+  ],
+  "results\\router_per_image_categories.json": [
+    21350,
+    1788622179212862600
+  ],
+  "results\\router_prototype_results.json": [
+    367,
+    1788591138604502700
+  ],
+  "results\\routing_error_by_bucket.json": [
+    934,
+    1788622216622992300
+  ],
+  "results\\TEST_RESULTS.md": [
+    11257,
+    1788548937569621200
+  ],
+  "results\\threshold_calibration.json": [
+    36754,
+    1788541555793054400
+  ],
+  "results\\tits_comparison.json": [
+    6262,
+    1788496877343687700
+  ],
+  "results\\tits_modality_significance.json": [
+    568,
+    1788622062694514700
+  ],
+  "results\\tits_multidraw_calibration.json": [
+    31328,
+    1788613257481334700
+  ],
+  "results\\tits_reconciliation_summary.json": [
+    5260,
+    1788585652359596400
+  ],
+  "results\\tits_rigorous_evaluation_summary.json": [
+    6020,
+    1788590797496001100
+  ],
+  "results\\deepcrack\\test_latest\\images\\111212-1_fused.png": [
+    74471,
+    1788796604359881700
+  ],
+  "results\\deepcrack\\test_latest\\images\\11125-1_fused.png": [
+    78855,
+    1788796604444643600
+  ],
+  "results\\deepcrack\\test_latest\\images\\11125-2_fused.png": [
+    74523,
+    1788796604540689100
+  ],
+  "results\\deepcrack\\test_latest\\images\\11125-3_fused.png": [
+    74635,
+    1788796604637797400
+  ],
+  "results\\deepcrack\\test_latest\\images\\11129_fused.png": [
+    65108,
+    1788796604733745500
+  ],
+  "results\\deepcrack\\test_latest\\images\\11142-1_fused.png": [
+    85018,
+    1788796604823731400
+  ],
+  "results\\deepcrack\\test_latest\\images\\11142-2_fused.png": [
+    84850,
+    1788796604912630000
+  ],
+  "results\\deepcrack\\test_latest\\images\\11169-1_fused.png": [
+    77475,
+    1788796604999244600
+  ],
+  "results\\deepcrack\\test_latest\\images\\11169-2_fused.png": [
+    76227,
+    1788796605088277900
+  ],
+  "results\\deepcrack\\test_latest\\images\\11171_fused.png": [
+    45943,
+    1788796605167823600
+  ],
+  "results\\deepcrack\\test_latest\\images\\11174_fused.png": [
+    67791,
+    1788796605264145700
+  ],
+  "results\\deepcrack\\test_latest\\images\\11194_fused.png": [
+    67629,
+    1788796605363901300
+  ],
+  "results\\deepcrack\\test_latest\\images\\11215-10_fused.png": [
+    83698,
+    1788796605529754800
+  ],
+  "results\\deepcrack\\test_latest\\images\\11215-11_fused.png": [
+    87421,
+    1788796605617266400
+  ],
+  "results\\deepcrack\\test_latest\\images\\11215-12_fused.png": [
+    80732,
+    1788796605701398100
+  ],
+  "results\\deepcrack\\test_latest\\images\\11215-13_fused.png": [
+    83541,
+    1788796605784368800
+  ],
+  "results\\deepcrack\\test_latest\\images\\11215-14_fused.png": [
+    90910,
+    1788796605873537700
+  ],
+  "results\\deepcrack\\test_latest\\images\\11215-15_fused.png": [
+    86216,
+    1788796605971626100
+  ],
+  "results\\deepcrack\\test_latest\\images\\11215-1_fused.png": [
+    96655,
+    1788796605444962000
+  ],
+  "results\\deepcrack\\test_latest\\images\\11215-2_fused.png": [
+    88254,
+    1788796606063444100
+  ],
+  "results\\deepcrack\\test_latest\\images\\11215-3_fused.png": [
+    81577,
+    1788796606153179100
+  ],
+  "results\\deepcrack\\test_latest\\images\\11215-4_fused.png": [
+    73905,
+    1788796606235224800
+  ],
+  "results\\deepcrack\\test_latest\\images\\11215-5_fused.png": [
+    92048,
+    1788796606324275300
+  ],
+  "results\\deepcrack\\test_latest\\images\\11215-6_fused.png": [
+    84260,
+    1788796606409867100
+  ],
+  "results\\deepcrack\\test_latest\\images\\11215-7_fused.png": [
+    82626,
+    1788796606503464400
+  ],
+  "results\\deepcrack\\test_latest\\images\\11215-8_fused.png": [
+    80115,
+    1788796606600088600
+  ],
+  "results\\deepcrack\\test_latest\\images\\11215-9_fused.png": [
+    75297,
+    1788796606687290300
+  ],
+  "results\\deepcrack\\test_latest\\images\\11216_fused.png": [
+    50338,
+    1788796606770662000
+  ],
+  "results\\deepcrack\\test_latest\\images\\11217_fused.png": [
+    61207,
+    1788796606859812600
+  ],
+  "results\\deepcrack\\test_latest\\images\\11218-1_fused.png": [
+    66191,
+    1788796606945944800
+  ],
+  "results\\deepcrack\\test_latest\\images\\11218-2_fused.png": [
+    66169,
+    1788796607039588400
+  ],
+  "results\\deepcrack\\test_latest\\images\\11218-3_fused.png": [
+    63733,
+    1788796607135680500
+  ],
+  "results\\deepcrack\\test_latest\\images\\11220-1_fused.png": [
+    70602,
+    1788796607222302500
+  ],
+  "results\\deepcrack\\test_latest\\images\\11222-1_fused.png": [
+    68975,
+    1788796607314639300
+  ],
+  "results\\deepcrack\\test_latest\\images\\11222-2_fused.png": [
+    68202,
+    1788796607400415800
+  ],
+  "results\\deepcrack\\test_latest\\images\\11222-3_fused.png": [
+    71759,
+    1788796607489835500
+  ],
+  "results\\deepcrack\\test_latest\\images\\11231-1_fused.png": [
+    70340,
+    1788796607584433200
+  ],
+  "results\\deepcrack\\test_latest\\images\\11231-2_fused.png": [
+    78115,
+    1788796607679439900
+  ],
+  "results\\deepcrack\\test_latest\\images\\11231-3_fused.png": [
+    75580,
+    1788796607770905300
+  ],
+  "results\\deepcrack\\test_latest\\images\\11231-4_fused.png": [
+    77508,
+    1788796607863748300
+  ],
+  "results\\deepcrack\\test_latest\\images\\11231-5_fused.png": [
+    57435,
+    1788796607946693800
+  ],
+  "results\\deepcrack\\test_latest\\images\\11231-6_fused.png": [
+    75296,
+    1788796608048502900
+  ],
+  "results\\deepcrack\\test_latest\\images\\11231-7_fused.png": [
+    72775,
+    1788796608155562400
+  ],
+  "results\\deepcrack\\test_latest\\images\\11231-8_fused.png": [
+    73090,
+    1788796608242885600
+  ],
+  "results\\deepcrack\\test_latest\\images\\11231-9_fused.png": [
+    75628,
+    1788796608331304100
+  ],
+  "results\\deepcrack\\test_latest\\images\\11236-1_fused.png": [
+    59344,
+    1788796608414171100
+  ],
+  "results\\deepcrack\\test_latest\\images\\11236-2_fused.png": [
+    63714,
+    1788796608501589100
+  ],
+  "results\\deepcrack\\test_latest\\images\\11236-3_fused.png": [
+    62482,
+    1788796608596059000
+  ],
+  "results\\deepcrack\\test_latest\\images\\11236-4_fused.png": [
+    62723,
+    1788796608690512600
+  ],
+  "results\\deepcrack\\test_latest\\images\\11236-5_fused.png": [
+    62439,
+    1788796608780267800
+  ],
+  "results\\deepcrack\\test_latest\\images\\11236-6_fused.png": [
+    68618,
+    1788796608877326400
+  ],
+  "results\\deepcrack\\test_latest\\images\\11236-7_fused.png": [
+    53700,
+    1788796608971090400
+  ],
+  "results\\deepcrack\\test_latest\\images\\11239-1_fused.png": [
+    65519,
+    1788796609068869200
+  ],
+  "results\\deepcrack\\test_latest\\images\\11239-2_fused.png": [
+    68334,
+    1788796609161144400
+  ],
+  "results\\deepcrack\\test_latest\\images\\11239-3_fused.png": [
+    72578,
+    1788796609250135000
+  ],
+  "results\\deepcrack\\test_latest\\images\\11240-10_fused.png": [
+    82857,
+    1788796609438000500
+  ],
+  "results\\deepcrack\\test_latest\\images\\11240-11_fused.png": [
+    70872,
+    1788796609531820000
+  ],
+  "results\\deepcrack\\test_latest\\images\\11240-12_fused.png": [
+    68468,
+    1788796609622358400
+  ],
+  "results\\deepcrack\\test_latest\\images\\11240-1_fused.png": [
+    86015,
+    1788796609343079400
+  ],
+  "results\\deepcrack\\test_latest\\images\\11240-2_fused.png": [
+    81474,
+    1788796609720920600
+  ],
+  "results\\deepcrack\\test_latest\\images\\11240-3_fused.png": [
+    80462,
+    1788796609813939900
+  ],
+  "results\\deepcrack\\test_latest\\images\\11240-4_fused.png": [
+    77736,
+    1788796609906528700
+  ],
+  "results\\deepcrack\\test_latest\\images\\11240-5_fused.png": [
+    79412,
+    1788796610004503200
+  ],
+  "results\\deepcrack\\test_latest\\images\\11240-6_fused.png": [
+    80135,
+    1788796610097527900
+  ],
+  "results\\deepcrack\\test_latest\\images\\11240-7_fused.png": [
+    80613,
+    1788796610190653200
+  ],
+  "results\\deepcrack\\test_latest\\images\\11240-8_fused.png": [
+    85924,
+    1788796610283074300
+  ],
+  "results\\deepcrack\\test_latest\\images\\11240-9_fused.png": [
+    85763,
+    1788796610377841200
+  ],
+  "results\\deepcrack\\test_latest\\images\\11247-10_fused.png": [
+    39813,
+    1788796610564243100
+  ],
+  "results\\deepcrack\\test_latest\\images\\11247-12_fused.png": [
+    39917,
+    1788796610662438200
+  ],
+  "results\\deepcrack\\test_latest\\images\\11247-1_fused.png": [
+    48353,
+    1788796610468622200
+  ],
+  "results\\deepcrack\\test_latest\\images\\11247-2_fused.png": [
+    45882,
+    1788796610758964800
+  ],
+  "results\\deepcrack\\test_latest\\images\\11247-3_fused.png": [
+    39499,
+    1788796610853071100
+  ],
+  "results\\deepcrack\\test_latest\\images\\11247-4_fused.png": [
+    34276,
+    1788796610945327700
+  ],
+  "results\\deepcrack\\test_latest\\images\\11247-5_fused.png": [
+    29131,
+    1788796611038205200
+  ],
+  "results\\deepcrack\\test_latest\\images\\11247-6_fused.png": [
+    29037,
+    1788796611130078100
+  ],
+  "results\\deepcrack\\test_latest\\images\\11247-7_fused.png": [
+    29717,
+    1788796611217402300
+  ],
+  "results\\deepcrack\\test_latest\\images\\11247-8_fused.png": [
+    32451,
+    1788796611310521700
+  ],
+  "results\\deepcrack\\test_latest\\images\\11247-9_fused.png": [
+    33752,
+    1788796611407648800
+  ],
+  "results\\deepcrack\\test_latest\\images\\11248-1_fused.png": [
+    43010,
+    1788796611512415100
+  ],
+  "results\\deepcrack\\test_latest\\images\\11248-2_fused.png": [
+    45000,
+    1788796611610214900
+  ],
+  "results\\deepcrack\\test_latest\\images\\11248-3_fused.png": [
+    46169,
+    1788796611707154900
+  ],
+  "results\\deepcrack\\test_latest\\images\\11249-1_fused.png": [
+    72063,
+    1788796611802891300
+  ],
+  "results\\deepcrack\\test_latest\\images\\11249-2_fused.png": [
+    75380,
+    1788796611894551000
+  ],
+  "results\\deepcrack\\test_latest\\images\\11249-3_fused.png": [
+    73184,
+    1788796611987726200
+  ],
+  "results\\deepcrack\\test_latest\\images\\11249-4_fused.png": [
+    69583,
+    1788796612073541500
+  ],
+  "results\\deepcrack\\test_latest\\images\\11249-5_fused.png": [
+    69337,
+    1788796612175520300
+  ],
+  "results\\deepcrack\\test_latest\\images\\11249-6_fused.png": [
+    66434,
+    1788796612272036100
+  ],
+  "results\\deepcrack\\test_latest\\images\\11249-7_fused.png": [
+    69064,
+    1788796612361678800
+  ],
+  "results\\deepcrack\\test_latest\\images\\11249-8_fused.png": [
+    63451,
+    1788796612457301800
+  ],
+  "results\\deepcrack\\test_latest\\images\\11258-1_fused.png": [
+    69710,
+    1788796612559067400
+  ],
+  "results\\deepcrack\\test_latest\\images\\11258-2_fused.png": [
+    73293,
+    1788796612649802900
+  ],
+  "results\\deepcrack\\test_latest\\images\\11266-1_fused.png": [
+    79100,
+    1788796612745285900
+  ],
+  "results\\deepcrack\\test_latest\\images\\11266-2_fused.png": [
+    76827,
+    1788796612842511700
+  ],
+  "results\\deepcrack\\test_latest\\images\\11266-3_fused.png": [
+    76641,
+    1788796612938950200
+  ],
+  "results\\deepcrack\\test_latest\\images\\11266-4_fused.png": [
+    79178,
+    1788796613030799800
+  ],
+  "results\\deepcrack\\test_latest\\images\\11266-5_fused.png": [
+    78072,
+    1788796613118385700
+  ],
+  "results\\deepcrack\\test_latest\\images\\11267-1_fused.png": [
+    62441,
+    1788796613214119200
+  ],
+  "results\\deepcrack\\test_latest\\images\\11267-2_fused.png": [
+    66720,
+    1788796613314860600
+  ],
+  "results\\deepcrack\\test_latest\\images\\11267-3_fused.png": [
+    68943,
+    1788796613403490300
+  ],
+  "results\\deepcrack\\test_latest\\images\\11267-4_fused.png": [
+    67223,
+    1788796613502687600
+  ],
+  "results\\deepcrack\\test_latest\\images\\11267-5_fused.png": [
+    65427,
+    1788796613592052100
+  ],
+  "results\\deepcrack\\test_latest\\images\\11269-1_fused.png": [
+    41527,
+    1788796613678111600
+  ],
+  "results\\deepcrack\\test_latest\\images\\11269-2_fused.png": [
+    45882,
+    1788796613772468600
+  ],
+  "results\\deepcrack\\test_latest\\images\\11269-3_fused.png": [
+    37631,
+    1788796613867045700
+  ],
+  "results\\deepcrack\\test_latest\\images\\11269-4_fused.png": [
+    33659,
+    1788796613961686700
+  ],
+  "results\\deepcrack\\test_latest\\images\\11269-5_fused.png": [
+    32619,
+    1788796614052426200
+  ],
+  "results\\deepcrack\\test_latest\\images\\11269-6_fused.png": [
+    33620,
+    1788796614141744700
+  ],
+  "results\\deepcrack\\test_latest\\images\\11270-1_fused.png": [
+    69826,
+    1788796614240937000
+  ],
+  "results\\deepcrack\\test_latest\\images\\11270-2_fused.png": [
+    69169,
+    1788796614344301300
+  ],
+  "results\\deepcrack\\test_latest\\images\\11271-1_fused.png": [
+    78349,
+    1788796614430572200
+  ],
+  "results\\deepcrack\\test_latest\\images\\11271-2_fused.png": [
+    77322,
+    1788796614525791100
+  ],
+  "results\\deepcrack\\test_latest\\images\\11271-3_fused.png": [
+    77430,
+    1788796614620446100
+  ],
+  "results\\deepcrack\\test_latest\\images\\11271-4_fused.png": [
+    74750,
+    1788796614711800400
+  ],
+  "results\\deepcrack\\test_latest\\images\\11271-5_fused.png": [
+    76192,
+    1788796614808019800
+  ],
+  "results\\deepcrack\\test_latest\\images\\11271-6_fused.png": [
+    75301,
+    1788796614913501200
+  ],
+  "results\\deepcrack\\test_latest\\images\\11275-1_fused.png": [
+    62714,
+    1788796615015621600
+  ],
+  "results\\deepcrack\\test_latest\\images\\11275-2_fused.png": [
+    65632,
+    1788796615117141700
+  ],
+  "results\\deepcrack\\test_latest\\images\\11275-3_fused.png": [
+    66506,
+    1788796615222864200
+  ],
+  "results\\deepcrack\\test_latest\\images\\11276-1_fused.png": [
+    67428,
+    1788796615319227300
+  ],
+  "results\\deepcrack\\test_latest\\images\\11284-1_fused.png": [
+    63648,
+    1788796615407384800
+  ],
+  "results\\deepcrack\\test_latest\\images\\11286-1_fused.png": [
+    67031,
+    1788796615498839400
+  ],
+  "results\\deepcrack\\test_latest\\images\\11286-2_fused.png": [
+    67056,
+    1788796615584173000
+  ],
+  "results\\deepcrack\\test_latest\\images\\11286-3_fused.png": [
+    67424,
+    1788796615683871500
+  ],
+  "results\\deepcrack\\test_latest\\images\\11289-10_fused.png": [
+    60009,
+    1788796615869384200
+  ],
+  "results\\deepcrack\\test_latest\\images\\11289-11_fused.png": [
+    58072,
+    1788796615956905500
+  ],
+  "results\\deepcrack\\test_latest\\images\\11289-1_fused.png": [
+    51109,
+    1788796615777143900
+  ],
+  "results\\deepcrack\\test_latest\\images\\11289-2_fused.png": [
+    55600,
+    1788796616047107400
+  ],
+  "results\\deepcrack\\test_latest\\images\\11289-3_fused.png": [
+    60174,
+    1788796616142943200
+  ],
+  "results\\deepcrack\\test_latest\\images\\11289-4_fused.png": [
+    64049,
+    1788796616276287300
+  ],
+  "results\\deepcrack\\test_latest\\images\\11289-5_fused.png": [
+    70309,
+    1788796616385739000
+  ],
+  "results\\deepcrack\\test_latest\\images\\11289-6_fused.png": [
+    72926,
+    1788796616474476500
+  ],
+  "results\\deepcrack\\test_latest\\images\\11289-7_fused.png": [
+    71109,
+    1788796616563257900
+  ],
+  "results\\deepcrack\\test_latest\\images\\11289-8_fused.png": [
+    64871,
+    1788796616652888000
+  ],
+  "results\\deepcrack\\test_latest\\images\\11289-9_fused.png": [
+    62276,
+    1788796616741620500
+  ],
+  "results\\deepcrack\\test_latest\\images\\11294_fused.png": [
+    64624,
+    1788796616831809700
+  ],
+  "results\\deepcrack\\test_latest\\images\\11295_fused.png": [
+    58972,
+    1788796616917232400
+  ],
+  "results\\deepcrack\\test_latest\\images\\11296-10_fused.png": [
+    63788,
+    1788796617114387600
+  ],
+  "results\\deepcrack\\test_latest\\images\\11296-11_fused.png": [
+    68083,
+    1788796617201862100
+  ],
+  "results\\deepcrack\\test_latest\\images\\11296-12_fused.png": [
+    59989,
+    1788796617297026700
+  ],
+  "results\\deepcrack\\test_latest\\images\\11296-13_fused.png": [
+    58993,
+    1788796617387285100
+  ],
+  "results\\deepcrack\\test_latest\\images\\11296-14_fused.png": [
+    61891,
+    1788796617478201800
+  ],
+  "results\\deepcrack\\test_latest\\images\\11296-15_fused.png": [
+    65806,
+    1788796617583695400
+  ],
+  "results\\deepcrack\\test_latest\\images\\11296-16_fused.png": [
+    65273,
+    1788796617680393000
+  ],
+  "results\\deepcrack\\test_latest\\images\\11296-17_fused.png": [
+    67549,
+    1788796617772194500
+  ],
+  "results\\deepcrack\\test_latest\\images\\11296-18_fused.png": [
+    65414,
+    1788796617867455800
+  ],
+  "results\\deepcrack\\test_latest\\images\\11296-19_fused.png": [
+    59073,
+    1788796617964536000
+  ],
+  "results\\deepcrack\\test_latest\\images\\11296-1_fused.png": [
+    52781,
+    1788796617014222800
+  ],
+  "results\\deepcrack\\test_latest\\images\\11296-20_fused.png": [
+    55178,
+    1788796618154989400
+  ],
+  "results\\deepcrack\\test_latest\\images\\11296-21_fused.png": [
+    54575,
+    1788796618257591300
+  ],
+  "results\\deepcrack\\test_latest\\images\\11296-22_fused.png": [
+    56650,
+    1788796618350531800
+  ],
+  "results\\deepcrack\\test_latest\\images\\11296-23_fused.png": [
+    49343,
+    1788796618442716000
+  ],
+  "results\\deepcrack\\test_latest\\images\\11296-2_fused.png": [
+    47914,
+    1788796618060525800
+  ],
+  "results\\deepcrack\\test_latest\\images\\11296-3_fused.png": [
+    51618,
+    1788796618542060000
+  ],
+  "results\\deepcrack\\test_latest\\images\\11296-4_fused.png": [
+    47754,
+    1788796618639431200
+  ],
+  "results\\deepcrack\\test_latest\\images\\11296-5_fused.png": [
+    51283,
+    1788796618734193700
+  ],
+  "results\\deepcrack\\test_latest\\images\\11296-6_fused.png": [
+    54249,
+    1788796618818010300
+  ],
+  "results\\deepcrack\\test_latest\\images\\11296-7_fused.png": [
+    57702,
+    1788796618909992800
+  ],
+  "results\\deepcrack\\test_latest\\images\\11296-8_fused.png": [
+    59011,
+    1788796619004636200
+  ],
+  "results\\deepcrack\\test_latest\\images\\11296-9_fused.png": [
+    63469,
+    1788796619097177200
+  ],
+  "results\\deepcrack\\test_latest\\images\\11300_fused.png": [
+    54606,
+    1788796619189540600
+  ],
+  "results\\deepcrack\\test_latest\\images\\11301-1_fused.png": [
+    46593,
+    1788796619281827300
+  ],
+  "results\\deepcrack\\test_latest\\images\\11301-2_fused.png": [
+    45944,
+    1788796619365112100
+  ],
+  "results\\deepcrack\\test_latest\\images\\11301-3_fused.png": [
+    45021,
+    1788796619459765600
+  ],
+  "results\\deepcrack\\test_latest\\images\\11301-4_fused.png": [
+    38239,
+    1788796619547264200
+  ],
+  "results\\deepcrack\\test_latest\\images\\11301-5_fused.png": [
+    45736,
+    1788796619641309600
+  ],
+  "results\\deepcrack\\test_latest\\images\\11301-6_fused.png": [
+    52018,
+    1788796619735865200
+  ],
+  "results\\deepcrack\\test_latest\\images\\11302-1_fused.png": [
+    51198,
+    1788796619833185300
+  ],
+  "results\\deepcrack\\test_latest\\images\\11302-2_fused.png": [
+    52799,
+    1788796619930507900
+  ],
+  "results\\deepcrack\\test_latest\\images\\11304_fused.png": [
+    56549,
+    1788796620022925400
+  ],
+  "results\\deepcrack\\test_latest\\images\\11305-1_fused.png": [
+    51541,
+    1788796620118274500
+  ],
+  "results\\deepcrack\\test_latest\\images\\11305-2_fused.png": [
+    51513,
+    1788796620216035400
+  ],
+  "results\\deepcrack\\test_latest\\images\\11308-1_fused.png": [
+    65773,
+    1788796620314135600
+  ],
+  "results\\deepcrack\\test_latest\\images\\11308-2_fused.png": [
+    70403,
+    1788796620405366000
+  ],
+  "results\\deepcrack\\test_latest\\images\\11309-1_fused.png": [
+    65368,
+    1788796620492250700
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG109-1_fused.png": [
+    40640,
+    1788796620578123400
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG24-1_fused.png": [
+    27954,
+    1788796620672896200
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG24-2_fused.png": [
+    28682,
+    1788796620760450000
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG24-3_fused.png": [
+    27280,
+    1788796620854097800
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG6-1_fused.png": [
+    47775,
+    1788796620948709500
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG6-2_fused.png": [
+    48614,
+    1788796621041046800
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_5776-1_fused.png": [
+    73820,
+    1788796621151079800
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_5776-2_fused.png": [
+    70170,
+    1788796621265584700
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_5778-1_fused.png": [
+    68756,
+    1788796621376203600
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6469-1_fused.png": [
+    69571,
+    1788796621474436000
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6469-2_fused.png": [
+    66463,
+    1788796621565287000
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6469-3_fused.png": [
+    64471,
+    1788796621676242000
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6469-4_fused.png": [
+    70156,
+    1788796621775424900
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6469-5_fused.png": [
+    76292,
+    1788796621876482600
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6469-6_fused.png": [
+    74798,
+    1788796621974775300
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6469-7_fused.png": [
+    67541,
+    1788796622069342600
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6472-1_fused.png": [
+    65991,
+    1788796622169628500
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6472-2_fused.png": [
+    77167,
+    1788796622262714500
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6472-3_fused.png": [
+    72049,
+    1788796622362511600
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6472-4_fused.png": [
+    67619,
+    1788796622457067700
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6472-5_fused.png": [
+    71305,
+    1788796622547245900
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6472-6_fused.png": [
+    74218,
+    1788796622640398700
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6472-7_fused.png": [
+    72432,
+    1788796622735855400
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6472-8_fused.png": [
+    73764,
+    1788796622826284200
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6514-1_fused.png": [
+    97633,
+    1788796622923056700
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6514-2_fused.png": [
+    93287,
+    1788796623017815600
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6514-3_fused.png": [
+    96814,
+    1788796623119263800
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6516-1_fused.png": [
+    74682,
+    1788796623204966200
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6516-2_fused.png": [
+    100387,
+    1788796623296913600
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6516-3_fused.png": [
+    88497,
+    1788796623389836300
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6516-4_fused.png": [
+    94939,
+    1788796623488901200
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6522-1_fused.png": [
+    74809,
+    1788796623573649500
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6522-3_fused.png": [
+    79685,
+    1788796623669418900
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6526-1_fused.png": [
+    45091,
+    1788796623759778600
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6526-2_fused.png": [
+    53497,
+    1788796623846504600
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6526-3_fused.png": [
+    54505,
+    1788796623940283800
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6526-4_fused.png": [
+    45623,
+    1788796624021209700
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6528-1_fused.png": [
+    78239,
+    1788796624115192500
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6528-3_fused.png": [
+    87698,
+    1788796624209294900
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6533-3_fused.png": [
+    71726,
+    1788796624298212200
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6536-1_fused.png": [
+    69915,
+    1788796624395186300
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6536-2_fused.png": [
+    71866,
+    1788796624530451800
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6536-3_fused.png": [
+    72245,
+    1788796624615716200
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6536-4_fused.png": [
+    68182,
+    1788796624701520200
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6536-5_fused.png": [
+    76561,
+    1788796624795067900
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6536-7_fused.png": [
+    81841,
+    1788796624891892300
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6537-1_fused.png": [
+    81206,
+    1788796624999719400
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6537-2_fused.png": [
+    78386,
+    1788796625103272100
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6537-3_fused.png": [
+    77216,
+    1788796625188594600
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6537-4_fused.png": [
+    77548,
+    1788796625288002100
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6537-5_fused.png": [
+    79974,
+    1788796625375442700
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6538-1_fused.png": [
+    62283,
+    1788796625469004700
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6538-3_fused.png": [
+    59456,
+    1788796625560662600
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6542-1_fused.png": [
+    64097,
+    1788796625660429000
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6542-2_fused.png": [
+    61761,
+    1788796625754776200
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6542-3_fused.png": [
+    50523,
+    1788796625855026900
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6542-4_fused.png": [
+    65179,
+    1788796625960888100
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6542-5_fused.png": [
+    61617,
+    1788796626050244100
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6542-7_fused.png": [
+    60942,
+    1788796626141756500
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6544-1_fused.png": [
+    75386,
+    1788796626241002100
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6544-2_fused.png": [
+    79179,
+    1788796626341833300
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6544-3_fused.png": [
+    78768,
+    1788796626445767400
+  ],
+  "results\\deepcrack\\test_latest\\images\\IMG_6544-4_fused.png": [
+    84949,
+    1788796626539768700
+  ],
+  "results\\M1_deep_gnn\\best_model.pt": [
+    270645,
+    1788457814884941600
+  ],
+  "results\\M1_deep_gnn\\results.json": [
+    2875,
+    1788457898933605600
+  ],
+  "results\\M2_shallow_gnn\\best_model.pt": [
+    50421,
+    1788457927619125200
+  ],
+  "results\\M2_shallow_gnn\\results.json": [
+    2569,
+    1788457962816463300
+  ],
+  "results\\M3_hybrid_no_pe\\best_model.pt": [
+    459125,
+    1788458048644798500
+  ],
+  "results\\M3_hybrid_no_pe\\results.json": [
+    3336,
+    1788458122380844800
+  ],
+  "results\\M4_hybrid_full\\best_model.pt": [
+    484597,
+    1788458154020333700
+  ],
+  "results\\M4_hybrid_full\\results.json": [
+    2175,
+    1788458233234709300
+  ],
+  "results\\multiseed\\multiseed_summary.json": [
+    152530,
+    1788587198491717800
+  ],
+  "results\\multiseed\\deepcrack\\deepcrack_multiseed_summary.json": [
+    279583,
+    1788797695831609500
+  ],
+  "results\\multiseed\\deepcrack\\seed_123\\best_model.pt": [
+    58943413,
+    1788796859979134200
+  ],
+  "results\\multiseed\\deepcrack\\seed_123\\result.json": [
+    47105,
+    1788796891918866900
+  ],
+  "results\\multiseed\\deepcrack\\seed_2026\\best_model.pt": [
+    58943413,
+    1788797664631857100
+  ],
+  "results\\multiseed\\deepcrack\\seed_2026\\result.json": [
+    47014,
+    1788797695800102700
+  ],
+  "results\\multiseed\\deepcrack\\seed_42\\best_model.pt": [
+    58943413,
+    1788796557902408500
+  ],
+  "results\\multiseed\\deepcrack\\seed_42\\result.json": [
+    47095,
+    1788796627476490500
+  ],
+  "results\\multiseed\\deepcrack\\seed_456\\best_model.pt": [
+    58943413,
+    1788797107650246200
+  ],
+  "results\\multiseed\\deepcrack\\seed_456\\result.json": [
+    47230,
+    1788797154412401800
+  ],
+  "results\\multiseed\\deepcrack\\seed_789\\best_model.pt": [
+    58943413,
+    1788797382866094200
+  ],
+  "results\\multiseed\\deepcrack\\seed_789\\result.json": [
+    47236,
+    1788797422441735700
+  ],
+  "results\\multiseed\\M1_deep_gnn\\seed_123\\best_model.pt": [
+    270645,
+    1788585346700884500
+  ],
+  "results\\multiseed\\M1_deep_gnn\\seed_123\\result.json": [
+    5363,
+    1788585408435954100
+  ],
+  "results\\multiseed\\M1_deep_gnn\\seed_2026\\best_model.pt": [
+    270645,
+    1788585702488844100
+  ],
+  "results\\multiseed\\M1_deep_gnn\\seed_2026\\result.json": [
+    5626,
+    1788585761830458500
+  ],
+  "results\\multiseed\\M1_deep_gnn\\seed_42\\best_model.pt": [
+    270645,
+    1788585157659955700
+  ],
+  "results\\multiseed\\M1_deep_gnn\\seed_42\\result.json": [
+    5259,
+    1788585220322398000
+  ],
+  "results\\multiseed\\M1_deep_gnn\\seed_456\\best_model.pt": [
+    270645,
+    1788585478628882900
+  ],
+  "results\\multiseed\\M1_deep_gnn\\seed_456\\result.json": [
+    5175,
+    1788585541269716900
+  ],
+  "results\\multiseed\\M1_deep_gnn\\seed_789\\best_model.pt": [
+    270645,
+    1788585610189283400
+  ],
+  "results\\multiseed\\M1_deep_gnn\\seed_789\\result.json": [
+    5343,
+    1788585673677912900
+  ],
+  "results\\multiseed\\M2_shallow_gnn\\seed_123\\best_model.pt": [
+    50421,
+    1788585827310281500
+  ],
+  "results\\multiseed\\M2_shallow_gnn\\seed_123\\result.json": [
+    5250,
+    1788585858977306800
+  ],
+  "results\\multiseed\\M2_shallow_gnn\\seed_2026\\best_model.pt": [
+    50421,
+    1788585995665920500
+  ],
+  "results\\multiseed\\M2_shallow_gnn\\seed_2026\\result.json": [
+    4920,
+    1788586028545388300
+  ],
+  "results\\multiseed\\M2_shallow_gnn\\seed_42\\best_model.pt": [
+    50421,
+    1788585782785117200
+  ],
+  "results\\multiseed\\M2_shallow_gnn\\seed_42\\result.json": [
+    5328,
+    1788585815143892400
+  ],
+  "results\\multiseed\\M2_shallow_gnn\\seed_456\\best_model.pt": [
+    50421,
+    1788585893358698000
+  ],
+  "results\\multiseed\\M2_shallow_gnn\\seed_456\\result.json": [
+    5395,
+    1788585926679934500
+  ],
+  "results\\multiseed\\M2_shallow_gnn\\seed_789\\best_model.pt": [
+    50421,
+    1788585951926962400
+  ],
+  "results\\multiseed\\M2_shallow_gnn\\seed_789\\result.json": [
+    5052,
+    1788585984794410400
+  ],
+  "results\\multiseed\\M3_hybrid_no_pe\\seed_123\\best_model.pt": [
+    459125,
+    1788586254022032900
+  ],
+  "results\\multiseed\\M3_hybrid_no_pe\\seed_123\\result.json": [
+    5195,
+    1788586309327995200
+  ],
+  "results\\multiseed\\M3_hybrid_no_pe\\seed_2026\\best_model.pt": [
+    459125,
+    1788586620027036000
+  ],
+  "results\\multiseed\\M3_hybrid_no_pe\\seed_2026\\result.json": [
+    5278,
+    1788586673271237000
+  ],
+  "results\\multiseed\\M3_hybrid_no_pe\\seed_42\\best_model.pt": [
+    459125,
+    1788586116855379700
+  ],
+  "results\\multiseed\\M3_hybrid_no_pe\\seed_42\\result.json": [
+    5416,
+    1788586174094818400
+  ],
+  "results\\multiseed\\M3_hybrid_no_pe\\seed_456\\best_model.pt": [
+    459125,
+    1788586388002292900
+  ],
+  "results\\multiseed\\M3_hybrid_no_pe\\seed_456\\result.json": [
+    5319,
+    1788586443364557000
+  ],
+  "results\\multiseed\\M3_hybrid_no_pe\\seed_789\\best_model.pt": [
+    459125,
+    1788586490286010000
+  ],
+  "results\\multiseed\\M3_hybrid_no_pe\\seed_789\\result.json": [
+    4982,
+    1788586544040407300
+  ],
+  "results\\multiseed\\M4_hybrid_full\\seed_123\\best_model.pt": [
+    484597,
+    1788586900268403800
+  ],
+  "results\\multiseed\\M4_hybrid_full\\seed_123\\result.json": [
+    5433,
+    1788586956111163200
+  ],
+  "results\\multiseed\\M4_hybrid_full\\seed_2026\\best_model.pt": [
+    484597,
+    1788587135487553000
+  ],
+  "results\\multiseed\\M4_hybrid_full\\seed_2026\\result.json": [
+    5384,
+    1788587197821305100
+  ],
+  "results\\multiseed\\M4_hybrid_full\\seed_42\\best_model.pt": [
+    484597,
+    1788586722034466100
+  ],
+  "results\\multiseed\\M4_hybrid_full\\seed_42\\result.json": [
+    5365,
+    1788586778454944900
+  ],
+  "results\\multiseed\\M4_hybrid_full\\seed_456\\best_model.pt": [
+    484597,
+    1788586981151439100
+  ],
+  "results\\multiseed\\M4_hybrid_full\\seed_456\\result.json": [
+    5414,
+    1788587039680592300
+  ],
+  "results\\multiseed\\M4_hybrid_full\\seed_789\\best_model.pt": [
+    484597,
+    1788587067998672100
+  ],
+  "results\\multiseed\\M4_hybrid_full\\seed_789\\result.json": [
+    4889,
+    1788587129239675600
+  ],
+  "results\\paper_v2\\analysis_cluster.json": [
+    45361,
+    1791956344059161700
+  ],
+  "results\\paper_v2\\analysis_main.json": [
+    28733,
+    1791905306347076300
+  ],
+  "results\\paper_v2\\CLUSTER_NUMBERS.md": [
+    11402,
+    1791956344059161700
+  ],
+  "results\\paper_v2\\dataset_stats.json": [
+    6998,
+    1791873069407832300
+  ],
+  "results\\paper_v2\\data_checks.json": [
+    3789,
+    1791955313377285000
+  ],
+  "results\\paper_v2\\deepcrack_first_epoch.json": [
+    343,
+    1791894580020984600
+  ],
+  "results\\paper_v2\\deepcrack_step3_wall.json": [
+    57,
+    1791896215004312300
+  ],
+  "results\\paper_v2\\deepcrack_train.log": [
+    6454,
+    1791896211486921900
+  ],
+  "results\\paper_v2\\efficiency.json": [
+    8478,
+    1791906363447356200
+  ],
+  "results\\paper_v2\\factorial_train.log": [
+    1336,
+    1791873069407832300
+  ],
+  "results\\paper_v2\\factorial_verify.log": [
+    2234,
+    1791873069408830900
+  ],
+  "results\\paper_v2\\gpu_benchmark_preflight.json": [
+    1903,
+    1791905652238900300
+  ],
+  "results\\paper_v2\\PAPER_NUMBERS.md": [
+    135738,
+    1791906422289567700
+  ],
+  "results\\paper_v2\\predict_check.json": [
+    4631,
+    1791873069408830900
+  ],
+  "results\\paper_v2\\sensitivity_tau.json": [
+    120391,
+    1791905435398103800
+  ],
+  "results\\paper_v2\\source_overlap.json": [
+    5225,
+    1791955311625548400
+  ],
+  "results\\paper_v2\\step4_analysis_wall.json": [
+    54,
+    1791905306681336900
+  ],
+  "results\\paper_v2\\step4_sensitivity_wall.json": [
+    55,
+    1791905437364537700
+  ],
+  "results\\paper_v2\\step4_topology_wall.json": [
+    55,
+    1791905362809198300
+  ],
+  "results\\paper_v2\\step5_benchmark_wall.json": [
+    56,
+    1791906365388722300
+  ],
+  "results\\paper_v2\\step6_tables_wall.json": [
+    54,
+    1791906422497047200
+  ],
+  "results\\paper_v2\\test_buckets.json": [
+    14807,
+    1791905306121562600
+  ],
+  "results\\paper_v2\\test_labels.npz": [
+    556112,
+    1791873069534583100
+  ],
+  "results\\paper_v2\\topology.json": [
+    3071,
+    1791905362710743800
+  ],
+  "results\\paper_v2\\figures\\captions_notes.md": [
+    2927,
+    1791956521075921700
+  ],
+  "results\\paper_v2\\figures\\fig04_threshold_calibration.pdf": [
+    16033,
+    1791956518881885600
+  ],
+  "results\\paper_v2\\figures\\fig04_threshold_calibration.png": [
+    150302,
+    1791956518504570400
+  ],
+  "results\\paper_v2\\figures\\fig05_multiseed_benchmark.pdf": [
+    17750,
+    1791956519020833500
+  ],
+  "results\\paper_v2\\figures\\fig05_multiseed_benchmark.png": [
+    56178,
+    1791956518957579400
+  ],
+  "results\\paper_v2\\figures\\fig06_loss_comparison.pdf": [
+    16072,
+    1791956519195044200
+  ],
+  "results\\paper_v2\\figures\\fig06_loss_comparison.png": [
+    52013,
+    1791956519084264000
+  ],
+  "results\\paper_v2\\figures\\fig07_accuracy_cost_tradeoff.pdf": [
+    17995,
+    1791956519480513600
+  ],
+  "results\\paper_v2\\figures\\fig07_accuracy_cost_tradeoff.png": [
+    57655,
+    1791956519354024200
+  ],
+  "results\\paper_v2\\figures\\fig09_topology_metrics.pdf": [
+    86850,
+    1791956519671251000
+  ],
+  "results\\paper_v2\\figures\\fig09_topology_metrics.png": [
+    51393,
+    1791956519544344300
+  ],
+  "results\\paper_v2\\figures\\fig10_morphology_stratified_f1.pdf": [
+    11807,
+    1791956519821323800
+  ],
+  "results\\paper_v2\\figures\\fig10_morphology_stratified_f1.png": [
+    38562,
+    1791956519754399500
+  ],
+  "results\\paper_v2\\figures\\fig11_qualitative_results.pdf": [
+    113833,
+    1791956521073913700
+  ],
+  "results\\paper_v2\\figures\\fig11_qualitative_results.png": [
+    956422,
+    1791956520679243800
+  ],
+  "results\\paper_v2\\figures\\fig14_efficiency_stages.pdf": [
+    80373,
+    1791956519981307900
+  ],
+  "results\\paper_v2\\figures\\fig14_efficiency_stages.png": [
+    55293,
+    1791956519892612400
+  ],
+  "results\\paper_v2\\figures\\qualitative_selection.json": [
+    2954,
+    1791956521075921700
+  ],
+  "results\\paper_v2\\probs\\DeepCrack\\seed_123.npz": [
+    259751,
+    1791895240828908000
+  ],
+  "results\\paper_v2\\probs\\DeepCrack\\seed_2026.npz": [
+    251938,
+    1791896211486921900
+  ],
+  "results\\paper_v2\\probs\\DeepCrack\\seed_42.npz": [
+    257256,
+    1791894796396282100
+  ],
+  "results\\paper_v2\\probs\\DeepCrack\\seed_456.npz": [
+    260794,
+    1791895726611340800
+  ],
+  "results\\paper_v2\\probs\\DeepCrack\\seed_789.npz": [
+    255287,
+    1791896026193482200
+  ],
+  "results\\paper_v2\\probs\\M1_focal\\seed_123.npz": [
+    206336,
+    1791873069409831400
+  ],
+  "results\\paper_v2\\probs\\M1_focal\\seed_2026.npz": [
+    209333,
+    1791873069410831700
+  ],
+  "results\\paper_v2\\probs\\M1_focal\\seed_42.npz": [
+    239861,
+    1791873069411831500
+  ],
+  "results\\paper_v2\\probs\\M1_focal\\seed_456.npz": [
+    223488,
+    1791873069412831900
+  ],
+  "results\\paper_v2\\probs\\M1_focal\\seed_789.npz": [
+    216554,
+    1791873069415129300
+  ],
+  "results\\paper_v2\\probs\\M1_wce\\seed_123.npz": [
+    256415,
+    1791873069417120500
+  ],
+  "results\\paper_v2\\probs\\M1_wce\\seed_2026.npz": [
+    247983,
+    1791873069419526900
+  ],
+  "results\\paper_v2\\probs\\M1_wce\\seed_42.npz": [
+    251453,
+    1791873069421528300
+  ],
+  "results\\paper_v2\\probs\\M1_wce\\seed_456.npz": [
+    249338,
+    1791873069423527700
+  ],
+  "results\\paper_v2\\probs\\M1_wce\\seed_789.npz": [
+    251261,
+    1791873069425527800
+  ],
+  "results\\paper_v2\\probs\\M2_focal\\seed_123.npz": [
+    242410,
+    1791873069427015100
+  ],
+  "results\\paper_v2\\probs\\M2_focal\\seed_2026.npz": [
+    238151,
+    1791873069428377900
+  ],
+  "results\\paper_v2\\probs\\M2_focal\\seed_42.npz": [
+    241570,
+    1791873069430659400
+  ],
+  "results\\paper_v2\\probs\\M2_focal\\seed_456.npz": [
+    228314,
+    1791873069432656000
+  ],
+  "results\\paper_v2\\probs\\M2_focal\\seed_789.npz": [
+    232463,
+    1791873069435081300
+  ],
+  "results\\paper_v2\\probs\\M2_wce\\seed_123.npz": [
+    254807,
+    1791873069437084800
+  ],
+  "results\\paper_v2\\probs\\M2_wce\\seed_2026.npz": [
+    250456,
+    1791873069439084500
+  ],
+  "results\\paper_v2\\probs\\M2_wce\\seed_42.npz": [
+    255939,
+    1791873069440081500
+  ],
+  "results\\paper_v2\\probs\\M2_wce\\seed_456.npz": [
+    251023,
+    1791873069441203900
+  ],
+  "results\\paper_v2\\probs\\M2_wce\\seed_789.npz": [
+    249132,
+    1791873069442204500
+  ],
+  "results\\paper_v2\\probs\\M3_focal\\seed_123.npz": [
+    234159,
+    1791873069444202700
+  ],
+  "results\\paper_v2\\probs\\M3_focal\\seed_2026.npz": [
+    232068,
+    1791873069446451800
+  ],
+  "results\\paper_v2\\probs\\M3_focal\\seed_42.npz": [
+    234870,
+    1791873069447564100
+  ],
+  "results\\paper_v2\\probs\\M3_focal\\seed_456.npz": [
+    229668,
+    1791873069449572800
+  ],
+  "results\\paper_v2\\probs\\M3_focal\\seed_789.npz": [
+    231947,
+    1791873069451573500
+  ],
+  "results\\paper_v2\\probs\\M3_wce\\seed_123.npz": [
+    248866,
+    1791873069452916500
+  ],
+  "results\\paper_v2\\probs\\M3_wce\\seed_2026.npz": [
+    251596,
+    1791873069453922900
+  ],
+  "results\\paper_v2\\probs\\M3_wce\\seed_42.npz": [
+    249714,
+    1791873069456159100
+  ],
+  "results\\paper_v2\\probs\\M3_wce\\seed_456.npz": [
+    248609,
+    1791873069457160000
+  ],
+  "results\\paper_v2\\probs\\M3_wce\\seed_789.npz": [
+    250177,
+    1791873069459157400
+  ],
+  "results\\paper_v2\\probs\\M4_focal\\seed_123.npz": [
+    240182,
+    1791873069460636100
+  ],
+  "results\\paper_v2\\probs\\M4_focal\\seed_2026.npz": [
+    241755,
+    1791873069462035400
+  ],
+  "results\\paper_v2\\probs\\M4_focal\\seed_42.npz": [
+    236371,
+    1791873069464042900
+  ],
+  "results\\paper_v2\\probs\\M4_focal\\seed_456.npz": [
+    233863,
+    1791873069465535500
+  ],
+  "results\\paper_v2\\probs\\M4_focal\\seed_789.npz": [
+    233813,
+    1791873069466910600
+  ],
+  "results\\paper_v2\\probs\\M4_wce\\seed_123.npz": [
+    247782,
+    1791873069467918700
+  ],
+  "results\\paper_v2\\probs\\M4_wce\\seed_2026.npz": [
+    249413,
+    1791873069468917600
+  ],
+  "results\\paper_v2\\probs\\M4_wce\\seed_42.npz": [
+    248581,
+    1791873069469918700
+  ],
+  "results\\paper_v2\\probs\\M4_wce\\seed_456.npz": [
+    249339,
+    1791873069470918300
+  ],
+  "results\\paper_v2\\probs\\M4_wce\\seed_789.npz": [
+    245871,
+    1791873069472914500
+  ],
+  "results\\paper_v2\\runs\\DeepCrack\\seed_123\\best_model.pt": [
+    58878581,
+    1791895124805416000
+  ],
+  "results\\paper_v2\\runs\\DeepCrack\\seed_123\\result.json": [
+    967,
+    1791895240828908000
+  ],
+  "results\\paper_v2\\runs\\DeepCrack\\seed_2026\\best_model.pt": [
+    58878581,
+    1791896092056799500
+  ],
+  "results\\paper_v2\\runs\\DeepCrack\\seed_2026\\result.json": [
+    931,
+    1791896211486921900
+  ],
+  "results\\paper_v2\\runs\\DeepCrack\\seed_42\\best_model.pt": [
+    58878581,
+    1791894682518422100
+  ],
+  "results\\paper_v2\\runs\\DeepCrack\\seed_42\\result.json": [
+    961,
+    1791894796399229200
+  ],
+  "results\\paper_v2\\runs\\DeepCrack\\seed_456\\best_model.pt": [
+    58878581,
+    1791895607525323100
+  ],
+  "results\\paper_v2\\runs\\DeepCrack\\seed_456\\result.json": [
+    961,
+    1791895726611340800
+  ],
+  "results\\paper_v2\\runs\\DeepCrack\\seed_789\\best_model.pt": [
+    58878581,
+    1791895901677839400
+  ],
+  "results\\paper_v2\\runs\\DeepCrack\\seed_789\\result.json": [
+    950,
+    1791896026193482200
+  ],
+  "results\\paper_v2\\runs\\M1_focal\\seed_123\\best_model.pt": [
+    270645,
+    1791873069474915500
+  ],
+  "results\\paper_v2\\runs\\M1_focal\\seed_123\\result.json": [
+    5018,
+    1791873069475915900
+  ],
+  "results\\paper_v2\\runs\\M1_focal\\seed_2026\\best_model.pt": [
+    270645,
+    1791873069478061000
+  ],
+  "results\\paper_v2\\runs\\M1_focal\\seed_2026\\result.json": [
+    5107,
+    1791873069479059400
+  ],
+  "results\\paper_v2\\runs\\M1_focal\\seed_42\\best_model.pt": [
+    270645,
+    1791873069480562600
+  ],
+  "results\\paper_v2\\runs\\M1_focal\\seed_42\\result.json": [
+    5158,
+    1791873069481627000
+  ],
+  "results\\paper_v2\\runs\\M1_focal\\seed_456\\best_model.pt": [
+    270645,
+    1791873069483635100
+  ],
+  "results\\paper_v2\\runs\\M1_focal\\seed_456\\result.json": [
+    5549,
+    1791873069484635000
+  ],
+  "results\\paper_v2\\runs\\M1_focal\\seed_789\\best_model.pt": [
+    270645,
+    1791873069486634800
+  ],
+  "results\\paper_v2\\runs\\M1_focal\\seed_789\\result.json": [
+    5460,
+    1791873069487634600
+  ],
+  "results\\paper_v2\\runs\\M2_wce\\seed_123\\best_model.pt": [
+    50421,
+    1791873069488631600
+  ],
+  "results\\paper_v2\\runs\\M2_wce\\seed_123\\result.json": [
+    5457,
+    1791873069489633100
+  ],
+  "results\\paper_v2\\runs\\M2_wce\\seed_2026\\best_model.pt": [
+    50421,
+    1791873069490633500
+  ],
+  "results\\paper_v2\\runs\\M2_wce\\seed_2026\\result.json": [
+    5398,
+    1791873069491635800
+  ],
+  "results\\paper_v2\\runs\\M2_wce\\seed_42\\best_model.pt": [
+    50421,
+    1791873069491635800
+  ],
+  "results\\paper_v2\\runs\\M2_wce\\seed_42\\result.json": [
+    5311,
+    1791873069493071000
+  ],
+  "results\\paper_v2\\runs\\M2_wce\\seed_456\\best_model.pt": [
+    50421,
+    1791873069494077100
+  ],
+  "results\\paper_v2\\runs\\M2_wce\\seed_456\\result.json": [
+    5244,
+    1791873069494077100
+  ],
+  "results\\paper_v2\\runs\\M2_wce\\seed_789\\best_model.pt": [
+    50421,
+    1791873069495076200
+  ],
+  "results\\paper_v2\\runs\\M2_wce\\seed_789\\result.json": [
+    5122,
+    1791873069495076200
+  ],
+  "results\\paper_v2\\runs\\M3_wce\\seed_123\\best_model.pt": [
+    459125,
+    1791873069498077000
+  ],
+  "results\\paper_v2\\runs\\M3_wce\\seed_123\\result.json": [
+    5523,
+    1791873069499322400
+  ],
+  "results\\paper_v2\\runs\\M3_wce\\seed_2026\\best_model.pt": [
+    459125,
+    1791873069503210100
+  ],
+  "results\\paper_v2\\runs\\M3_wce\\seed_2026\\result.json": [
+    5004,
+    1791873069503210100
+  ],
+  "results\\paper_v2\\runs\\M3_wce\\seed_42\\best_model.pt": [
+    459125,
+    1791873069506573300
+  ],
+  "results\\paper_v2\\runs\\M3_wce\\seed_42\\result.json": [
+    5203,
+    1791873069506573300
+  ],
+  "results\\paper_v2\\runs\\M3_wce\\seed_456\\best_model.pt": [
+    459125,
+    1791873069509573800
+  ],
+  "results\\paper_v2\\runs\\M3_wce\\seed_456\\result.json": [
+    5116,
+    1791873069510574800
+  ],
+  "results\\paper_v2\\runs\\M3_wce\\seed_789\\best_model.pt": [
+    459125,
+    1791873069512574200
+  ],
+  "results\\paper_v2\\runs\\M3_wce\\seed_789\\result.json": [
+    5334,
+    1791873069513587000
+  ],
+  "results\\paper_v2\\runs\\M4_wce\\seed_123\\best_model.pt": [
+    484597,
+    1791873069516584200
+  ],
+  "results\\paper_v2\\runs\\M4_wce\\seed_123\\result.json": [
+    5322,
+    1791873069517587100
+  ],
+  "results\\paper_v2\\runs\\M4_wce\\seed_2026\\best_model.pt": [
+    484597,
+    1791873069520583300
+  ],
+  "results\\paper_v2\\runs\\M4_wce\\seed_2026\\result.json": [
+    5170,
+    1791873069521584000
+  ],
+  "results\\paper_v2\\runs\\M4_wce\\seed_42\\best_model.pt": [
+    484597,
+    1791873069524582500
+  ],
+  "results\\paper_v2\\runs\\M4_wce\\seed_42\\result.json": [
+    5567,
+    1791873069525586200
+  ],
+  "results\\paper_v2\\runs\\M4_wce\\seed_456\\best_model.pt": [
+    484597,
+    1791873069528583000
+  ],
+  "results\\paper_v2\\runs\\M4_wce\\seed_456\\result.json": [
+    5172,
+    1791873069529584400
+  ],
+  "results\\paper_v2\\runs\\M4_wce\\seed_789\\best_model.pt": [
+    484597,
+    1791873069532589000
+  ],
+  "results\\paper_v2\\runs\\M4_wce\\seed_789\\result.json": [
+    4918,
+    1791873069532589000
+  ],
+  "results\\plots\\benchmark_comparison.png": [
+    58447,
+    1788458258149367700
+  ],
+  "results\\plots\\bucketed_analysis.png": [
+    186139,
+    1788548753173090400
+  ],
+  "results\\plots\\bucketed_significance_cis.png": [
+    132161,
+    1788587198437582200
+  ],
+  "results\\plots\\dirichlet_energy_curves.png": [
+    297460,
+    1788548758116003000
+  ],
+  "results\\plots\\gate_trajectory_analysis.png": [
+    335185,
+    1788585266132662900
+  ],
+  "results\\plots\\master_leaderboard_with_deepcrack.png": [
+    155662,
+    1788799247877959900
+  ],
+  "results\\plots\\morphology_buckets_with_deepcrack.png": [
+    142544,
+    1788799248333151000
+  ],
+  "results\\plots\\multiseed_benchmark_errorbars.png": [
+    113923,
+    1788587198206155300
+  ],
+  "results\\plots\\step2_focal_loss_comparison.png": [
+    180226,
+    1788544785898312900
+  ],
+  "results\\plots\\step4_complete_benchmark.png": [
+    206372,
+    1788548758430352400
+  ],
+  "results\\plots\\threshold_calibration_curves.png": [
+    413238,
+    1788542586727521900
+  ],
+  "results\\plots\\training_curves.png": [
+    338786,
+    1788458431271666800
+  ],
+  "results\\step2_loss\\step2_comparison.json": [
+    14972,
+    1788544118814619800
+  ],
+  "results\\step2_loss\\M2_shallow_gnn\\best_model.pt": [
+    50421,
+    1788543771047730300
+  ],
+  "results\\step2_loss\\M2_shallow_gnn\\results.json": [
+    2858,
+    1788543813530512500
+  ],
+  "results\\step2_loss\\M3_hybrid_no_pe\\best_model.pt": [
+    459125,
+    1788543884030275300
+  ],
+  "results\\step2_loss\\M3_hybrid_no_pe\\results.json": [
+    3392,
+    1788543939145767400
+  ],
+  "results\\step2_loss\\M4_hybrid_full\\best_model.pt": [
+    484597,
+    1788544049053500700
+  ],
+  "results\\step2_loss\\M4_hybrid_full\\results.json": [
+    4417,
+    1788544108467709800
+  ],
+  "results\\step3_gate\\M4_hybrid_gate\\best_model.pt": [
+    484917,
+    1788547181306187900
+  ],
+  "results\\step3_gate\\M4_hybrid_gate\\results.json": [
+    4253,
+    1788547250884041600
+  ],
+  "results\\step4_relpos\\M4_hybrid_relpos\\best_model.pt": [
+    485493,
+    1788548167538115500
+  ],
+  "results\\step4_relpos\\M4_hybrid_relpos\\results.json": [
+    7105,
+    1788548246565791800
+  ],
+  "results\\tits_M1_deep_gnn\\best_model.pt": [
+    270645,
+    1788496859342434300
+  ],
+  "results\\tits_M1_deep_gnn\\results.json": [
+    2699,
+    1788496876286854300
+  ],
+  "results\\tits_M4_hybrid_full\\best_model.pt": [
+    484597,
+    1788496825434901900
+  ],
+  "results\\tits_M4_hybrid_full\\results.json": [
+    3041,
+    1788496841302962000
+  ]
+}

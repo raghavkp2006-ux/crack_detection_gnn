@@ -1,0 +1,129 @@
+{
+  "checkpoint": "pipeline-crack-gnn\\results\\M3_hybrid_no_pe\\best_model.pt",
+  "checkpoint_sha256": "659d4ccdd8809da8d4e36715631083c9b56d66d2c284290cadf948b2c68e8031",
+  "threshold": 0.74,
+  "efficiency": {
+    "parameters": 110594,
+    "gflops_fvcore_historical": 0.106388992,
+    "model_only": {
+      "fps": 344.5187076661957,
+      "latency_ms": 2.902599997469224,
+      "latency_iqr_ms": 0.9752750011102762,
+      "latency_mean_ms": 3.1254946001863573,
+      "latency_std_ms": 0.7323207320950724
+    },
+    "historical_e2e": {
+      "end_to_end_latency_ms": 78.52015000389656,
+      "end_to_end_iqr_ms": 30.389175000891555,
+      "end_to_end_mean_ms": 85.32435320020886,
+      "end_to_end_std_ms": 28.614760024197064,
+      "end_to_end_fps": 12.735584432153722,
+      "preprocessing_ms": 73.80070000363048,
+      "preprocessing_iqr_ms": 29.690825002035126,
+      "slic_ms": 47.62474999733968,
+      "slic_iqr_ms": 19.830325010843808,
+      "features_ms": 12.701899999228772,
+      "features_iqr_ms": 5.092949995741947,
+      "graph_ms": 13.206800002080854,
+      "graph_iqr_ms": 4.564074995869305,
+      "forward_ms": 3.3026000019162893,
+      "forward_iqr_ms": 0.9731499958434142,
+      "recon_ms": 0.8582500013289973,
+      "recon_iqr_ms": 0.35740000384976156
+    },
+    "real_graph": {
+      "nodes": 289,
+      "directed_edges": 2956,
+      "gflops_fvcore": 0.044686336,
+      "unsupported": {
+        "aten::index_select": 2,
+        "aten::new_ones": 2,
+        "aten::scatter_add_": 4,
+        "aten::expand_as": 4,
+        "aten::div": 2,
+        "aten::add": 7,
+        "aten::_native_multi_head_attention": 2,
+        "aten::gelu": 2
+      },
+      "gflops_analytic": 0.105968232
+    }
+  },
+  "accuracy": {
+    "cldice": 0.544586404783426,
+    "pixel_f1": 0.5680341662903293,
+    "pixel_iou": 0.3966813683108431,
+    "overlap_sweep": [
+      {
+        "overlap_threshold": 0.3,
+        "total": 992,
+        "preserved": 189,
+        "missed": 601,
+        "fragmented": 202,
+        "micro": 0.1905241935483871,
+        "macro": 0.1994658338429158
+      },
+      {
+        "overlap_threshold": 0.4,
+        "total": 992,
+        "preserved": 181,
+        "missed": 624,
+        "fragmented": 187,
+        "micro": 0.18245967741935484,
+        "macro": 0.1890883538451826
+      },
+      {
+        "overlap_threshold": 0.5,
+        "total": 992,
+        "preserved": 169,
+        "missed": 660,
+        "fragmented": 163,
+        "micro": 0.17036290322580644,
+        "macro": 0.17916018426511432
+      },
+      {
+        "overlap_threshold": 0.6,
+        "total": 992,
+        "preserved": 160,
+        "missed": 700,
+        "fragmented": 132,
+        "micro": 0.16129032258064516,
+        "macro": 0.1732871155172954
+      },
+      {
+        "overlap_threshold": 0.7,
+        "total": 992,
+        "preserved": 147,
+        "missed": 758,
+        "fragmented": 87,
+        "micro": 0.14818548387096775,
+        "macro": 0.15681833680667792
+      }
+    ],
+    "size_buckets": [
+      {
+        "bucket": "Small (<50px)",
+        "total": 167,
+        "preserved": 13,
+        "missed": 154,
+        "fragmented": 0,
+        "micro": 0.07784431137724551
+      },
+      {
+        "bucket": "Medium (50-200px)",
+        "total": 274,
+        "preserved": 44,
+        "missed": 223,
+        "fragmented": 7,
+        "micro": 0.16058394160583941
+      },
+      {
+        "bucket": "Large (>200px)",
+        "total": 551,
+        "preserved": 112,
+        "missed": 283,
+        "fragmented": 156,
+        "micro": 0.20326678765880218
+      }
+    ]
+  }
+}

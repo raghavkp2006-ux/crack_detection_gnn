@@ -1,0 +1,19 @@
+test_benchmark_end_to_end_cnn (test_crack_metrics.TestCrackMetrics.test_benchmark_end_to_end_cnn) ... ok
+test_cldice_all_background (test_crack_metrics.TestCrackMetrics.test_cldice_all_background) ... ok
+test_cldice_empty_prediction_with_nonempty_gt (test_crack_metrics.TestCrackMetrics.test_cldice_empty_prediction_with_nonempty_gt) ... ok
+test_cldice_gap_in_line (test_crack_metrics.TestCrackMetrics.test_cldice_gap_in_line) ... ok
+test_cldice_perfect_prediction (test_crack_metrics.TestCrackMetrics.test_cldice_perfect_prediction) ... ok
+test_cldice_shifted_by_one_pixel (test_crack_metrics.TestCrackMetrics.test_cldice_shifted_by_one_pixel) ... ok
+test_connectivity_ratio_breakdown (test_crack_metrics.TestCrackMetrics.test_connectivity_ratio_breakdown) ... ok
+test_connectivity_ratio_gap (test_crack_metrics.TestCrackMetrics.test_connectivity_ratio_gap) ... ok
+test_connectivity_ratio_perfect (test_crack_metrics.TestCrackMetrics.test_connectivity_ratio_perfect) ... ok
+test_count_gflops (test_crack_metrics.TestCrackMetrics.test_count_gflops) ... ok
+test_count_params (test_crack_metrics.TestCrackMetrics.test_count_params) ... ok
+test_cr_by_segment_size (test_crack_metrics.TestCrackMetrics.test_cr_by_segment_size) ... ok
+test_measure_fps (test_crack_metrics.TestCrackMetrics.test_measure_fps) ... ok
+test_sweep_cr_thresholds (test_crack_metrics.TestCrackMetrics.test_sweep_cr_thresholds) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.736s
+
+OK

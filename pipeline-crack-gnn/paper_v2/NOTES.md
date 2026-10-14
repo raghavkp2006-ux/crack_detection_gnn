@@ -535,3 +535,39 @@ Workflow wall seconds (including coding/inspection for each task; copied without
 Internal computation/render timings are separately saved in analysis_cluster.json
 and figures/captions_notes.md. Elevated access was required for the Python
 launcher and Git metadata/network access; no automatic-approval rejection occurred.
+
+## Project pitch rerun 2026-10-14
+
+The user requested all tests mentioned in Crack_Segmentation_Project_Pitch.docx
+again (referred to as a PDF). Added rerun_pitch.py and exclusively created
+results/paper_v2/pitch_rerun_20261014_01. All 14 existing metric unit tests passed.
+Reran the five historical checkpoints on all 237 images with their original
+fixed thresholds and 256x256 inference; each model received 500 timed model-only
+and historical end-to-end iterations. Recomputed clDice, strict micro/macro
+connectivity, fragmentation, size bins, and overlap thresholds 0.3 through 0.7.
+Reran M4 SLIC connectivity True/False on the full holdout, graph-size statistics,
+500-iteration SLIC timings for each setting, and direct GPU PE-fusion timing.
+Recomputed strict historical size/topology metrics for all five current seeds
+using saved predictions, with no retraining or recalibration. Existing results
+file sizes and modification times matched the pre-run manifest on completion.
+
+All historical clDice/connectivity results reproduced the pitch. M4's small and
+medium component wins reproduced (21 versus 12, and 89 versus 69 components).
+Historical M2 also exceeds original DeepCrack overall strict micro connectivity
+(0.4223790322580645 versus 0.33669354838709675). Current M4 does not reproduce
+the small/medium wins against the newer CNN. Current M1 weighted CE exceeds
+that CNN in mean strict micro connectivity (0.32983870967741935 versus
+0.3080645161290322); this rerun does not establish significance for that gap.
+
+Protocol limitations are recorded in the report and JSON: different historical
+and current CNN architectures; historical synthetic graph FLOP/timing inputs;
+unsupported attention operations in fvcore; historical CNN end-to-end timing
+excludes input preparation/transfer and binary reconstruction; historical size
+bins actually use [0,50), [50,200), [200,infinity); SLIC control is inference-only.
+Timing values were newly measured and differ from the pitch. Cross-sensor and
+morphology experiments are labeled future work in the pitch and were not run.
+The sandbox Python launcher failed to locate the installed interpreter before
+any tests executed; approved elevated py -3.11 execution succeeded. No actual
+test or experiment failed. No primary seeds, splits, thresholds, hyperparameters,
+predictions, or LaTeX were changed. Computation wall time: 458.6033415999991 s;
+per-section times are in pitch_rerun.json and PITCH_RERUN.md.

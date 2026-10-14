@@ -1,0 +1,17 @@
+{
+  "parameters": 6208,
+  "real_graph_nodes": 289,
+  "pe_fusion_gpu_ms": {
+    "median": 0.2466000005370006,
+    "q1": 0.1912500010803342,
+    "q3": 0.2843250003934372,
+    "iqr": 0.09307499931310304,
+    "p95": 0.3982699912739917,
+    "mean": 0.25698000015108846,
+    "sd": 0.08816636505971115,
+    "timed_iterations": 500,
+    "warmup": 15
+  },
+  "percent_of_historical_m4_e2e": 0.37154585608272467,
+  "note": "Direct PE module timing includes sinusoidal construction, concatenation, and projection; M3/M4 whole-model timing difference is not a pure PE measurement."
+}

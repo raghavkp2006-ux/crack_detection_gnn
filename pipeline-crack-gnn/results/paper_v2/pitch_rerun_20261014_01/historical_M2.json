@@ -1,0 +1,127 @@
+{
+  "checkpoint": "pipeline-crack-gnn\\results\\M2_shallow_gnn\\best_model.pt",
+  "checkpoint_sha256": "e8db920172b7a30ed19f62a4276f8b07d6534aef7c9461bc06eafc4eea2bec10",
+  "threshold": 0.7,
+  "efficiency": {
+    "parameters": 10626,
+    "gflops_fvcore_historical": 0.006066688,
+    "model_only": {
+      "fps": 789.0791434379629,
+      "latency_ms": 1.2673000019276515,
+      "latency_iqr_ms": 0.31187500280793756,
+      "latency_mean_ms": 1.396970599918859,
+      "latency_std_ms": 0.30183383786875856
+    },
+    "historical_e2e": {
+      "end_to_end_latency_ms": 94.04289999656612,
+      "end_to_end_iqr_ms": 4.728025000076741,
+      "end_to_end_mean_ms": 98.02156040002592,
+      "end_to_end_std_ms": 19.133541821281625,
+      "end_to_end_fps": 10.633444949448752,
+      "preprocessing_ms": 90.69155000179308,
+      "preprocessing_iqr_ms": 4.387924986076541,
+      "slic_ms": 60.28099999821279,
+      "slic_iqr_ms": 1.9317000078444835,
+      "features_ms": 15.886949993728194,
+      "features_iqr_ms": 0.5691750047844835,
+      "graph_ms": 13.875449993065558,
+      "graph_iqr_ms": 2.007950002735015,
+      "forward_ms": 1.8548500011092983,
+      "forward_iqr_ms": 0.35722500615520403,
+      "recon_ms": 1.2232500012032688,
+      "recon_iqr_ms": 0.15485000039916486
+    },
+    "real_graph": {
+      "nodes": 289,
+      "directed_edges": 2956,
+      "gflops_fvcore": 0.006066688,
+      "unsupported": {
+        "aten::index_select": 2,
+        "aten::new_ones": 2,
+        "aten::scatter_add_": 4,
+        "aten::expand_as": 4,
+        "aten::div": 2,
+        "aten::add": 3
+      },
+      "gflops_analytic": 0.006385768
+    }
+  },
+  "accuracy": {
+    "cldice": 0.7452905251641695,
+    "pixel_f1": 0.6478326492683272,
+    "pixel_iou": 0.4791068567938559,
+    "overlap_sweep": [
+      {
+        "overlap_threshold": 0.3,
+        "total": 992,
+        "preserved": 434,
+        "missed": 313,
+        "fragmented": 245,
+        "micro": 0.4375,
+        "macro": 0.41495798751794755
+      },
+      {
+        "overlap_threshold": 0.4,
+        "total": 992,
+        "preserved": 426,
+        "missed": 334,
+        "fragmented": 232,
+        "micro": 0.42943548387096775,
+        "macro": 0.41119149498563223
+      },
+      {
+        "overlap_threshold": 0.5,
+        "total": 992,
+        "preserved": 419,
+        "missed": 359,
+        "fragmented": 214,
+        "micro": 0.4223790322580645,
+        "macro": 0.4043967543301321
+      },
+      {
+        "overlap_threshold": 0.6,
+        "total": 992,
+        "preserved": 402,
+        "missed": 396,
+        "fragmented": 194,
+        "micro": 0.40524193548387094,
+        "macro": 0.39122632986723593
+      },
+      {
+        "overlap_threshold": 0.7,
+        "total": 992,
+        "preserved": 373,
+        "missed": 446,
+        "fragmented": 173,
+        "micro": 0.37600806451612906,
+        "macro": 0.36575606056785276
+      }
+    ],
+    "size_buckets": [
+      {
+        "bucket": "Small (<50px)",
+        "total": 167,
+        "preserved": 41,
+        "missed": 126,
+        "fragmented": 0,
+        "micro": 0.24550898203592814
+      },
+      {
+        "bucket": "Medium (50-200px)",
+        "total": 274,
+        "preserved": 124,
+        "missed": 136,
+        "fragmented": 14,
+        "micro": 0.45255474452554745
+      },
+      {
+        "bucket": "Large (>200px)",
+        "total": 551,
+        "preserved": 254,
+        "missed": 97,
+        "fragmented": 200,
+        "micro": 0.46098003629764067
+      }
+    ]
+  }
+}

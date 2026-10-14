@@ -1,0 +1,402 @@
+[
+  {
+    "cldice": 0.6934833836877141,
+    "pixel_f1": 0.7405947529875005,
+    "pixel_iou": 0.5880511890388768,
+    "overlap_sweep": [
+      {
+        "overlap_threshold": 0.3,
+        "total": 992,
+        "preserved": 341,
+        "missed": 479,
+        "fragmented": 172,
+        "micro": 0.34375,
+        "macro": 0.3787372209674008
+      },
+      {
+        "overlap_threshold": 0.4,
+        "total": 992,
+        "preserved": 335,
+        "missed": 494,
+        "fragmented": 163,
+        "micro": 0.3377016129032258,
+        "macro": 0.3720453858944865
+      },
+      {
+        "overlap_threshold": 0.5,
+        "total": 992,
+        "preserved": 322,
+        "missed": 523,
+        "fragmented": 147,
+        "micro": 0.3245967741935484,
+        "macro": 0.3645563149560485
+      },
+      {
+        "overlap_threshold": 0.6,
+        "total": 992,
+        "preserved": 310,
+        "missed": 565,
+        "fragmented": 117,
+        "micro": 0.3125,
+        "macro": 0.356211040729695
+      },
+      {
+        "overlap_threshold": 0.7,
+        "total": 992,
+        "preserved": 283,
+        "missed": 610,
+        "fragmented": 99,
+        "micro": 0.2852822580645161,
+        "macro": 0.3351667822270754
+      }
+    ],
+    "size_buckets": [
+      {
+        "bucket": "Small (<50px)",
+        "total": 167,
+        "preserved": 26,
+        "missed": 141,
+        "fragmented": 0,
+        "micro": 0.15568862275449102
+      },
+      {
+        "bucket": "Medium (50-200px)",
+        "total": 274,
+        "preserved": 62,
+        "missed": 210,
+        "fragmented": 2,
+        "micro": 0.22627737226277372
+      },
+      {
+        "bucket": "Large (>200px)",
+        "total": 551,
+        "preserved": 234,
+        "missed": 172,
+        "fragmented": 145,
+        "micro": 0.4246823956442831
+      }
+    ],
+    "seed": 42,
+    "threshold": 0.5000000000000001
+  },
+  {
+    "cldice": 0.7021934878773517,
+    "pixel_f1": 0.7353112850961817,
+    "pixel_iou": 0.5814168154035464,
+    "overlap_sweep": [
+      {
+        "overlap_threshold": 0.3,
+        "total": 992,
+        "preserved": 391,
+        "missed": 417,
+        "fragmented": 184,
+        "micro": 0.3941532258064516,
+        "macro": 0.40090050010936085
+      },
+      {
+        "overlap_threshold": 0.4,
+        "total": 992,
+        "preserved": 386,
+        "missed": 428,
+        "fragmented": 178,
+        "micro": 0.38911290322580644,
+        "macro": 0.39434931201253653
+      },
+      {
+        "overlap_threshold": 0.5,
+        "total": 992,
+        "preserved": 377,
+        "missed": 454,
+        "fragmented": 161,
+        "micro": 0.3800403225806452,
+        "macro": 0.3846982504627408
+      },
+      {
+        "overlap_threshold": 0.6,
+        "total": 992,
+        "preserved": 364,
+        "missed": 488,
+        "fragmented": 140,
+        "micro": 0.36693548387096775,
+        "macro": 0.3763812882900158
+      },
+      {
+        "overlap_threshold": 0.7,
+        "total": 992,
+        "preserved": 338,
+        "missed": 537,
+        "fragmented": 117,
+        "micro": 0.3407258064516129,
+        "macro": 0.3597008914297389
+      }
+    ],
+    "size_buckets": [
+      {
+        "bucket": "Small (<50px)",
+        "total": 167,
+        "preserved": 39,
+        "missed": 128,
+        "fragmented": 0,
+        "micro": 0.23353293413173654
+      },
+      {
+        "bucket": "Medium (50-200px)",
+        "total": 274,
+        "preserved": 82,
+        "missed": 190,
+        "fragmented": 2,
+        "micro": 0.29927007299270075
+      },
+      {
+        "bucket": "Large (>200px)",
+        "total": 551,
+        "preserved": 256,
+        "missed": 136,
+        "fragmented": 159,
+        "micro": 0.4646098003629764
+      }
+    ],
+    "seed": 123,
+    "threshold": 0.42000000000000004
+  },
+  {
+    "cldice": 0.6917812731275697,
+    "pixel_f1": 0.7449698351366144,
+    "pixel_iou": 0.5935871949481842,
+    "overlap_sweep": [
+      {
+        "overlap_threshold": 0.3,
+        "total": 992,
+        "preserved": 314,
+        "missed": 498,
+        "fragmented": 180,
+        "micro": 0.3165322580645161,
+        "macro": 0.3458221781672814
+      },
+      {
+        "overlap_threshold": 0.4,
+        "total": 992,
+        "preserved": 308,
+        "missed": 515,
+        "fragmented": 169,
+        "micro": 0.31048387096774194,
+        "macro": 0.338216137749782
+      },
+      {
+        "overlap_threshold": 0.5,
+        "total": 992,
+        "preserved": 296,
+        "missed": 544,
+        "fragmented": 152,
+        "micro": 0.29838709677419356,
+        "macro": 0.33083004049026704
+      },
+      {
+        "overlap_threshold": 0.6,
+        "total": 992,
+        "preserved": 282,
+        "missed": 587,
+        "fragmented": 123,
+        "micro": 0.2842741935483871,
+        "macro": 0.3218629958636621
+      },
+      {
+        "overlap_threshold": 0.7,
+        "total": 992,
+        "preserved": 258,
+        "missed": 632,
+        "fragmented": 102,
+        "micro": 0.2600806451612903,
+        "macro": 0.30004061253228476
+      }
+    ],
+    "size_buckets": [
+      {
+        "bucket": "Small (<50px)",
+        "total": 167,
+        "preserved": 27,
+        "missed": 140,
+        "fragmented": 0,
+        "micro": 0.16167664670658682
+      },
+      {
+        "bucket": "Medium (50-200px)",
+        "total": 274,
+        "preserved": 57,
+        "missed": 215,
+        "fragmented": 2,
+        "micro": 0.20802919708029197
+      },
+      {
+        "bucket": "Large (>200px)",
+        "total": 551,
+        "preserved": 212,
+        "missed": 189,
+        "fragmented": 150,
+        "micro": 0.38475499092558985
+      }
+    ],
+    "seed": 456,
+    "threshold": 0.5000000000000001
+  },
+  {
+    "cldice": 0.666920540219219,
+    "pixel_f1": 0.724877131001823,
+    "pixel_iou": 0.5684763003045625,
+    "overlap_sweep": [
+      {
+        "overlap_threshold": 0.3,
+        "total": 992,
+        "preserved": 292,
+        "missed": 551,
+        "fragmented": 149,
+        "micro": 0.29435483870967744,
+        "macro": 0.35575881695968303
+      },
+      {
+        "overlap_threshold": 0.4,
+        "total": 992,
+        "preserved": 279,
+        "missed": 581,
+        "fragmented": 132,
+        "micro": 0.28125,
+        "macro": 0.3413012595640844
+      },
+      {
+        "overlap_threshold": 0.5,
+        "total": 992,
+        "preserved": 265,
+        "missed": 611,
+        "fragmented": 116,
+        "micro": 0.26713709677419356,
+        "macro": 0.3332745640373888
+      },
+      {
+        "overlap_threshold": 0.6,
+        "total": 992,
+        "preserved": 252,
+        "missed": 637,
+        "fragmented": 103,
+        "micro": 0.2540322580645161,
+        "macro": 0.32226060359804526
+      },
+      {
+        "overlap_threshold": 0.7,
+        "total": 992,
+        "preserved": 229,
+        "missed": 676,
+        "fragmented": 87,
+        "micro": 0.23084677419354838,
+        "macro": 0.2997607017676971
+      }
+    ],
+    "size_buckets": [
+      {
+        "bucket": "Small (<50px)",
+        "total": 167,
+        "preserved": 16,
+        "missed": 151,
+        "fragmented": 0,
+        "micro": 0.09580838323353294
+      },
+      {
+        "bucket": "Medium (50-200px)",
+        "total": 274,
+        "preserved": 45,
+        "missed": 228,
+        "fragmented": 1,
+        "micro": 0.16423357664233576
+      },
+      {
+        "bucket": "Large (>200px)",
+        "total": 551,
+        "preserved": 204,
+        "missed": 232,
+        "fragmented": 115,
+        "micro": 0.3702359346642468
+      }
+    ],
+    "seed": 789,
+    "threshold": 0.5200000000000001
+  },
+  {
+    "cldice": 0.6690352992872632,
+    "pixel_f1": 0.7375128219380201,
+    "pixel_iou": 0.5841745047028217,
+    "overlap_sweep": [
+      {
+        "overlap_threshold": 0.3,
+        "total": 992,
+        "preserved": 292,
+        "missed": 541,
+        "fragmented": 159,
+        "micro": 0.29435483870967744,
+        "macro": 0.34661248022340624
+      },
+      {
+        "overlap_threshold": 0.4,
+        "total": 992,
+        "preserved": 281,
+        "missed": 566,
+        "fragmented": 145,
+        "micro": 0.28326612903225806,
+        "macro": 0.33475689188547286
+      },
+      {
+        "overlap_threshold": 0.5,
+        "total": 992,
+        "preserved": 268,
+        "missed": 598,
+        "fragmented": 126,
+        "micro": 0.2701612903225806,
+        "macro": 0.32613998136982814
+      },
+      {
+        "overlap_threshold": 0.6,
+        "total": 992,
+        "preserved": 254,
+        "missed": 630,
+        "fragmented": 108,
+        "micro": 0.2560483870967742,
+        "macro": 0.3162520339235862
+      },
+      {
+        "overlap_threshold": 0.7,
+        "total": 992,
+        "preserved": 229,
+        "missed": 675,
+        "fragmented": 88,
+        "micro": 0.23084677419354838,
+        "macro": 0.29447440190278296
+      }
+    ],
+    "size_buckets": [
+      {
+        "bucket": "Small (<50px)",
+        "total": 167,
+        "preserved": 16,
+        "missed": 151,
+        "fragmented": 0,
+        "micro": 0.09580838323353294
+      },
+      {
+        "bucket": "Medium (50-200px)",
+        "total": 274,
+        "preserved": 44,
+        "missed": 228,
+        "fragmented": 2,
+        "micro": 0.16058394160583941
+      },
+      {
+        "bucket": "Large (>200px)",
+        "total": 551,
+        "preserved": 208,
+        "missed": 219,
+        "fragmented": 124,
+        "micro": 0.37749546279491836
+      }
+    ],
+    "seed": 2026,
+    "threshold": 0.54
+  }
+]

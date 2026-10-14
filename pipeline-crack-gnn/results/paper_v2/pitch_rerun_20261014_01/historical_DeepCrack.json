@@ -1,0 +1,103 @@
+{
+  "checkpoint": "pipeline-crack-gnn\\results\\multiseed\\deepcrack\\seed_42\\best_model.pt",
+  "checkpoint_sha256": "b688c34b4f13c72582bc1002abab7b722e137a5a53f20b1a38823fcc618a3949",
+  "threshold": 0.36,
+  "efficiency": {
+    "parameters": 14720389,
+    "gflops_fvcore_historical": 40.178679808,
+    "model_only": {
+      "fps": 190.71231062001243,
+      "latency_ms": 5.243499996140599,
+      "latency_iqr_ms": 0.2556249928602483,
+      "latency_mean_ms": 5.292516000103205,
+      "latency_std_ms": 0.3220758563804367
+    },
+    "historical_e2e": {
+      "end_to_end_latency_ms": 5.227500005275942,
+      "end_to_end_iqr_ms": 0.24849999681464396,
+      "end_to_end_mean_ms": 5.2729584004264325,
+      "end_to_end_std_ms": 0.28721312411787764,
+      "end_to_end_fps": 191.29603041429615,
+      "preprocessing_ms": 0.0,
+      "preprocessing_iqr_ms": 0.0
+    }
+  },
+  "accuracy": {
+    "cldice": 0.7832438708370932,
+    "pixel_f1": 0.7826919834657892,
+    "pixel_iou": 0.642969546601842,
+    "overlap_sweep": [
+      {
+        "overlap_threshold": 0.3,
+        "total": 992,
+        "preserved": 360,
+        "missed": 400,
+        "fragmented": 232,
+        "micro": 0.3629032258064516,
+        "macro": 0.39403370520958797
+      },
+      {
+        "overlap_threshold": 0.4,
+        "total": 992,
+        "preserved": 348,
+        "missed": 431,
+        "fragmented": 213,
+        "micro": 0.35080645161290325,
+        "macro": 0.3874137157781395
+      },
+      {
+        "overlap_threshold": 0.5,
+        "total": 992,
+        "preserved": 334,
+        "missed": 473,
+        "fragmented": 185,
+        "micro": 0.33669354838709675,
+        "macro": 0.3791978326038952
+      },
+      {
+        "overlap_threshold": 0.6,
+        "total": 992,
+        "preserved": 315,
+        "missed": 518,
+        "fragmented": 159,
+        "micro": 0.3175403225806452,
+        "macro": 0.366811050005587
+      },
+      {
+        "overlap_threshold": 0.7,
+        "total": 992,
+        "preserved": 289,
+        "missed": 573,
+        "fragmented": 130,
+        "micro": 0.2913306451612903,
+        "macro": 0.3493907050952354
+      }
+    ],
+    "size_buckets": [
+      {
+        "bucket": "Small (<50px)",
+        "total": 167,
+        "preserved": 12,
+        "missed": 154,
+        "fragmented": 1,
+        "micro": 0.0718562874251497
+      },
+      {
+        "bucket": "Medium (50-200px)",
+        "total": 274,
+        "preserved": 69,
+        "missed": 189,
+        "fragmented": 16,
+        "micro": 0.2518248175182482
+      },
+      {
+        "bucket": "Large (>200px)",
+        "total": 551,
+        "preserved": 253,
+        "missed": 130,
+        "fragmented": 168,
+        "micro": 0.4591651542649728
+      }
+    ]
+  }
+}
