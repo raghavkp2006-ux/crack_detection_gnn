@@ -1,0 +1,101 @@
+{
+  "cpu_name": "AMD Ryzen 5 220 w/ Radeon 740M Graphics",
+  "package_versions": {
+    "torch": "2.11.0+cu128",
+    "torch_geometric": "2.8.0.post1",
+    "torchvision": "0.26.0+cu128",
+    "scikit-image": "0.26.0",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "fvcore": "0.1.5.post20221221"
+  },
+  "dirichlet_source": "results/full_evaluation_summary.json",
+  "dirichlet_script": "run_full_evaluation_and_analysis.py",
+  "dirichlet": {
+    "M1 (8-Layer Deep GNN)": {
+      "raw_energy": [
+        5.9190298427006365,
+        7.6016827965084515,
+        10.871292145191868,
+        10.57247290353169,
+        8.625360453729263,
+        5.955756836928396,
+        3.769928246815119,
+        2.483561240718209
+      ],
+      "normalized_energy": [
+        0.052066130122024455,
+        0.05318410154594155,
+        0.06713157076521714,
+        0.07974246048626642,
+        0.07900087692953385,
+        0.0740455933308972,
+        0.055710283205897264,
+        0.045633196904898275
+      ],
+      "checkpoint": "results/M1_deep_gnn/best_model.pt",
+      "config": "configs/baseline_deep_gnn.yaml",
+      "configured_seed": 42,
+      "loss": "weighted_ce",
+      "provenance_note": "Checkpoint/config paths from run_full_evaluation_and_analysis.py; seed from YAML, not embedded in the summary JSON."
+    },
+    "M2 (2-Layer Shallow GNN)": {
+      "raw_energy": [
+        0.203382689266108,
+        0.2959360863290381
+      ],
+      "normalized_energy": [
+        0.029014457686203,
+        0.022715015317222993
+      ],
+      "checkpoint": "results/step2_loss/M2_shallow_gnn/best_model.pt",
+      "config": "configs/step2_loss/shallow_gnn_focal.yaml",
+      "configured_seed": 42,
+      "loss": "focal",
+      "provenance_note": "Checkpoint/config paths from run_full_evaluation_and_analysis.py; seed from YAML, not embedded in the summary JSON."
+    },
+    "M4 (Hybrid GNN+Trans)": {
+      "raw_energy": [
+        0.11441161515258001,
+        0.17066476893127908
+      ],
+      "normalized_energy": [
+        0.07396169422972429,
+        0.049041076402183824
+      ],
+      "checkpoint": "results/step2_loss/M4_hybrid_full/best_model.pt",
+      "config": "configs/step2_loss/hybrid_full_focal.yaml",
+      "configured_seed": 42,
+      "loss": "focal",
+      "provenance_note": "Checkpoint/config paths from run_full_evaluation_and_analysis.py; seed from YAML, not embedded in the summary JSON."
+    }
+  },
+  "dirichlet_definition": "Mean over test graphs of the mean directed-edge squared distance between row-wise L2-normalized hidden vectors.",
+  "oracle_ceiling": {
+    "script": "../create_all_figures.py",
+    "function": "make_figS8_superpixel_ceiling",
+    "image_selection": "First 35 sorted test JPG images",
+    "image_processing": "OpenCV BGR images and grayscale masks resized to 256x256; mask binarized >128.",
+    "segments": [
+      100,
+      200,
+      300,
+      500
+    ],
+    "slic": {
+      "compactness": 10.0,
+      "sigma": 1.0,
+      "enforce_connectivity": false
+    },
+    "label_rule": "Superpixel positive iff mean of resized binary GT pixels strictly exceeds 0.30.",
+    "scoring": "Pixel-level binary F1 on flattened GT and reconstructed mask, then mean and population SD across images.",
+    "caveat": "Fixed 0.30 occupancy labeling is not an optimized oracle for pixel F1; old reference model scores are hardcoded.",
+    "rerun": false
+  },
+  "attention_decay_profile": {
+    "json_found": false,
+    "source": "../create_all_figures.py:make_figS4_attention_temperature_ablation",
+    "finding": "Existing panel (b) simulates exp(-alpha*distance); no measured spatial attention decay JSON found. Omit panel (b)."
+  },
+  "wall_seconds": 1.7677103000023635
+}

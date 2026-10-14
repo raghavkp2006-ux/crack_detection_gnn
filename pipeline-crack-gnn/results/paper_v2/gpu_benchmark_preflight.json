@@ -1,0 +1,19 @@
+{
+  "gpu_query": "NVIDIA GeForce RTX 5050 Laptop GPU, 1 %, 596 MiB, 34",
+  "remaining_gpu_clients": "11192, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe\n10748, C:\\Windows\\explorer.exe\n13672, C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe\n13692, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe\n15816, C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe\n16992, C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\154.0.4258.62\\msedgewebview2.exe\n8832, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe\n12720, C:\\Windows\\System32\\NahimicSvc64.exe\n20600, C:\\Program Files\\WindowsApps\\AdvancedMicroDevicesInc-2.AMDRadeonSoftware_10.25.10326.0_x64__0a9344xs7nr4m\\radeonsoftware\\AMDRSSrcExt.exe\n20516, C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe\n12888, C:\\Users\\ragha\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\cfb32733c877621e\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe\n6060, C:\\Windows\\System32\\ShellHost.exe\n24372, C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe\n24724, C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe",
+  "closed_other_applications": [
+    "Antigravity IDE",
+    "Chrome",
+    "Brave",
+    "NVIDIA Overlay",
+    "RadeonSoftware",
+    "SnippingTool",
+    "SystemSettings"
+  ],
+  "idle_utilization_samples_percent": [
+    1,
+    1,
+    1
+  ],
+  "note": "Windows desktop and Codex remain. No training/inference process remains. The optional Get-Process python query returned 1 because no Python process was present; application closing and GPU sampling succeeded."
+}

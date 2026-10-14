@@ -1,0 +1,269 @@
+{
+  "device": "NVIDIA GeForce RTX 5050 Laptop GPU",
+  "torch": "2.11.0+cu128",
+  "cpu": "AMD64 Family 25 Model 124 Stepping 0, AuthenticAMD",
+  "warmup": 30,
+  "timed_iterations": 500,
+  "n_images": 237,
+  "dtype": "float32",
+  "telemetry": {
+    "start": "1590 MHz, 11001 MHz, 36, 9.15 W",
+    "start_M1_focal": "1627 MHz, 11001 MHz, 36, 9.27 W",
+    "mid_M1_focal": "945 MHz, 810 MHz, 37, 9.14 W",
+    "end_M1_focal": "2842 MHz, 12001 MHz, 39, 19.29 W",
+    "start_M2_focal": "2842 MHz, 12001 MHz, 39, 19.29 W",
+    "mid_M2_focal": "712 MHz, 405 MHz, 37, 6.01 W",
+    "end_M2_focal": "2812 MHz, 12001 MHz, 38, 14.98 W",
+    "start_M3_focal": "2812 MHz, 12001 MHz, 38, 14.98 W",
+    "mid_M3_focal": "990 MHz, 810 MHz, 36, 8.82 W",
+    "end_M3_focal": "2842 MHz, 11001 MHz, 39, 19.22 W",
+    "start_M4_focal": "2842 MHz, 11001 MHz, 39, 19.22 W",
+    "mid_M4_focal": "262 MHz, 810 MHz, 37, 5.17 W",
+    "end_M4_focal": "2842 MHz, 12001 MHz, 40, 20.40 W",
+    "start_DeepCrack": "1350 MHz, 810 MHz, 38, 11.85 W",
+    "mid_DeepCrack": "2580 MHz, 9001 MHz, 54, 83.92 W",
+    "end": "2640 MHz, 9001 MHz, 64, 87.95 W"
+  },
+  "models": {
+    "M1_focal": {
+      "params": 60930,
+      "gmacs_fvcore": 0.01903104,
+      "gmacs_analytic": 0.020200266,
+      "gmacs_analytic_mean_graph": 0.018402363974683547,
+      "complexity_input": {
+        "n_nodes": 315,
+        "directed_edges": 3222
+      },
+      "fvcore_unsupported": {
+        "aten::index_select": 8,
+        "aten::new_ones": 8,
+        "aten::scatter_add_": 16,
+        "aten::expand_as": 16,
+        "aten::div": 8,
+        "aten::add": 8
+      },
+      "model_only_ms": {
+        "median": 4.8918499996943865,
+        "q1": 4.65812500078755,
+        "q3": 5.24477500039211,
+        "iqr": 0.5866499996045604,
+        "p95": 6.503089999387154
+      },
+      "e2e_ms": {
+        "median": 294.61950000040815,
+        "q1": 273.6961250047898,
+        "q3": 317.2214000023814,
+        "iqr": 43.52527499759162,
+        "p95": 407.9560949947335
+      },
+      "e2e_fps": 3.394208462096415,
+      "model_fps": 204.42164008758937,
+      "e2e_mean_ms": 292.96916319993034,
+      "stage_mean_ms": {
+        "slic": 203.5963075999316,
+        "features": 58.69670300009602,
+        "graph": 17.155972599997767,
+        "h2d_forward_d2h": 6.986637400026666,
+        "reconstruct": 6.533542599878274
+      },
+      "stage_median_ms": {
+        "slic": 206.21564999964903,
+        "features": 58.13290000151028,
+        "graph": 14.079249998758314,
+        "h2d_forward_d2h": 6.30520000049728,
+        "reconstruct": 6.328149996988941
+      }
+    },
+    "M2_focal": {
+      "params": 10626,
+      "gmacs_fvcore": 0.00330624,
+      "gmacs_analytic": 0.003480138,
+      "gmacs_analytic_mean_graph": 0.003170386658227848,
+      "complexity_input": {
+        "n_nodes": 315,
+        "directed_edges": 3222
+      },
+      "fvcore_unsupported": {
+        "aten::index_select": 2,
+        "aten::new_ones": 2,
+        "aten::scatter_add_": 4,
+        "aten::expand_as": 4,
+        "aten::div": 2,
+        "aten::add": 3
+      },
+      "model_only_ms": {
+        "median": 1.2514000009105075,
+        "q1": 1.2040999954479048,
+        "q3": 1.5335500029323157,
+        "iqr": 0.3294500074844109,
+        "p95": 1.9444300025497774
+      },
+      "e2e_ms": {
+        "median": 295.56324999794015,
+        "q1": 281.0566750013095,
+        "q3": 313.88494999555405,
+        "iqr": 32.828274994244566,
+        "p95": 380.20126999945205
+      },
+      "e2e_fps": 3.3833705645305,
+      "model_fps": 799.1050018158933,
+      "e2e_mean_ms": 302.7518224000378,
+      "stage_mean_ms": {
+        "slic": 214.07754340006795,
+        "features": 61.601656599974376,
+        "graph": 17.353381599925342,
+        "h2d_forward_d2h": 2.8938409999536816,
+        "reconstruct": 6.825399800116429
+      },
+      "stage_median_ms": {
+        "slic": 210.0705500015465,
+        "features": 59.5010499964701,
+        "graph": 14.431200001126854,
+        "h2d_forward_d2h": 2.621349998662481,
+        "reconstruct": 6.529300000693183
+      }
+    },
+    "M3_focal": {
+      "params": 110594,
+      "gmacs_fvcore": 0.02435328,
+      "gmacs_analytic": 0.059847498,
+      "gmacs_analytic_mean_graph": 0.05244836983271912,
+      "complexity_input": {
+        "n_nodes": 315,
+        "directed_edges": 3222
+      },
+      "fvcore_unsupported": {
+        "aten::index_select": 2,
+        "aten::new_ones": 2,
+        "aten::scatter_add_": 4,
+        "aten::expand_as": 4,
+        "aten::div": 2,
+        "aten::add": 7,
+        "aten::_native_multi_head_attention": 2,
+        "aten::gelu": 2
+      },
+      "model_only_ms": {
+        "median": 3.7108000033185817,
+        "q1": 3.0920999979571206,
+        "q3": 4.927174997646944,
+        "iqr": 1.835074999689823,
+        "p95": 6.19406999721832
+      },
+      "e2e_ms": {
+        "median": 289.575849994435,
+        "q1": 277.83797499614593,
+        "q3": 316.56335000297986,
+        "iqr": 38.72537500683393,
+        "p95": 371.8680450012471
+      },
+      "e2e_fps": 3.453326650061522,
+      "model_fps": 269.4836690486408,
+      "e2e_mean_ms": 297.0709081998066,
+      "stage_mean_ms": {
+        "slic": 208.33647999998357,
+        "features": 59.79385040004854,
+        "graph": 17.485246399824973,
+        "h2d_forward_d2h": 4.871621999991476,
+        "reconstruct": 6.583709399958025
+      },
+      "stage_median_ms": {
+        "slic": 204.43339999837917,
+        "features": 57.7973999970709,
+        "graph": 14.157999998133164,
+        "h2d_forward_d2h": 4.193250002572313,
+        "reconstruct": 6.3410500006284565
+      }
+    },
+    "M4_focal": {
+      "params": 116802,
+      "gmacs_fvcore": 0.02628864,
+      "gmacs_analytic": 0.061782858,
+      "gmacs_analytic_mean_graph": 0.054211153427655825,
+      "complexity_input": {
+        "n_nodes": 315,
+        "directed_edges": 3222
+      },
+      "fvcore_unsupported": {
+        "aten::index_select": 2,
+        "aten::new_ones": 2,
+        "aten::scatter_add_": 4,
+        "aten::expand_as": 4,
+        "aten::div": 2,
+        "aten::add": 7,
+        "aten::pow": 1,
+        "aten::mul": 2,
+        "aten::sin": 1,
+        "aten::cos": 1,
+        "aten::_native_multi_head_attention": 2,
+        "aten::gelu": 2
+      },
+      "model_only_ms": {
+        "median": 3.577950003091246,
+        "q1": 3.2307250039593782,
+        "q3": 4.158075000304962,
+        "iqr": 0.9273499963455833,
+        "p95": 5.245675002515778
+      },
+      "e2e_ms": {
+        "median": 297.3458499982371,
+        "q1": 280.94397500353807,
+        "q3": 321.82072500108916,
+        "iqr": 40.87674999755109,
+        "p95": 366.57920000579907
+      },
+      "e2e_fps": 3.363087125668405,
+      "model_fps": 279.4896516541675,
+      "e2e_mean_ms": 305.59292619979533,
+      "stage_mean_ms": {
+        "slic": 214.07957500002522,
+        "features": 61.789973199847736,
+        "graph": 17.917592200101353,
+        "h2d_forward_d2h": 5.01755200009211,
+        "reconstruct": 6.788233799728914
+      },
+      "stage_median_ms": {
+        "slic": 208.63364999968326,
+        "features": 59.64339999991353,
+        "graph": 14.439450002100784,
+        "h2d_forward_d2h": 4.476750000321772,
+        "reconstruct": 6.486949998361524
+      }
+    },
+    "DeepCrack": {
+      "params": 14716171,
+      "gmacs_fvcore": 63.922802688,
+      "gmacs_analytic": 63.918624768,
+      "fvcore_unsupported": {
+        "aten::rsub": 2,
+        "aten::pad": 1,
+        "aten::add": 10,
+        "aten::max_pool2d": 4
+      },
+      "model_only_ms": {
+        "median": 30.995399996754713,
+        "q1": 30.50825000536861,
+        "q3": 31.46530000049097,
+        "iqr": 0.957049995122361,
+        "p95": 32.287314996210625
+      },
+      "e2e_ms": {
+        "median": 35.97904999696766,
+        "q1": 35.47887500099023,
+        "q3": 36.5012750007736,
+        "iqr": 1.0223999997833744,
+        "p95": 37.41460000128427
+      },
+      "e2e_fps": 27.79395231625851,
+      "model_fps": 32.26285191043517,
+      "input_hw": [
+        544,
+        384
+      ],
+      "initialization": "trained",
+      "tau": 0.5000000000000001
+    }
+  },
+  "cpu_freq_mhz": 3201.0,
+  "N_mean_nodes": 286.9113924050633,
+  "E_mean_edges": 2941.9493670886077
+}

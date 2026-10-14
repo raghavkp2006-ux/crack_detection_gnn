@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "completed_epochs": 1,
+  "first_epoch_including_validation_seconds": 28.500596699999733,
+  "limit_seconds": 40.0,
+  "paused": false,
+  "estimated_max_epochs_seconds_per_seed": 1710.035801999984,
+  "estimated_max_epochs_seconds_all_seeds": 8550.17900999992,
+  "max_epochs": 60,
+  "patience": 10,
+  "batch_size": 1
+}

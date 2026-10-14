@@ -168,3 +168,323 @@ count, and validation/test crack-node fractions per seed. Missing runs fail
 before inference; output uses exclusive creation. make_tables.py optionally
 includes the sensitivity JSON verbatim. The sensitivity script has not run in
 this code step.
+
+## Ordered execution report — stopped at step 6 (2026-10-13)
+
+Steps 1–5 completed. Step 6 wrote the complete UTF-8 PAPER_NUMBERS.md, then
+failed while printing it to the Windows cp1252 console:
+
+```text
+UnicodeEncodeError: 'charmap' codec can't encode character '\u03b1' in position 486: character maps to <undefined>
+```
+
+Stopped immediately under the user's fail-stop instruction. No retry, overwrite,
+step 7 result commit, or push was performed. Current local code commit:
+9a3120e17d598a2af30dad24343125f100c4a5cc.
+Remote main remains at 2ea15653846116bc843b8f7f8488f73b54fc353a.
+Generated experiment artifacts remain local and uncommitted.
+
+PAPER_NUMBERS.md path:
+C:\antigravity_projects\dcsnew\pipeline-crack-gnn\results\paper_v2\PAPER_NUMBERS.md
+
+Recorded wall seconds (not rounded):
+- Step 1 editing, compilation, commit: 1.887
+- Step 2 coding, compilation, commit: 103.561
+- Step 3 training command including weight download: 2247.6033194
+- Step 4 analyze_main.py: 7.4256805
+- Step 4 topology.py: 48.1041447
+- Step 4 sensitivity_tau.py: 62.7566007
+- Step 5 preparation and benchmark: 915.406
+- Step 5 benchmark command only: 713.0136982
+- Step 6 make_tables.py (failed): 1.4431867
+- Step 7: not run because step 6 failed.
+
+DeepCrack saved result values (copied without rounding):
+```json
+[
+  {
+    "seed": 42,
+    "best_tau": 0.5000000000000001,
+    "best_val_f1": 0.8504672897196262,
+    "holdout_f1": 0.8457004160887656,
+    "epochs": 21,
+    "params": 14716171
+  },
+  {
+    "seed": 123,
+    "best_tau": 0.42000000000000004,
+    "best_val_f1": 0.8993020937188435,
+    "holdout_f1": 0.8521798365122616,
+    "epochs": 41,
+    "params": 14716171
+  },
+  {
+    "seed": 456,
+    "best_tau": 0.5000000000000001,
+    "best_val_f1": 0.8498498498498499,
+    "holdout_f1": 0.8508145707486728,
+    "epochs": 44,
+    "params": 14716171
+  },
+  {
+    "seed": 789,
+    "best_tau": 0.5200000000000001,
+    "best_val_f1": 0.861878453038674,
+    "holdout_f1": 0.8242880171950564,
+    "epochs": 25,
+    "params": 14716171
+  },
+  {
+    "seed": 2026,
+    "best_tau": 0.54,
+    "best_val_f1": 0.850632911392405,
+    "holdout_f1": 0.8333939614405238,
+    "epochs": 16,
+    "params": 14716171
+  }
+]
+```
+
+Warnings and deviations:
+- First seed's first epoch, including validation, was 28.500596699999733 seconds,
+  below 40.0; max_epochs=60 and patience=10 were retained for every seed.
+- ImageNet VGG weights downloaded once; network stalled temporarily and recovered.
+  The download is included in step 3 wall time and excluded from epoch time.
+- PowerShell explicitly expanded .py paths for py_compile. The environment-enabled
+  epoch gate enforces the user stop rule without changing training parameters.
+- Closed Antigravity IDE, Chrome, Brave, NVIDIA Overlay, RadeonSoftware,
+  SnippingTool, and SystemSettings before benchmarking; Windows/Codex remained.
+  Recorded idle GPU utilization samples were [1, 1, 1]. An optional Get-Process
+  python absence query returned exit 1 because no Python process remained;
+  the application-closing and GPU-sampling commands succeeded.
+- fvcore unsupported operations are copied below. Native attention in M3/M4 is
+  unsupported, so their fvcore totals omit that work; analytic GMACs are retained
+  alongside them. Do not interpret fvcore hybrid counts as complete attention costs.
+- The original broad DeepCrack/ ignore pattern also hides newly generated CNN
+  result JSON and probability NPZ files. A future authorized result commit must
+  explicitly include those paths while keeping best_model.pt excluded. No release
+  was created and CNN checkpoints remain local/ignored.
+- The manuscript is absent. No LaTeX was touched.
+- SHA-256 comparison confirmed all 85 pre-existing paper_v2 result files
+  are unchanged. No seeds, splits, training hyperparameters or primary grid changed.
+
+```json
+{
+  "M1_focal": {
+    "aten::index_select": 8,
+    "aten::new_ones": 8,
+    "aten::scatter_add_": 16,
+    "aten::expand_as": 16,
+    "aten::div": 8,
+    "aten::add": 8
+  },
+  "M2_focal": {
+    "aten::index_select": 2,
+    "aten::new_ones": 2,
+    "aten::scatter_add_": 4,
+    "aten::expand_as": 4,
+    "aten::div": 2,
+    "aten::add": 3
+  },
+  "M3_focal": {
+    "aten::index_select": 2,
+    "aten::new_ones": 2,
+    "aten::scatter_add_": 4,
+    "aten::expand_as": 4,
+    "aten::div": 2,
+    "aten::add": 7,
+    "aten::_native_multi_head_attention": 2,
+    "aten::gelu": 2
+  },
+  "M4_focal": {
+    "aten::index_select": 2,
+    "aten::new_ones": 2,
+    "aten::scatter_add_": 4,
+    "aten::expand_as": 4,
+    "aten::div": 2,
+    "aten::add": 7,
+    "aten::pow": 1,
+    "aten::mul": 2,
+    "aten::sin": 1,
+    "aten::cos": 1,
+    "aten::_native_multi_head_attention": 2,
+    "aten::gelu": 2
+  },
+  "DeepCrack": {
+    "aten::rsub": 2,
+    "aten::pad": 1,
+    "aten::add": 10,
+    "aten::max_pool2d": 4
+  }
+}
+```
+
+Claims to re-check (verbatim from PAPER_NUMBERS.md):
+
+These checks compare stored summaries; they do not replace manuscript review.
+
+- DeepCrack ahead of M4: supported numerically; 0.8413 vs 0.7378. See pairwise tests for significance.
+- M4 ahead of M2: supported numerically; 0.7378 vs 0.7199. See pairwise tests for significance.
+- Focal improves M1: contradicted numerically; ΔF1=-0.0220; Holm p=1.0000.
+- Focal improves M2: contradicted numerically; ΔF1=-0.0066; Holm p=1.0000.
+- Focal improves M3: supported numerically; ΔF1=0.1373; Holm p=0.0338.
+- Focal improves M4: supported numerically; ΔF1=0.0256; Holm p=1.0000.
+- Historical 126× parameter claim: actual DeepCrack/M4 parameter ratio = 125.9925×.
+- Historical ≈24× slower claim: actual M4/DeepCrack median end-to-end ratio = 8.2644×.
+- Topology superiority claims must be checked against section 6 using the revised component/empty-GT definitions.
+- Exact abstract/conclusion text unavailable. Rerun with --paper /path/to/manuscript.tex to inventory every quantitative sentence; author review remains required.
+
+
+## Prompt 4 — 2026-10-14: Task A
+
+Task A source overlap and provenance are in source_overlap.json and data_checks.json.
+Sandbox CIM/Python launcher access required elevation for the requested read-only checks. Initial rg literal-glob searches were corrected to -g filters. No experiment or existing result was changed.
+Dirichlet seed 42 is config-derived provenance; historical summary JSON does not embed the seed. Existing attention decay panel is simulated and will be omitted. Oracle plot uses 35 resized images, occupancy >0.30 labels, and pixel F1; it is not rerun.
+
+```json
+{
+  "cpu_name": "AMD Ryzen 5 220 w/ Radeon 740M Graphics",
+  "package_versions": {
+    "torch": "2.11.0+cu128",
+    "torch_geometric": "2.8.0.post1",
+    "torchvision": "0.26.0+cu128",
+    "scikit-image": "0.26.0",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "fvcore": "0.1.5.post20221221"
+  },
+  "dirichlet_source": "results/full_evaluation_summary.json",
+  "dirichlet_script": "run_full_evaluation_and_analysis.py",
+  "dirichlet": {
+    "M1 (8-Layer Deep GNN)": {
+      "raw_energy": [
+        5.9190298427006365,
+        7.6016827965084515,
+        10.871292145191868,
+        10.57247290353169,
+        8.625360453729263,
+        5.955756836928396,
+        3.769928246815119,
+        2.483561240718209
+      ],
+      "normalized_energy": [
+        0.052066130122024455,
+        0.05318410154594155,
+        0.06713157076521714,
+        0.07974246048626642,
+        0.07900087692953385,
+        0.0740455933308972,
+        0.055710283205897264,
+        0.045633196904898275
+      ],
+      "checkpoint": "results/M1_deep_gnn/best_model.pt",
+      "config": "configs/baseline_deep_gnn.yaml",
+      "configured_seed": 42,
+      "loss": "weighted_ce",
+      "provenance_note": "Checkpoint/config paths from run_full_evaluation_and_analysis.py; seed from YAML, not embedded in the summary JSON."
+    },
+    "M2 (2-Layer Shallow GNN)": {
+      "raw_energy": [
+        0.203382689266108,
+        0.2959360863290381
+      ],
+      "normalized_energy": [
+        0.029014457686203,
+        0.022715015317222993
+      ],
+      "checkpoint": "results/step2_loss/M2_shallow_gnn/best_model.pt",
+      "config": "configs/step2_loss/shallow_gnn_focal.yaml",
+      "configured_seed": 42,
+      "loss": "focal",
+      "provenance_note": "Checkpoint/config paths from run_full_evaluation_and_analysis.py; seed from YAML, not embedded in the summary JSON."
+    },
+    "M4 (Hybrid GNN+Trans)": {
+      "raw_energy": [
+        0.11441161515258001,
+        0.17066476893127908
+      ],
+      "normalized_energy": [
+        0.07396169422972429,
+        0.049041076402183824
+      ],
+      "checkpoint": "results/step2_loss/M4_hybrid_full/best_model.pt",
+      "config": "configs/step2_loss/hybrid_full_focal.yaml",
+      "configured_seed": 42,
+      "loss": "focal",
+      "provenance_note": "Checkpoint/config paths from run_full_evaluation_and_analysis.py; seed from YAML, not embedded in the summary JSON."
+    }
+  },
+  "dirichlet_definition": "Mean over test graphs of the mean directed-edge squared distance between row-wise L2-normalized hidden vectors.",
+  "oracle_ceiling": {
+    "script": "../create_all_figures.py",
+    "function": "make_figS8_superpixel_ceiling",
+    "image_selection": "First 35 sorted test JPG images",
+    "image_processing": "OpenCV BGR images and grayscale masks resized to 256x256; mask binarized >128.",
+    "segments": [
+      100,
+      200,
+      300,
+      500
+    ],
+    "slic": {
+      "compactness": 10.0,
+      "sigma": 1.0,
+      "enforce_connectivity": false
+    },
+    "label_rule": "Superpixel positive iff mean of resized binary GT pixels strictly exceeds 0.30.",
+    "scoring": "Pixel-level binary F1 on flattened GT and reconstructed mask, then mean and population SD across images.",
+    "caveat": "Fixed 0.30 occupancy labeling is not an optimized oracle for pixel F1; old reference model scores are hardcoded.",
+    "rerun": false
+  },
+  "attention_decay_profile": {
+    "json_found": false,
+    "source": "../create_all_figures.py:make_figS4_attention_temperature_ablation",
+    "finding": "Existing panel (b) simulates exp(-alpha*distance); no measured spatial attention decay JSON found. Omit panel (b)."
+  },
+  "wall_seconds": 1.7677103000023635
+}
+```
+
+### Prompt 4 stopped at Task B data preflight — 2026-10-14
+
+Task A completed and exclusively created source_overlap.json and data_checks.json.
+Task B's required fig14 DeepCrack end-to-end MEAN cannot be sourced from the
+existing efficiency.json: DeepCrack has e2e_ms median/q1/q3/iqr/p95 and FPS,
+but no e2e_mean_ms or raw timing samples. Graph models do have e2e_mean_ms and
+stage_mean_ms. The median is not substituted for the requested mean. Under the
+user's stop-on-failure rule, no figures or qualitative selections were generated,
+no Task C inference was run, and no new commit/push was performed.
+
+Additional source observation for a future continuation: the historical TITS
+multidraw JSON records draw seeds and aggregate scores, but its inspected draw
+records do not contain calibration/evaluation image IDs or indices. Exact stored
+membership verification will need an authoritative membership source; it must not
+be invented from metric values. No draw assertion was executed in this stopped run.
+
+Recorded timings and status:
+```json
+{
+  "failure_task": "B",
+  "failure_figure": "fig14_efficiency_stages.png",
+  "reason": "DeepCrack end-to-end mean is absent from efficiency.json; only median/quantiles and FPS are stored, with no raw samples.",
+  "task_A_internal_check_seconds": 1.7677103000023635,
+  "task_B_source_preflight_command_seconds": 0.4011072,
+  "task_C": "not run",
+  "figure_files_generated": [],
+  "qualitative_stems_selected": [],
+  "task_A_plus_B_preflight_workflow_wall_seconds": 204.946,
+  "unchanged_existing_results": true
+}
+```
+The Task A internal timer excludes Python imports and manual source inspection;
+the workflow wall timer includes coding/inspection and Task B preflight. Separate
+full interactive task durations were not instrumented. All available numbers are
+copied unchanged into the report.
+
+## Prompt 5 — 2026-10-14
+
+Task 0: create_all_figures.py is excluded: it contains the personal absolute
+TITS path C:\Users\ragha\Downloads\CrackDataset\TITS and a fixed local project
+path C:\antigravity_projects\dcsnew. No credential-shaped literal was detected.
+DeepSegmentor and images remain excluded. Existing CNN JSON/NPZ artifacts are
+explicitly force-added; DeepCrack best_model.pt files remain ignored.
