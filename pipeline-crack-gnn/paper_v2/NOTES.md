@@ -488,3 +488,50 @@ TITS path C:\Users\ragha\Downloads\CrackDataset\TITS and a fixed local project
 path C:\antigravity_projects\dcsnew. No credential-shaped literal was detected.
 DeepSegmentor and images remain excluded. Existing CNN JSON/NPZ artifacts are
 explicitly force-added; DeepCrack best_model.pt files remain ignored.
+
+Correction to Task 0 note: create_all_figures.py derives PROJECT_ROOT dynamically;
+the personal absolute path found is the TITS path, not a fixed project-root literal.
+Task 1 uses 2000 shared cluster resamples with numpy.default_rng(0), fixed model
+seeds, and row-normalized clDice definitions copied from topology.py. Holm applies
+to the five scene-level Wilcoxon p-values. Bootstrap differences pool node counts
+within each seed; scene-test means give equal weight to each scene. Leakage tests
+repeat the same scene-level family after excluding the recorded 19 images.
+
+### Prompt 5 completion
+
+Task 0 local and remote main matched b6b414ae2a1715a6887a83fc1052e8e43885de5b.
+Task 1 exclusively created analysis_cluster.json and CLUSTER_NUMBERS.md. Task 2
+exclusively created the eight requested PNG/PDF pairs, captions_notes.md and
+qualitative_selection.json. No figure was skipped. No model was retrained, and
+existing results, model seeds/splits, thresholds, primary grids and LaTeX were
+unchanged. Scene bootstrap RNG seed 0 is separate from the fixed model seeds.
+No additional experiment, test suite, or figure was added.
+
+The shared scene resampling preserves all images within sampled scenes; bucket
+resampling includes only each bucket's images. clDice was reconstructed because
+per-image values were not saved, with the original topology.py definitions.
+Leakage significance comparisons use the same five-test Holm-Wilcoxon family
+before/after removing the 19 overlapping test images.
+
+Figure conventions/implementation choices: all labels use fonts >=8 pt; all
+figures use the same model palette. Connectivity bars are unchanged seed means
+without uncertainty bars; only clDice receives scene-bootstrap CIs in fig09.
+For fig07, circles have exactly proportional analytic-GMAC area; crosshairs
+locate the tiny graph circles without an artificial minimum area. fig14 uses the
+stored DeepCrack median 35.97904999696766 and explicitly distinguishes it from
+graph stage means. Transfer/forward includes H2D and D2H as in the source JSON.
+Qualitative ties use first stored sorted order, with no replacement or hand
+selection. Native aspect ratios are retained. Layout review found no overlapping
+labels. Caption details and all sources are in figures/captions_notes.md.
+
+Workflow wall seconds (including coding/inspection for each task; copied without rounding):
+```json
+{
+  "task_0_wall_seconds": 148.23,
+  "task_1_wall_seconds": 205.199,
+  "task_2_wall_seconds": 137.701
+}
+```
+Internal computation/render timings are separately saved in analysis_cluster.json
+and figures/captions_notes.md. Elevated access was required for the Python
+launcher and Git metadata/network access; no automatic-approval rejection occurred.

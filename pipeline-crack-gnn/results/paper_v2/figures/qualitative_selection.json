@@ -1,0 +1,106 @@
+{
+  "seed": 42,
+  "rule": "Within each bucket, first image in stored sorted order closest to median seed-averaged M4 F1; failure is first global minimum. No deduplication or hand selection.",
+  "images": [
+    {
+      "row": "Long",
+      "index": 123,
+      "stem": "11289-1",
+      "bucket_median_m4_f1": 0.8337662337662337,
+      "m4_seed_averaged_f1": 0.8337662337662337,
+      "per_model_f1_seed42": {
+        "M1_focal": 0.8571428571428571,
+        "M2_focal": 0.8571428571428571,
+        "M3_focal": 0.9090909090909091,
+        "M4_focal": 0.8571428571428571,
+        "DeepCrack": 0.9166666666666666
+      },
+      "per_model_seed_averaged_f1": {
+        "M1_focal": 0.8476382876382876,
+        "M2_focal": 0.8571428571428571,
+        "M3_focal": 0.856103896103896,
+        "M4_focal": 0.8337662337662337,
+        "DeepCrack": 0.8704931300583475
+      },
+      "native_shape": [
+        384,
+        544
+      ]
+    },
+    {
+      "row": "Branched",
+      "index": 25,
+      "stem": "11215-8",
+      "bucket_median_m4_f1": 0.8032087571870854,
+      "m4_seed_averaged_f1": 0.7975939849624061,
+      "per_model_f1_seed42": {
+        "M1_focal": 0.8275862068965517,
+        "M2_focal": 0.8,
+        "M3_focal": 0.8,
+        "M4_focal": 0.8,
+        "DeepCrack": 0.8181818181818182
+      },
+      "per_model_seed_averaged_f1": {
+        "M1_focal": 0.8342812360053738,
+        "M2_focal": 0.7721303258145363,
+        "M3_focal": 0.7684848484848484,
+        "M4_focal": 0.7975939849624061,
+        "DeepCrack": 0.8433166833166833
+      },
+      "native_shape": [
+        384,
+        544
+      ]
+    },
+    {
+      "row": "Thin",
+      "index": 80,
+      "stem": "11248-3",
+      "bucket_median_m4_f1": 0.6283549783549782,
+      "m4_seed_averaged_f1": 0.6142857142857142,
+      "per_model_f1_seed42": {
+        "M1_focal": 0.0,
+        "M2_focal": 0.75,
+        "M3_focal": 0.5714285714285714,
+        "M4_focal": 0.75,
+        "DeepCrack": 0.6666666666666666
+      },
+      "per_model_seed_averaged_f1": {
+        "M1_focal": 0.4107142857142857,
+        "M2_focal": 0.511904761904762,
+        "M3_focal": 0.5238095238095237,
+        "M4_focal": 0.6142857142857142,
+        "DeepCrack": 0.6619047619047619
+      },
+      "native_shape": [
+        384,
+        544
+      ]
+    },
+    {
+      "row": "Failure",
+      "index": 51,
+      "stem": "11236-7",
+      "m4_seed_averaged_f1": 0.0,
+      "per_model_f1_seed42": {
+        "M1_focal": 0.0,
+        "M2_focal": 0.0,
+        "M3_focal": 0.0,
+        "M4_focal": 0.0,
+        "DeepCrack": 0.0
+      },
+      "per_model_seed_averaged_f1": {
+        "M1_focal": 0.11636363636363636,
+        "M2_focal": 0.0,
+        "M3_focal": 0.0,
+        "M4_focal": 0.0,
+        "DeepCrack": 0.08
+      },
+      "native_shape": [
+        384,
+        544
+      ]
+    }
+  ],
+  "wall_seconds": 1.0913491000101203
+}
