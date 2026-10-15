@@ -1,0 +1,93 @@
+{
+  "new_checkpoints": [],
+  "historical": [
+    {
+      "seed": 42,
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_finer600\\seed_42\\checkpoint_epoch_001.pt",
+      "sha256": "99c1c7aadda5b951150157933bb685e46aba9b5417adf3a59df1627a727876f1",
+      "bytes": 483871,
+      "selected": false,
+      "role": "historical only; no new checkpoints"
+    },
+    {
+      "seed": 42,
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_finer600\\seed_42\\checkpoint_epoch_005.pt",
+      "sha256": "0802d01445bd97278d87d6b27eed16be03eeb4811c49cb4c298dc274dc0820c0",
+      "bytes": 483871,
+      "selected": false,
+      "role": "historical only; no new checkpoints"
+    },
+    {
+      "seed": 42,
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_finer600\\seed_42\\checkpoint_epoch_010.pt",
+      "sha256": "02bd0a0cb6ec0d0fe467a41e9ddea5af4a41decc52f8053e3bed421bef9d037f",
+      "bytes": 483871,
+      "selected": false,
+      "role": "historical only; no new checkpoints"
+    },
+    {
+      "seed": 42,
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_finer600\\seed_42\\checkpoint_epoch_019.pt",
+      "sha256": "e9867bb412fe24a8864b131648a2cf652638ad46be45e58eb9a3c882cec91a06",
+      "bytes": 483871,
+      "selected": false,
+      "role": "historical only; no new checkpoints"
+    },
+    {
+      "seed": 42,
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_finer600\\seed_42\\checkpoint_epoch_022.pt",
+      "sha256": "55e1889e62f59965ae79f7b2081739dcfb8604fc2a93ffba56b64b99cb4a46b1",
+      "bytes": 483871,
+      "selected": true,
+      "role": "historical only; no new checkpoints"
+    },
+    {
+      "seed": 1,
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_selected\\seed_1\\checkpoint_epoch_001.pt",
+      "sha256": "c54a9d910dab8182d006a08d6fdb2ba0336d7dbd51c5db142d86a1ce49e64393",
+      "bytes": 483871,
+      "selected": true,
+      "role": "historical only; no new checkpoints"
+    },
+    {
+      "seed": 2,
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_selected\\seed_2\\checkpoint_epoch_001.pt",
+      "sha256": "86ac3af0124ee2fb9d4f10ae9f9f7d68fba5c9ff0340e887a7e248cae972ee1b",
+      "bytes": 483871,
+      "selected": false,
+      "role": "historical only; no new checkpoints"
+    },
+    {
+      "seed": 2,
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_selected\\seed_2\\checkpoint_epoch_002.pt",
+      "sha256": "a5afcf59930a578b47622cdfb78ffe4c347d091ce42e65209b3f8162f9859b7b",
+      "bytes": 483871,
+      "selected": false,
+      "role": "historical only; no new checkpoints"
+    },
+    {
+      "seed": 2,
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_selected\\seed_2\\checkpoint_epoch_003.pt",
+      "sha256": "ee5296a2972844e51e2d4e66f8fbfe1769d0872ff2f4f9e0707b0603051866b3",
+      "bytes": 483871,
+      "selected": false,
+      "role": "historical only; no new checkpoints"
+    },
+    {
+      "seed": 2,
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_selected\\seed_2\\checkpoint_epoch_004.pt",
+      "sha256": "2044dde66dcbc434ca8eb50d8fea22d3afc45e44be1744502f48c33849344292",
+      "bytes": 483871,
+      "selected": false,
+      "role": "historical only; no new checkpoints"
+    },
+    {
+      "seed": 2,
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_selected\\seed_2\\checkpoint_epoch_008.pt",
+      "sha256": "f92e186aef11c59cd9ad18eb3bc32208567ef39773b707f96e1b565bf77cdf10",
+      "bytes": 483871,
+      "selected": true,
+      "role": "historical only; no new checkpoints"
+    }
+  ]
+}

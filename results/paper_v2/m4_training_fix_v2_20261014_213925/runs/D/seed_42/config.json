@@ -1,0 +1,58 @@
+{
+  "candidate": "D",
+  "seed": 42,
+  "config": {
+    "data": {
+      "graph_dir": "data/graphs/train",
+      "train_ratio": 0.7,
+      "val_ratio": 0.15
+    },
+    "graph": {
+      "k": 8,
+      "sigma": 0.1
+    },
+    "labels": {
+      "threshold": 0.3
+    },
+    "model": {
+      "gnn_dropout": 0.3,
+      "gnn_layers": 2,
+      "heads": 4,
+      "hidden_dim": 64,
+      "in_dim": 15,
+      "num_freqs": 8,
+      "pe_dim": 32,
+      "transformer_dropout": 0.1,
+      "transformer_layers": 2,
+      "type": "hybrid",
+      "use_pe": true
+    },
+    "output_dir": "results/step2_loss/M4_hybrid_full",
+    "superpixels": {
+      "compactness": 10.0,
+      "n_segments": 600,
+      "sigma": 1.0,
+      "enforce_connectivity": false
+    },
+    "training": {
+      "batch_size": 1,
+      "early_stopping_patience": null,
+      "epochs": 100,
+      "focal_gamma": 2.0,
+      "grad_clip_norm": 1.0,
+      "loss": "focal",
+      "lr": 0.001,
+      "seed": 42,
+      "warmup_epochs": 5,
+      "weight_decay": 0.0005
+    }
+  },
+  "accumulation": 8,
+  "cosine": true,
+  "augmentation": true,
+  "ema": true,
+  "raw_tau": 0.5,
+  "split_seed": 42,
+  "checkpoint_rule": "trailing 5 complete epochs mean of (clDice + strict CR)/2; latest epoch weights, earliest tie",
+  "protocol_sha256": "ed8b948bdb8899c698ea7d70d0ec4e325efeb8267b2752b24af1add714eca602"
+}

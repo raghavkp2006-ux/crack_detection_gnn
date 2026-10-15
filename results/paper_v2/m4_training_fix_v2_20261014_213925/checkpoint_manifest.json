@@ -1,0 +1,1990 @@
+[
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_005.pt",
+    "sha256": "46cde42f5053bfb0d32e9cb0d91e7c7fdc5848b96c0d4582df99e599fa4cb5fa",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_006.pt",
+    "sha256": "b209a0ea55cf4d5be96eb4de0014d9ea06d28a87529e05b40af0f62516e7e562",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_007.pt",
+    "sha256": "f11298cc815dba14f3517fcf3e02b1dddb5d334aebc994f58ec5bc48699f8e4e",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_010.pt",
+    "sha256": "db576a38290bcf9f62ed59c28fab00dead7f0ca0d5c08247e9362244094498a6",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_013.pt",
+    "sha256": "5c362ea3cd2f181a35507027f02b17ebd7ac49a061d490bf5886c2fd14b90b1a",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_019.pt",
+    "sha256": "ae85cac9a6009a78236df0c1e83ab7ac37cb1377f4776371cd840bbacf1cab34",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_020.pt",
+    "sha256": "246c868c23a2c8b6e32b9f84731403191a6459303d73909dedda09d58239e121",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_023.pt",
+    "sha256": "2e98d5e2c30399e3a6e161f45974de469ea7d2baf0dc6487eb9c28c96f29427b",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_025.pt",
+    "sha256": "5cff4aceb9c7e58215c6f509ad1a8ddb7c118c26ad5644a16c3685cd5c0091a4",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_030.pt",
+    "sha256": "18d200204b2d4a35c387434b35a332cd035f48846f1357f09edb003664e444ab",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_031.pt",
+    "sha256": "b65c6f3ae84a3f2270cc0bb1806b18d4026ca0298184681ac7c66a5719ce7c93",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_032.pt",
+    "sha256": "6ebce742c4cd5c5e172c83108ee0563037e9b5b5989e47f06c399eb4071ff08e",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_033.pt",
+    "sha256": "de2198c0f602b36aa9e3526bb376540ad9bf565fc5c94d87733f2d3d7bc640c3",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_040.pt",
+    "sha256": "19604a4b918fcbe6f16c9debaf1c5b5b66fd87bfb9b69f80ced7e5e5e263c976",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_044.pt",
+    "sha256": "252ad2c7ecd14f0f1702454f5bf08f6b7fcabda5fe5c985b4d67150de32c63cf",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_050.pt",
+    "sha256": "028ca4760cdf2a3d1f5922777159237d136d27e5ac5c19922d1a8a1fdd2e4eb4",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_055.pt",
+    "sha256": "ce0f71488f01a03e46799c588ff9d5a91eb074c64cd48605ce97d3c5b5ece07e",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_056.pt",
+    "sha256": "5fce151a9a584f643dd2427b3a08371267ef7bac46adda0628acfe717a06e771",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_060.pt",
+    "sha256": "169053275d574bf6c82893571bf93f6b11d6ff750f745a74c2d25e1a843c5c79",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_070.pt",
+    "sha256": "cbfa283257e0b17e2db0af503812b75575254648259ccbe757186ab6613300c9",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_079.pt",
+    "sha256": "fa4b207e8d997ab9b13b442dc106a54193dec5d36ffad52076a4df66dc45e0ca",
+    "selected": true
+  },
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_080.pt",
+    "sha256": "acee6ba091114d5b940e70080aee094970777bd74fc337aad7dfbdf1f20e1d75",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_090.pt",
+    "sha256": "05c3e2b25ebc21bfac82e8ee671fe315ee37e18725c48025649e383e386812b0",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_100.pt",
+    "sha256": "f3d9a85fd7306f57fb71ca6d0baeb7528090342f2a20fe3b7798de87c5ff1199",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_005.pt",
+    "sha256": "dd5554e5fcfa19563f29835ff4f5e4fae351e67d39b66f4755ee66c19cc64fd4",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_006.pt",
+    "sha256": "e8a5e22b5848c2ce7190d0d7cc8d71b843050e7c0cfa8a12625f4a60b00d9291",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_007.pt",
+    "sha256": "7b6cacffc57cf3dd880076ca834fb2f4bf9429b458a0b083f58c398f3c60c7b2",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_008.pt",
+    "sha256": "221904640c12c8eb1585740e19f0c5b191de02d21d58cce995088f2961feabe6",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_010.pt",
+    "sha256": "4618027582cd604af2d4334262b376f40ea55a2793dc3d9214231d0a34d1f172",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_020.pt",
+    "sha256": "74534f7d4dfe0fb9e47c7e07be53266b9a8816485e1192402945fe16bb3b872c",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_030.pt",
+    "sha256": "e3a837f2a49a20d9e4aae5c09c92c4ec933e8bfa61359cb64b160d12647c2067",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_040.pt",
+    "sha256": "4a3720a78f382929f313aab59bac0eaab88b9138cf505d1332ba0aa4a9bafe03",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_050.pt",
+    "sha256": "b48c2f4ecdf493efcae86582bc3569036f8c2c1341b2552be1a6fba539a85f6c",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_056.pt",
+    "sha256": "26d22e6a4753f0120e897ff2eccbcb6727a61d63f8642e9805b6fc56ad225e58",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_060.pt",
+    "sha256": "be8032377fcdd5a48555ae04502e74b926904b300ae33ab029b7448ea450406e",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_070.pt",
+    "sha256": "4993fd1c6168142cae89e24af9e949a9750eef27a4c64b9c2062b3a35a1b51c3",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_073.pt",
+    "sha256": "f7c0ee23ce121a80451eab900ad560b1bdf9cb75e3181577b910c3048ed7aca6",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_076.pt",
+    "sha256": "b15913d2cfed2f21779da3284a56df3acfcf3b668f458afbcf0932c3a6791f7d",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_080.pt",
+    "sha256": "1d61d10f173ccd68b21ffcb247cc5d03ea698ce3f7ff352752c7d6fad258c194",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_090.pt",
+    "sha256": "f1822928cfe984f8567664c0e8f018833b12b3e3c8f2c2aac37336153686ce35",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_092.pt",
+    "sha256": "565ff80abd53891564dcacf72add51b8a48a60d50b445c5e7bbbbe312b2a3500",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_093.pt",
+    "sha256": "dbfc5a59cc742243e725fa4972b2739027119b6a8ae97dacf3088eceec0350bf",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_094.pt",
+    "sha256": "dda4629d509165cfb5542a5553fbe7624e7a6dc3dc188507bac95879f96bf75f",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_095.pt",
+    "sha256": "105f5abb6104d1d5c55afded9702ee2960489ddba56288370b3237af7f7b22fd",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_096.pt",
+    "sha256": "0dc759561679a805cd9f5b0e94042089f1774c25d6e70c576ac8abeec6c0e666",
+    "selected": true
+  },
+  {
+    "candidate": "A",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_100.pt",
+    "sha256": "a4475d901e65362a8864ce8c13b7dedc4946d25365fa01eade7a6eb008d21920",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_005.pt",
+    "sha256": "355e3f152262a0bb06703b0f19710f7ee59a03df84b6f4de17fa29d41a1c8327",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_006.pt",
+    "sha256": "a25e567f8aaa134cef26af6f4feb29cfba119d4a49c44e7e8ce41bfda334f7b4",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_007.pt",
+    "sha256": "556d8a690f44c2d9612171f7f85a1ca1640e2c8fc83ab4e4ff0e2fc82ba169f8",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_008.pt",
+    "sha256": "c5727218e47a28804065679ff23568fb077e16b5df4ff703337e0d2621ce2134",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_009.pt",
+    "sha256": "c0cbd56885f8037ab9424ecd271bca34290f0644599ec22440510fe82e8a37a8",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_010.pt",
+    "sha256": "771c99c419bc196a18347f13862aa4e611921db261a7ac0544334f2546e5fdce",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_017.pt",
+    "sha256": "68769f989d5d217d7a9cbca47ae8f6eaf0e05d69ffe7438c0bbd784b00d8a6a2",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_020.pt",
+    "sha256": "bcf03ad02b6c767a9c0d529bda74a8cf713d0268a609b2282551b2606154adc3",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_029.pt",
+    "sha256": "555e30568b0e6a7612cf3ffb22be8920a1663dea50d950136a39229563d74d39",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_030.pt",
+    "sha256": "99a788eb86fa800b933d4e6426555864ca7f631dc4673d40a0f8afc13de045f8",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_034.pt",
+    "sha256": "92514e31d650c27c48ed006207fefc78633ad24a875c81faf501b2ca475a1308",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_035.pt",
+    "sha256": "4a4c4243e849b164bb58f52c73e28db85e87dc72358a92e992fe9d0aeb3d8062",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_036.pt",
+    "sha256": "89c1fe51762417d5fe3339ddaa5f9dd6e805cea2cd403901aafd46106090d58c",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_037.pt",
+    "sha256": "98f67fec8ea99b3ab8ee874242235bb539c58c08edf55e28a42b82c1e9402209",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_040.pt",
+    "sha256": "5cf43cf4140f9c27b653ca3ae5de1799f3603dcc1398a5bf411e3a7922d310a1",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_050.pt",
+    "sha256": "518978bf7d9f859dbf8e7569a7acd833138843cf92a76ba23e1c6f1b02860ed7",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_052.pt",
+    "sha256": "a794020448431d197f5b70872f0e33f65e7fd38ae04256f53a10929527a38ec7",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_059.pt",
+    "sha256": "86192f9af770a4010e702b3013ff48955a8e001368d6039d2c7d68cbac2ea0d2",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_060.pt",
+    "sha256": "d8ec16010660bd34153782788b0aebfe6d7eb8135f48f658c889b1be94dc976d",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_069.pt",
+    "sha256": "3ec10f94041f5b67b9e1a9a84aaead206e83fa441b4ee34c4e627260cdb46fd8",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_070.pt",
+    "sha256": "4b3c3e6e8a2a6dbc46a5beb8760eabf927e30dd2ad3fe1995c26922612b5423f",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_077.pt",
+    "sha256": "2842a325f696ea9213c1df700aa6c7dfcb13250bc9cd3d2657965989b76ce69a",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_078.pt",
+    "sha256": "3df31b93167a095d7652c01a9208495beb23ce7d13d2ddce7a327c04594fcc02",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_079.pt",
+    "sha256": "1f921d9c95fbe9f30056622db7cfb094a4ae80d613195dd91ce9a1c0bc751d14",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_080.pt",
+    "sha256": "a6129936c0381e328fe62ceae8a5f5c5d68482f62240d75ee75ae376d17dd7e9",
+    "selected": true
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_090.pt",
+    "sha256": "062bdc14a58dd7abf736e6388e8f06aaf4ba918f6c85a4c6e6731089b17be9a5",
+    "selected": false
+  },
+  {
+    "candidate": "A",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_100.pt",
+    "sha256": "e2cead27cb15de7bd3e88c91129a0e803acfe12139a3e53093026d5e85f7fcf5",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_005.pt",
+    "sha256": "68c6974e0ba13c6e72e83dfb2ff044af573c1e71e9c5d461df1e8b36e76b606d",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_007.pt",
+    "sha256": "c8a5042cf45e4ee0a1711597108e6f854d5dc35076c6c3c1bd88f0ac865313bb",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_010.pt",
+    "sha256": "fbb0cf21019ca9da8779e3b4e278836a0098c0dff6a5307a0afbd9679a4d7bef",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_011.pt",
+    "sha256": "eba3f9d1c36f1a09f320305e7ae2f9ec064bc5eb4429211fa2f79e5529e565b9",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_012.pt",
+    "sha256": "fcbe5121b1821b1813ed4d26251f83fcc8627bc5faac3f074211e6c3bc6170a2",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_013.pt",
+    "sha256": "1ede91cc731b63ecd48450a10018e241a04b5a5822b48446229269e3dd6a1629",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_015.pt",
+    "sha256": "7798f336b6f84de90d08e9e6cf93a9fde792b5ff4086e6543061fe1291801e51",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_016.pt",
+    "sha256": "2c9879db245c8184f07e670c18801bd746add70845cea74184cb40a891556139",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_019.pt",
+    "sha256": "161b92a17dd26e29988df78013b430e4565f5e597e79c730a32dd0baae03d08b",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_020.pt",
+    "sha256": "58962a0c4cb08c72600acf244e475557f7487c6227fb0eb2d8a5d4ac06c314ff",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_022.pt",
+    "sha256": "94728b5945404986d29480e6a88be05bb8d5f098da7d828b57c109b0946c3eee",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_023.pt",
+    "sha256": "8fc72a39646c50492cb07b3e56ab5be5b97cb3eb963af3c911a72cfa55b4e3b8",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_030.pt",
+    "sha256": "5d71b154e5d28a6a52ac92fd842f465fe4eeb7850b79799a427d8e1bd998cf27",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_040.pt",
+    "sha256": "8d4b453a50517635a6b36f29709903312c638148468098b0a3c9833ec12cbeaf",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_043.pt",
+    "sha256": "f32ceef75c05d32320b5643e01ab499e8bba474354d7e1b63815868ac086ff03",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_044.pt",
+    "sha256": "9b0419dc8b101b7a4bff36fa74145f3ead96b7e1afda1bb02f862a256ee8a78b",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_046.pt",
+    "sha256": "5e749233aabf077e2a9463de842a81e9b4a4d286a994837e925706f5d721fc9b",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_050.pt",
+    "sha256": "739c513dc5dd604685a961eec7d2ddff80dd831d711c916d45aa92cb66e945cd",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_054.pt",
+    "sha256": "f9df34b91a8f24fe0c00de7e34f3ea8eed1eef18687e02436e2586f2e6c649b5",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_060.pt",
+    "sha256": "23cbb1242308d1dee20024a977ebe25d8f571ee1ab4feb860ce6d65ba0dd6e7e",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_064.pt",
+    "sha256": "861a27257c216afdaf91556858d08f50f13e9bf75f23f10daa6c6f5863dc8c07",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_070.pt",
+    "sha256": "8bf0d752b577a3b1c05ce1fafe7ac69f9c260a4867985aed64a5963ddb06edfa",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_076.pt",
+    "sha256": "e04671e438cf5929ed442a07fa06e78ed9428d4c9475dc1c24f0d316a4f11385",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_077.pt",
+    "sha256": "49f8425701216a1af9fbf67cc5a1e1ad2ebd18190f42afe2bbd47139a6610d6f",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_080.pt",
+    "sha256": "1d7e74202a9322f20c018f5d2e0a35ea92960972b6b2960436cc25ea15b3226c",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_083.pt",
+    "sha256": "5dd08e95445d1990495b23adcc0095d00d6896cd002e811d04433ebd16123902",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_089.pt",
+    "sha256": "7f3bf8f38ae21a93725c5908868a997a58b9b887a4629348039160411c7f390a",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_090.pt",
+    "sha256": "486c575443a8c9b75dbf72701e232da4867cfddf9a746d91931ffa8923fa52e5",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_092.pt",
+    "sha256": "bf1d843edd9637906c828f65b05a357f030f1029fffad7a554b782211193b4de",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_093.pt",
+    "sha256": "026e9d9993a85ec5659b163f6773356f0380d60a851db2265971373d67e4f4f7",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_095.pt",
+    "sha256": "1c3d23d03b460aa0acae45c8daaf8afd1a0416b1262ec5df67fb3a06b5022079",
+    "selected": true
+  },
+  {
+    "candidate": "B",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_100.pt",
+    "sha256": "be0db27f157f724f51394c8c13b80aecb4a93c0f5064031c0401c5ba241982fd",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_005.pt",
+    "sha256": "f03998baf4eb7834c463fdca8b7856bd5a0268cb8ee8613d5d451416fc1fe6e8",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_006.pt",
+    "sha256": "071f51990c7eeeecf048ad4b5170094afc7d381f8311506e38164b829ad03e7c",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_008.pt",
+    "sha256": "a43987335cbfb54815aaa9a27e59023b804c01c1aaac4677607d99efbf0e6c5d",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_010.pt",
+    "sha256": "0dc2f75210b6c65fa5efe784af49c7a2a84e593c763429a57064033ecc208d11",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_011.pt",
+    "sha256": "ce17dcbcf20f42e17cb33d3070fddecf9873d63309c154e1ed5b7cae13509fa6",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_012.pt",
+    "sha256": "f81bb5afe5d0462694e812ffb0ee746e7c58b060fbed4133eb3c97fc8c572f1a",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_013.pt",
+    "sha256": "df2770ff85f03eb87ad096075c94308adb67a547c6400aa8cc143d1a6e258279",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_014.pt",
+    "sha256": "fb7708ef40958c1f108a05c372121eb190da04a8411986be9799ea606510a002",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_015.pt",
+    "sha256": "39a659fc7979bb3a2922a02f58ee26e044f1dd729d60d17ce1b98af50a4840f2",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_020.pt",
+    "sha256": "bb842a43b62ea2e5f21db3fcd23f415e4ae230554fe085d143d9904e9b373b31",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_022.pt",
+    "sha256": "f1b95c944021ebc43bd571e8854bb5b60de8d451a55d86705fc9ed0719484ea1",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_030.pt",
+    "sha256": "6075162f0192227f9ad0e005b572589403ad6d75569958f6af245c65debba81b",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_040.pt",
+    "sha256": "735c2dab07107146c634063117ef30e64c38656ddb0149e4bad84a4101700da1",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_050.pt",
+    "sha256": "f2710e08e53c054170ab6a5f101639ee946e8d947941b6b13430649ff078f29f",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_056.pt",
+    "sha256": "fccf29ad3b8729e959996ca28fa71f054d9193c331d7b28a1e51a24822ab6434",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_057.pt",
+    "sha256": "db089cc245ab683daf7a56fb05e566656cbe8f553bde045f066ed119be6dc315",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_058.pt",
+    "sha256": "55bfb2d8015373e3d078421bc4bb37c4b13797a52aa3fdd3d6ed081ef1943d2f",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_060.pt",
+    "sha256": "4a6f875fd26774ab1da71f816b048e7ab29655b9fbe7f26f0a44f572be70105e",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_070.pt",
+    "sha256": "732acc15a69a7226b006350cf3cb9d292240e71d20760c47bb23531d4ccd6245",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_073.pt",
+    "sha256": "7ce48b3ba567d3bb963f385b54b2d92ed024ecbfce26c2962cf0f7772ba829dd",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_074.pt",
+    "sha256": "9b830fc46ebd0eacc0126502e7256d0e96c6872ea53a23c0d29dea864f7d436d",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_075.pt",
+    "sha256": "553bc08d7a016dc021a7a3e67f7212016981e6ab288cf0c08fed9949d77eca2d",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_076.pt",
+    "sha256": "38a70938ae20debb35cb5c0070bc01b63ce2dd5cf9db0bf47e4e639bd4cd7134",
+    "selected": true
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_080.pt",
+    "sha256": "6285d1483d71a4549c32f41f4e9699c6138c008d9dd8fef7063c387cd1331527",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_090.pt",
+    "sha256": "4a1b621adb56bac0c0959ec51dbc52952a56fc8a637a75ef646f9b98f74f3e7e",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_100.pt",
+    "sha256": "a4718af8195561783642a015ef1bd0dfab50bdc7d65104bdaaf63016f0ba9e65",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_2\\checkpoint_epoch_005.pt",
+    "sha256": "e5583082b2b9c828c9f4b02ef1e927e3c3f1ad10aa3ef801fd389b72ea97c2c3",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_2\\checkpoint_epoch_006.pt",
+    "sha256": "197dba3811d0d2d4dc7422441c91df4467aa1ac314ce37d7334331147c49a6ed",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_2\\checkpoint_epoch_007.pt",
+    "sha256": "a6c0abfd50e2ceba5557df84b4c5936f7dd93318678468b1e0abb0dcbed33f29",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_2\\checkpoint_epoch_008.pt",
+    "sha256": "3eecf04fb45f1109bfc21a6acceb7614241f91d5f7fa45c7cb50c4dfedd5dbbd",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_2\\checkpoint_epoch_010.pt",
+    "sha256": "a449dcfc7c2a759820dcfe71830c2df57c6730529f06b4bc49cc4ef6061e725c",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_2\\checkpoint_epoch_020.pt",
+    "sha256": "789235a2dadc7a20f34cc7633cdedbdc2fe968b1cf894b8777073d72b767bf51",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_2\\checkpoint_epoch_030.pt",
+    "sha256": "b125165f532ff6d6e00f2f2138d437faa11ea81070644c2b6c3b9807185c48ea",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_2\\checkpoint_epoch_040.pt",
+    "sha256": "dbc32ea0f91b25969c884b21bdcdb069f97dd4c9f53fdf2ea48f66ba72b95f02",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_2\\checkpoint_epoch_050.pt",
+    "sha256": "dc49e2fd627ba548888c9adbf4196794bc7590e1b3cd81c068222d488f219021",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_2\\checkpoint_epoch_052.pt",
+    "sha256": "7f3ba3feeaca6b701d711bf0ba0d2958cb8e1623e2bde6374ab11e3281d35667",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_2\\checkpoint_epoch_058.pt",
+    "sha256": "b3006930c3f2f3956828c9e4d07b5226e192e1915bd66661a1ad756e026ec2c9",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_2\\checkpoint_epoch_059.pt",
+    "sha256": "75dffa4e2ce4667d74de1f515ccc696b9eae1ec1b1ddbb993c7ec76ca5f1d27f",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_2\\checkpoint_epoch_060.pt",
+    "sha256": "3cfdaf8c51b818436572d831d6a0c533293f3be3d1a0d529e2b2af150fdb6a36",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_2\\checkpoint_epoch_061.pt",
+    "sha256": "5fd678650d686aa720171e18edee0ec0cb796a66c27953af35bd4a9a4db1d4bc",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_2\\checkpoint_epoch_069.pt",
+    "sha256": "de882073b62adfbb9849252370029fda3045669aaf86c5b63cd3e6e5b39d50cd",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_2\\checkpoint_epoch_070.pt",
+    "sha256": "3444f88269909d59549a76b9a4175115cc925898600173f81267b04643cad7e0",
+    "selected": true
+  },
+  {
+    "candidate": "B",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_2\\checkpoint_epoch_080.pt",
+    "sha256": "7cb98a5957a734139b6559de2230420e1b42e4a073b136b280ba26a553dddac4",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_2\\checkpoint_epoch_090.pt",
+    "sha256": "952da67db35617aeacbcb33c78e75b3dd8c02c9c742fc54c40defb048dd06edb",
+    "selected": false
+  },
+  {
+    "candidate": "B",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_2\\checkpoint_epoch_100.pt",
+    "sha256": "29fc8bc8554d39fab08054dc0f70b6d846696390fc8976cf394f552d499f8501",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_005.pt",
+    "sha256": "a850f898eb01d2301a6f1559ed45c70424d741b347fd8097eadae706efbf1949",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_006.pt",
+    "sha256": "01d7c87a36c98d6714463bebcdd74fcddf50605c7d65e5a36ebb44d206a79a88",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_008.pt",
+    "sha256": "a1bd450c3248240a110ee0dd509a52b8428e25504b8bbf64c53aba7268d9a6bd",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_009.pt",
+    "sha256": "ea26930229a8ccd2969fcbf433daa484a630b53ba61a38254bedf079232bba7b",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_010.pt",
+    "sha256": "c16d7910b9db126fb2cacd7aec4c0f86d8ebae3155a633add657e2eec63fb00f",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_020.pt",
+    "sha256": "30bd6a4ac7ef5f8cf87150dbad89bb1df579fce5aa2b55a1aef63254e8d0a850",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_026.pt",
+    "sha256": "35892538bb0fd74500e2f1529d781c64c17ba804bd81e17c3f05fe4bf6a4939d",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_030.pt",
+    "sha256": "714114b7653e2dfdecd97e569762eecf4332f49ce4334f6810704c84ec17cced",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_033.pt",
+    "sha256": "d6101e55ee411826b776885f859210b5b0c47b758b65ee01ef0f4a8081ec343b",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_040.pt",
+    "sha256": "ba7ec64c80066c5442f0e54d89fcaecb22f9112d2fc7f4f013e14102ed399e61",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_048.pt",
+    "sha256": "805db507f16a3158968a79473dc4579b87a9012ff61ca5fd65ab9fc1979676ea",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_049.pt",
+    "sha256": "7a2e09e47a86b9a970f345b0cca47d8e5ab4f30132d4240ad6f9724d19fc3b35",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_050.pt",
+    "sha256": "4c602168e17ec33c704a07112990df9de697558d2dc59617ad0f9e8f28c42c26",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_052.pt",
+    "sha256": "0c08f31074cd7317c3a027f9f82842c04deecc2ff5133542360fc53d07a467a7",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_060.pt",
+    "sha256": "6f6e93bfe14b9cbdcab821fd02a28f07ef1615ce7f9f43029536d66f8eb635bc",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_070.pt",
+    "sha256": "9b00322a0004bf9f4e25356ddad2f9fee58eea228a206505fb739dc62c53dbac",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_074.pt",
+    "sha256": "7b5abfadbddbdb91a9a45fe7e602e8545daddd7788ff3f343de6335ed60c489d",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_075.pt",
+    "sha256": "ae07ad886989496d01d1bf51b1b3a99ed2568e1a19454d39528f0baedc09d358",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_076.pt",
+    "sha256": "8693d3c525db698cef200c2ec753e665588eeb493bbc565765479fc616e4e590",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_077.pt",
+    "sha256": "6f9ca2fd0853a2bb48b3b8b76199229672f27f1e6140a0651ac9bb4e04d2903c",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_080.pt",
+    "sha256": "90b8d438f4f84d40787e7c8d8a56702af34221fee7f7726dba36f1bd340135be",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_090.pt",
+    "sha256": "dc87fd2bda7b303e8d309627b0f0da4c595fe20b934e6729dbb17e1e523ffd7f",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_092.pt",
+    "sha256": "000798adae909d249d09301a363e7fc516555af5836620d66986093433e2d99a",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_093.pt",
+    "sha256": "c95e863ca8e4f9997870b01748fa01b39085b6b3d5e47498414807ee560af1b0",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_096.pt",
+    "sha256": "a404563cc765b1060ead1084809414fc7fadea9fe8bac48611703d6dd8be03b3",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_098.pt",
+    "sha256": "b15aca0f88c80b75f7fd25c977207c6bdc888f16deb1fc09ac2e764b9a86e416",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_099.pt",
+    "sha256": "c0f98d327283144bc09bea2187b4e6a8ed03daaccd844c91a1d86310e6da846d",
+    "selected": true
+  },
+  {
+    "candidate": "C",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_100.pt",
+    "sha256": "22a0c4a9a5008f5f5062a62a0cc6d49c651b4dcdca68a4fd9790ad973c3c9c3a",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_005.pt",
+    "sha256": "3450d4ef6012cf72e6fb7e72c6956be5b8f5f24e42b6ba67df16434126b9acc0",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_006.pt",
+    "sha256": "4bd003b5a5b21a5f139c52cd2032a30f3af2d138914bacde27d7cad077fbd38f",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_009.pt",
+    "sha256": "361f1b301df304559814443a883f2917fbfecd158f1a0d197b03e8c9278ab3ca",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_010.pt",
+    "sha256": "7cc87b16a821c3a31f460a10ba97fb390ee409708e207c3366e94aa6ee972782",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_012.pt",
+    "sha256": "28c9c8c47ab1965849431b2298a7fba41533510aef66d4a010c36ea573aad8b6",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_013.pt",
+    "sha256": "187544885ff3fd75e0beb0bc4f5cd55765db4fac66e1680e97c6bab9cbba1646",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_015.pt",
+    "sha256": "aab06b16327bdc501f4a8895c10c24648312992278a281f4745dd823b7480ac4",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_020.pt",
+    "sha256": "d7869fdb64c37e32464205f49f8506bae34d9f222cb89b791ef4ce372752b788",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_029.pt",
+    "sha256": "3dae2d66390337e4f8c48977f3021dbb3c8350838899660aad0473281e55c766",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_030.pt",
+    "sha256": "50294a85943cf94866721dadda2f23c821462adf0475573f69c8e1ddd020bae3",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_040.pt",
+    "sha256": "d75c36567c5847578a5c74cfa3088990338734df8f5aea050a32ef2dfbe060d4",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_047.pt",
+    "sha256": "08d5efba7a35431429d2f86fdeda26518ccf79819d62a7dd684a7eca3a4705c4",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_049.pt",
+    "sha256": "0efe348fd8fd931b60e01a27d27273bfd26eb71bd7f060c21228703cc8fb6726",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_050.pt",
+    "sha256": "9703ed122fa379ed575f1d9760ff6c06b0bd04237fea712a8dbdb8f030371877",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_060.pt",
+    "sha256": "f1a7dc7e7b076c71d36876876c4d85caae98a0d0eb3b0b9608bdae0abfbb7c8a",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_070.pt",
+    "sha256": "8da666d1ebd5203df59dc834c19a12ef7b01f100ed1d5367fa5502d7e5efc408",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_071.pt",
+    "sha256": "192c60331f8ff896e293b318893265389410dc28eda93a0ba28db936345761da",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_075.pt",
+    "sha256": "27bd7329566012d37851dc3783f450653aab3d1f9c60e780ae35b3d53298f49a",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_077.pt",
+    "sha256": "d230c0dc25496d7de8140d08811bff454d19792fc1fc523477d55dc98e4b029d",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_078.pt",
+    "sha256": "33ba4cbcafd0902ab9fe2cdcea1d417dcc73b62b7772cf8530f523ef58a70276",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_079.pt",
+    "sha256": "cea51d75a4fd220bcd6f7891e4f32f5ad534fd75e7873fa5b72c1d5ca6aaaafc",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_080.pt",
+    "sha256": "6f7eb7935262deed2b309e3f50d7cd3241eeba01e1b1541725c5e7870c38d165",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_090.pt",
+    "sha256": "5c53b48b02629830892d321d612d1feb9bf8ea6fc7bfeef29f469870332ed824",
+    "selected": true
+  },
+  {
+    "candidate": "C",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_100.pt",
+    "sha256": "dcc5343006bedee7f61ba019c2faf9d41c748dc1bc9be76133419fcafb238f08",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_2\\checkpoint_epoch_005.pt",
+    "sha256": "dea41a37bc8ed1a804671c445cc92a29fcb5785efefda65dccbcde19f8bb4d6d",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_2\\checkpoint_epoch_006.pt",
+    "sha256": "5e185553a73f9028182dc217ab2b0e28fc9cec2ab8b542a2dbc1d48718960046",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_2\\checkpoint_epoch_009.pt",
+    "sha256": "2ae467d9eebd4b8ab6d83b6b5895bcc119a0de14baa8e22aa7f2c35ec3766097",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_2\\checkpoint_epoch_010.pt",
+    "sha256": "7acb466ff6594ee8b435109fb332647e6b93bb20f5817a6060ae73aab6322596",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_2\\checkpoint_epoch_020.pt",
+    "sha256": "1d4dd1050e4a4735b609d1592c792bbccca76d14349b88d16cec9917fa03a1fa",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_2\\checkpoint_epoch_030.pt",
+    "sha256": "cde12b286667bb5046704fb442811b2d93e5b69b67d1787f13e6b236a14038bc",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_2\\checkpoint_epoch_040.pt",
+    "sha256": "61aca8038cfef286e1cc8ff179f31eff9d5fee255b54c840733ab02cb6f20b40",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_2\\checkpoint_epoch_045.pt",
+    "sha256": "53fd261788851e96b9e2c0e79f891dbf0e4ad3202d3f7f826a8fe7979688d137",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_2\\checkpoint_epoch_050.pt",
+    "sha256": "2238eca4d357469627bec1e894e62b0411982379ad1e156fc418dea63ec4a3e3",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_2\\checkpoint_epoch_060.pt",
+    "sha256": "b8a0863590345dec8f60a6fc18e97df363de6070ebd3e090a3d11196b33ea1e2",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_2\\checkpoint_epoch_063.pt",
+    "sha256": "9cbf25a055f9580b5bff34ed82be3946f89e958272a5d05810f7af56e59661bb",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_2\\checkpoint_epoch_069.pt",
+    "sha256": "babcb4219ef8ac6cdd84197697914e4121d096f91ad464ba72c3ed2556368708",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_2\\checkpoint_epoch_070.pt",
+    "sha256": "e2ed98a6dfeece60eb74353a519d2d4789a193d6753e6ed6f42f1e1441212f30",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_2\\checkpoint_epoch_071.pt",
+    "sha256": "e1599572bb1e6a65c97d8181f1e5b272236331e2d33c3c7e4e490c599328eaa2",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_2\\checkpoint_epoch_078.pt",
+    "sha256": "f947e761a360c6b9f5f10cd5bd46ef561f7f145534261e8e3e33010829b7dd0e",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_2\\checkpoint_epoch_079.pt",
+    "sha256": "bb209aaee31ca448af0301258a28731c85411bec29baab43a2d6146fa3a93825",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_2\\checkpoint_epoch_080.pt",
+    "sha256": "8a33465b14226a7e12cb87e61972b5497aea1a8ad01a9f34abd597cbb07636a0",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_2\\checkpoint_epoch_090.pt",
+    "sha256": "3f31318f286d85f7395031991232281e1dfbffa2d75560779dd1813c2ec0fd8e",
+    "selected": false
+  },
+  {
+    "candidate": "C",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_2\\checkpoint_epoch_093.pt",
+    "sha256": "a2fef507b6843eee4c04705942fbd3a5d570e172c567cbb083a5c3758ddfe5ac",
+    "selected": true
+  },
+  {
+    "candidate": "C",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_2\\checkpoint_epoch_100.pt",
+    "sha256": "e9e461cff00b0f13d3cedf95d116fd385b590c71f6876f5028ad1e5f8baffcb8",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_005.pt",
+    "sha256": "d4dec75796508b82930020a31ce6824182cf8803f3ff78fb8d9d32f01f2e7d96",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_006.pt",
+    "sha256": "35e5ae98a1c5d9ad3c7f6e2a70f0c66510cfd57ac1370e6291f6084e373043ac",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_010.pt",
+    "sha256": "9b1b6b4482565ffa3204a50c8f19ca7a30cc140afc952b2d8ee389cc5ad53496",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_018.pt",
+    "sha256": "9bf62b32450672ce5688191c871ffb24f3e1b45ea437e4866b22c5a1477430cf",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_019.pt",
+    "sha256": "cdb03d04e23e0ff174d26f79730bab8c929cb13490cd97a78bfcd0768b2d6aea",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_020.pt",
+    "sha256": "5b75a4bc1885bf20fd51ac64b8fdfb14279592978965588ada465d5db4eda52b",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_021.pt",
+    "sha256": "68443f32288bae4a18e0d18e009e3a711c44b606ac2b869b27d39b739698b589",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_022.pt",
+    "sha256": "ce5f0bbd7f259cba6975dedd52e879e0d5fd9cd809a6bf06986d28a252b20401",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_024.pt",
+    "sha256": "fe00b05cd645a5597cf0c1a73bdebc021e64b6b4cf3d478ad5658f1594879621",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_025.pt",
+    "sha256": "b32790874cf40bd733aab156714d705134ee1e799c2173d55732ffc80533b4fc",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_030.pt",
+    "sha256": "5c7154137d1c6287993eb5bccecb6731c0c77cf8963e5125b83608e4c2db36af",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_040.pt",
+    "sha256": "72be9649fb4f0aad33396a79ba5dd8b2c71682ca3106300e4acfac30f364c629",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_042.pt",
+    "sha256": "cae5b14a88e99498da3564c50f11cc2e80a224efb6647a78e81e2428f106ac06",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_043.pt",
+    "sha256": "9688f814a4ee2e2b18c1d34bf867d54679f8dbb4ff1a2ede9770d2b8631b03bc",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_049.pt",
+    "sha256": "eb7ec080f0dd1b1710b0749a8b06d653994c794684bc2b61c7f92f85f75c13c1",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_050.pt",
+    "sha256": "f1280bcdf247c6b44e620e4a4ed235e2847064b68b9f8059b1efd0b1f7d93c82",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_053.pt",
+    "sha256": "fa5a523047b63a47be9ab91065f73c15fff19d308edf0706cc3292b010417049",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_054.pt",
+    "sha256": "0b5e30c728ccac295ca06257faaf9b723dfed9a5f4bee4e46eb0d446ade948f4",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_060.pt",
+    "sha256": "29165661bcbd2530b513b2733c717ca507422fb6c45418ed85a7e618d32b9997",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_070.pt",
+    "sha256": "d1d8f18ea5262316d79d121533e4cc42e9c51cc2f1e8c7fd8672cb8d090ca4ed",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_079.pt",
+    "sha256": "3a79bb2484426ff9a4620f711e8fbae84b04a8c3f7ae4ff4a1b8cd00e7724290",
+    "selected": true
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_080.pt",
+    "sha256": "d79c49e81c27a12f54d54a61295368c571dd7064f32e64bd36480fc91d40b0b4",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_090.pt",
+    "sha256": "07177325caa9c2682638541dd5d260328da5bbdb4633072e1e5b881bc7056c2d",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 42,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_100.pt",
+    "sha256": "54adad6f5d6bad52aecfb7ffdfc9318e60cf8fedc7e68074d801f102cf96fb47",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_1\\checkpoint_epoch_005.pt",
+    "sha256": "ca961ca10620d7f5f4dc19dca0c725e133b42d9a591979765a34cc88d1d50a87",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_1\\checkpoint_epoch_010.pt",
+    "sha256": "6f5bc593dc37642c102af955f1254cda4446cdfb479fbd69dfba6f062d5e8e3a",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_1\\checkpoint_epoch_019.pt",
+    "sha256": "f50642328de8eab1c75699087f2ff22720ee5c7eedadc68cd111b458b884aaa4",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_1\\checkpoint_epoch_020.pt",
+    "sha256": "a5adfac0ec78ab2f893e2060c4bedaeb258ecd96a415c8c6bfcb05ab04b6b9a0",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_1\\checkpoint_epoch_022.pt",
+    "sha256": "b896eda146344543b02af4e1839e0fbdf1dfdc2de964e04ab1323eed59373d8a",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_1\\checkpoint_epoch_023.pt",
+    "sha256": "f55c08a8b6c0c6e3cf9d68787241cf2fa1de843478a322d90af2c381a1c6f4ab",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_1\\checkpoint_epoch_024.pt",
+    "sha256": "07f33637c793cad6da3b01ceedcc2228191507f2c48cbb6cc996fcfca69d7da4",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_1\\checkpoint_epoch_025.pt",
+    "sha256": "7e34b07278be6f8c94329e9b28b9b60be2a7e6b0e914f418c423a7200edbfb03",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_1\\checkpoint_epoch_026.pt",
+    "sha256": "7a4634447cd009f2762c2b3dfa28f90a0f6927b7eb2fba3a2192138150754d74",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_1\\checkpoint_epoch_028.pt",
+    "sha256": "74b9ca5ef72cd78dbb00d639ce8bab5edc53b5e4538b89850b018aefc7d7f846",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_1\\checkpoint_epoch_029.pt",
+    "sha256": "a89dafda5b4cf71ce18e3cf43252811e453bc14f4ddefc69c15a1d3c55d3f2b4",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_1\\checkpoint_epoch_030.pt",
+    "sha256": "b8fa6ac622df40c78bab94f1b1af57c7f8401da4acad9989850fe26bf4def6ff",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_1\\checkpoint_epoch_032.pt",
+    "sha256": "b2a1cca06256079fd991fd69d05eca6c0811cd832bb2abec5de4148b97192ebf",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_1\\checkpoint_epoch_040.pt",
+    "sha256": "fcb06b09a685ce34f0b3e05079f8c88b887e4604c9ce244e65408696ff08c9ac",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 1,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_1\\checkpoint_epoch_050.pt",
+    "sha256": "b3a60be97f9c717b4876ca0a40824f38066c151475582a8a11bfd0add00e1f81",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_005.pt",
+    "sha256": "85fdfb53e7291676acf2df36e6a7e636f76c0bd028dd4775b33ddfb6d02b0a34",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_010.pt",
+    "sha256": "76e29a49367cb9dbc05a58192f401a4957eed0e4d1b7dff9cf46808cb21b3a03",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_019.pt",
+    "sha256": "01dd52635e860613a72519777eaecbbb0b7b7ff825561b80b5f3a06b16793044",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_020.pt",
+    "sha256": "9167de80e6f65701b0f7562a1716e9ddd6b863da2d2c218f950ac5f5b8e6479b",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_021.pt",
+    "sha256": "00bd7fc501ca123404538990736df4c162f8ef4d4d77caa277729fdc7257598b",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_022.pt",
+    "sha256": "161fe00b2daf2b6be2cba16a584780baeed3123882c0bffe5b222ac5cf1f62e9",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_023.pt",
+    "sha256": "fd418d497b0f78236eac3f68f033cc79048d5994de97632f4733444dddc04544",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_030.pt",
+    "sha256": "3b4ba9bde3a3d40de934b35a6374c43cd0059b514a47da6ea86629c23b6ad860",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_031.pt",
+    "sha256": "739450a30826a17c94017f8ade0d1b6034db7b92da69e98b1b555d8e8f431c18",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_032.pt",
+    "sha256": "06c21ef5363fbcd2ea7ad0d037d7e2d3b4fc691ea886f05c9a9103ca23f9d9c0",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_035.pt",
+    "sha256": "bf5c9d012d8e2840bd9d05988de67a280df1e9a1cb7d6b45b43d73d2ddf0f48b",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_040.pt",
+    "sha256": "09b476f59427d6cedb4ea824f3673b0071b8632ed97f75406d84dcb41bd65212",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_047.pt",
+    "sha256": "673fe337c1b89934b0aa4a44c96ed3d8585091cfbd98600e2a4b988e2d3b67b8",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_049.pt",
+    "sha256": "d2788eafd60473045ef1f2eb8859949fe205d80732f9e0f520fb7583f00fc117",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_050.pt",
+    "sha256": "5d104cccf200cc2208fc54e844730f275511b41cee5f31951ba1b052ba1f33e4",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_054.pt",
+    "sha256": "fe5a93cbd7483c643834b7cb90254517cdd4a40d1af2a7e50c6752415cd154b1",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_056.pt",
+    "sha256": "4809dd3f5c3128ed4f4d0e6c7147e1768825cf62158ae471078394dfcf9b5d12",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_060.pt",
+    "sha256": "a967a68a0eb538d6370a56359c2136a6231abc401016cf8b8c3b83a26551a05c",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_069.pt",
+    "sha256": "3d9efcdf0f84d49f75aa879fa2ece7c6ccffee9eeb73bf2541fc43a76ae4b0bd",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_070.pt",
+    "sha256": "f8ef8947b54c49f965e0da207a7062c9257e7d21b89bc58ee8ae9d338a9670a5",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_080.pt",
+    "sha256": "28ab127ed11cd0344b867f99c68b9f1e9f4a90fea0052b531c9f0bb2d3c150db",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_090.pt",
+    "sha256": "7d3b8a9d7259a69db36842f85ce0185c5d1d77554bd107b0a639b42fb436ad4f",
+    "selected": false
+  },
+  {
+    "candidate": "D",
+    "seed": 2,
+    "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_100.pt",
+    "sha256": "36e9dcdeb284cad3f3f62b66bbc387817c82bfe5f9b0fc37043d3278dd094483",
+    "selected": true
+  }
+]

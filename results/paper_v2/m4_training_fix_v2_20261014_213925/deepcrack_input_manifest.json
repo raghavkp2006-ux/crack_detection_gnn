@@ -1,0 +1,4082 @@
+[
+  {
+    "stem": "7Q3A9064-12",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9064-12.jpg",
+      "sha256": "465c2bb4515b73bfe1ab12b20ab2316cfa1af66193b43d7c213c1cf1116576a9",
+      "bytes": 66024,
+      "mtime_ns": 1788453472720460300
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9064-12.png",
+      "sha256": "bf88338e2ecf56e14cc2e3e55184c1774701f433d413418a2a4ac70c6bfce511",
+      "bytes": 2256,
+      "mtime_ns": 1788453474287312600
+    }
+  },
+  {
+    "stem": "IMG27-5",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG27-5.jpg",
+      "sha256": "ec1e37f0874ca3ce92910c3074328308b0a7d08a95197f5c3fe2743e99e74c7c",
+      "bytes": 66812,
+      "mtime_ns": 1788453472548264400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG27-5.png",
+      "sha256": "d85a2df933878cf0a53a6a41c41a937368b1cc42044fb57a3fdbaf65829e94fb",
+      "bytes": 1248,
+      "mtime_ns": 1788453474142158300
+    }
+  },
+  {
+    "stem": "11192-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11192-1.jpg",
+      "sha256": "ea958ae4f4e385ecf7d273e6b67993ef00ccec5552c5cae183eef0d2efdcbace",
+      "bytes": 70958,
+      "mtime_ns": 1788453472417130700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11192-1.png",
+      "sha256": "fe2661935ca3b018098688503695edd549e33c0cd09527dbaa631409f1a3713a",
+      "bytes": 1741,
+      "mtime_ns": 1788453473985505300
+    }
+  },
+  {
+    "stem": "11116",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11116.jpg",
+      "sha256": "525b76c32653a79350c88bf4cd125869541d1d3ef14ad41b9a5a31797767450b",
+      "bytes": 108416,
+      "mtime_ns": 1788453472796896700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11116.png",
+      "sha256": "99dabc8dfd35f3c3bff3d4c94ea59b71883bdc987e3eccea15d0b923e9e1cf0e",
+      "bytes": 2938,
+      "mtime_ns": 1788453474371511500
+    }
+  },
+  {
+    "stem": "IMG13-4",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG13-4.jpg",
+      "sha256": "ff9fa26f1a2f1b06d894553ca5abeac014d931faf5bc5d47240a798918e19e51",
+      "bytes": 59337,
+      "mtime_ns": 1788453473369555300
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG13-4.png",
+      "sha256": "0dbe2364330f4cb6d23f0cc42027b136d3ef6c09e237eb1ab2b0688ec6272b04",
+      "bytes": 881,
+      "mtime_ns": 1788453474858351300
+    }
+  },
+  {
+    "stem": "IMG11-6",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG11-6.jpg",
+      "sha256": "a172e1e97d21cff8786fb8df53540e732f545cee2df9d0b796ed8e8e4ff0b473",
+      "bytes": 65904,
+      "mtime_ns": 1788453473391505100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG11-6.png",
+      "sha256": "a190c1d2d785701740126a2d843933aa277b15816a532547dddd99133ebd5a40",
+      "bytes": 1758,
+      "mtime_ns": 1788453474839572400
+    }
+  },
+  {
+    "stem": "7Q3A9060-6",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9060-6.jpg",
+      "sha256": "e2e0a0814fc888181d0c92638e7247b62fead0aa95df73da04d5c69e0843a552",
+      "bytes": 63252,
+      "mtime_ns": 1788453472512168600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9060-6.png",
+      "sha256": "eb9e943fdff6e17497902c2f4a17d1be1439adc1dc39997152aace37331cd8fc",
+      "bytes": 1580,
+      "mtime_ns": 1788453474111697100
+    }
+  },
+  {
+    "stem": "11178-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11178-1.jpg",
+      "sha256": "95328ae8349d59a571e6f4e6d7b8a5a062679d1ed61e5d54fa3bf6cad9ab521e",
+      "bytes": 122853,
+      "mtime_ns": 1788453473763603000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11178-1.png",
+      "sha256": "eb8155464f53670d115a3ae3a0e695894e366c054ffe2a055d75597fe18f7ad0",
+      "bytes": 3729,
+      "mtime_ns": 1788453475174117300
+    }
+  },
+  {
+    "stem": "11116-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11116-1.jpg",
+      "sha256": "77c519836db122c320d7d22c4230dbfcab93c849ea1f9df2a5dc8b91a9aebb75",
+      "bytes": 62527,
+      "mtime_ns": 1788453472739795100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11116-1.png",
+      "sha256": "d5aeea9536f8a6ec89871a9a12a2c3f32cdbb9324419f1175e5e65dde3b103f8",
+      "bytes": 2562,
+      "mtime_ns": 1788453474270129500
+    }
+  },
+  {
+    "stem": "11289-5",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11289-5.jpg",
+      "sha256": "dd7b05dde4a47d4156d09e8780a5ddbe388cb94f38a67a4089cf958d5450313d",
+      "bytes": 85921,
+      "mtime_ns": 1788453472873963600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11289-5.png",
+      "sha256": "c23fc3b8a58b0a66863dfc6ab6040359ba630ef2bed43f46d629ef25460e2f1e",
+      "bytes": 2420,
+      "mtime_ns": 1788453474428443100
+    }
+  },
+  {
+    "stem": "IMG136",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG136.jpg",
+      "sha256": "5bebb4f9214d7976b6a92e97da92477ac8ca613997beb803af3c92ae473ea50a",
+      "bytes": 84226,
+      "mtime_ns": 1788453472561857700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG136.png",
+      "sha256": "d4956b489df20080c7a185ef6a0d5bb40bccfeb5e2abe1218746e0b4a324a7b4",
+      "bytes": 1491,
+      "mtime_ns": 1788453474132126200
+    }
+  },
+  {
+    "stem": "11148",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11148.jpg",
+      "sha256": "7f14d0ff7c1ffd7042528d08be7333554d80d9165c0eb7d16e86a80eabeceb27",
+      "bytes": 163364,
+      "mtime_ns": 1788453472386381200
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11148.png",
+      "sha256": "d605dac2cf14390f8fd28d2ab927c34e4af8bba0d8fb32acfc090ebb05282b70",
+      "bytes": 2352,
+      "mtime_ns": 1788453473973168900
+    }
+  },
+  {
+    "stem": "7Q3A9064-8",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9064-8.jpg",
+      "sha256": "d596ed774faead0c2993585777f33b3dacd055526abbe4d0f28330705112fe01",
+      "bytes": 49819,
+      "mtime_ns": 1788453473842307000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9064-8.png",
+      "sha256": "3cb35b6bbce1ab6bf5de475d3ace76644304b8cf1e029e072913e4cc6868c067",
+      "bytes": 1763,
+      "mtime_ns": 1788453475238012800
+    }
+  },
+  {
+    "stem": "11139",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11139.jpg",
+      "sha256": "51f267e04b4f0e12a126f9c1c8ec27b51525150cf42ac7e2309147e6eded1149",
+      "bytes": 57229,
+      "mtime_ns": 1788453472971414900
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11139.png",
+      "sha256": "1ddc5f3e35ae166b85b48fbb0f9fbb645bb5536872d223ba4ca4a6e74bc5c12d",
+      "bytes": 1823,
+      "mtime_ns": 1788453474499565200
+    }
+  },
+  {
+    "stem": "7Q3A9060-11",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9060-11.jpg",
+      "sha256": "bebfb973dc785fb941fb486b105d269d70d469719ff4cf5749b8bb8155b116e5",
+      "bytes": 113384,
+      "mtime_ns": 1788453472594577300
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9060-11.png",
+      "sha256": "29a39775ee55f8a34a801d2da88a52eff228a5d988da77a92c65efe7512b329a",
+      "bytes": 2032,
+      "mtime_ns": 1788453474191397600
+    }
+  },
+  {
+    "stem": "IMG11-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG11-1.jpg",
+      "sha256": "6d59aa1f22a08d712bf347db808161a41be45ae2dceca862e5c63e9e3ecffbc5",
+      "bytes": 59174,
+      "mtime_ns": 1788453473193305500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG11-1.png",
+      "sha256": "c4f15423ed461fc3e636d76d3922d911ee8f468aeeb3f2f8dcc794c81455da90",
+      "bytes": 2018,
+      "mtime_ns": 1788453474712560300
+    }
+  },
+  {
+    "stem": "IMG36-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG36-1.jpg",
+      "sha256": "e4ffefda99ee8c43c0a611f6a4135406d57e6ab26e57dd7f34e6d94866a11a40",
+      "bytes": 52762,
+      "mtime_ns": 1788453473667411600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG36-1.png",
+      "sha256": "ca4d944840bdb525c20e978c96ca221a0c49c55564a1a67d7a15c25763374074",
+      "bytes": 791,
+      "mtime_ns": 1788453475063128200
+    }
+  },
+  {
+    "stem": "7Q3A9064-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9064-2.jpg",
+      "sha256": "7fd69806b477784fe885dcad3967816fa94396d11be143c0c7a0cbffa7ef498d",
+      "bytes": 42232,
+      "mtime_ns": 1788453472546593000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9064-2.png",
+      "sha256": "4ec29c38aae71f45d86790efa1e45bb1c26714fc26b9566234f9ac001e12843c",
+      "bytes": 2147,
+      "mtime_ns": 1788453474136141800
+    }
+  },
+  {
+    "stem": "11190-5",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11190-5.jpg",
+      "sha256": "797a5aad2c72db3be17dfbb3a207b8dd1354b755af5e56647868d48861cb311d",
+      "bytes": 151702,
+      "mtime_ns": 1788453472640923800
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11190-5.png",
+      "sha256": "4b651990b38a5b97bf2a3439874cca9b1d0ed47e2198c79c34b1b7fd654fff84",
+      "bytes": 2363,
+      "mtime_ns": 1788453474191397600
+    }
+  },
+  {
+    "stem": "11200-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11200-1.jpg",
+      "sha256": "c37c666a52cf8e8f533e086f8cb9f961413ec939c357dd19f5a381762d9466c5",
+      "bytes": 97181,
+      "mtime_ns": 1788453473256351500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11200-1.png",
+      "sha256": "a0f3b30ee3732ac2db3d29a779b345a5ce91d10fb9a8ae2a49e5631ec91dedc7",
+      "bytes": 1156,
+      "mtime_ns": 1788453474744401500
+    }
+  },
+  {
+    "stem": "11158",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11158.jpg",
+      "sha256": "5832fee85301a97641e7be3e00e29738ba27bc5131eaa43170c899f04ebb10a5",
+      "bytes": 84357,
+      "mtime_ns": 1788453472523113600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11158.png",
+      "sha256": "0071e355933b73b8d6f4c0a56f2f0758b079f1cd7dfc1b2ead353208724207ee",
+      "bytes": 2378,
+      "mtime_ns": 1788453474096045200
+    }
+  },
+  {
+    "stem": "11178",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11178.jpg",
+      "sha256": "2f510376116215071f3396572a9ec2f1967b3131ea0b75e23a6a867946d06a35",
+      "bytes": 116118,
+      "mtime_ns": 1788453473704417400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11178.png",
+      "sha256": "eb214c6ff0ddd3f575330adfc0770a2feccba23603405a0e5b6b4536be11ca46",
+      "bytes": 4082,
+      "mtime_ns": 1788453475110794800
+    }
+  },
+  {
+    "stem": "IMG25-10",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG25-10.jpg",
+      "sha256": "ba7046827f3b907a6d4ac570cf4fad5f3202f2e0fa2a035843058fdafc1665e3",
+      "bytes": 58279,
+      "mtime_ns": 1788453472645554200
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG25-10.png",
+      "sha256": "75e7c65d50bd7ca4fde4b5b76fa82189c1ba0e39996a3b1c6c41854e55865410",
+      "bytes": 1897,
+      "mtime_ns": 1788453474211845000
+    }
+  },
+  {
+    "stem": "IMG25-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG25-2.jpg",
+      "sha256": "2f766af6fabb253ceeb0128d7d1604fb1107e38639270d4c9e37dc9f2c8fc978",
+      "bytes": 109920,
+      "mtime_ns": 1788453472448890600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG25-2.png",
+      "sha256": "2055a60c879c0d3e08c7fd71a763514149ff4846d85eb5737a1d9541e65c3471",
+      "bytes": 2049,
+      "mtime_ns": 1788453474028591400
+    }
+  },
+  {
+    "stem": "11175-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11175-2.jpg",
+      "sha256": "609da999787cd645779aa0eeda94800f7ab1adc4cfa40de64840ef2e44c59df3",
+      "bytes": 70456,
+      "mtime_ns": 1788453472744633700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11175-2.png",
+      "sha256": "599c92505fa1a0b66c586fcc5cc2da97acb802f8ac77896c86812ba74f81d223",
+      "bytes": 1231,
+      "mtime_ns": 1788453474270129500
+    }
+  },
+  {
+    "stem": "11136",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11136.jpg",
+      "sha256": "f218aeb239b9f015833b8684473e3280d2b91cbe0d204e7c24c8746241d7d653",
+      "bytes": 81968,
+      "mtime_ns": 1788453473169134000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11136.png",
+      "sha256": "60f2b7269afe70067d7deb440585a59f3c21f8c0a2ad7bb8006023b2480d95b5",
+      "bytes": 2473,
+      "mtime_ns": 1788453474654690200
+    }
+  },
+  {
+    "stem": "IMG33-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG33-2.jpg",
+      "sha256": "333269b584bcfa9978d7bd814a6c92851f23884491a2c430edfb4ab596155afa",
+      "bytes": 77914,
+      "mtime_ns": 1788453473256351500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG33-2.png",
+      "sha256": "a51e52b9d4f53706f96173f6e373cb83c3ef57096000fafe84bcf93a39d896da",
+      "bytes": 1489,
+      "mtime_ns": 1788453474739379300
+    }
+  },
+  {
+    "stem": "IMG5",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG5.jpg",
+      "sha256": "2d732b9f322dfc5411394d49f81e3b8dc0dfc11c4e2692bce90e9f4aef621a26",
+      "bytes": 66945,
+      "mtime_ns": 1788453473070486400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG5.png",
+      "sha256": "7a6aaa30319e4425f873c5a32a6db70ce8ae133afb0e3f01ba299c7c01fcd5a9",
+      "bytes": 867,
+      "mtime_ns": 1788453474569907100
+    }
+  },
+  {
+    "stem": "11193-3",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11193-3.jpg",
+      "sha256": "8c2ca72156c6cc7784590f291bb9d87a71348a87365185d6928b4acf8a4bd48f",
+      "bytes": 100626,
+      "mtime_ns": 1788453472781245300
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11193-3.png",
+      "sha256": "1ce956eb9364c4546325c6cec283cd9c43880677dbc7fff4c59fde03d3a5ba3c",
+      "bytes": 2604,
+      "mtime_ns": 1788453474318471700
+    }
+  },
+  {
+    "stem": "IMG14-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG14-1.jpg",
+      "sha256": "47300ac768089a5ad4377fa59cebef706854541cac5d96917fe8e66a0728f751",
+      "bytes": 72611,
+      "mtime_ns": 1788453473795088400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG14-1.png",
+      "sha256": "7ad5bab605040a872455b478a29c16638456be53456f0775ce55e28f3025230d",
+      "bytes": 1527,
+      "mtime_ns": 1788453475206203700
+    }
+  },
+  {
+    "stem": "11122-3",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11122-3.jpg",
+      "sha256": "c4999098e38fd8974baa09c78da5246cf5b65e75381c82400ca9299fa47099d4",
+      "bytes": 104100,
+      "mtime_ns": 1788453473474716500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11122-3.png",
+      "sha256": "6c0723b8ccb7b92adeb385a20a5fb8b87eb05b411344b912a637b773f3c9742d",
+      "bytes": 2552,
+      "mtime_ns": 1788453474900377900
+    }
+  },
+  {
+    "stem": "11198",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11198.jpg",
+      "sha256": "b3ea1f3cd77bbd99360cca73d1229e15f52facc3d89d9a53fb8c6bc2752fc7d1",
+      "bytes": 125585,
+      "mtime_ns": 1788453472624944400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11198.png",
+      "sha256": "23097bda0bcb00caa8d17b462f7bedef1819550efcd35662d6220359a0ae259f",
+      "bytes": 1570,
+      "mtime_ns": 1788453474217865800
+    }
+  },
+  {
+    "stem": "11133",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11133.jpg",
+      "sha256": "d0846b1184c4c504b171d1d66907864e13632f2ceae6f141d8eb419eb0d4319e",
+      "bytes": 112023,
+      "mtime_ns": 1788453473288092100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11133.png",
+      "sha256": "331509038c52ad7145fc0fd6163b4ee55a5b20a89037c4ef9d18d9cd6b0b6dbd",
+      "bytes": 2122,
+      "mtime_ns": 1788453474760104600
+    }
+  },
+  {
+    "stem": "11123-4",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11123-4.jpg",
+      "sha256": "d9f8e6be3d035d9052fb1acea2d533b9cdf05f1f39f8ead9dd1700b281d5ae97",
+      "bytes": 132000,
+      "mtime_ns": 1788453473444393700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11123-4.png",
+      "sha256": "83af5667715a4d7b2e7be836d8e35817e38738acd28d8d68fa8c0bc35bfe5170",
+      "bytes": 2581,
+      "mtime_ns": 1788453474871509000
+    }
+  },
+  {
+    "stem": "7Q3A9064-5",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9064-5.jpg",
+      "sha256": "47061c36a4b502ac7f72cb06c1bc681b681f263166981062a730844e83f1f7a6",
+      "bytes": 58335,
+      "mtime_ns": 1788453472242408100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9064-5.png",
+      "sha256": "2e75f5109b9a4911ed2abd67daf93bc69a5934aece4d245a0d48a9ec60cb03ae",
+      "bytes": 2734,
+      "mtime_ns": 1788453473860897400
+    }
+  },
+  {
+    "stem": "11179",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11179.jpg",
+      "sha256": "8d26345e934cc31efe9e28af481a40c9ebe8ed4d653d7dbcfbf169dd042242f9",
+      "bytes": 132241,
+      "mtime_ns": 1788453473720663100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11179.png",
+      "sha256": "615083612d7893ea2db364b94943bf35644f153ae7e4bddfb32365d8a413f924",
+      "bytes": 1829,
+      "mtime_ns": 1788453475126493000
+    }
+  },
+  {
+    "stem": "11116-3",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11116-3.jpg",
+      "sha256": "a4c6af522d3265bcbbdd16178f1db401370f4777fa01d4b953de3e3532a3c65b",
+      "bytes": 107990,
+      "mtime_ns": 1788453472783579000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11116-3.png",
+      "sha256": "49d3c2f994221504d985d5a50117593206c397f8d52c49495215ec75522862fb",
+      "bytes": 3230,
+      "mtime_ns": 1788453474349391400
+    }
+  },
+  {
+    "stem": "11165-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11165-2.jpg",
+      "sha256": "cf506459cdb2f317bc9ac522525451d676513b3ebaaf641e6d6615e1b9fc152e",
+      "bytes": 142632,
+      "mtime_ns": 1788453473556995000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11165-2.png",
+      "sha256": "71d0c5ebbf26b3e1d19e79bb68606323f515641214fae3eafe9ff6219ba71e55",
+      "bytes": 1040,
+      "mtime_ns": 1788453475024804700
+    }
+  },
+  {
+    "stem": "11140-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11140-1.jpg",
+      "sha256": "89fd36ba0ad15cfca817fd223f07ba38629a889518fb92b2df5b86f4f55f6920",
+      "bytes": 130205,
+      "mtime_ns": 1788453473231262100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11140-1.png",
+      "sha256": "a2824391cbbc443b4c32782ec654a44c284426a78920edf10abad1c27af54c47",
+      "bytes": 2073,
+      "mtime_ns": 1788453474680962500
+    }
+  },
+  {
+    "stem": "11156-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11156-1.jpg",
+      "sha256": "d7db876d1f61e0764f2b4677c5c79e7950d7a4f428758063ada667e2a90f18c7",
+      "bytes": 127947,
+      "mtime_ns": 1788453472505101700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11156-1.png",
+      "sha256": "c9ce563a6b5d5ac17c6e17d8399df004d81c1b73df2968db720ca9dbe25d84ee",
+      "bytes": 1208,
+      "mtime_ns": 1788453474096045200
+    }
+  },
+  {
+    "stem": "11166-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11166-2.jpg",
+      "sha256": "7f00a51f72a5abe275c324bcc1c2f8a02ad04212c8b1b3cd88781338ba685453",
+      "bytes": 89520,
+      "mtime_ns": 1788453473210623100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11166-2.png",
+      "sha256": "99f3bd8ee315948689a25070a9849fe57e04bd6d76b5fcb6340deb1151508fdc",
+      "bytes": 1139,
+      "mtime_ns": 1788453474686662200
+    }
+  },
+  {
+    "stem": "11157-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11157-1.jpg",
+      "sha256": "875c547ebde3cd33a49d7f926dcdeb1af9619f97b2b4f3cc824707f8c73e622a",
+      "bytes": 76288,
+      "mtime_ns": 1788453472939611500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11157-1.png",
+      "sha256": "7d5c7a7d4f6a6d732a63bce66e91f266c66e058d7e31dcbf5f8d118a7d5da5c2",
+      "bytes": 2133,
+      "mtime_ns": 1788453474475504300
+    }
+  },
+  {
+    "stem": "IMG33-7",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG33-7.jpg",
+      "sha256": "94ef936d29a637a2045e54322623a6b3227989bb5592bd0fb34cd0b019d9332d",
+      "bytes": 98425,
+      "mtime_ns": 1788453473140634400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG33-7.png",
+      "sha256": "5f3f88801bed57c68b1f3c0f92eca8321dbc03b4d982337e393abcce12052138",
+      "bytes": 2229,
+      "mtime_ns": 1788453474633444600
+    }
+  },
+  {
+    "stem": "11151-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11151-1.jpg",
+      "sha256": "c755e9822b015ed1c2e9b6e0ce37cf96161904ad59b1015fdb134ea887fab26c",
+      "bytes": 127264,
+      "mtime_ns": 1788453472796896700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11151-1.png",
+      "sha256": "f6254ab353a5d2ce71959b0607e750ff3946b9c97a17aaea70473dcc6f0ebd25",
+      "bytes": 2497,
+      "mtime_ns": 1788453474333557000
+    }
+  },
+  {
+    "stem": "11157",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11157.jpg",
+      "sha256": "25ea27740ef934401f05dbc52400e7c9205f506d31580eb248ff6966af93c1ed",
+      "bytes": 64887,
+      "mtime_ns": 1788453473530924900
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11157.png",
+      "sha256": "9f22daa28c8f303f4ff647b4608ab980e0d9eb79ca84a4ff6df7ce49ecae9ea7",
+      "bytes": 2143,
+      "mtime_ns": 1788453474951455100
+    }
+  },
+  {
+    "stem": "11151-4",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11151-4.jpg",
+      "sha256": "0de2b3d654369d76e2e7d16547098d194254395f7ea254c485274b538ce21da9",
+      "bytes": 122952,
+      "mtime_ns": 1788453472891836700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11151-4.png",
+      "sha256": "c1e273f73456c8b3b0f512226284d3b356bd7652980d2d71b3e2f11ba8f27a84",
+      "bytes": 2259,
+      "mtime_ns": 1788453474412200900
+    }
+  },
+  {
+    "stem": "IMG13-5",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG13-5.jpg",
+      "sha256": "9aff5342be03380388db7730208f54e59f049c87c11251cbc7e8068cff9d1fc7",
+      "bytes": 60084,
+      "mtime_ns": 1788453473438921600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG13-5.png",
+      "sha256": "97b3f4f917fc675a5e91ca35cba59b00ad6758a9b92dc4b8fca5959267c8215a",
+      "bytes": 868,
+      "mtime_ns": 1788453474871509000
+    }
+  },
+  {
+    "stem": "IMG12",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG12.jpg",
+      "sha256": "51e7e2f0a1cd6d0314ab7ed22f8c50d324a3e6bcea675c54c5b44a163c0ffb72",
+      "bytes": 73921,
+      "mtime_ns": 1788453473779342000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG12.png",
+      "sha256": "94266ce13dcf78bbf5ee19d33d7d81fb8ef2c36cbdcb847aea41845d6d7d085e",
+      "bytes": 1880,
+      "mtime_ns": 1788453475174117300
+    }
+  },
+  {
+    "stem": "11178-3",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11178-3.jpg",
+      "sha256": "e154803c967c6e19e3ff62225b677bad22785ffb5654409f674e9bfcd793c91d",
+      "bytes": 123713,
+      "mtime_ns": 1788453473750115900
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11178-3.png",
+      "sha256": "5a23fe8799e95d080ef3f6d3d9ac6aaa4299491ef05edb813a13055e801defce",
+      "bytes": 3597,
+      "mtime_ns": 1788453475158438200
+    }
+  },
+  {
+    "stem": "IMG13-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG13-2.jpg",
+      "sha256": "42ea9a8ea6a1437e10f8407c690557e843996a2bcb989b06b700e139d278fbfe",
+      "bytes": 58069,
+      "mtime_ns": 1788453473162803500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG13-2.png",
+      "sha256": "2ffe34a5eccd7f0b94fdc8de1d9264e919354e6216a585e1e1192b02a6bc39f1",
+      "bytes": 880,
+      "mtime_ns": 1788453474665150900
+    }
+  },
+  {
+    "stem": "7Q3A9060-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9060-1.jpg",
+      "sha256": "d693912aef34a09024e4d428e713b65da169296b550f8cbab20d9a496a4ae4cb",
+      "bytes": 41030,
+      "mtime_ns": 1788453472258303300
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9060-1.png",
+      "sha256": "f72205707db3cd45393385caa183809a0b365b2879d8e72d1caf7ee1fe8e2748",
+      "bytes": 1258,
+      "mtime_ns": 1788453473874124000
+    }
+  },
+  {
+    "stem": "11190-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11190-1.jpg",
+      "sha256": "5590bc7d790e537f64965ce2df00c9a822010caec2ba7f38aa45decff03b68fe",
+      "bytes": 128718,
+      "mtime_ns": 1788453472274393800
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11190-1.png",
+      "sha256": "d404115d8a6aa9d9a5369d69ac6aa16130f59533fd7c47b471599d26014a9b6a",
+      "bytes": 2232,
+      "mtime_ns": 1788453473886209300
+    }
+  },
+  {
+    "stem": "IMG14-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG14-2.jpg",
+      "sha256": "7901ec4a2f3fbebe3b4d48bbd4786cf3b4c62991bae87116524db3277d7a7e3d",
+      "bytes": 90227,
+      "mtime_ns": 1788453473683483500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG14-2.png",
+      "sha256": "06f0ea24b785aae55977a54638ad570220bfb860871edf0f33a86485b42e6a7b",
+      "bytes": 1430,
+      "mtime_ns": 1788453475126493000
+    }
+  },
+  {
+    "stem": "11156",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11156.jpg",
+      "sha256": "25ac4b5b7dc61dc25a2a3162f4cd3e9c6a4734d82b395a35895b7b2911f535b9",
+      "bytes": 125614,
+      "mtime_ns": 1788453473493653600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11156.png",
+      "sha256": "9721c46c48136933c684d3c22f92eb7b215936a732286b192547b632652d9330",
+      "bytes": 1190,
+      "mtime_ns": 1788453474945905500
+    }
+  },
+  {
+    "stem": "IMG74",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG74.jpg",
+      "sha256": "96da40ab86bbf5394540eb92b32dfcde9969778f4e64cbbe11f03f82ebdc2b7d",
+      "bytes": 41118,
+      "mtime_ns": 1788453473050699100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG74.png",
+      "sha256": "f49b240b316362abc54cbfcdc002b2dce316311f085038676f0a27b33f22340e",
+      "bytes": 2292,
+      "mtime_ns": 1788453474554093700
+    }
+  },
+  {
+    "stem": "IMG33-16",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG33-16.jpg",
+      "sha256": "850433bc765c5717e5a6a951527f7ca66cbc2dd05c54b55b762c6bee2fb06b33",
+      "bytes": 95776,
+      "mtime_ns": 1788453472931782700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG33-16.png",
+      "sha256": "297e76542a4455b64878cf4ee2a426a90f3f395c24ce21f26f4a9e96de18129c",
+      "bytes": 2007,
+      "mtime_ns": 1788453474475504300
+    }
+  },
+  {
+    "stem": "11167",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11167.jpg",
+      "sha256": "81051626c080db7950c0fc10afcc01228a8fbb8bf9d19d47449ffe6dac2fe261",
+      "bytes": 52678,
+      "mtime_ns": 1788453472634757900
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11167.png",
+      "sha256": "ace1c0c45b1e0954c9ad04d2a4afcd999ed806c2113d33af48cc3f15805b688b",
+      "bytes": 2293,
+      "mtime_ns": 1788453474206412200
+    }
+  },
+  {
+    "stem": "11166-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11166-1.jpg",
+      "sha256": "4afcbd53821a3e3da653c680a76f0c5339252eddbcc222708c7dee04ba4856be",
+      "bytes": 80886,
+      "mtime_ns": 1788453473113955000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11166-1.png",
+      "sha256": "cf694a6696df22e6f46ef082587558ba9ef90a2fd0893ec2ba2f2b29281c28e5",
+      "bytes": 1335,
+      "mtime_ns": 1788453474607055600
+    }
+  },
+  {
+    "stem": "7Q3A9060-20",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9060-20.jpg",
+      "sha256": "cda2c5ddb793be855f7fc9e45d1d4770cf4a66bb00954bcace9945938d4299a1",
+      "bytes": 54709,
+      "mtime_ns": 1788453473535625600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9060-20.png",
+      "sha256": "af7b875f26e7f7c782e7595178a35c662ee5b80f62a246a7871db37936df5b29",
+      "bytes": 2378,
+      "mtime_ns": 1788453474951455100
+    }
+  },
+  {
+    "stem": "11123-5",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11123-5.jpg",
+      "sha256": "1f07f6ce19f7400fe108caa6631acc1e33888569cf1030ccff2ccb7d19190106",
+      "bytes": 138397,
+      "mtime_ns": 1788453473369555300
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11123-5.png",
+      "sha256": "cb062b9946d49543fdc44c4b1196998a7c20cc54bf07bf62d239d08c86dd556a",
+      "bytes": 3489,
+      "mtime_ns": 1788453474858351300
+    }
+  },
+  {
+    "stem": "IMG13-3",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG13-3.jpg",
+      "sha256": "0701cc84af1f1829eb5b3cc6b1114b38956ffcd9f78d0a82a32251d1de4c294e",
+      "bytes": 58473,
+      "mtime_ns": 1788453473217686300
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG13-3.png",
+      "sha256": "fc2d9c9f3a6d4a7beaf526b122ec9cccf9d4b8c3f80631257fecfdda4dc64bf2",
+      "bytes": 852,
+      "mtime_ns": 1788453474688668300
+    }
+  },
+  {
+    "stem": "11150",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11150.jpg",
+      "sha256": "059b1ec3fd03aebc0a90efacd4fb3b2c21dbaefbf4d3007af1fc804946600d66",
+      "bytes": 119408,
+      "mtime_ns": 1788453473698780900
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11150.png",
+      "sha256": "eb096b69f6042a27cc5701eb2a4716396ff6484e75646bdcba8192ea8b864b13",
+      "bytes": 3433,
+      "mtime_ns": 1788453475110794800
+    }
+  },
+  {
+    "stem": "11116-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11116-2.jpg",
+      "sha256": "ceba51afd51dc8993e697d5c9b8c0073b5d76ddef68b4f9817512eb71905c2c5",
+      "bytes": 117890,
+      "mtime_ns": 1788453472828425400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11116-2.png",
+      "sha256": "7130a27953b73d321aa61c1d35b5f629a0df283876c1c9a1dfd5887713fe0d38",
+      "bytes": 3292,
+      "mtime_ns": 1788453474349391400
+    }
+  },
+  {
+    "stem": "7Q3A9060-14",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9060-14.jpg",
+      "sha256": "f3f650c941053e376c8e5247b3f48e4c57623cf3ab543efd949e53644b167f1e",
+      "bytes": 73498,
+      "mtime_ns": 1788453472258303300
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9060-14.png",
+      "sha256": "819adcf62d618f9b9cbc14f94e11927532cf871244cfee9003ac1c88db72e5dc",
+      "bytes": 2432,
+      "mtime_ns": 1788453473892119600
+    }
+  },
+  {
+    "stem": "11289-3",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11289-3.jpg",
+      "sha256": "c3d25b60ccb2608bedfa4db84677508b2779a33137703e147631f3d1d8dc9690",
+      "bytes": 77068,
+      "mtime_ns": 1788453472686285300
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11289-3.png",
+      "sha256": "6fafc5da3cae1586cb75a22be9ff45e5a51923c7d3d29a847b7e5121312f4190",
+      "bytes": 2290,
+      "mtime_ns": 1788453474254371500
+    }
+  },
+  {
+    "stem": "11130",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11130.jpg",
+      "sha256": "b8b391791ff751f219eb5246ce68256b73ad730c9c8a610dd9c997cd794b7860",
+      "bytes": 83308,
+      "mtime_ns": 1788453473391505100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11130.png",
+      "sha256": "a90c5776627432a96f4fb2a640717df9945892e9f3e6d7deff741132f6a1301c",
+      "bytes": 2058,
+      "mtime_ns": 1788453474839572400
+    }
+  },
+  {
+    "stem": "11123-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11123-2.jpg",
+      "sha256": "47a5128e5ebb99fbba173bad0c3dfc4a15ea94ac83ec17688178732fdcebc38e",
+      "bytes": 137496,
+      "mtime_ns": 1788453473229250700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11123-2.png",
+      "sha256": "8932868cb060137c744547d17ad29a81ea6af51a0159b627f9de98eef7f7d226",
+      "bytes": 3438,
+      "mtime_ns": 1788453474696759100
+    }
+  },
+  {
+    "stem": "IMG25-8",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG25-8.jpg",
+      "sha256": "064fc4ba49ff44112286c0e0ff8bc66c214608dc51dac393fc4f98e6cbb54ddd",
+      "bytes": 71374,
+      "mtime_ns": 1788453473556995000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG25-8.png",
+      "sha256": "fe815a37f6fe54774b4a4e77d78996a0f196a3dd5df6614d38b48aa06d42ddc1",
+      "bytes": 2031,
+      "mtime_ns": 1788453474983267400
+    }
+  },
+  {
+    "stem": "11144",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11144.jpg",
+      "sha256": "678cafa2c6129c21414441a98b68bd9e6d2a2e588ac505ff53000528fb65eac0",
+      "bytes": 149917,
+      "mtime_ns": 1788453473688881600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11144.png",
+      "sha256": "9adf2426de925773764afb02106c5af3c25643a6b8eae9481b855e67ed76fefd",
+      "bytes": 1651,
+      "mtime_ns": 1788453475110794800
+    }
+  },
+  {
+    "stem": "7Q3A9060-15",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9060-15.jpg",
+      "sha256": "ca4e9e05d4c3400f18cd106c1ec4193e8129d37cf3a8068209980652e991bbad",
+      "bytes": 58460,
+      "mtime_ns": 1788453472306122900
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9060-15.png",
+      "sha256": "878c13738b1a9de65732fec021f25777b99c23d70a6d3899d89774e0c7c89b9f",
+      "bytes": 2750,
+      "mtime_ns": 1788453473905964300
+    }
+  },
+  {
+    "stem": "11177",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11177.jpg",
+      "sha256": "fb6b693908cbf381781b907707b0e1e4b4d16e7ceb0a91db608a42a41d1a698d",
+      "bytes": 48446,
+      "mtime_ns": 1788453472258303300
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11177.png",
+      "sha256": "7fae28330575b51e63749a17f2a391453e39045ff6464b9e7941f0722ca629c2",
+      "bytes": 2085,
+      "mtime_ns": 1788453473890115300
+    }
+  },
+  {
+    "stem": "11184-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11184-2.jpg",
+      "sha256": "aa371a1f959188ef31324611e4c0cf5f096ba4c238bac6def5ab0a875e960c5f",
+      "bytes": 72001,
+      "mtime_ns": 1788453473399296800
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11184-2.png",
+      "sha256": "a8dc7d9de30fb583e2220370c127d6f25a29de0cc0973ce2fd40b90e7d625078",
+      "bytes": 1783,
+      "mtime_ns": 1788453474839572400
+    }
+  },
+  {
+    "stem": "IMG13-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG13-1.jpg",
+      "sha256": "ad8c5f593a40f83722b17bcd9b6a4bd4678a27a41ce28cba1538ff624a1de8db",
+      "bytes": 58367,
+      "mtime_ns": 1788453473066469800
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG13-1.png",
+      "sha256": "a898438ee1118cbfb6ba22b62434a64cb3c6decd3fa4ec9b2422d4580f97b270",
+      "bytes": 989,
+      "mtime_ns": 1788453474585964700
+    }
+  },
+  {
+    "stem": "7Q3A9060-3",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9060-3.jpg",
+      "sha256": "b139aac677bdf6a947c7954feafef825fbf78febb78f75564e1cd34c167b41df",
+      "bytes": 53493,
+      "mtime_ns": 1788453472412596600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9060-3.png",
+      "sha256": "94d6cd526846f0bab8d63c645fc0d798a1389386a288778589e9065807f38da8",
+      "bytes": 2202,
+      "mtime_ns": 1788453474001465800
+    }
+  },
+  {
+    "stem": "11185",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11185.jpg",
+      "sha256": "c2cd880ad0e9ff02809407d3d9ee8302eb5df1fd0f936902de001632bc32f34e",
+      "bytes": 56700,
+      "mtime_ns": 1788453473820679300
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11185.png",
+      "sha256": "c4b84a94d27a51c60547a5d4ba1c658408c4e84a4661a54a48745b1f7030e168",
+      "bytes": 2021,
+      "mtime_ns": 1788453475222547500
+    }
+  },
+  {
+    "stem": "IMG33-3",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG33-3.jpg",
+      "sha256": "3490f32a62dc54cafb1191b5a0fb56745fbc84432cf68b34a42a1a00c2df1e14",
+      "bytes": 79265,
+      "mtime_ns": 1788453473338220700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG33-3.png",
+      "sha256": "e05084488f641d53994176e56293ec5ca8958762deec95fa79cbf8eecab8be34",
+      "bytes": 1377,
+      "mtime_ns": 1788453474807445500
+    }
+  },
+  {
+    "stem": "11162-3",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11162-3.jpg",
+      "sha256": "c9c16ee7cbc55d03f505bcc85dd29040b36285c665102c3c06ee0bf5e6531d70",
+      "bytes": 103592,
+      "mtime_ns": 1788453473338220700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11162-3.png",
+      "sha256": "437686220871f9c6f4da0b1c069b57835dab15d234788097dcc3706825e12a00",
+      "bytes": 2449,
+      "mtime_ns": 1788453474807445500
+    }
+  },
+  {
+    "stem": "11162",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11162.jpg",
+      "sha256": "ac93f39a5cbb769f49ebd4ce7454d06759f10e21ca2ef810281b58d6479566ea",
+      "bytes": 104319,
+      "mtime_ns": 1788453472298107100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11162.png",
+      "sha256": "756d44d939015ca98db9a466487aba320bbe1f4feae1ad33a61e3050a2f39333",
+      "bytes": 1926,
+      "mtime_ns": 1788453473906747500
+    }
+  },
+  {
+    "stem": "11153",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11153.jpg",
+      "sha256": "57d8be52c5dba14b2b105a74b234b5550ed16ac8455dcea4bb2eb46aff7be8b1",
+      "bytes": 95415,
+      "mtime_ns": 1788453473795088400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11153.png",
+      "sha256": "5d1e894ce135f80672ba6bf8d523b1fa205a222edac9f7bc904842d4554d9d12",
+      "bytes": 2648,
+      "mtime_ns": 1788453475191217500
+    }
+  },
+  {
+    "stem": "IMG33-9",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG33-9.jpg",
+      "sha256": "f58864a19832ad02b6c11ced351b96d54e9680750f40e79e4e25fd254b04817b",
+      "bytes": 103315,
+      "mtime_ns": 1788453473019846600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG33-9.png",
+      "sha256": "63ea9f5d55a6d98b119533db9c8e075c620fabfedfb1c9afea5778fdbf528530",
+      "bytes": 2184,
+      "mtime_ns": 1788453474538381500
+    }
+  },
+  {
+    "stem": "11197-4",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11197-4.jpg",
+      "sha256": "07734eb56aa3aa25c07064286d41cc62640f7e14bab51092f5583731d0442387",
+      "bytes": 89298,
+      "mtime_ns": 1788453472705445800
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11197-4.png",
+      "sha256": "60c1123d7fd454261052af501c89116a9dbe4c34ba024412250742433995f9fe",
+      "bytes": 3661,
+      "mtime_ns": 1788453474254371500
+    }
+  },
+  {
+    "stem": "11192",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11192.jpg",
+      "sha256": "06f5495c12b9a974e8a7aab849ad77b2d175f1fd66ee32d718806e59eb10d481",
+      "bytes": 65061,
+      "mtime_ns": 1788453473720663100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11192.png",
+      "sha256": "aee7c3cb6f091845552127802c79fbdaab1f5627955cf259715ff664d305adb2",
+      "bytes": 1594,
+      "mtime_ns": 1788453475149326100
+    }
+  },
+  {
+    "stem": "11122-5",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11122-5.jpg",
+      "sha256": "cda9149c5aee1887e9f23bad0f6f55c156cd1e10f70677dc445f2e65371e88da",
+      "bytes": 109073,
+      "mtime_ns": 1788453473673896700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11122-5.png",
+      "sha256": "f76afae7600b3299e518aed720037f1712d1dda0c6a30ec47fdff99f204bb5fd",
+      "bytes": 3490,
+      "mtime_ns": 1788453475078838700
+    }
+  },
+  {
+    "stem": "11183",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11183.jpg",
+      "sha256": "f4e748fe73bc5f66cc499196a2ad7f16668af9fe42cc034b94cce7c97f018bcc",
+      "bytes": 69757,
+      "mtime_ns": 1788453473606077100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11183.png",
+      "sha256": "896615688c2eef905733926060789d48a8ad85b784e153b1d07c2d12d6a09988",
+      "bytes": 918,
+      "mtime_ns": 1788453475047377100
+    }
+  },
+  {
+    "stem": "11159",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11159.jpg",
+      "sha256": "20cee57bb1a356389155fecf6f4d407008678801bd2cf0cbe7b384299a866980",
+      "bytes": 140348,
+      "mtime_ns": 1788453472503095300
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11159.png",
+      "sha256": "1827aeabd67f251899a6c8d945862a78fbdf9b39de0c90c7df98794fb6a739ed",
+      "bytes": 1451,
+      "mtime_ns": 1788453474080053800
+    }
+  },
+  {
+    "stem": "11179-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11179-1.jpg",
+      "sha256": "fc16e5d1b5875bf8c2ffeaa61a78693d797af7dfb72645557937a4fb8fb99881",
+      "bytes": 103726,
+      "mtime_ns": 1788453473305979000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11179-1.png",
+      "sha256": "ccb859aa1abe2bd5a6ce99f6a54dca327fc0b4132fcaf25e1dbee7e1a28148bc",
+      "bytes": 2075,
+      "mtime_ns": 1788453474748411800
+    }
+  },
+  {
+    "stem": "11179-5",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11179-5.jpg",
+      "sha256": "b15bf684a7bdeef4298a581be34a5d0a8a136686a9fdac2e2c5adf1f194243c0",
+      "bytes": 129272,
+      "mtime_ns": 1788453473177378900
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11179-5.png",
+      "sha256": "d5f69e06fff93b5954ed67d1955fe05861645a8c79c10741423d11c85ac5f2a0",
+      "bytes": 2163,
+      "mtime_ns": 1788453474721523600
+    }
+  },
+  {
+    "stem": "11155",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11155.jpg",
+      "sha256": "60e3980478dc9fce41f39e8af3c295b120b3f95308e5255014a9b7ad583cd810",
+      "bytes": 126302,
+      "mtime_ns": 1788453473606077100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11155.png",
+      "sha256": "933318c40eb58e31229b3490fdf3f0a7bbb5023fb9a2b5e4c324f69ed63674f2",
+      "bytes": 1210,
+      "mtime_ns": 1788453475031280700
+    }
+  },
+  {
+    "stem": "11122-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11122-1.jpg",
+      "sha256": "8525b7a572c55653535879a6b286c5332d4d93878cb240b6379379c7448179b5",
+      "bytes": 109950,
+      "mtime_ns": 1788453473640650200
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11122-1.png",
+      "sha256": "ff9f1b35342c00d18d40cf61fe3dc7f283f0d43a7782dca6db5dd727e848591e",
+      "bytes": 2033,
+      "mtime_ns": 1788453475063128200
+    }
+  },
+  {
+    "stem": "11117",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11117.jpg",
+      "sha256": "5ced1fa4c51a20d2817fcda551f0dab3f78927e320eefe40810c8b928e2abe60",
+      "bytes": 91935,
+      "mtime_ns": 1788453472796896700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11117.png",
+      "sha256": "d77d2984cecb7289fc501ae66a3c8b5251209a41c1e3e3e097286571dd36adbf",
+      "bytes": 3400,
+      "mtime_ns": 1788453474345955200
+    }
+  },
+  {
+    "stem": "7Q3A9060-4",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9060-4.jpg",
+      "sha256": "26602f7ea05588759ce177f04cbe430e5ba61fbc4d562f70993975a5aada1a29",
+      "bytes": 48475,
+      "mtime_ns": 1788453472612224500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9060-4.png",
+      "sha256": "9a40f70bdc5b6df112e582db6930c9513694152daec0ec8c6bbf3b7e0d0875e4",
+      "bytes": 1335,
+      "mtime_ns": 1788453474178702400
+    }
+  },
+  {
+    "stem": "11170-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11170-2.jpg",
+      "sha256": "0c7ef51e29b08f7950c352a42f5f3f5f23d93f733fb2402d5cd6502a871e9f23",
+      "bytes": 122514,
+      "mtime_ns": 1788453472512168600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11170-2.png",
+      "sha256": "cfa724905ca9aac05c3939d503fd790781db362e01a4d4934cad180a26f143a6",
+      "bytes": 1602,
+      "mtime_ns": 1788453474080053800
+    }
+  },
+  {
+    "stem": "11155-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11155-1.jpg",
+      "sha256": "1e11768b2c9940fae68d5325eeb40807d956ef26b6f5911bfc70846cdc814037",
+      "bytes": 110446,
+      "mtime_ns": 1788453472923732400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11155-1.png",
+      "sha256": "5b4d60928dd4b8f2fd1f7cc5a81bff286d41b88b6f55cf2d3a2bf7102fd34834",
+      "bytes": 1545,
+      "mtime_ns": 1788453474459731000
+    }
+  },
+  {
+    "stem": "IMG11-4",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG11-4.jpg",
+      "sha256": "ef4de634a92acf711e06c6d5516d9732db892bc1a5f4b781592e0ad7127946c1",
+      "bytes": 59614,
+      "mtime_ns": 1788453473319822900
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG11-4.png",
+      "sha256": "036654dad09aece4f13822b093e859592bcd74f81c473deca65dcc8249d6f8f3",
+      "bytes": 1954,
+      "mtime_ns": 1788453474800307500
+    }
+  },
+  {
+    "stem": "11134-4",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11134-4.jpg",
+      "sha256": "8d711a8bf0479e385cfc3cf74916c393b3beab8c09c89c5c13bf638a10dfda46",
+      "bytes": 103956,
+      "mtime_ns": 1788453472765235600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11134-4.png",
+      "sha256": "231a6b0683e9c50630ef56cf8231a79b2d9cd51924fd8be6b54edf7d385e0a24",
+      "bytes": 3614,
+      "mtime_ns": 1788453474318471700
+    }
+  },
+  {
+    "stem": "11122-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11122-2.jpg",
+      "sha256": "673190d1fd15f76a2581d4843eed3ed1425706f45fd35ef4e3ef22e32fc8ad21",
+      "bytes": 106589,
+      "mtime_ns": 1788453473541763500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11122-2.png",
+      "sha256": "6bbcd31c50c8e2721a922adcb04d29b857806d028d193e628bac9e31ff1adc94",
+      "bytes": 2172,
+      "mtime_ns": 1788453474999885800
+    }
+  },
+  {
+    "stem": "11289-9",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11289-9.jpg",
+      "sha256": "63762d08ca8858d83cafd77833a7c9f634c16c6e4728073b40d667eaa9b182d6",
+      "bytes": 74547,
+      "mtime_ns": 1788453473149272900
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11289-9.png",
+      "sha256": "231aded8bc98fa9114b77cc8fe1e75628b2daf39ef43687b778986ce40fcf73c",
+      "bytes": 2392,
+      "mtime_ns": 1788453474665150900
+    }
+  },
+  {
+    "stem": "11190-4",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11190-4.jpg",
+      "sha256": "86b4bed35e219d79cd749c723c6cd7d26e371ba157ffdc64e9c3543afd8b3deb",
+      "bytes": 134002,
+      "mtime_ns": 1788453472599669800
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11190-4.png",
+      "sha256": "9303271207fc5fe6849851d4976e4779d190c2308a5db60584c1114e6288448f",
+      "bytes": 1900,
+      "mtime_ns": 1788453474173266500
+    }
+  },
+  {
+    "stem": "IMG33-12",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG33-12.jpg",
+      "sha256": "72f1fbaaf6095e4b23dc0554baae3a3b7321757f1d74a927a9921b60e7a5f350",
+      "bytes": 98792,
+      "mtime_ns": 1788453472749562400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG33-12.png",
+      "sha256": "a3113150757d4bdfb2448a929f1a5ffa40258ecd9a2d1be404445d94fb35d051",
+      "bytes": 1719,
+      "mtime_ns": 1788453474301946100
+    }
+  },
+  {
+    "stem": "11154",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11154.jpg",
+      "sha256": "20b2a32587d94c9dc5712963d4357acc33630eae5bf90c372385a56922f54dc8",
+      "bytes": 137140,
+      "mtime_ns": 1788453473620758900
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11154.png",
+      "sha256": "72339ac3686a13cd9f4e4aaa1a5a7c75a418406c1cc9f474f67451aa85b0aa09",
+      "bytes": 2891,
+      "mtime_ns": 1788453475047377100
+    }
+  },
+  {
+    "stem": "IMG12-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG12-2.jpg",
+      "sha256": "4a9eca1984960a6d396eedd1b93d7bb4d37e0087a6fa8ec2d55c90c1c9f5a337",
+      "bytes": 77984,
+      "mtime_ns": 1788453473483661000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG12-2.png",
+      "sha256": "930bd433988c9219c28966ab09eb60538c49b7654e5d1db4423f267ade99bf6b",
+      "bytes": 1922,
+      "mtime_ns": 1788453474903391200
+    }
+  },
+  {
+    "stem": "11155-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11155-2.jpg",
+      "sha256": "303e02956c7d23509d044bc33585d5dbebd4717385af3559d11a7e0e7dd39eba",
+      "bytes": 115140,
+      "mtime_ns": 1788453473029574000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11155-2.png",
+      "sha256": "38d2169fc4b23c54bcdcc404ff0bb534fe5f4eb7bb9c7551f019dc653792362e",
+      "bytes": 1316,
+      "mtime_ns": 1788453474538381500
+    }
+  },
+  {
+    "stem": "11131",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11131.jpg",
+      "sha256": "89b2a16a999e6587c395867c84a0a2c37602965326bdc988a91b8e51b312a907",
+      "bytes": 89672,
+      "mtime_ns": 1788453473430821600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11131.png",
+      "sha256": "208a8e370c8a28258fac0cf2778c8685cbfea22e6ae6a7b5e3db306c8c19e818",
+      "bytes": 834,
+      "mtime_ns": 1788453474888137500
+    }
+  },
+  {
+    "stem": "7Q3A9060-12",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9060-12.jpg",
+      "sha256": "fa5de14a2a08296485a39c1ca67790d5032d854210fde501f9aefec8423e8bfa",
+      "bytes": 54693,
+      "mtime_ns": 1788453472480483700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9060-12.png",
+      "sha256": "80f1de6ac7540cf57866b031135d75049f016add5f598b827a129925d9f22492",
+      "bytes": 1428,
+      "mtime_ns": 1788453474096045200
+    }
+  },
+  {
+    "stem": "IMG27-4",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG27-4.jpg",
+      "sha256": "4fb479dd463d856cede5d256f64f7511826af3f5ee57cb2d00ae4f33be6a37c0",
+      "bytes": 64761,
+      "mtime_ns": 1788453472464768200
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG27-4.png",
+      "sha256": "8c81fdf0fb73083bc9896c24003f7b24a3352915edc71b95ed0fd5be96be0ed2",
+      "bytes": 1134,
+      "mtime_ns": 1788453474064052100
+    }
+  },
+  {
+    "stem": "IMG11-5",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG11-5.jpg",
+      "sha256": "8768d7181656ce29f8d290f6abf973a70ee5f52be50d24d481320cea1828fb13",
+      "bytes": 67417,
+      "mtime_ns": 1788453473288092100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG11-5.png",
+      "sha256": "512ee16d698cde2bfd2dfbf0b8300c593617fd5081d75c21d79516e16cf3785c",
+      "bytes": 1965,
+      "mtime_ns": 1788453474771435900
+    }
+  },
+  {
+    "stem": "11188",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11188.jpg",
+      "sha256": "3195e14b78072c669618775efa5e9b27a0d86cd5a626247aec294d03e3948414",
+      "bytes": 134721,
+      "mtime_ns": 1788453472274393800
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11188.png",
+      "sha256": "4bd92d3cf6586c218751ac17fbaab16e0467638753383304c7d6fac4cad8a29e",
+      "bytes": 2164,
+      "mtime_ns": 1788453473874124000
+    }
+  },
+  {
+    "stem": "11122-4",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11122-4.jpg",
+      "sha256": "9947f4ed6b8d40db566e9a478c982f6460977b526c217cc1f7ed433698f3da59",
+      "bytes": 109212,
+      "mtime_ns": 1788453473750115900
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11122-4.png",
+      "sha256": "91c5e758a67c0caeaa49d42e59707e7109a88c8410e03ffbd4c6ed0b1083eaac",
+      "bytes": 2888,
+      "mtime_ns": 1788453475158438200
+    }
+  },
+  {
+    "stem": "7Q3A9060-10",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9060-10.jpg",
+      "sha256": "1c1056577f64dc24efa724ac82d84ac0032dd4cabad0292e05267e165abef925",
+      "bytes": 81069,
+      "mtime_ns": 1788453472650881500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9060-10.png",
+      "sha256": "471c0ff954bc521313e4ebd51c4cca4b10fa98df281eb9c9a37a88aab2319af5",
+      "bytes": 2882,
+      "mtime_ns": 1788453474191397600
+    }
+  },
+  {
+    "stem": "11167-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11167-2.jpg",
+      "sha256": "ea1a2ce3bd8b86916f4e51b952000a412b840b07f22ae9ae506e7a14b21161d9",
+      "bytes": 40992,
+      "mtime_ns": 1788453473549744900
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11167-2.png",
+      "sha256": "34bbd8eb99e2b1e7cfc26ec4f7463f4214127cefc0b81118bf3bb087c7945103",
+      "bytes": 2276,
+      "mtime_ns": 1788453474999885800
+    }
+  },
+  {
+    "stem": "11187-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11187-2.jpg",
+      "sha256": "de20139e2f37b8b8938885989e0aa7920b7453a7cb7ecfb6d05365a0fef54610",
+      "bytes": 105462,
+      "mtime_ns": 1788453473842307000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11187-2.png",
+      "sha256": "f3899d85a7694cb71a9a52c51a78804732210a81e219459362efed14a18bf29d",
+      "bytes": 3158,
+      "mtime_ns": 1788453475236978400
+    }
+  },
+  {
+    "stem": "IMG27-13",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG27-13.jpg",
+      "sha256": "6c29584c7f7eee8c21aea2ee4ba3d1fae6a476501e460701439f833d364701a4",
+      "bytes": 63366,
+      "mtime_ns": 1788453472448890600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG27-13.png",
+      "sha256": "13bd306a009aa6009b0aa451ea197e0765950a5743e9bc7f466e502e9c741305",
+      "bytes": 1363,
+      "mtime_ns": 1788453474017151900
+    }
+  },
+  {
+    "stem": "11163",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11163.jpg",
+      "sha256": "5041011e12bfce06efaebc145c91b44e6157ebf2e410c1f97ccb7886562e8e46",
+      "bytes": 110722,
+      "mtime_ns": 1788453472274393800
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11163.png",
+      "sha256": "36db5f130c35ee000f15301d3aab77b2b878ff88344c228be7838e965be0c786",
+      "bytes": 2332,
+      "mtime_ns": 1788453473874124000
+    }
+  },
+  {
+    "stem": "IMG25-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG25-1.jpg",
+      "sha256": "ecfb4792381fe0adb02a49854c042b569f9a2d9c66f58d78f590ab60739035c9",
+      "bytes": 99956,
+      "mtime_ns": 1788453472337989400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG25-1.png",
+      "sha256": "e760b09235c1398fff0fe26d74656bdfa5bf9376f493b58c456fc91b806ff31f",
+      "bytes": 2001,
+      "mtime_ns": 1788453473921860900
+    }
+  },
+  {
+    "stem": "IMG19",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG19.jpg",
+      "sha256": "8cff424327b76de334e6f722a9a66b1740febe9a0f3e24af3baf2cc84ea997bf",
+      "bytes": 76350,
+      "mtime_ns": 1788453472557193400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG19.png",
+      "sha256": "66c3cc1216cd24493a82f7f56fe691b468e5d8163142fe5ceb7f549881f8c97b",
+      "bytes": 2777,
+      "mtime_ns": 1788453474143163600
+    }
+  },
+  {
+    "stem": "11179-3",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11179-3.jpg",
+      "sha256": "22d22185ff7478e409e0eb40fa4f99646cbd48130f4502abf38c4d502bfbeb51",
+      "bytes": 119994,
+      "mtime_ns": 1788453473415126000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11179-3.png",
+      "sha256": "831b965bf78b10d75d65afd587044d5957db7312e7ee274a670dfbf86b18bfea",
+      "bytes": 2251,
+      "mtime_ns": 1788453474888137500
+    }
+  },
+  {
+    "stem": "11190-3",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11190-3.jpg",
+      "sha256": "277feebc8ad42fbd30b9bbb9c808199f2f14714fb862e5f054be271b02032304",
+      "bytes": 147635,
+      "mtime_ns": 1788453472401175500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11190-3.png",
+      "sha256": "5d3a54f4dde26a80e2d93bdc35c70f571e1c10312221fac0e5200345b14e91a8",
+      "bytes": 2591,
+      "mtime_ns": 1788453474001465800
+    }
+  },
+  {
+    "stem": "IMG39-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG39-1.jpg",
+      "sha256": "06e625b2c9615b66ea03174453706799ef41008faabe71cd8e6e43e8ce0cb53d",
+      "bytes": 82171,
+      "mtime_ns": 1788453472901470200
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG39-1.png",
+      "sha256": "e84981d56a8c6877736d3ea9fee10a294341358c20625ddf27c32edee786aa22",
+      "bytes": 2038,
+      "mtime_ns": 1788453474443719700
+    }
+  },
+  {
+    "stem": "7Q3A9060-7",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9060-7.jpg",
+      "sha256": "b9f3a95f0fc7a3eaef9d7ad7825966b802683496d7556a57928a26ad1df53ad5",
+      "bytes": 56499,
+      "mtime_ns": 1788453472496483700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9060-7.png",
+      "sha256": "93835d1e325b56ec9869412c0b468f10b889412ed3320ea0d6e1bf4956da247b",
+      "bytes": 2006,
+      "mtime_ns": 1788453474080053800
+    }
+  },
+  {
+    "stem": "7Q3A9064-15",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9064-15.jpg",
+      "sha256": "8478e9069a41cd07d4decfb5eeaa31ecd6bc4b53d2255302425ab76b67b84dd9",
+      "bytes": 82219,
+      "mtime_ns": 1788453472890089000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9064-15.png",
+      "sha256": "4585d7d6c908765ec2a4ab76c5b8efdff3cd081db0d079cabf36e2018e047a7e",
+      "bytes": 1788,
+      "mtime_ns": 1788453474412200900
+    }
+  },
+  {
+    "stem": "11143",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11143.jpg",
+      "sha256": "8ff3b997c7ca1d6ad4306f2b0e3cf75e10cbf6ac1906c04a98b98a30b064a15a",
+      "bytes": 119556,
+      "mtime_ns": 1788453473521260400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11143.png",
+      "sha256": "f0650208eacb04872e7c3861624343aa03a5ca8698d04e659a7cc7896f49fcfc",
+      "bytes": 2268,
+      "mtime_ns": 1788453474967558300
+    }
+  },
+  {
+    "stem": "11289-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11289-2.jpg",
+      "sha256": "9a5007ab1105122467ac9cc98266f5b56a2ffc9198fa9a0c6565a06713d94b24",
+      "bytes": 67242,
+      "mtime_ns": 1788453472734154100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11289-2.png",
+      "sha256": "ba0953d2c4587cdf38cce5d45084deadd707dc716fe8096390f3a14923b2bafe",
+      "bytes": 2100,
+      "mtime_ns": 1788453474270129500
+    }
+  },
+  {
+    "stem": "7Q3A9060-13",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9060-13.jpg",
+      "sha256": "8b340dd04587fdbc6b60f28198fba24e479b57da9b03018f413d08e3cf2c25c4",
+      "bytes": 42891,
+      "mtime_ns": 1788453472528248600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9060-13.png",
+      "sha256": "23e9e1097c2e920156503bef3d73e99a2ca0918985d45297e795fee37be55643",
+      "bytes": 1398,
+      "mtime_ns": 1788453474096045200
+    }
+  },
+  {
+    "stem": "11202",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11202.jpg",
+      "sha256": "893425d98ead3e47d523dfe558d9e26a63359f7aa39f1ba452834acb80381155",
+      "bytes": 94176,
+      "mtime_ns": 1788453472369808700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11202.png",
+      "sha256": "5cd6891cffeec2d85aa2c6a109023253cf83c43f0b9afccf2bce57f7d9646be4",
+      "bytes": 1588,
+      "mtime_ns": 1788453473953764000
+    }
+  },
+  {
+    "stem": "11188-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11188-2.jpg",
+      "sha256": "f71c23b480cbf75aca637897b6d2dba7d4f9181729044b59bbf6a0fbc59f1c3f",
+      "bytes": 136391,
+      "mtime_ns": 1788453472726596100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11188-2.png",
+      "sha256": "622119ff938c03dd78a76d2c47644c945ab8a0565aa88a6af43d53651975635d",
+      "bytes": 2236,
+      "mtime_ns": 1788453474285992100
+    }
+  },
+  {
+    "stem": "IMG25-5",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG25-5.jpg",
+      "sha256": "6232f91dc93174946f3297822f4aef583e5de6484695f7765112938be0bdb0fb",
+      "bytes": 107355,
+      "mtime_ns": 1788453472566305700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG25-5.png",
+      "sha256": "9e4c670ea585e12916dbf8a1501a8faa0cf1264b37641bc347c8b0b7bd056fd6",
+      "bytes": 1658,
+      "mtime_ns": 1788453474164083700
+    }
+  },
+  {
+    "stem": "11134-5",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11134-5.jpg",
+      "sha256": "3dc2ce0df19cc3cb1e47b4096cfc5dccc2050c3b6826c2d36d80f992a465ec02",
+      "bytes": 99096,
+      "mtime_ns": 1788453472848598100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11134-5.png",
+      "sha256": "7b1d216d8d179bdff3cbc7796bef0e0fe6d448c40ff8a2a818a697ee2ae07904",
+      "bytes": 3518,
+      "mtime_ns": 1788453474385586100
+    }
+  },
+  {
+    "stem": "11184-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11184-1.jpg",
+      "sha256": "83113201f8e625935c9d4a8bc62927669ea4bc6455267ff5026acf74a911247e",
+      "bytes": 58037,
+      "mtime_ns": 1788453473288092100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11184-1.png",
+      "sha256": "8bf81d06a1d1bf8647f40136be123865e58b12b021befbb45cde39d6bde3324b",
+      "bytes": 1903,
+      "mtime_ns": 1788453474775969700
+    }
+  },
+  {
+    "stem": "7Q3A9060-5",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9060-5.jpg",
+      "sha256": "8a67ccf2f8a44cf755af5c96b8fe591af12491514de57668a4d3a4923069691e",
+      "bytes": 61679,
+      "mtime_ns": 1788453472626421800
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9060-5.png",
+      "sha256": "984a6e2f85412db097385398aa4f22bfe6eb77e40c740ea401940c6db16bf210",
+      "bytes": 2071,
+      "mtime_ns": 1788453474191397600
+    }
+  },
+  {
+    "stem": "IMG33-4",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG33-4.jpg",
+      "sha256": "6a9bcbf9849b1ed58ef86c69190148ad2122d7abdc3f89491b671f94b7e5fdae",
+      "bytes": 81185,
+      "mtime_ns": 1788453473050699100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG33-4.png",
+      "sha256": "5ad649c138d5d485ae044a3f1b1d884fe7c120af7c6b0ac1bb22b7894bd749ca",
+      "bytes": 1147,
+      "mtime_ns": 1788453474559132400
+    }
+  },
+  {
+    "stem": "11187",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11187.jpg",
+      "sha256": "6367d2e1483b1b874bf769b8e054a76d795d8ee8ac5e6cb786819d458a2ec90e",
+      "bytes": 116090,
+      "mtime_ns": 1788453473709300800
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11187.png",
+      "sha256": "0cba69f259d4c5853d8da262c51c1b815b9d191034273aa1cdb3c71b9c55d85c",
+      "bytes": 2756,
+      "mtime_ns": 1788453475094902100
+    }
+  },
+  {
+    "stem": "11178-4",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11178-4.jpg",
+      "sha256": "10b14e06aaeb23f548fafeb430da373a72925986e55e46b25e206bc4cc7c6650",
+      "bytes": 125295,
+      "mtime_ns": 1788453473465442500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11178-4.png",
+      "sha256": "da00203e1499057045982ed9b94baf281dd8dcb54424cbe95bb34952dd95e2fe",
+      "bytes": 3533,
+      "mtime_ns": 1788453474903391200
+    }
+  },
+  {
+    "stem": "11203",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11203.jpg",
+      "sha256": "dec8fc738cd0f08a52680c7c190338c0c0c5c651f125e0cae7f0b3fbb7dfe8ce",
+      "bytes": 82099,
+      "mtime_ns": 1788453472432877800
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11203.png",
+      "sha256": "1d4ef2709ba6dc147676a802139025a26ad384bccfa940c225fee56831939bec",
+      "bytes": 1453,
+      "mtime_ns": 1788453474034804500
+    }
+  },
+  {
+    "stem": "11179-4",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11179-4.jpg",
+      "sha256": "b7a0b9f89ae262def70723ea5c44cf58c8ca522ce0f981b65ed11b191b09eb50",
+      "bytes": 126783,
+      "mtime_ns": 1788453473177378900
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11179-4.png",
+      "sha256": "8e7f570c92701099d6f0f66b77958138180a9a1fabea59d18873d12b6cd766fd",
+      "bytes": 2530,
+      "mtime_ns": 1788453474633444600
+    }
+  },
+  {
+    "stem": "IMG33-15",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG33-15.jpg",
+      "sha256": "40258c98c4675590685a5b483ee9dbd04923a5c85efc4891487bc0ca511e4139",
+      "bytes": 106166,
+      "mtime_ns": 1788453472860024700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG33-15.png",
+      "sha256": "e0c0d6931aa272a4cf5e5bcfcfac9bb825d24d7724cfc54e16559f5bc9608391",
+      "bytes": 1678,
+      "mtime_ns": 1788453474396317900
+    }
+  },
+  {
+    "stem": "IMG33-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG33-1.jpg",
+      "sha256": "ecb2ccb012c0109b3e95fcd878274b348032c208d6fa9b079436cdfbd9341872",
+      "bytes": 58703,
+      "mtime_ns": 1788453473367798200
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG33-1.png",
+      "sha256": "46777b0bf6965c1d36bdfaa120f82f6ed98a70a8840f0af2a53a562b75871c96",
+      "bytes": 1529,
+      "mtime_ns": 1788453474807445500
+    }
+  },
+  {
+    "stem": "11193-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11193-1.jpg",
+      "sha256": "298d41d2537191e9e90d2c53e06196125a5a93b24ca0b25aca0da43f021fd3b6",
+      "bytes": 119291,
+      "mtime_ns": 1788453472749562400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11193-1.png",
+      "sha256": "3d2d303078353f017060e68b8cdb6b29ca753fb63f578fe62b7745a434ec7b43",
+      "bytes": 1898,
+      "mtime_ns": 1788453474301946100
+    }
+  },
+  {
+    "stem": "11289-6",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11289-6.jpg",
+      "sha256": "81df8061a5c32e1e968ff2208db4b634e658a6ab39e2d4c731881980c683321e",
+      "bytes": 93226,
+      "mtime_ns": 1788453472955318300
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11289-6.png",
+      "sha256": "557e7db2caca120080dda2802bc2cb9bcba7cd018307bd584aafc95148ba7b1f",
+      "bytes": 2572,
+      "mtime_ns": 1788453474506566600
+    }
+  },
+  {
+    "stem": "11289-8",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11289-8.jpg",
+      "sha256": "77d01d63fb45374e76fb7aa987cbb7e9e29b64d3b2c1466ae124d73192b43101",
+      "bytes": 78370,
+      "mtime_ns": 1788453473240614400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11289-8.png",
+      "sha256": "25b68d623f002da9b79cda2f030d0826d1e163685f111f5f53bc678925987192",
+      "bytes": 2392,
+      "mtime_ns": 1788453474696759100
+    }
+  },
+  {
+    "stem": "11113",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11113.jpg",
+      "sha256": "ab5a25f596a665aac2c36cf8174172dbd8dc8287cf01e638a514c640500beb37",
+      "bytes": 67028,
+      "mtime_ns": 1788453472907956700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11113.png",
+      "sha256": "54d22152fccd4845c306606b4fc1626aea1295a3172074c6dc4977ed73b2c8d8",
+      "bytes": 1438,
+      "mtime_ns": 1788453474443719700
+    }
+  },
+  {
+    "stem": "11179-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11179-2.jpg",
+      "sha256": "98e580951f083960966bb66960fa0852e11d560ac7475403426d40472f6dde5c",
+      "bytes": 104889,
+      "mtime_ns": 1788453473415126000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11179-2.png",
+      "sha256": "4caedee7359e4209bc2e95610db2c1dc2c0d426a56cd63de2e6e998f3b2e6fa4",
+      "bytes": 1869,
+      "mtime_ns": 1788453474823578400
+    }
+  },
+  {
+    "stem": "11189",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11189.jpg",
+      "sha256": "137d217dbf272277c7c1f97524e2601afb05e1aa07b4ab47df2f0a964cbc477e",
+      "bytes": 113930,
+      "mtime_ns": 1788453472290193500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11189.png",
+      "sha256": "3681a264f5d7140f4c50131c0ac5a5bd7b42f64b3c996175574468cb209b5faf",
+      "bytes": 1593,
+      "mtime_ns": 1788453473906747500
+    }
+  },
+  {
+    "stem": "11289-7",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11289-7.jpg",
+      "sha256": "6f298f03d534e6451631e2081068fe5eb0d1b4c264a33df24ab05204ea08cd8c",
+      "bytes": 85767,
+      "mtime_ns": 1788453473017125600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11289-7.png",
+      "sha256": "84df51917ef2e0f07bdb4a435640d134ec2d938da6a1841efc930cd78a1a4d28",
+      "bytes": 2539,
+      "mtime_ns": 1788453474510583600
+    }
+  },
+  {
+    "stem": "11180",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11180.jpg",
+      "sha256": "629cd643f2e6afff50bc122da23ef2fd08bf0af10ef350d154d2cb193f27941b",
+      "bytes": 66165,
+      "mtime_ns": 1788453473515820400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11180.png",
+      "sha256": "c63506e8aaca3a861f6dee40eb55090ad4ca0dedd9676f15600d6a382c117b60",
+      "bytes": 2436,
+      "mtime_ns": 1788453474967558300
+    }
+  },
+  {
+    "stem": "7Q3A9064-19",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9064-19.jpg",
+      "sha256": "f902216a5371da5da58d38a7a24607f9ced436814bd03bf0f1e2866b898b6f8f",
+      "bytes": 61220,
+      "mtime_ns": 1788453473177378900
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9064-19.png",
+      "sha256": "2a4900194c4b91353d2c1731c3f7db5123f70d720a614318650ef201d76c12cb",
+      "bytes": 1545,
+      "mtime_ns": 1788453474654690200
+    }
+  },
+  {
+    "stem": "IMG27-11",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG27-11.jpg",
+      "sha256": "f49f9057a47542c8724242c773709fdd1c67af9065aec4fa9ca82cadd675f62c",
+      "bytes": 75337,
+      "mtime_ns": 1788453472242408100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG27-11.png",
+      "sha256": "e7a63b6c13ff0659f3282428fc67b94fce8fc0715201b940f093bfb91e28183d",
+      "bytes": 1528,
+      "mtime_ns": 1788453473868919200
+    }
+  },
+  {
+    "stem": "11184",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11184.jpg",
+      "sha256": "f07ef35c27e82bf24d6628ecf0fd4ff3b819040bff35830e8a70e532bb97b99f",
+      "bytes": 72702,
+      "mtime_ns": 1788453473810904000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11184.png",
+      "sha256": "628bbb270be91418ed5896e0859620dd727006f765ed7c9693d20a9f7a647c49",
+      "bytes": 1695,
+      "mtime_ns": 1788453475191217500
+    }
+  },
+  {
+    "stem": "11156-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11156-2.jpg",
+      "sha256": "9ab74dc1e69a16beb68590e51d3f9bde6643c1d6c9cbed0fe049a264c8f73830",
+      "bytes": 130669,
+      "mtime_ns": 1788453472619791800
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11156-2.png",
+      "sha256": "63e0fe7ad444c840ac1bc056e6d9529eef2b3ae9a089359bfbac68b658d873dc",
+      "bytes": 1273,
+      "mtime_ns": 1788453474180448300
+    }
+  },
+  {
+    "stem": "11126",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11126.jpg",
+      "sha256": "b4e03db301b06a8354ce08de3adc96a1e8c883b40ce7c0db0e3cc07ff7d97d1d",
+      "bytes": 96037,
+      "mtime_ns": 1788453473319822900
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11126.png",
+      "sha256": "ff02571fe81c0df1719c377412afd6feb320878dcdaa90b1498b103b4dbc7faa",
+      "bytes": 1296,
+      "mtime_ns": 1788453474800307500
+    }
+  },
+  {
+    "stem": "11162-4",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11162-4.jpg",
+      "sha256": "59c0d1c69b93fc8babffbbcd0c10354f258059743de2c87364e1b8fdbd5a2c59",
+      "bytes": 59268,
+      "mtime_ns": 1788453473050699100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11162-4.png",
+      "sha256": "b60dbcc4188e524a5b2c54b2ee056321ae510638151d8153acde876b00c29faa",
+      "bytes": 2074,
+      "mtime_ns": 1788453474569907100
+    }
+  },
+  {
+    "stem": "IMG27-8",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG27-8.jpg",
+      "sha256": "d2c713b7f786c3add9fa5a27455aea8e4134add28075fd74bd7051bc29619483",
+      "bytes": 67964,
+      "mtime_ns": 1788453473573117500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG27-8.png",
+      "sha256": "1ffeab03d622aabfc203489e8304c8b8fdeab7649ed76f63b8d74a9d7c4b21bf",
+      "bytes": 1253,
+      "mtime_ns": 1788453475015212800
+    }
+  },
+  {
+    "stem": "11176",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11176.jpg",
+      "sha256": "2396ddf98065d6dbc6d1cfac132258a4f66e153f01bb92760b8fc171da6ec1b0",
+      "bytes": 103675,
+      "mtime_ns": 1788453472302791000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11176.png",
+      "sha256": "dc9bf91ca5a7e8c565a1ead9f68c1afd76d23dcf074ac946e9d7d8fc5d76187c",
+      "bytes": 1007,
+      "mtime_ns": 1788453473906747500
+    }
+  },
+  {
+    "stem": "IMG11-3",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG11-3.jpg",
+      "sha256": "1515643909a843bad4011d763d9fcf1a969e1cbc69759b68be5eeeafcf05be45",
+      "bytes": 58485,
+      "mtime_ns": 1788453473082260400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG11-3.png",
+      "sha256": "bfb03ea9c5b2adf0c06afbbb66de473547e202996274f42d821faab6916595cf",
+      "bytes": 2097,
+      "mtime_ns": 1788453474585964700
+    }
+  },
+  {
+    "stem": "11193",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11193.jpg",
+      "sha256": "f1e612a51691875458688d4cc0862b61661727a9281f27c3b698e7efce757dc3",
+      "bytes": 122817,
+      "mtime_ns": 1788453473713312000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11193.png",
+      "sha256": "189e57989321de21ad65ca91d9d20c0d0f71db0f72166972577d7893a3628731",
+      "bytes": 2137,
+      "mtime_ns": 1788453475094902100
+    }
+  },
+  {
+    "stem": "IMG33-18",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG33-18.jpg",
+      "sha256": "be2e49540b18a84e8632d3a2d293b812554fdf19b5f5ef0e514153f318a95586",
+      "bytes": 70498,
+      "mtime_ns": 1788453473240614400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG33-18.png",
+      "sha256": "7e4a7c811f1efe3821a855b9886a0a1d527f948f54a1c40b810e092ec0f47197",
+      "bytes": 1934,
+      "mtime_ns": 1788453474728575900
+    }
+  },
+  {
+    "stem": "IMG20",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG20.jpg",
+      "sha256": "3e701b0911027c8d6f9789e2dedbe42e0f44523026a8897cc0664d98c16da94a",
+      "bytes": 87606,
+      "mtime_ns": 1788453472432877800
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG20.png",
+      "sha256": "2092952ddec974230690d51e15c0ce9031e99c0abc7f69f3544d0951f94faf3f",
+      "bytes": 979,
+      "mtime_ns": 1788453474038818800
+    }
+  },
+  {
+    "stem": "IMG11-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG11-2.jpg",
+      "sha256": "949ed129bf2e8257f35017b4de3a3b323af2b4cac5522eb2c8194b3cc720ca37",
+      "bytes": 62918,
+      "mtime_ns": 1788453473098132600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG11-2.png",
+      "sha256": "abe1af10dcb8ac129b8ee53b56ea83670665a839fbc054b0956825880c64f4ed",
+      "bytes": 1995,
+      "mtime_ns": 1788453474607055600
+    }
+  },
+  {
+    "stem": "11152",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11152.jpg",
+      "sha256": "f33f2f7bb58f492394db90fb0357b7a966bba77032622780a54ede464bfd6de4",
+      "bytes": 84134,
+      "mtime_ns": 1788453473826641500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11152.png",
+      "sha256": "24667e1f49faeb1b004a7282be54826174964dd0a41a5c7470765ed603b51ea2",
+      "bytes": 3484,
+      "mtime_ns": 1788453475222547500
+    }
+  },
+  {
+    "stem": "7Q3A9060-8",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9060-8.jpg",
+      "sha256": "6ed9a7e14e5e76349fded2499e043146ae9279a56f2b732c4a72d2b0e936cb28",
+      "bytes": 62207,
+      "mtime_ns": 1788453473493653600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9060-8.png",
+      "sha256": "5b98ead5666576741f86a36145d83cf2d97d3c1dcb0c3de2006f3b2a621d713c",
+      "bytes": 2669,
+      "mtime_ns": 1788453474945905500
+    }
+  },
+  {
+    "stem": "11163-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11163-1.jpg",
+      "sha256": "ae17a0816430d8042f837c13265609d858b5e9ce6123132d43a468889834f2fd",
+      "bytes": 131981,
+      "mtime_ns": 1788453473694072800
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11163-1.png",
+      "sha256": "d728d86b6e7dc75efb82025bb2eaeda31f059472891ec95c25c92ee275b2c52c",
+      "bytes": 2535,
+      "mtime_ns": 1788453475110794800
+    }
+  },
+  {
+    "stem": "7Q3A9064-3",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9064-3.jpg",
+      "sha256": "82995e021f28a349992bc74213b9bc7135a9bb74a189872a65e1c6a7d9eaa9ca",
+      "bytes": 46835,
+      "mtime_ns": 1788453472464768200
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9064-3.png",
+      "sha256": "62bb9512ac6f535fccf6eb9deccfd8f9696ecb2ee9d992619f1e1708066c1874",
+      "bytes": 2498,
+      "mtime_ns": 1788453474050699000
+    }
+  },
+  {
+    "stem": "11196",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11196.jpg",
+      "sha256": "d55daed5fc62857a22cf44ec2da7ffa93d83b5d8fdb70be50ac5bdef613bc456",
+      "bytes": 75302,
+      "mtime_ns": 1788453473606077100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11196.png",
+      "sha256": "aaff55493c9dd2f714ca362650e5b92e427e6f2c6b594a4b5f8ed0bfbf8148d1",
+      "bytes": 811,
+      "mtime_ns": 1788453475031280700
+    }
+  },
+  {
+    "stem": "11119",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11119.jpg",
+      "sha256": "72aa1f3b80835f4289f40c4f56d66ab6ca182ee06ff89cdb72ed11c77fb96773",
+      "bytes": 53678,
+      "mtime_ns": 1788453473415126000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11119.png",
+      "sha256": "0839cb6f172d4b2bd2826cc383391198a04d1838e1e4a13bb97e40391f06c558",
+      "bytes": 1669,
+      "mtime_ns": 1788453474871509000
+    }
+  },
+  {
+    "stem": "11134-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11134-2.jpg",
+      "sha256": "9a1cfde39d6cebd65ef7713f056dfe45cebefaa7d241c15585feff3cac23e982",
+      "bytes": 87447,
+      "mtime_ns": 1788453472942307500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11134-2.png",
+      "sha256": "28f8d04421971748611be6cc2ca14bc77a14da4142f101f385befabdcbf82561",
+      "bytes": 3388,
+      "mtime_ns": 1788453474475504300
+    }
+  },
+  {
+    "stem": "11124",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11124.jpg",
+      "sha256": "70893ebe078fe447368426f47ffdc8e8434e99f90f7079b0f58f4471fb5e670a",
+      "bytes": 160702,
+      "mtime_ns": 1788453473399296800
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11124.png",
+      "sha256": "fd4a2318d22c1652f61cf725191656c4b13b3bf7a914410f2ef6bf5c05c70257",
+      "bytes": 998,
+      "mtime_ns": 1788453474823578400
+    }
+  },
+  {
+    "stem": "11189-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11189-2.jpg",
+      "sha256": "34dd90ac9ca2d7c2fe469e9a930a68e2da11173deb1a39104f5221662936009c",
+      "bytes": 120813,
+      "mtime_ns": 1788453472417130700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11189-2.png",
+      "sha256": "5a28b7ba77b98591161f1ab0524e96b3647d874f87b1e24c5128600c51b01184",
+      "bytes": 1802,
+      "mtime_ns": 1788453474048920100
+    }
+  },
+  {
+    "stem": "IMG33-5",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG33-5.jpg",
+      "sha256": "bbf3ece9ef69842dd633840b31cc4fea264b0135fb8919eb19fae050f815aa8b",
+      "bytes": 87675,
+      "mtime_ns": 1788453473113955000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG33-5.png",
+      "sha256": "00135095d6db076b7983a9bde6172787757c4a8a36d2000be5a138bcebef66a2",
+      "bytes": 1979,
+      "mtime_ns": 1788453474622420600
+    }
+  },
+  {
+    "stem": "IMG25-6",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG25-6.jpg",
+      "sha256": "5636bf05244ec11adf66cb27f101a92215ac50056f90231c95b39b50b0830ce6",
+      "bytes": 100324,
+      "mtime_ns": 1788453472448890600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG25-6.png",
+      "sha256": "25a4ba3a7552e5f7e29d502f14f657c9836517db1b986ec1147ef2ff2e68601a",
+      "bytes": 1836,
+      "mtime_ns": 1788453474064052100
+    }
+  },
+  {
+    "stem": "11289-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11289-1.jpg",
+      "sha256": "26c5114a26d3b111e2de3b352a07c3ecfa07e170e9b05424dac86161bbb424e4",
+      "bytes": 62325,
+      "mtime_ns": 1788453472813351200
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11289-1.png",
+      "sha256": "b8706ab64c90bfacf85c0280502bc02bd5e0e7993a97f54762af572cd3b84cc6",
+      "bytes": 1651,
+      "mtime_ns": 1788453474349391400
+    }
+  },
+  {
+    "stem": "11141-3",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11141-3.jpg",
+      "sha256": "f67777b6efe76f30a7f862634389160e58c4f176413ae745a8d8d6cb57b3a62b",
+      "bytes": 113613,
+      "mtime_ns": 1788453473588972300
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11141-3.png",
+      "sha256": "0cada1ddf60a48016f98dbd176551ce88d7eda4c38f45a4353508d2bd5e6ec7a",
+      "bytes": 2516,
+      "mtime_ns": 1788453475014177300
+    }
+  },
+  {
+    "stem": "11167-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11167-1.jpg",
+      "sha256": "3724f27547798f411bf211858351a8e99ac725244bf41b2a8ca6323d83b1c056",
+      "bytes": 43058,
+      "mtime_ns": 1788453473640650200
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11167-1.png",
+      "sha256": "2b5a77be829dfd7dd3dc7866fd3f6f955ec67d5bcd0174a8a897e88b3f90d18c",
+      "bytes": 2372,
+      "mtime_ns": 1788453475063128200
+    }
+  },
+  {
+    "stem": "7Q3A9064-17",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9064-17.jpg",
+      "sha256": "45de4629ceb2b4adf8cde4a424e96c67126b72b97edbdd23a0086df85e5c82d6",
+      "bytes": 70304,
+      "mtime_ns": 1788453472987189000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9064-17.png",
+      "sha256": "e3dbbf388a69c071eb0dd4c9aed8a625e5f4ad4a927decc9cb2242e4915c2bdf",
+      "bytes": 1764,
+      "mtime_ns": 1788453474522315400
+    }
+  },
+  {
+    "stem": "IMG21",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG21.jpg",
+      "sha256": "db504ee8f18aab427aeeb23054093f037f808ee3a5c27ad23e2fe8e3ede599a6",
+      "bytes": 92848,
+      "mtime_ns": 1788453472365796200
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG21.png",
+      "sha256": "57a8cdddfd0b6926d1a3629fd739ed38372675eca61c36c7f015eb22f8e05543",
+      "bytes": 1982,
+      "mtime_ns": 1788453473953764000
+    }
+  },
+  {
+    "stem": "11135",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11135.jpg",
+      "sha256": "805d5a93cce4ba87f66d40c49625bb7a4bd95b72e6b316f4638aca2c98b5cb20",
+      "bytes": 67851,
+      "mtime_ns": 1788453473082260400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11135.png",
+      "sha256": "a909aa92abe41a1e46a975ad2c9744913af5efd90c29a2a86d3768025d241f2c",
+      "bytes": 1991,
+      "mtime_ns": 1788453474585964700
+    }
+  },
+  {
+    "stem": "11165-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11165-1.jpg",
+      "sha256": "6c9dd0be871edc17110f47a76b6d061a87c941ba665f79582898e4a3126684bd",
+      "bytes": 142454,
+      "mtime_ns": 1788453473451015200
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11165-1.png",
+      "sha256": "3519aaf9301b42fbb0d22252ecc232df1d5ec1192def785287c7b195cc6d2b96",
+      "bytes": 1062,
+      "mtime_ns": 1788453474919383200
+    }
+  },
+  {
+    "stem": "IMG18",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG18.jpg",
+      "sha256": "0382ca38875e20131ef31a6e5fee7c73fb5e22e48312be9acd5b3f1802219abf",
+      "bytes": 44232,
+      "mtime_ns": 1788453472464768200
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG18.png",
+      "sha256": "3fb33bb670335f97a8ab381032764fa09f8f4ff614882cf167e33c6fc1e1c968",
+      "bytes": 1667,
+      "mtime_ns": 1788453474050699000
+    }
+  },
+  {
+    "stem": "11187-6",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11187-6.jpg",
+      "sha256": "444ccfead27d3152c4176e211fdccdaf2663fa6d7619c24b906ceecd993c88c7",
+      "bytes": 97848,
+      "mtime_ns": 1788453473470179700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11187-6.png",
+      "sha256": "40d0badf0e4441f03bb7cbd569fd548bc00bf61f310f32bb8ec84f4ff493cd5e",
+      "bytes": 2543,
+      "mtime_ns": 1788453474896368100
+    }
+  },
+  {
+    "stem": "11123-6",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11123-6.jpg",
+      "sha256": "256bc93b0e791cdf628c066d34d17239a21223cc19e81abe4f261070b36d8176",
+      "bytes": 138679,
+      "mtime_ns": 1788453473256351500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11123-6.png",
+      "sha256": "2539e6b7d4336093213661c3503656d6a8c822712155623c38a5a130304b4a7d",
+      "bytes": 3028,
+      "mtime_ns": 1788453474775969700
+    }
+  },
+  {
+    "stem": "IMG39-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG39-2.jpg",
+      "sha256": "d53653eee5b753f2ca88756b6b2bfcef1cfb32537c8b8e177c4fe0a012e40de8",
+      "bytes": 78009,
+      "mtime_ns": 1788453472987189000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG39-2.png",
+      "sha256": "a3762c5cf274bbe1cba2e930caa622a30268a7450f0d4df6b55dfc668d68274b",
+      "bytes": 2277,
+      "mtime_ns": 1788453474522315400
+    }
+  },
+  {
+    "stem": "11189-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11189-1.jpg",
+      "sha256": "5e5cb9d83494496a1487eaf0a0d601c3df38c1264f5eb40e140cd5fca4a1eb3d",
+      "bytes": 104874,
+      "mtime_ns": 1788453472306122900
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11189-1.png",
+      "sha256": "30db294f145d39b5b899cbd10f983dea8fc088f606548fa01e50ea92882784cd",
+      "bytes": 1871,
+      "mtime_ns": 1788453473937793600
+    }
+  },
+  {
+    "stem": "7Q3A9064-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9064-1.jpg",
+      "sha256": "36c953ede739e88afdaf66583452f46a9c70b16dba72e36cd20702d0b3db0493",
+      "bytes": 40308,
+      "mtime_ns": 1788453472656307600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9064-1.png",
+      "sha256": "6472c39811870160b9c981d4fd0fb2253bac3631aa9c52cb85dac50a9d8d93af",
+      "bytes": 2290,
+      "mtime_ns": 1788453474234848900
+    }
+  },
+  {
+    "stem": "11111",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11111.jpg",
+      "sha256": "ae57ecf44ee75dedb8a2897dd975cade168bec7515dbf4c4bdcca9f52214c587",
+      "bytes": 65896,
+      "mtime_ns": 1788453472955318300
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11111.png",
+      "sha256": "e500b0002e5b001e4ed07061b60b5f249c95179676553299884159ea32e93869",
+      "bytes": 1258,
+      "mtime_ns": 1788453474493963400
+    }
+  },
+  {
+    "stem": "IMG27-7",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG27-7.jpg",
+      "sha256": "a3c60981fe235beffe51794aefea5182af02f175f18f9eb335b6914a99630238",
+      "bytes": 67635,
+      "mtime_ns": 1788453472576276000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG27-7.png",
+      "sha256": "8cdfc50823a01e1a3bf183ec663bf832060af36816f61ba80b170a721741c7aa",
+      "bytes": 1303,
+      "mtime_ns": 1788453474143163600
+    }
+  },
+  {
+    "stem": "IMG33-10",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG33-10.jpg",
+      "sha256": "68f1ea1960f7b8e5281520bd38cae95710a18eff8671a2c06ad2a040e5824455",
+      "bytes": 104443,
+      "mtime_ns": 1788453472772107500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG33-10.png",
+      "sha256": "a74337483388cb1669e21c753bcf13380f0e4d19608e05cc94609d78d80bbfcf",
+      "bytes": 2372,
+      "mtime_ns": 1788453474318471700
+    }
+  },
+  {
+    "stem": "11170-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11170-1.jpg",
+      "sha256": "75b7dba93755789af1b4967b376b6e5f2416d10d7f3facb8c5dd20bb173e9846",
+      "bytes": 106701,
+      "mtime_ns": 1788453472610744100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11170-1.png",
+      "sha256": "37f5f1728e4952982240340d71ccf3e2b87bc32fa3c05abd6ebb3d3db87961f8",
+      "bytes": 1586,
+      "mtime_ns": 1788453474180448300
+    }
+  },
+  {
+    "stem": "IMG27-10",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG27-10.jpg",
+      "sha256": "f8848ba96701fa70dd76f3ecac9597ac554a62aea9cb43277ceb89e24e0ff1e6",
+      "bytes": 78652,
+      "mtime_ns": 1788453472321977500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG27-10.png",
+      "sha256": "de93a08ec351c95edcc45e19f75d5f91c69cf95b93ba6c81b034824f79f56e5b",
+      "bytes": 1514,
+      "mtime_ns": 1788453473921860900
+    }
+  },
+  {
+    "stem": "IMG25-7",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG25-7.jpg",
+      "sha256": "df49ec9e8bfe455dbd805494189270a9800db816459624ecd4fa80d29c9d4725",
+      "bytes": 86094,
+      "mtime_ns": 1788453472566305700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG25-7.png",
+      "sha256": "c7c957b442902ab8e6605e6a3d94cc688f0874f68424f991b04aa1ca0ae5f507",
+      "bytes": 2155,
+      "mtime_ns": 1788453474127438600
+    }
+  },
+  {
+    "stem": "11289-10",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11289-10.jpg",
+      "sha256": "94832db4b448ab1eae2f5f16afb27ca7676684031809a56dab59ee93340714fb",
+      "bytes": 70668,
+      "mtime_ns": 1788453473286087300
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11289-10.png",
+      "sha256": "7a2946ca541fb2891b4df1d25ef18d9ef5d5adfb7ba035ce35fc5178bdd8af70",
+      "bytes": 2393,
+      "mtime_ns": 1788453474765417500
+    }
+  },
+  {
+    "stem": "11168-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11168-2.jpg",
+      "sha256": "e90da07fd995c86e93617fd5da25f554fee838e40d698afe5208ede599eeaefc",
+      "bytes": 158021,
+      "mtime_ns": 1788453473005246700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11168-2.png",
+      "sha256": "62875ddaf038f600dce55d173bcedc5cbda23401efc62e89bcd8849c652c7e2e",
+      "bytes": 2773,
+      "mtime_ns": 1788453474510583600
+    }
+  },
+  {
+    "stem": "11134-3",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11134-3.jpg",
+      "sha256": "83113f7be7815053a21d9a8b0136e86d7cbc089cc2191c11ca29a7888a83f47c",
+      "bytes": 104030,
+      "mtime_ns": 1788453473030202400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11134-3.png",
+      "sha256": "6ee869e620f6108d5a4f8e4094dd9e30136fc3399c21baf4fe254ad0a15ee39d",
+      "bytes": 3526,
+      "mtime_ns": 1788453474538381500
+    }
+  },
+  {
+    "stem": "11151-2",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11151-2.jpg",
+      "sha256": "88d2b7f07b5a4ffce67f0287585fbc6c1e08fe90b4358eff508d13ad56759b7a",
+      "bytes": 129331,
+      "mtime_ns": 1788453472696197100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11151-2.png",
+      "sha256": "09953ad70b24c4429bfbdbb7896c9e6ed255eabcaa821b55e546696a202b6ea4",
+      "bytes": 2256,
+      "mtime_ns": 1788453474246624200
+    }
+  },
+  {
+    "stem": "11190-7",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11190-7.jpg",
+      "sha256": "8034c441a994f7ecf614a36a0259c9d4e07550e0f6fbcff0029f2c1cef6f02db",
+      "bytes": 148545,
+      "mtime_ns": 1788453472486385300
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11190-7.png",
+      "sha256": "70e6dcd59080aec680cef905564496bce941d72114f91acf699ee14178a5f5a9",
+      "bytes": 2648,
+      "mtime_ns": 1788453474064052100
+    }
+  },
+  {
+    "stem": "IMG13-7",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG13-7.jpg",
+      "sha256": "96aec9d13e8c8925b1b11fb53c8af68de96dd307709243de275b40668388ae04",
+      "bytes": 59431,
+      "mtime_ns": 1788453473272249700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG13-7.png",
+      "sha256": "bd693ba801bf85b001c0e0679a2b6a6f056e8a5515b816c906043f38ce895896",
+      "bytes": 818,
+      "mtime_ns": 1788453474775969700
+    }
+  },
+  {
+    "stem": "7Q3A9064-11",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9064-11.jpg",
+      "sha256": "850168f4b8916129a22e6721b84cad88c4fdc70b56285ecaa4a3449fc97c8d9e",
+      "bytes": 61923,
+      "mtime_ns": 1788453472812676600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9064-11.png",
+      "sha256": "782f953dfec2a433fe0eea55077a6e9b7c1b89cb303c49582301a904268be031",
+      "bytes": 2501,
+      "mtime_ns": 1788453474380529400
+    }
+  },
+  {
+    "stem": "IMG16",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG16.jpg",
+      "sha256": "81a9c52723b1f23d5f48aa5dae291e35c6c531d7f27d32bd90c2ddf5080c2557",
+      "bytes": 48891,
+      "mtime_ns": 1788453473540188100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG16.png",
+      "sha256": "4dd31fae08be231caccf0b4c52b3c89530244dfdf3dfedd43431b3543428ae57",
+      "bytes": 1719,
+      "mtime_ns": 1788453474983267400
+    }
+  },
+  {
+    "stem": "11118",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11118.jpg",
+      "sha256": "db14af77db552e9987c70072b89168ab82e97f082ecd559c13bf8d6df8afe7a2",
+      "bytes": 77702,
+      "mtime_ns": 1788453473399296800
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11118.png",
+      "sha256": "9ee99ca55cbf7d5643a49001db741f172ae41f114d1a846c95e888184f98e83b",
+      "bytes": 2489,
+      "mtime_ns": 1788453474855669700
+    }
+  },
+  {
+    "stem": "IMG56",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG56.jpg",
+      "sha256": "15347fa8158638ce75d9674d49bf9880bbe122904a2476ec73a8ebf27aa33dee",
+      "bytes": 57514,
+      "mtime_ns": 1788453472776694500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG56.png",
+      "sha256": "88d94ff56de58c4f7ed8c026d418d68a5f48947b0d7a1139a4f8e95188320ed1",
+      "bytes": 2134,
+      "mtime_ns": 1788453474318471700
+    }
+  },
+  {
+    "stem": "IMG27-6",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG27-6.jpg",
+      "sha256": "cd603e09e9379b2f9704e0c79b6df1cdf0a7cc34a593c7cb24ce755e338f1ca1",
+      "bytes": 67885,
+      "mtime_ns": 1788453472656307600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG27-6.png",
+      "sha256": "146eafaf23651af4731117aa9cb069ce3a14216a63da624dcb88676fd6ed076d",
+      "bytes": 1249,
+      "mtime_ns": 1788453474223121300
+    }
+  },
+  {
+    "stem": "11123",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11123.jpg",
+      "sha256": "81466ec784cb8d3fcd9e80792aa221f23e675f3c0ee5f2a85198971f8600736e",
+      "bytes": 155466,
+      "mtime_ns": 1788453473210623100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11123.png",
+      "sha256": "49dbe51319ac32ced03353de320ea5e6b616b1fc53f758dc15390c2a075e55a7",
+      "bytes": 5612,
+      "mtime_ns": 1788453474696759100
+    }
+  },
+  {
+    "stem": "7Q3A9064-9",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9064-9.jpg",
+      "sha256": "123164494d7304a238e7cba7ef23771332a0165f4b305341766975ccef538739",
+      "bytes": 60547,
+      "mtime_ns": 1788453473763603000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9064-9.png",
+      "sha256": "8f807209d6cb92c7f0451c24e09920189b111d5353d242e5fc92f611eadc03c5",
+      "bytes": 2176,
+      "mtime_ns": 1788453475158438200
+    }
+  },
+  {
+    "stem": "11115",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11115.jpg",
+      "sha256": "c2716f32df0e456cf7e05ca295d083b94452203d9086f1fe245dace9c57bfa09",
+      "bytes": 58447,
+      "mtime_ns": 1788453472710056100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11115.png",
+      "sha256": "b00be3565a0b155556309f7db583edf6fafc4fee6bab725cf6aed63be3cc7063",
+      "bytes": 2373,
+      "mtime_ns": 1788453474287312600
+    }
+  },
+  {
+    "stem": "11182-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11182-1.jpg",
+      "sha256": "acc1f3f8b08629e5665be1ec3c1fb4d56b0b8950d2af6a0d25fe627b63e74324",
+      "bytes": 60166,
+      "mtime_ns": 1788453473044693300
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11182-1.png",
+      "sha256": "480f8d52f58f29c42aac7a9d75cbb3297267299ab0fff8dace68056e9a8afdcd",
+      "bytes": 1459,
+      "mtime_ns": 1788453474559132400
+    }
+  },
+  {
+    "stem": "11132",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11132.jpg",
+      "sha256": "06610e15ccc2d3af9bfc4de04a6f83b4b2918788dfbf00c039d2d8b7b6dd0e0e",
+      "bytes": 136091,
+      "mtime_ns": 1788453473319822900
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11132.png",
+      "sha256": "c9ea426a0799acd890f90e155c795934a3154229d0130dad7b7349ff4b42fc03",
+      "bytes": 2140,
+      "mtime_ns": 1788453474807445500
+    }
+  },
+  {
+    "stem": "7Q3A9064-13",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9064-13.jpg",
+      "sha256": "ca824f94d45bfbf0247334b89ab23b0a32e49166bd53c9335c34f4020517daaf",
+      "bytes": 74928,
+      "mtime_ns": 1788453472690900100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9064-13.png",
+      "sha256": "52dc479a6632b7d3360e3a1a58e4fd4d9116d1066df3388e0c2f5d878632d190",
+      "bytes": 1740,
+      "mtime_ns": 1788453474244619000
+    }
+  },
+  {
+    "stem": "11197-3",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11197-3.jpg",
+      "sha256": "86c5a93ff0a5a6117e13060529dc2a1b262feb125e2ad1e9c1d3671b51bd654b",
+      "bytes": 90265,
+      "mtime_ns": 1788453472907956700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11197-3.png",
+      "sha256": "73952a32717b65aa143e9c1c35da6054e5036de4e67895caf680e89d10e387b0",
+      "bytes": 3254,
+      "mtime_ns": 1788453474443719700
+    }
+  },
+  {
+    "stem": "7Q3A9064-18",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9064-18.jpg",
+      "sha256": "4ece0871911686269b79f734ab10e7dff5b805983db99db5a914095a335a6e24",
+      "bytes": 59107,
+      "mtime_ns": 1788453473204600700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9064-18.png",
+      "sha256": "11294e5a01672e0112d3103aa6435145c9df335b33fcc53d316540495164912c",
+      "bytes": 1760,
+      "mtime_ns": 1788453474721523600
+    }
+  },
+  {
+    "stem": "IMG33-6",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG33-6.jpg",
+      "sha256": "49a556d5fb387afb9ea3a5bf17febe1f1738c565f1e01e0ab4ced7b0a27c3c0e",
+      "bytes": 95107,
+      "mtime_ns": 1788453473240614400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG33-6.png",
+      "sha256": "c30c62f000e51113690f884a38f88c43bdf70fef2fa0950c93ecdd8d4a401abd",
+      "bytes": 2329,
+      "mtime_ns": 1788453474728575900
+    }
+  },
+  {
+    "stem": "11188-1",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11188-1.jpg",
+      "sha256": "ff34c220686e29dbc50b69e0f20b68aab36b00090e8aae4442aea13e5bcd22d2",
+      "bytes": 121163,
+      "mtime_ns": 1788453472813351200
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11188-1.png",
+      "sha256": "0137c92718552a766b36ed8cd723184be1ff780f5fa28dc64edf3eacbc385e05",
+      "bytes": 2253,
+      "mtime_ns": 1788453474364644500
+    }
+  },
+  {
+    "stem": "11151-3",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11151-3.jpg",
+      "sha256": "c6337c01330975cac4bc5815cbfe0db7dcd866d25e3ccccce74309390fec9308",
+      "bytes": 127974,
+      "mtime_ns": 1788453472710056100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11151-3.png",
+      "sha256": "14cfd7284de3590dae26f558c7a303a552c4de3af183659ee8d2bd30bb64420d",
+      "bytes": 2175,
+      "mtime_ns": 1788453474287312600
+    }
+  },
+  {
+    "stem": "11187-5",
+    "role": "train",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11187-5.jpg",
+      "sha256": "3ea1471ed5d83a468adc14a81d4163502b0c217c419dfde9d267c32b94fc0e62",
+      "bytes": 107678,
+      "mtime_ns": 1788453473573117500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11187-5.png",
+      "sha256": "90cde08fe1c71cd4666b8987bac0c5ea8f4fc933887b3b16f1b322d971f88d0c",
+      "bytes": 2395,
+      "mtime_ns": 1788453474999885800
+    }
+  },
+  {
+    "stem": "11185-1",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11185-1.jpg",
+      "sha256": "9983ada8cef4e90f7f0392677e34236eec212557f935272a1a01710c30e39250",
+      "bytes": 61067,
+      "mtime_ns": 1788453473763603000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11185-1.png",
+      "sha256": "80804cfbc838840ddbf0b4eeb9ee4137413dc13b0d30787eec34a51520018594",
+      "bytes": 2150,
+      "mtime_ns": 1788453475174117300
+    }
+  },
+  {
+    "stem": "IMG36-2",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG36-2.jpg",
+      "sha256": "842589c0304b6d1487c6d2be99116fd2e3d20f3d746258d7f0004fcf3271263b",
+      "bytes": 52744,
+      "mtime_ns": 1788453473556995000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG36-2.png",
+      "sha256": "796e50929ed32b99ee50c827c717a6ffb07c767575054f53b0cada8220f770e3",
+      "bytes": 805,
+      "mtime_ns": 1788453474983267400
+    }
+  },
+  {
+    "stem": "11116-4",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11116-4.jpg",
+      "sha256": "cad2099d4da765ff9b1f1a2b9002b967674049685eb3bde865d5f29eb2adf099",
+      "bytes": 113781,
+      "mtime_ns": 1788453473011109900
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11116-4.png",
+      "sha256": "f34c0c991fe377f6e92139b7f8d087b97f4206bfad5674e6243dfff60b70bb06",
+      "bytes": 3878,
+      "mtime_ns": 1788453474510583600
+    }
+  },
+  {
+    "stem": "11155-3",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11155-3.jpg",
+      "sha256": "dce854c58c7e8d3aa93090a35533626c095900ef6ee58bba1f1f7265ad27028b",
+      "bytes": 118037,
+      "mtime_ns": 1788453472942307500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11155-3.png",
+      "sha256": "14518ca44dc9ac5e6c1048478a1e4d8c173a2fa603d3e17808169042df13e130",
+      "bytes": 1419,
+      "mtime_ns": 1788453474459731000
+    }
+  },
+  {
+    "stem": "IMG27-3",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG27-3.jpg",
+      "sha256": "e3bf24c514cc0996068d1f2f17e1acc588929770123b610a38dfec949b83b5d7",
+      "bytes": 62972,
+      "mtime_ns": 1788453472321977500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG27-3.png",
+      "sha256": "75ef9d77014137ba4a9473fc6416f0bf20152c2f85ea2c337e12ed355d5c5251",
+      "bytes": 1961,
+      "mtime_ns": 1788453473937793600
+    }
+  },
+  {
+    "stem": "11151",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11151.jpg",
+      "sha256": "a8c41b039f835fd5129b4fe1039bbf6ca31e51eca669cc533da4da6f505d74e7",
+      "bytes": 125531,
+      "mtime_ns": 1788453473732227700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11151.png",
+      "sha256": "846c216994fa58490a3663537241ed6b180989ce46417819719a1b4693c9ad0a",
+      "bytes": 2165,
+      "mtime_ns": 1788453475142416300
+    }
+  },
+  {
+    "stem": "11138",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11138.jpg",
+      "sha256": "ad646158df3062b25222f5e48862c6985e4610400c2455a538806797258030ab",
+      "bytes": 87119,
+      "mtime_ns": 1788453472987189000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11138.png",
+      "sha256": "e7486cf9a1a215bedf81618caae9432b3453f4ffe09400b2e5530b23a4d854f2",
+      "bytes": 838,
+      "mtime_ns": 1788453474522315400
+    }
+  },
+  {
+    "stem": "IMG33-17",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG33-17.jpg",
+      "sha256": "45d8c306d450c979e082c16287b7710005c45c73182359f03fdebc8b878ba39a",
+      "bytes": 92250,
+      "mtime_ns": 1788453473038919800
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG33-17.png",
+      "sha256": "0bb023359acda812228617ea056a1c0e76e8680a6142c2cf72a46ed83817a7ab",
+      "bytes": 2336,
+      "mtime_ns": 1788453474538381500
+    }
+  },
+  {
+    "stem": "11193-2",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11193-2.jpg",
+      "sha256": "f8080031a3242eb684504a745feb1d37c3f482ef2f65cd1306baff629120ebf9",
+      "bytes": 112108,
+      "mtime_ns": 1788453472828425400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11193-2.png",
+      "sha256": "6dc6b08f91c2ec4ff9cc5c49968222d6ee4774f58454028e50295a7ae97e2437",
+      "bytes": 2650,
+      "mtime_ns": 1788453474385586100
+    }
+  },
+  {
+    "stem": "11134",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11134.jpg",
+      "sha256": "22cfdcc47abcd9fd98994aba8e4ef0f357c3516541b252af6e27af1602ca10ee",
+      "bytes": 118378,
+      "mtime_ns": 1788453473098132600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11134.png",
+      "sha256": "3b7c6c591286605788897f3d2559f730e345ec5d9bb1e8b037e129e692a6d859",
+      "bytes": 5440,
+      "mtime_ns": 1788453474615420400
+    }
+  },
+  {
+    "stem": "11182-2",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11182-2.jpg",
+      "sha256": "6456cf4658bb4f3f9ef7c3263fb0143106816e58ba7dcd3269ee92344afaa4a7",
+      "bytes": 55751,
+      "mtime_ns": 1788453473139231600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11182-2.png",
+      "sha256": "22c05a5835348f7ceed367a12b56f9470203d851d5c865d0464c5d6f2b2c7624",
+      "bytes": 1535,
+      "mtime_ns": 1788453474633444600
+    }
+  },
+  {
+    "stem": "IMG33-13",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG33-13.jpg",
+      "sha256": "75ce17a649e7c2a1e1b656b9538fe468ea70993f801d99d48a73e5ed79aa892a",
+      "bytes": 95353,
+      "mtime_ns": 1788453472674595300
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG33-13.png",
+      "sha256": "f0c6429529b958246027666ce13f389c12503baa38334c7a0ed9ed3177e2b521",
+      "bytes": 1338,
+      "mtime_ns": 1788453474240608200
+    }
+  },
+  {
+    "stem": "7Q3A9064-6",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9064-6.jpg",
+      "sha256": "daf70e67d11f7cb51b2ec03fe6a1b0ed23ef76d1d077ef6f06b193ef5fe7c79c",
+      "bytes": 47162,
+      "mtime_ns": 1788453472359780000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9064-6.png",
+      "sha256": "0fff50efd71d71af10a74eb54a5ef901e31506ec5b367fc1e647b0e56c440983",
+      "bytes": 2362,
+      "mtime_ns": 1788453473937793600
+    }
+  },
+  {
+    "stem": "11192-2",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11192-2.jpg",
+      "sha256": "4cc2e97d5bae628c67e61936f8d3079bfeb19da79d6c4417a23cf5280907d5a9",
+      "bytes": 72363,
+      "mtime_ns": 1788453472306122900
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11192-2.png",
+      "sha256": "f9c58d2bbc1d4228539519a9420c84287acdef9db8688576077091f9c551c120",
+      "bytes": 1798,
+      "mtime_ns": 1788453473901568900
+    }
+  },
+  {
+    "stem": "11123-3",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11123-3.jpg",
+      "sha256": "a19c0428c2ede89bf9d04d205aad06da66d3507516e15ec8a487b1b4a0d687d9",
+      "bytes": 130239,
+      "mtime_ns": 1788453473149272900
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11123-3.png",
+      "sha256": "1142092871c9c0bff48ddda781471771ae9a634318632f1815bde3d71b1fd2bd",
+      "bytes": 4646,
+      "mtime_ns": 1788453474665150900
+    }
+  },
+  {
+    "stem": "IMG27-12",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG27-12.jpg",
+      "sha256": "5d5224aad679b0d3dc9c2f1fba1c3962775ce58120ad44b9fff21e18efdac03c",
+      "bytes": 68933,
+      "mtime_ns": 1788453472337989400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG27-12.png",
+      "sha256": "a238e4a4ea7c6f00586ce982818c1bcc8f3a26f5ef4544e9c44b64e3e18fdbcc",
+      "bytes": 1375,
+      "mtime_ns": 1788453473969602300
+    }
+  },
+  {
+    "stem": "11178-2",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11178-2.jpg",
+      "sha256": "920104a0d014ac52d4ff8c96c493e539d0419b5cd790165d2fa24eafc8c14db0",
+      "bytes": 124578,
+      "mtime_ns": 1788453473673101600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11178-2.png",
+      "sha256": "91d2cea2694438466ba5904481ace454d975177fdfcc7e9a4a5ccd2e700d7cae",
+      "bytes": 3134,
+      "mtime_ns": 1788453475094902100
+    }
+  },
+  {
+    "stem": "11162-2",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11162-2.jpg",
+      "sha256": "6974e63b0dac8a8ed1d0a76c5981bde56c9d9c4ff071b440cc06613093185198",
+      "bytes": 57566,
+      "mtime_ns": 1788453473240614400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11162-2.png",
+      "sha256": "3fbcaa71640fd908fcb64ac28dfe10f17fead6efe9cf6fb1b0ae44ac64e07953",
+      "bytes": 2387,
+      "mtime_ns": 1788453474748411800
+    }
+  },
+  {
+    "stem": "7Q3A9064-16",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9064-16.jpg",
+      "sha256": "6639283e40c38bb9232e250aec81d2a8ab1493dfd73794baf4067163bc546708",
+      "bytes": 73994,
+      "mtime_ns": 1788453472971414900
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9064-16.png",
+      "sha256": "a0d30868489c684e32c29a026292fad1cd113f0ddbd40f63621c89d927e861bb",
+      "bytes": 1565,
+      "mtime_ns": 1788453474495480300
+    }
+  },
+  {
+    "stem": "7Q3A9064-20",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9064-20.jpg",
+      "sha256": "1291f70ff292c9b78cfa04c8583f3a4abfb721d849eeff2cfd6c79b2a22599ba",
+      "bytes": 39673,
+      "mtime_ns": 1788453473305979000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9064-20.png",
+      "sha256": "be64b0d3a2aafbbf0e77f7261a4d19410f558ce7a6f714bb3f230baa1b6015bd",
+      "bytes": 2468,
+      "mtime_ns": 1788453474775969700
+    }
+  },
+  {
+    "stem": "11134-6",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11134-6.jpg",
+      "sha256": "8564b25892b34fcc7b338ed99f1438ee557685fa00ef2e6966a561d36baf4975",
+      "bytes": 98254,
+      "mtime_ns": 1788453472761838500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11134-6.png",
+      "sha256": "d22910f19fcfffd4c67270698a7521f2e80a3818db3382b181a79fdb89adef8f",
+      "bytes": 3443,
+      "mtime_ns": 1788453474301946100
+    }
+  },
+  {
+    "stem": "IMG14-3",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG14-3.jpg",
+      "sha256": "549ed78a50c5e336d8ddf7113f527303d506b0740c448faf74971a65ae303ca3",
+      "bytes": 86966,
+      "mtime_ns": 1788453473732227700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG14-3.png",
+      "sha256": "ead52cba6890dfa54a8d58f684e9449f51c35a7db6bba48638d7cd3a5c32a4fd",
+      "bytes": 1393,
+      "mtime_ns": 1788453475126493000
+    }
+  },
+  {
+    "stem": "IMG36-3",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG36-3.jpg",
+      "sha256": "b5dfcb72108dd97dfe6dd14a8c4765673a8b62480440d18df9d951ccb62032ac",
+      "bytes": 50774,
+      "mtime_ns": 1788453473446015400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG36-3.png",
+      "sha256": "23c8b96551db3c64e17dc7ea5a71364a8c36c8330f6ac628a25f388a2574dffb",
+      "bytes": 911,
+      "mtime_ns": 1788453474919383200
+    }
+  },
+  {
+    "stem": "IMG27-1",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG27-1.jpg",
+      "sha256": "0866fe7454bb7d93ee1fd737362e12c7e974301a1ae2cba61403ca46cf809417",
+      "bytes": 54982,
+      "mtime_ns": 1788453472353975600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG27-1.png",
+      "sha256": "34ea39795e785db4a9a4c19f9c75b6b35381b91e0315e3ae613b61b62485e11a",
+      "bytes": 2100,
+      "mtime_ns": 1788453473937793600
+    }
+  },
+  {
+    "stem": "7Q3A9060-9",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9060-9.jpg",
+      "sha256": "9ac4aae45ba9e99abec32927b8c95dd9ad6803e1f004ad986c22c7a9c599ea98",
+      "bytes": 66949,
+      "mtime_ns": 1788453473525435000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9060-9.png",
+      "sha256": "676e6c48e6d7cb4bbda5e339d47714ecbf2144e4046f253d866e98346152d84b",
+      "bytes": 2908,
+      "mtime_ns": 1788453474967558300
+    }
+  },
+  {
+    "stem": "11121",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11121.jpg",
+      "sha256": "a841b3c7d7e8323aa5725ef4d1aac872d38eec4fc63ed615cb9866ca7def87f8",
+      "bytes": 80865,
+      "mtime_ns": 1788453473082260400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11121.png",
+      "sha256": "a2db03b4d5930b570f72470aa692106e56454dcf79a97dbf4adc00038b2d98b0",
+      "bytes": 3555,
+      "mtime_ns": 1788453474569907100
+    }
+  },
+  {
+    "stem": "11140-6",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11140-6.jpg",
+      "sha256": "a70684e45f4f94144ae608dbda001c4649aa6ad67567357624393864b1080245",
+      "bytes": 139809,
+      "mtime_ns": 1788453473383467000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11140-6.png",
+      "sha256": "c4abb886ce382a99b8407c9d75837e2cb8179b203f14a98814cd83ef102601c4",
+      "bytes": 2178,
+      "mtime_ns": 1788453474858351300
+    }
+  },
+  {
+    "stem": "11166",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11166.jpg",
+      "sha256": "38a34b016a06c83660c8ba978a3887cdb6210647d2381409e9996ee20516356d",
+      "bytes": 87641,
+      "mtime_ns": 1788453472601544400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11166.png",
+      "sha256": "82e3970b02e3df1e6d2c810f8b7a11b23bd1428b91730d2a69416507a5015f38",
+      "bytes": 1105,
+      "mtime_ns": 1788453474168679900
+    }
+  },
+  {
+    "stem": "IMG27-2",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG27-2.jpg",
+      "sha256": "0de27b93bf364c00682207022b9b4359d7f35de9a115f0d7aa3a723c5409b9fa",
+      "bytes": 77175,
+      "mtime_ns": 1788453472242408100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG27-2.png",
+      "sha256": "385318cb95ab3db2a852adad296151eb66ae858308344e8832ab431164c3a0c2",
+      "bytes": 2688,
+      "mtime_ns": 1788453473864908100
+    }
+  },
+  {
+    "stem": "IMG12-1",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG12-1.jpg",
+      "sha256": "570d8e5696aa8674586d97a2c64fcd4ec5f2d77ec5975b4467b334c1c73f6860",
+      "bytes": 72113,
+      "mtime_ns": 1788453473573117500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG12-1.png",
+      "sha256": "776a8f9977b2429f3550e076809f39845fbe07e944365f31b307e1091b016c0f",
+      "bytes": 1739,
+      "mtime_ns": 1788453475021042900
+    }
+  },
+  {
+    "stem": "IMG33-11",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG33-11.jpg",
+      "sha256": "adf6d0c73aebf96c2f62e9c48883c2deba4a4c60e6feb73a2b30fdae18a7fc07",
+      "bytes": 104076,
+      "mtime_ns": 1788453472848598100
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG33-11.png",
+      "sha256": "2811b45a0782c0907a8c3e8a0d61affb7595e27856e122ed0fce29536db6b436",
+      "bytes": 1793,
+      "mtime_ns": 1788453474385586100
+    }
+  },
+  {
+    "stem": "7Q3A9064-10",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9064-10.jpg",
+      "sha256": "e30737cf0286bc1e31084dd3aff7c1e728d790ec1c65af6e230f3eff276d520e",
+      "bytes": 56824,
+      "mtime_ns": 1788453472792328300
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9064-10.png",
+      "sha256": "ea1a8bec5f27d1820c8df8a6d5a96f7b7f0fd7f1bccd65ec89c72f97173d9a70",
+      "bytes": 2500,
+      "mtime_ns": 1788453474333557000
+    }
+  },
+  {
+    "stem": "11197-2",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11197-2.jpg",
+      "sha256": "edb70ba803c29bbba64793a78c2ffeec589d3c55e41565835847a0c7a37f794c",
+      "bytes": 102206,
+      "mtime_ns": 1788453472877713800
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11197-2.png",
+      "sha256": "4a39decad19e9652b5867f69862e578a1f4d871f3d28c5b54d387d056eb0015e",
+      "bytes": 3256,
+      "mtime_ns": 1788453474412200900
+    }
+  },
+  {
+    "stem": "11137",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11137.jpg",
+      "sha256": "2d60a150d3995aba68e562afb180f5541e3a694965eac39aeffeed2f2865b65b",
+      "bytes": 74602,
+      "mtime_ns": 1788453473193305500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11137.png",
+      "sha256": "8788046d5ea3c7049b0d91c78dbf1648b8720c916e71d4b0e78ed2a778252db9",
+      "bytes": 2064,
+      "mtime_ns": 1788453474712560300
+    }
+  },
+  {
+    "stem": "7Q3A9064-7",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9064-7.jpg",
+      "sha256": "f594761adf45a48c5605d31bc4ca038d9d085657ac310d5e661a861842731acc",
+      "bytes": 49379,
+      "mtime_ns": 1788453472432877800
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9064-7.png",
+      "sha256": "1a8b83968a564f6ffa04ee1e47dcd3e3d989c04f74298ec1f09a2903af360608",
+      "bytes": 2671,
+      "mtime_ns": 1788453474041019900
+    }
+  },
+  {
+    "stem": "11190-2",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11190-2.jpg",
+      "sha256": "3a9a6f61d54531bb74ba63b271bdb974be5f4b9248c25fd75ee24f9dac6469d5",
+      "bytes": 129566,
+      "mtime_ns": 1788453472391589500
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11190-2.png",
+      "sha256": "5aad43526f2fbe835773c4f9309fce4399d9e41ab9aee70d49f6c4ae23406a6a",
+      "bytes": 2439,
+      "mtime_ns": 1788453473985505300
+    }
+  },
+  {
+    "stem": "7Q3A9060-19",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\7Q3A9060-19.jpg",
+      "sha256": "c14a6d7b9660d91d4580e405782e9de3fda470dbbb184f8819e52226d6b6c395",
+      "bytes": 57133,
+      "mtime_ns": 1788453473827232600
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\7Q3A9060-19.png",
+      "sha256": "068646947518d5cb81fbb7b807f400238a459ca887294ce7be4905f3d67442b1",
+      "bytes": 1684,
+      "mtime_ns": 1788453475217857500
+    }
+  },
+  {
+    "stem": "IMG108",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG108.jpg",
+      "sha256": "06f22077a19af6e53c83ea76c451c9ff38d56ad5e9d36750a3d827cbfa506cb7",
+      "bytes": 54494,
+      "mtime_ns": 1788453472576276000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG108.png",
+      "sha256": "d3d73c6c0eac9f4e980429ad4893efc0c9dae37c8e72bfaf29467d80827c0cc7",
+      "bytes": 4174,
+      "mtime_ns": 1788453474159127200
+    }
+  },
+  {
+    "stem": "IMG25-3",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\IMG25-3.jpg",
+      "sha256": "0b0c6b91d2f6bb5c7f08328d10db72a28151649608049ed751c89daaa609b13d",
+      "bytes": 112563,
+      "mtime_ns": 1788453472337989400
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\IMG25-3.png",
+      "sha256": "4e41c5df4ab4d6c94e0551ed810843739e0b2fcf9af900de40ad15e39960bc54",
+      "bytes": 2254,
+      "mtime_ns": 1788453473953764000
+    }
+  },
+  {
+    "stem": "11114",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11114.jpg",
+      "sha256": "081bbd5584157a9c5fbcdd6db630be39a8fab2f9fc796bc90abaa9a58b6b0678",
+      "bytes": 40220,
+      "mtime_ns": 1788453472700735700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11114.png",
+      "sha256": "67580f65150e65682da74b35d7b0c21ff8095414631c91edb213f42df7a406e9",
+      "bytes": 1462,
+      "mtime_ns": 1788453474254371500
+    }
+  },
+  {
+    "stem": "11175-3",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11175-3.jpg",
+      "sha256": "020461926e9ec89fa5aa854f135dfc89e7e9378cd0363e1954b46636be7ef705",
+      "bytes": 71501,
+      "mtime_ns": 1788453472674595300
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11175-3.png",
+      "sha256": "d4f5a9c776a321d54336df10397f32a76b7f5c5d5706b7e1be70760db6a3a767",
+      "bytes": 1256,
+      "mtime_ns": 1788453474254371500
+    }
+  },
+  {
+    "stem": "11141",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11141.jpg",
+      "sha256": "b01fadd657b004e6e9d3ac85d25fd735c05b0d54ce30f2f669fe05546dc2c317",
+      "bytes": 129075,
+      "mtime_ns": 1788453473588972300
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11141.png",
+      "sha256": "86b5ba1f43f5dd05eb6362ee5c6b4ef93c6729acb3828893ef431e8f3c0600d9",
+      "bytes": 2678,
+      "mtime_ns": 1788453475031280700
+    }
+  },
+  {
+    "stem": "11187-3",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11187-3.jpg",
+      "sha256": "521225f60fb8512eaf2a0f3911f6d94fd700cec061b9c437026af7017a3405ad",
+      "bytes": 92321,
+      "mtime_ns": 1788453473779342000
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11187-3.png",
+      "sha256": "8c8caaccd7b01ec68944cc404aa0250f7f49c673cced1bd75534f3f131663309",
+      "bytes": 1455,
+      "mtime_ns": 1788453475174117300
+    }
+  },
+  {
+    "stem": "11112",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11112.jpg",
+      "sha256": "44e62c6410a898b496e245ac28f3f1604c31acb04cad4e5b0551738f40a78313",
+      "bytes": 75644,
+      "mtime_ns": 1788453472884070300
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11112.png",
+      "sha256": "a0420bad43cd286f4de95a5894ba03590550124857831cedc83a32f895fb9801",
+      "bytes": 3157,
+      "mtime_ns": 1788453474412200900
+    }
+  },
+  {
+    "stem": "11187-1",
+    "role": "val",
+    "image": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_img\\11187-1.jpg",
+      "sha256": "692a9b7f27dbfd58b3db22d1b475bbc5c3e6b8fb2c9c817c2e70e0c98b0df7cd",
+      "bytes": 101469,
+      "mtime_ns": 1788453473732227700
+    },
+    "mask": {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepCrack\\train_lab\\11187-1.png",
+      "sha256": "e17280dd7129d2aaff5798c7576af6185eca8d22c04ce3c86eae83e226419c96",
+      "bytes": 2094,
+      "mtime_ns": 1788453475158438200
+    }
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "training_runs_attempted": 0,
+  "trials": [
+    {
+      "trial": "selection_fix",
+      "seed": 42,
+      "status": "skipped",
+      "reason": "Mandatory stop: no eligible second repository-local dataset"
+    },
+    {
+      "trial": "selection_fix_augmentation",
+      "seed": 42,
+      "status": "skipped",
+      "reason": "Mandatory stop: no eligible second repository-local dataset"
+    },
+    {
+      "trial": "best_previous_lower_lr_warmup",
+      "seed": 42,
+      "status": "skipped",
+      "reason": "Mandatory stop: no eligible second repository-local dataset"
+    },
+    {
+      "trial": "locked_winner",
+      "seed": 1,
+      "status": "skipped",
+      "reason": "Mandatory stop: no eligible second repository-local dataset"
+    },
+    {
+      "trial": "locked_winner",
+      "seed": 2,
+      "status": "skipped",
+      "reason": "Mandatory stop: no eligible second repository-local dataset"
+    },
+    {
+      "trial": "optional_M2_selection_fix",
+      "seed": 42,
+      "status": "skipped",
+      "reason": "Mandatory stop: no eligible second repository-local dataset"
+    },
+    {
+      "trial": "held_out_confirmation",
+      "seed": null,
+      "status": "skipped",
+      "reason": "Mandatory stop: no eligible second repository-local dataset"
+    },
+    {
+      "trial": "validation_hysteresis_tradeoff",
+      "seed": null,
+      "status": "skipped",
+      "reason": "Mandatory stop: no eligible second repository-local dataset"
+    }
+  ],
+  "operational_failures": [
+    "Initial root-relative previous-results lookup failed; resolved to pipeline-crack-gnn/results/paper_v2/improve_m2_m4_20261014_1112_02.",
+    "PowerShell wildcard arguments to rg and nonexistent optional source paths returned lookup errors; resolved by direct source paths and metadata inventory.",
+    "Initial M4_selected/seed_42 log lookup failed; the historical lock correctly maps seed 42 to M4_finer600.",
+    "py -3.11 launcher returned No installed Python found; direct Python311/python.exe worked."
+  ]
+}

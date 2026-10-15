@@ -1,0 +1,7 @@
+{
+  "status": "stopped",
+  "time": "2026-10-14T15:59:40.614283+00:00",
+  "rule": "Hard rule 2: If no second dataset is available in the repo, stop and report instead of choosing one.",
+  "held_out_pass_started": false,
+  "training_started": false
+}

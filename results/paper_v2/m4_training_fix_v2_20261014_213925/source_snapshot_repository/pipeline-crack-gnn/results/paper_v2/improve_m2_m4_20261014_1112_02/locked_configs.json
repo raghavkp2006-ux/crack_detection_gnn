@@ -1,0 +1,1495 @@
+{
+  "created": "2026-10-14T15:11:33.231334+00:00",
+  "protocol_sha256": "ad625bb7d69bbed18c022659964771257769f121965cfcc3f8865b5c3992feaf",
+  "original_processing_sha256": "41d1ebb5b24a89ea6c14d0df68e2b05bab7c456bd5ce1f9ecd8b3e798db766be",
+  "comparator_mode": "three_seeds",
+  "cases": [
+    {
+      "model": "M4",
+      "seed": 42,
+      "descriptor": {
+        "name": "M4_finer600",
+        "seed": 42,
+        "config": {
+          "data": {
+            "graph_dir": "data/graphs/train",
+            "train_ratio": 0.7,
+            "val_ratio": 0.15
+          },
+          "graph": {
+            "k": 8,
+            "sigma": 0.1
+          },
+          "labels": {
+            "threshold": 0.3
+          },
+          "model": {
+            "gnn_dropout": 0.3,
+            "gnn_layers": 2,
+            "heads": 4,
+            "hidden_dim": 64,
+            "in_dim": 15,
+            "num_freqs": 8,
+            "pe_dim": 32,
+            "transformer_dropout": 0.1,
+            "transformer_layers": 2,
+            "type": "hybrid",
+            "use_pe": true
+          },
+          "output_dir": "results/step2_loss/M4_hybrid_full",
+          "superpixels": {
+            "compactness": 10.0,
+            "n_segments": 600,
+            "sigma": 1.0,
+            "enforce_connectivity": false
+          },
+          "training": {
+            "batch_size": 1,
+            "early_stopping_patience": 20,
+            "epochs": 150,
+            "focal_gamma": 2.0,
+            "grad_clip_norm": 1.0,
+            "loss": "focal",
+            "lr": 0.001,
+            "seed": 42,
+            "warmup_epochs": 5,
+            "weight_decay": 0.0005
+          }
+        },
+        "checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_finer600\\seed_42\\checkpoint_epoch_022.pt",
+        "checkpoint_sha256": "55e1889e62f59965ae79f7b2081739dcfb8604fc2a93ffba56b64b99cb4a46b1",
+        "segments": 600,
+        "raw_tau": 0.66,
+        "origin": "new_training",
+        "training": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_finer600\\seed_42\\training.json"
+      },
+      "recipe": {
+        "low": 0.4,
+        "high": 0.66,
+        "min_area": 50,
+        "max_gap": 12
+      },
+      "validation": {
+        "cldice": 0.665981762633768,
+        "strict_cr": 0.42038216560509556,
+        "pixel_f1": 0.595944008567743,
+        "n_total": 157,
+        "n_preserved": 66,
+        "n_missed": 66,
+        "n_fragmented": 25,
+        "pixel_confusion": [
+          261255,
+          306232,
+          48035
+        ]
+      },
+      "calibration": "per_seed_validation"
+    },
+    {
+      "model": "M2+M4",
+      "seed": 42,
+      "descriptor": {
+        "name": "M4_finer600",
+        "seed": 42,
+        "config": {
+          "data": {
+            "graph_dir": "data/graphs/train",
+            "train_ratio": 0.7,
+            "val_ratio": 0.15
+          },
+          "graph": {
+            "k": 8,
+            "sigma": 0.1
+          },
+          "labels": {
+            "threshold": 0.3
+          },
+          "model": {
+            "gnn_dropout": 0.3,
+            "gnn_layers": 2,
+            "heads": 4,
+            "hidden_dim": 64,
+            "in_dim": 15,
+            "num_freqs": 8,
+            "pe_dim": 32,
+            "transformer_dropout": 0.1,
+            "transformer_layers": 2,
+            "type": "hybrid",
+            "use_pe": true
+          },
+          "output_dir": "results/step2_loss/M4_hybrid_full",
+          "superpixels": {
+            "compactness": 10.0,
+            "n_segments": 600,
+            "sigma": 1.0,
+            "enforce_connectivity": false
+          },
+          "training": {
+            "batch_size": 1,
+            "early_stopping_patience": 20,
+            "epochs": 150,
+            "focal_gamma": 2.0,
+            "grad_clip_norm": 1.0,
+            "loss": "focal",
+            "lr": 0.001,
+            "seed": 42,
+            "warmup_epochs": 5,
+            "weight_decay": 0.0005
+          }
+        },
+        "checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_finer600\\seed_42\\checkpoint_epoch_022.pt",
+        "checkpoint_sha256": "55e1889e62f59965ae79f7b2081739dcfb8604fc2a93ffba56b64b99cb4a46b1",
+        "segments": 600,
+        "raw_tau": 0.66,
+        "origin": "new_training",
+        "training": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_finer600\\seed_42\\training.json"
+      },
+      "m2_descriptor": {
+        "name": "M2",
+        "seed": 42,
+        "config": {
+          "model": {
+            "type": "shallow_gnn",
+            "in_dim": 15,
+            "hidden_dim": 64,
+            "num_layers": 2,
+            "dropout": 0.3,
+            "use_residual": true
+          },
+          "superpixels": {
+            "n_segments": 300,
+            "compactness": 10.0,
+            "sigma": 1.0
+          },
+          "graph": {
+            "k": 8,
+            "sigma": 0.1
+          },
+          "labels": {
+            "threshold": 0.3
+          },
+          "data": {
+            "graph_dir": "data/graphs/train",
+            "train_ratio": 0.7,
+            "val_ratio": 0.15
+          },
+          "training": {
+            "epochs": 150,
+            "lr": 0.001,
+            "weight_decay": 0.0005,
+            "batch_size": 1,
+            "early_stopping_patience": 20,
+            "seed": 42
+          },
+          "output_dir": "results/M2_shallow_gnn"
+        },
+        "checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\M2_shallow_gnn\\best_model.pt",
+        "checkpoint_sha256": "e8db920172b7a30ed19f62a4276f8b07d6534aef7c9461bc06eafc4eea2bec10",
+        "segments": 300,
+        "raw_tau": 0.7,
+        "origin": "historical_pitch"
+      },
+      "alpha": 0.0,
+      "recipe": {
+        "low": 0.4,
+        "high": 0.66,
+        "min_area": 50,
+        "max_gap": 12
+      },
+      "validation": {
+        "cldice": 0.665981762633768,
+        "strict_cr": 0.42038216560509556,
+        "pixel_f1": 0.595944008567743,
+        "n_total": 157,
+        "n_preserved": 66,
+        "n_missed": 66,
+        "n_fragmented": 25,
+        "pixel_confusion": [
+          261255,
+          306232,
+          48035
+        ]
+      },
+      "calibration": "per_seed_validation_blend_reviewed"
+    },
+    {
+      "model": "M2",
+      "seed": 42,
+      "descriptor": {
+        "name": "M2",
+        "seed": 42,
+        "config": {
+          "model": {
+            "type": "shallow_gnn",
+            "in_dim": 15,
+            "hidden_dim": 64,
+            "num_layers": 2,
+            "dropout": 0.3,
+            "use_residual": true
+          },
+          "superpixels": {
+            "n_segments": 300,
+            "compactness": 10.0,
+            "sigma": 1.0
+          },
+          "graph": {
+            "k": 8,
+            "sigma": 0.1
+          },
+          "labels": {
+            "threshold": 0.3
+          },
+          "data": {
+            "graph_dir": "data/graphs/train",
+            "train_ratio": 0.7,
+            "val_ratio": 0.15
+          },
+          "training": {
+            "epochs": 150,
+            "lr": 0.001,
+            "weight_decay": 0.0005,
+            "batch_size": 1,
+            "early_stopping_patience": 20,
+            "seed": 42
+          },
+          "output_dir": "results/M2_shallow_gnn"
+        },
+        "checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\M2_shallow_gnn\\best_model.pt",
+        "checkpoint_sha256": "e8db920172b7a30ed19f62a4276f8b07d6534aef7c9461bc06eafc4eea2bec10",
+        "segments": 300,
+        "raw_tau": 0.7,
+        "origin": "historical_pitch"
+      },
+      "recipe": {
+        "low": 0.5,
+        "high": 0.85,
+        "min_area": 50,
+        "max_gap": 12
+      },
+      "validation": {
+        "cldice": 0.6720817908741599,
+        "strict_cr": 0.3821656050955414,
+        "pixel_f1": 0.6074522149332233,
+        "n_total": 157,
+        "n_preserved": 60,
+        "n_missed": 71,
+        "n_fragmented": 26,
+        "pixel_confusion": [
+          253163,
+          271071,
+          56127
+        ]
+      },
+      "calibration": "transferred_seed42_recipe"
+    },
+    {
+      "model": "DeepCrack raw",
+      "seed": 42,
+      "descriptor": {
+        "name": "DeepCrack",
+        "seed": 42,
+        "config": null,
+        "checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\multiseed\\deepcrack\\seed_42\\best_model.pt",
+        "checkpoint_sha256": "b688c34b4f13c72582bc1002abab7b722e137a5a53f20b1a38823fcc618a3949",
+        "segments": 300,
+        "raw_tau": 0.36,
+        "origin": "historical_pitch"
+      },
+      "recipe": {
+        "low": 0.36,
+        "high": 0.36,
+        "min_area": 0,
+        "max_gap": 0
+      },
+      "validation": {
+        "cldice": 0.7358285062275252,
+        "strict_cr": 0.2802547770700637,
+        "pixel_f1": 0.7717624627915874,
+        "n_total": 157,
+        "n_preserved": 44,
+        "n_missed": 76,
+        "n_fragmented": 37,
+        "pixel_confusion": [
+          238010,
+          69496,
+          71280
+        ]
+      },
+      "calibration": "transferred_seed42_recipe"
+    },
+    {
+      "model": "DeepCrack processed",
+      "seed": 42,
+      "descriptor": {
+        "name": "DeepCrack",
+        "seed": 42,
+        "config": null,
+        "checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\multiseed\\deepcrack\\seed_42\\best_model.pt",
+        "checkpoint_sha256": "b688c34b4f13c72582bc1002abab7b722e137a5a53f20b1a38823fcc618a3949",
+        "segments": 300,
+        "raw_tau": 0.36,
+        "origin": "historical_pitch"
+      },
+      "recipe": {
+        "low": 0.15,
+        "high": 0.2,
+        "min_area": 0,
+        "max_gap": 0
+      },
+      "validation": {
+        "cldice": 0.7473955775695932,
+        "strict_cr": 0.7070063694267515,
+        "pixel_f1": 0.6028560019006314,
+        "n_total": 157,
+        "n_preserved": 111,
+        "n_missed": 31,
+        "n_fragmented": 15,
+        "pixel_confusion": [
+          298156,
+          381699,
+          11134
+        ]
+      },
+      "calibration": "transferred_seed42_recipe"
+    },
+    {
+      "model": "M4",
+      "seed": 1,
+      "descriptor": {
+        "name": "M4_selected",
+        "seed": 1,
+        "config": {
+          "data": {
+            "graph_dir": "data/graphs/train",
+            "train_ratio": 0.7,
+            "val_ratio": 0.15
+          },
+          "graph": {
+            "k": 8,
+            "sigma": 0.1
+          },
+          "labels": {
+            "threshold": 0.3
+          },
+          "model": {
+            "gnn_dropout": 0.3,
+            "gnn_layers": 2,
+            "heads": 4,
+            "hidden_dim": 64,
+            "in_dim": 15,
+            "num_freqs": 8,
+            "pe_dim": 32,
+            "transformer_dropout": 0.1,
+            "transformer_layers": 2,
+            "type": "hybrid",
+            "use_pe": true
+          },
+          "output_dir": "results/step2_loss/M4_hybrid_full",
+          "superpixels": {
+            "compactness": 10.0,
+            "n_segments": 600,
+            "sigma": 1.0,
+            "enforce_connectivity": false
+          },
+          "training": {
+            "batch_size": 1,
+            "early_stopping_patience": 20,
+            "epochs": 150,
+            "focal_gamma": 2.0,
+            "grad_clip_norm": 1.0,
+            "loss": "focal",
+            "lr": 0.001,
+            "seed": 1,
+            "warmup_epochs": 5,
+            "weight_decay": 0.0005
+          }
+        },
+        "checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_selected\\seed_1\\checkpoint_epoch_001.pt",
+        "checkpoint_sha256": "c54a9d910dab8182d006a08d6fdb2ba0336d7dbd51c5db142d86a1ce49e64393",
+        "segments": 600,
+        "raw_tau": 0.66,
+        "origin": "new_training",
+        "training": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_selected\\seed_1\\training.json"
+      },
+      "recipe": {
+        "low": 0.55,
+        "high": 0.65,
+        "min_area": 50,
+        "max_gap": 12
+      },
+      "validation": {
+        "cldice": 0.6578299932221224,
+        "strict_cr": 0.3821656050955414,
+        "pixel_f1": 0.6275533677427789,
+        "n_total": 157,
+        "n_preserved": 60,
+        "n_missed": 70,
+        "n_fragmented": 27,
+        "pixel_confusion": [
+          249615,
+          236613,
+          59675
+        ]
+      },
+      "calibration": "per_seed_validation"
+    },
+    {
+      "model": "M2+M4",
+      "seed": 1,
+      "descriptor": {
+        "name": "M4_selected",
+        "seed": 1,
+        "config": {
+          "data": {
+            "graph_dir": "data/graphs/train",
+            "train_ratio": 0.7,
+            "val_ratio": 0.15
+          },
+          "graph": {
+            "k": 8,
+            "sigma": 0.1
+          },
+          "labels": {
+            "threshold": 0.3
+          },
+          "model": {
+            "gnn_dropout": 0.3,
+            "gnn_layers": 2,
+            "heads": 4,
+            "hidden_dim": 64,
+            "in_dim": 15,
+            "num_freqs": 8,
+            "pe_dim": 32,
+            "transformer_dropout": 0.1,
+            "transformer_layers": 2,
+            "type": "hybrid",
+            "use_pe": true
+          },
+          "output_dir": "results/step2_loss/M4_hybrid_full",
+          "superpixels": {
+            "compactness": 10.0,
+            "n_segments": 600,
+            "sigma": 1.0,
+            "enforce_connectivity": false
+          },
+          "training": {
+            "batch_size": 1,
+            "early_stopping_patience": 20,
+            "epochs": 150,
+            "focal_gamma": 2.0,
+            "grad_clip_norm": 1.0,
+            "loss": "focal",
+            "lr": 0.001,
+            "seed": 1,
+            "warmup_epochs": 5,
+            "weight_decay": 0.0005
+          }
+        },
+        "checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_selected\\seed_1\\checkpoint_epoch_001.pt",
+        "checkpoint_sha256": "c54a9d910dab8182d006a08d6fdb2ba0336d7dbd51c5db142d86a1ce49e64393",
+        "segments": 600,
+        "raw_tau": 0.66,
+        "origin": "new_training",
+        "training": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_selected\\seed_1\\training.json"
+      },
+      "m2_descriptor": {
+        "name": "M2_comparator",
+        "seed": 1,
+        "config": {
+          "model": {
+            "type": "shallow_gnn",
+            "in_dim": 15,
+            "hidden_dim": 64,
+            "num_layers": 2,
+            "dropout": 0.3,
+            "use_residual": true
+          },
+          "superpixels": {
+            "n_segments": 300,
+            "compactness": 10.0,
+            "sigma": 1.0,
+            "enforce_connectivity": true
+          },
+          "graph": {
+            "k": 8,
+            "sigma": 0.1
+          },
+          "labels": {
+            "threshold": 0.3
+          },
+          "data": {
+            "graph_dir": "data/graphs/train",
+            "train_ratio": 0.7,
+            "val_ratio": 0.15
+          },
+          "training": {
+            "epochs": 150,
+            "lr": 0.001,
+            "weight_decay": 0.0005,
+            "batch_size": 1,
+            "early_stopping_patience": 20,
+            "seed": 1,
+            "loss": "weighted_ce"
+          },
+          "output_dir": "results/M2_shallow_gnn"
+        },
+        "checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M2_comparator\\seed_1\\checkpoint_epoch_040.pt",
+        "checkpoint_sha256": "e257d9ca2fb0951c9141005f7a142eb72482a9cb1aa0bcdb2ca8bc6bb2e37f74",
+        "segments": 300,
+        "raw_tau": 0.7,
+        "origin": "new_training",
+        "training": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M2_comparator\\seed_1\\training.json"
+      },
+      "alpha": 0.5,
+      "recipe": {
+        "low": 0.36,
+        "high": 0.75,
+        "min_area": 50,
+        "max_gap": 12
+      },
+      "validation": {
+        "cldice": 0.6601410746037848,
+        "strict_cr": 0.43312101910828027,
+        "pixel_f1": 0.5783294167067127,
+        "n_total": 157,
+        "n_preserved": 68,
+        "n_missed": 67,
+        "n_fragmented": 22,
+        "pixel_confusion": [
+          262958,
+          337123,
+          46332
+        ]
+      },
+      "calibration": "per_seed_validation_blend_reviewed"
+    },
+    {
+      "model": "M2",
+      "seed": 1,
+      "descriptor": {
+        "name": "M2_comparator",
+        "seed": 1,
+        "config": {
+          "model": {
+            "type": "shallow_gnn",
+            "in_dim": 15,
+            "hidden_dim": 64,
+            "num_layers": 2,
+            "dropout": 0.3,
+            "use_residual": true
+          },
+          "superpixels": {
+            "n_segments": 300,
+            "compactness": 10.0,
+            "sigma": 1.0,
+            "enforce_connectivity": true
+          },
+          "graph": {
+            "k": 8,
+            "sigma": 0.1
+          },
+          "labels": {
+            "threshold": 0.3
+          },
+          "data": {
+            "graph_dir": "data/graphs/train",
+            "train_ratio": 0.7,
+            "val_ratio": 0.15
+          },
+          "training": {
+            "epochs": 150,
+            "lr": 0.001,
+            "weight_decay": 0.0005,
+            "batch_size": 1,
+            "early_stopping_patience": 20,
+            "seed": 1,
+            "loss": "weighted_ce"
+          },
+          "output_dir": "results/M2_shallow_gnn"
+        },
+        "checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M2_comparator\\seed_1\\checkpoint_epoch_040.pt",
+        "checkpoint_sha256": "e257d9ca2fb0951c9141005f7a142eb72482a9cb1aa0bcdb2ca8bc6bb2e37f74",
+        "segments": 300,
+        "raw_tau": 0.7,
+        "origin": "new_training",
+        "training": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M2_comparator\\seed_1\\training.json"
+      },
+      "recipe": {
+        "low": 0.5,
+        "high": 0.85,
+        "min_area": 50,
+        "max_gap": 12
+      },
+      "validation": {
+        "cldice": 0.6432377986407036,
+        "strict_cr": 0.3375796178343949,
+        "pixel_f1": 0.6696362598240075,
+        "n_total": 157,
+        "n_preserved": 53,
+        "n_missed": 75,
+        "n_fragmented": 29,
+        "pixel_confusion": [
+          239253,
+          166033,
+          70037
+        ]
+      },
+      "calibration": "transferred_seed42_recipe"
+    },
+    {
+      "model": "DeepCrack raw",
+      "seed": 1,
+      "descriptor": {
+        "name": "DeepCrack_comparator",
+        "seed": 1,
+        "config": null,
+        "checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\DeepCrack_comparator\\seed_1\\checkpoint_epoch_029.pt",
+        "checkpoint_sha256": "885d8d1f0e10d16fcc7e937ffe609688d344fd2c9a474cdb27153df67c9d00f6",
+        "segments": 300,
+        "raw_tau": 0.36,
+        "origin": "new_training",
+        "training": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\DeepCrack_comparator\\seed_1\\training.json"
+      },
+      "recipe": {
+        "low": 0.36,
+        "high": 0.36,
+        "min_area": 0,
+        "max_gap": 0
+      },
+      "validation": {
+        "cldice": 0.8002799747597569,
+        "strict_cr": 0.4394904458598726,
+        "pixel_f1": 0.745066627426428,
+        "n_total": 157,
+        "n_preserved": 69,
+        "n_missed": 55,
+        "n_fragmented": 33,
+        "pixel_confusion": [
+          268354,
+          142705,
+          40936
+        ]
+      },
+      "calibration": "transferred_seed42_recipe"
+    },
+    {
+      "model": "DeepCrack processed",
+      "seed": 1,
+      "descriptor": {
+        "name": "DeepCrack_comparator",
+        "seed": 1,
+        "config": null,
+        "checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\DeepCrack_comparator\\seed_1\\checkpoint_epoch_029.pt",
+        "checkpoint_sha256": "885d8d1f0e10d16fcc7e937ffe609688d344fd2c9a474cdb27153df67c9d00f6",
+        "segments": 300,
+        "raw_tau": 0.36,
+        "origin": "new_training",
+        "training": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\DeepCrack_comparator\\seed_1\\training.json"
+      },
+      "recipe": {
+        "low": 0.15,
+        "high": 0.2,
+        "min_area": 0,
+        "max_gap": 0
+      },
+      "validation": {
+        "cldice": 0.7433221064144364,
+        "strict_cr": 0.732484076433121,
+        "pixel_f1": 0.5258874955188061,
+        "n_total": 157,
+        "n_preserved": 115,
+        "n_missed": 30,
+        "n_fragmented": 12,
+        "pixel_confusion": [
+          299987,
+          531602,
+          9303
+        ]
+      },
+      "calibration": "transferred_seed42_recipe"
+    },
+    {
+      "model": "M4",
+      "seed": 2,
+      "descriptor": {
+        "name": "M4_selected",
+        "seed": 2,
+        "config": {
+          "data": {
+            "graph_dir": "data/graphs/train",
+            "train_ratio": 0.7,
+            "val_ratio": 0.15
+          },
+          "graph": {
+            "k": 8,
+            "sigma": 0.1
+          },
+          "labels": {
+            "threshold": 0.3
+          },
+          "model": {
+            "gnn_dropout": 0.3,
+            "gnn_layers": 2,
+            "heads": 4,
+            "hidden_dim": 64,
+            "in_dim": 15,
+            "num_freqs": 8,
+            "pe_dim": 32,
+            "transformer_dropout": 0.1,
+            "transformer_layers": 2,
+            "type": "hybrid",
+            "use_pe": true
+          },
+          "output_dir": "results/step2_loss/M4_hybrid_full",
+          "superpixels": {
+            "compactness": 10.0,
+            "n_segments": 600,
+            "sigma": 1.0,
+            "enforce_connectivity": false
+          },
+          "training": {
+            "batch_size": 1,
+            "early_stopping_patience": 20,
+            "epochs": 150,
+            "focal_gamma": 2.0,
+            "grad_clip_norm": 1.0,
+            "loss": "focal",
+            "lr": 0.001,
+            "seed": 2,
+            "warmup_epochs": 5,
+            "weight_decay": 0.0005
+          }
+        },
+        "checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_selected\\seed_2\\checkpoint_epoch_008.pt",
+        "checkpoint_sha256": "f92e186aef11c59cd9ad18eb3bc32208567ef39773b707f96e1b565bf77cdf10",
+        "segments": 600,
+        "raw_tau": 0.66,
+        "origin": "new_training",
+        "training": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_selected\\seed_2\\training.json"
+      },
+      "recipe": {
+        "low": 0.45,
+        "high": 0.66,
+        "min_area": 50,
+        "max_gap": 12
+      },
+      "validation": {
+        "cldice": 0.6568744849748358,
+        "strict_cr": 0.3821656050955414,
+        "pixel_f1": 0.5902456300408829,
+        "n_total": 157,
+        "n_preserved": 60,
+        "n_missed": 73,
+        "n_fragmented": 24,
+        "pixel_confusion": [
+          257492,
+          305709,
+          51798
+        ]
+      },
+      "calibration": "per_seed_validation"
+    },
+    {
+      "model": "M2+M4",
+      "seed": 2,
+      "descriptor": {
+        "name": "M4_selected",
+        "seed": 2,
+        "config": {
+          "data": {
+            "graph_dir": "data/graphs/train",
+            "train_ratio": 0.7,
+            "val_ratio": 0.15
+          },
+          "graph": {
+            "k": 8,
+            "sigma": 0.1
+          },
+          "labels": {
+            "threshold": 0.3
+          },
+          "model": {
+            "gnn_dropout": 0.3,
+            "gnn_layers": 2,
+            "heads": 4,
+            "hidden_dim": 64,
+            "in_dim": 15,
+            "num_freqs": 8,
+            "pe_dim": 32,
+            "transformer_dropout": 0.1,
+            "transformer_layers": 2,
+            "type": "hybrid",
+            "use_pe": true
+          },
+          "output_dir": "results/step2_loss/M4_hybrid_full",
+          "superpixels": {
+            "compactness": 10.0,
+            "n_segments": 600,
+            "sigma": 1.0,
+            "enforce_connectivity": false
+          },
+          "training": {
+            "batch_size": 1,
+            "early_stopping_patience": 20,
+            "epochs": 150,
+            "focal_gamma": 2.0,
+            "grad_clip_norm": 1.0,
+            "loss": "focal",
+            "lr": 0.001,
+            "seed": 2,
+            "warmup_epochs": 5,
+            "weight_decay": 0.0005
+          }
+        },
+        "checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_selected\\seed_2\\checkpoint_epoch_008.pt",
+        "checkpoint_sha256": "f92e186aef11c59cd9ad18eb3bc32208567ef39773b707f96e1b565bf77cdf10",
+        "segments": 600,
+        "raw_tau": 0.66,
+        "origin": "new_training",
+        "training": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_selected\\seed_2\\training.json"
+      },
+      "m2_descriptor": {
+        "name": "M2_comparator",
+        "seed": 2,
+        "config": {
+          "model": {
+            "type": "shallow_gnn",
+            "in_dim": 15,
+            "hidden_dim": 64,
+            "num_layers": 2,
+            "dropout": 0.3,
+            "use_residual": true
+          },
+          "superpixels": {
+            "n_segments": 300,
+            "compactness": 10.0,
+            "sigma": 1.0,
+            "enforce_connectivity": true
+          },
+          "graph": {
+            "k": 8,
+            "sigma": 0.1
+          },
+          "labels": {
+            "threshold": 0.3
+          },
+          "data": {
+            "graph_dir": "data/graphs/train",
+            "train_ratio": 0.7,
+            "val_ratio": 0.15
+          },
+          "training": {
+            "epochs": 150,
+            "lr": 0.001,
+            "weight_decay": 0.0005,
+            "batch_size": 1,
+            "early_stopping_patience": 20,
+            "seed": 2,
+            "loss": "weighted_ce"
+          },
+          "output_dir": "results/M2_shallow_gnn"
+        },
+        "checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M2_comparator\\seed_2\\checkpoint_epoch_027.pt",
+        "checkpoint_sha256": "bcc147de086c639a80d0a4119b91738dd712e2bbf443efcd57ffcd8154537ae1",
+        "segments": 300,
+        "raw_tau": 0.7,
+        "origin": "new_training",
+        "training": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M2_comparator\\seed_2\\training.json"
+      },
+      "alpha": 0.5,
+      "recipe": {
+        "low": 0.3,
+        "high": 0.75,
+        "min_area": 50,
+        "max_gap": 12
+      },
+      "validation": {
+        "cldice": 0.6596628379698521,
+        "strict_cr": 0.4267515923566879,
+        "pixel_f1": 0.4652805539815687,
+        "n_total": 157,
+        "n_preserved": 67,
+        "n_missed": 66,
+        "n_fragmented": 24,
+        "pixel_confusion": [
+          267688,
+          573674,
+          41602
+        ]
+      },
+      "calibration": "per_seed_validation_blend_reviewed"
+    },
+    {
+      "model": "M2",
+      "seed": 2,
+      "descriptor": {
+        "name": "M2_comparator",
+        "seed": 2,
+        "config": {
+          "model": {
+            "type": "shallow_gnn",
+            "in_dim": 15,
+            "hidden_dim": 64,
+            "num_layers": 2,
+            "dropout": 0.3,
+            "use_residual": true
+          },
+          "superpixels": {
+            "n_segments": 300,
+            "compactness": 10.0,
+            "sigma": 1.0,
+            "enforce_connectivity": true
+          },
+          "graph": {
+            "k": 8,
+            "sigma": 0.1
+          },
+          "labels": {
+            "threshold": 0.3
+          },
+          "data": {
+            "graph_dir": "data/graphs/train",
+            "train_ratio": 0.7,
+            "val_ratio": 0.15
+          },
+          "training": {
+            "epochs": 150,
+            "lr": 0.001,
+            "weight_decay": 0.0005,
+            "batch_size": 1,
+            "early_stopping_patience": 20,
+            "seed": 2,
+            "loss": "weighted_ce"
+          },
+          "output_dir": "results/M2_shallow_gnn"
+        },
+        "checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M2_comparator\\seed_2\\checkpoint_epoch_027.pt",
+        "checkpoint_sha256": "bcc147de086c639a80d0a4119b91738dd712e2bbf443efcd57ffcd8154537ae1",
+        "segments": 300,
+        "raw_tau": 0.7,
+        "origin": "new_training",
+        "training": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M2_comparator\\seed_2\\training.json"
+      },
+      "recipe": {
+        "low": 0.5,
+        "high": 0.85,
+        "min_area": 50,
+        "max_gap": 12
+      },
+      "validation": {
+        "cldice": 0.6475161066104421,
+        "strict_cr": 0.33121019108280253,
+        "pixel_f1": 0.530701160394364,
+        "n_total": 157,
+        "n_preserved": 52,
+        "n_missed": 71,
+        "n_fragmented": 34,
+        "pixel_confusion": [
+          252752,
+          390479,
+          56538
+        ]
+      },
+      "calibration": "transferred_seed42_recipe"
+    },
+    {
+      "model": "DeepCrack raw",
+      "seed": 2,
+      "descriptor": {
+        "name": "DeepCrack_comparator",
+        "seed": 2,
+        "config": null,
+        "checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\DeepCrack_comparator\\seed_2\\checkpoint_epoch_029.pt",
+        "checkpoint_sha256": "22ee97984518df12360eaa3f029dcf6dc055e9f06510bbb922dde414218abd30",
+        "segments": 300,
+        "raw_tau": 0.36,
+        "origin": "new_training",
+        "training": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\DeepCrack_comparator\\seed_2\\training.json"
+      },
+      "recipe": {
+        "low": 0.36,
+        "high": 0.36,
+        "min_area": 0,
+        "max_gap": 0
+      },
+      "validation": {
+        "cldice": 0.7951592333377633,
+        "strict_cr": 0.43312101910828027,
+        "pixel_f1": 0.7427453201843602,
+        "n_total": 157,
+        "n_preserved": 68,
+        "n_missed": 57,
+        "n_fragmented": 32,
+        "pixel_confusion": [
+          274037,
+          154576,
+          35253
+        ]
+      },
+      "calibration": "transferred_seed42_recipe"
+    },
+    {
+      "model": "DeepCrack processed",
+      "seed": 2,
+      "descriptor": {
+        "name": "DeepCrack_comparator",
+        "seed": 2,
+        "config": null,
+        "checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\DeepCrack_comparator\\seed_2\\checkpoint_epoch_029.pt",
+        "checkpoint_sha256": "22ee97984518df12360eaa3f029dcf6dc055e9f06510bbb922dde414218abd30",
+        "segments": 300,
+        "raw_tau": 0.36,
+        "origin": "new_training",
+        "training": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\DeepCrack_comparator\\seed_2\\training.json"
+      },
+      "recipe": {
+        "low": 0.15,
+        "high": 0.2,
+        "min_area": 0,
+        "max_gap": 0
+      },
+      "validation": {
+        "cldice": 0.6939203651146061,
+        "strict_cr": 0.7898089171974523,
+        "pixel_f1": 0.47071132467504245,
+        "n_total": 157,
+        "n_preserved": 124,
+        "n_missed": 23,
+        "n_fragmented": 10,
+        "pixel_confusion": [
+          303232,
+          675877,
+          6058
+        ]
+      },
+      "calibration": "transferred_seed42_recipe"
+    }
+  ],
+  "originals": {
+    "M2": {
+      "name": "M2",
+      "seed": 42,
+      "config": {
+        "model": {
+          "type": "shallow_gnn",
+          "in_dim": 15,
+          "hidden_dim": 64,
+          "num_layers": 2,
+          "dropout": 0.3,
+          "use_residual": true
+        },
+        "superpixels": {
+          "n_segments": 300,
+          "compactness": 10.0,
+          "sigma": 1.0
+        },
+        "graph": {
+          "k": 8,
+          "sigma": 0.1
+        },
+        "labels": {
+          "threshold": 0.3
+        },
+        "data": {
+          "graph_dir": "data/graphs/train",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15
+        },
+        "training": {
+          "epochs": 150,
+          "lr": 0.001,
+          "weight_decay": 0.0005,
+          "batch_size": 1,
+          "early_stopping_patience": 20,
+          "seed": 42
+        },
+        "output_dir": "results/M2_shallow_gnn"
+      },
+      "checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\M2_shallow_gnn\\best_model.pt",
+      "checkpoint_sha256": "e8db920172b7a30ed19f62a4276f8b07d6534aef7c9461bc06eafc4eea2bec10",
+      "segments": 300,
+      "raw_tau": 0.7,
+      "origin": "historical_pitch"
+    },
+    "M4": {
+      "name": "M4",
+      "seed": 42,
+      "config": {
+        "data": {
+          "graph_dir": "data/graphs/train",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15
+        },
+        "graph": {
+          "k": 8,
+          "sigma": 0.1
+        },
+        "labels": {
+          "threshold": 0.3
+        },
+        "model": {
+          "gnn_dropout": 0.3,
+          "gnn_layers": 2,
+          "heads": 4,
+          "hidden_dim": 64,
+          "in_dim": 15,
+          "num_freqs": 8,
+          "pe_dim": 32,
+          "transformer_dropout": 0.1,
+          "transformer_layers": 2,
+          "type": "hybrid",
+          "use_pe": true
+        },
+        "output_dir": "results/step2_loss/M4_hybrid_full",
+        "superpixels": {
+          "compactness": 10.0,
+          "n_segments": 300,
+          "sigma": 1.0
+        },
+        "training": {
+          "batch_size": 1,
+          "early_stopping_patience": 20,
+          "epochs": 150,
+          "focal_gamma": 2.0,
+          "grad_clip_norm": 1.0,
+          "loss": "focal",
+          "lr": 0.001,
+          "seed": 42,
+          "warmup_epochs": 5,
+          "weight_decay": 0.0005
+        }
+      },
+      "checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\step2_loss\\M4_hybrid_full\\best_model.pt",
+      "checkpoint_sha256": "e0a5e737972c1fb611e9893d6767bb39da413f7c0e03e0e7b0b084ccd326928f",
+      "segments": 300,
+      "raw_tau": 0.66,
+      "origin": "historical_pitch"
+    },
+    "DeepCrack": {
+      "name": "DeepCrack",
+      "seed": 42,
+      "config": null,
+      "checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\multiseed\\deepcrack\\seed_42\\best_model.pt",
+      "checkpoint_sha256": "b688c34b4f13c72582bc1002abab7b722e137a5a53f20b1a38823fcc618a3949",
+      "segments": 300,
+      "raw_tau": 0.36,
+      "origin": "historical_pitch"
+    }
+  },
+  "grids": {
+    "thresholds": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.36,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.66,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9
+    ],
+    "min_areas": [
+      0,
+      5,
+      10,
+      20,
+      50
+    ],
+    "max_gaps": [
+      0,
+      2,
+      4,
+      8,
+      12
+    ],
+    "alphas": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "alignment_degrees": 30,
+    "tangent_pixels": 8,
+    "min_cr_gain": 0.01
+  },
+  "selection": {
+    "descriptor": {
+      "name": "M4_finer600",
+      "seed": 42,
+      "config": {
+        "data": {
+          "graph_dir": "data/graphs/train",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15
+        },
+        "graph": {
+          "k": 8,
+          "sigma": 0.1
+        },
+        "labels": {
+          "threshold": 0.3
+        },
+        "model": {
+          "gnn_dropout": 0.3,
+          "gnn_layers": 2,
+          "heads": 4,
+          "hidden_dim": 64,
+          "in_dim": 15,
+          "num_freqs": 8,
+          "pe_dim": 32,
+          "transformer_dropout": 0.1,
+          "transformer_layers": 2,
+          "type": "hybrid",
+          "use_pe": true
+        },
+        "output_dir": "results/step2_loss/M4_hybrid_full",
+        "superpixels": {
+          "compactness": 10.0,
+          "n_segments": 600,
+          "sigma": 1.0,
+          "enforce_connectivity": false
+        },
+        "training": {
+          "batch_size": 1,
+          "early_stopping_patience": 20,
+          "epochs": 150,
+          "focal_gamma": 2.0,
+          "grad_clip_norm": 1.0,
+          "loss": "focal",
+          "lr": 0.001,
+          "seed": 42,
+          "warmup_epochs": 5,
+          "weight_decay": 0.0005
+        }
+      },
+      "checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_finer600\\seed_42\\checkpoint_epoch_022.pt",
+      "checkpoint_sha256": "55e1889e62f59965ae79f7b2081739dcfb8604fc2a93ffba56b64b99cb4a46b1",
+      "segments": 600,
+      "raw_tau": 0.66,
+      "origin": "new_training",
+      "training": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_finer600\\seed_42\\training.json"
+    },
+    "validation": {
+      "tag": "M4_finer600_seed42",
+      "guard": 0.652193438311454,
+      "baseline": {
+        "cldice": 0.6674502297984843,
+        "strict_cr": 0.2484076433121019,
+        "pixel_f1": 0.6975653314578774,
+        "n_total": 157,
+        "n_preserved": 39,
+        "n_missed": 82,
+        "n_fragmented": 36,
+        "pixel_confusion": [
+          220687,
+          102758,
+          88603
+        ]
+      },
+      "recipe": {
+        "low": 0.4,
+        "high": 0.66,
+        "min_area": 50,
+        "max_gap": 12
+      },
+      "metrics": {
+        "cldice": 0.665981762633768,
+        "strict_cr": 0.42038216560509556,
+        "pixel_f1": 0.595944008567743,
+        "n_total": 157,
+        "n_preserved": 66,
+        "n_missed": 66,
+        "n_fragmented": 25,
+        "pixel_confusion": [
+          261255,
+          306232,
+          48035
+        ]
+      },
+      "independent": {
+        "component_removal": {
+          "recipe": {
+            "low": 0.66,
+            "high": 0.66,
+            "min_area": 0,
+            "max_gap": 0
+          },
+          "before": {
+            "cldice": 0.6674502297984843,
+            "strict_cr": 0.2484076433121019,
+            "pixel_f1": 0.6975653314578774,
+            "n_total": 157,
+            "n_preserved": 39,
+            "n_missed": 82,
+            "n_fragmented": 36,
+            "pixel_confusion": [
+              220687,
+              102758,
+              88603
+            ]
+          },
+          "after": {
+            "cldice": 0.6674502297984843,
+            "strict_cr": 0.2484076433121019,
+            "pixel_f1": 0.6975653314578774,
+            "n_total": 157,
+            "n_preserved": 39,
+            "n_missed": 82,
+            "n_fragmented": 36,
+            "pixel_confusion": [
+              220687,
+              102758,
+              88603
+            ]
+          },
+          "improved": false
+        },
+        "gap_bridging": {
+          "recipe": {
+            "low": 0.66,
+            "high": 0.66,
+            "min_area": 0,
+            "max_gap": 0
+          },
+          "before": {
+            "cldice": 0.6674502297984843,
+            "strict_cr": 0.2484076433121019,
+            "pixel_f1": 0.6975653314578774,
+            "n_total": 157,
+            "n_preserved": 39,
+            "n_missed": 82,
+            "n_fragmented": 36,
+            "pixel_confusion": [
+              220687,
+              102758,
+              88603
+            ]
+          },
+          "after": {
+            "cldice": 0.6674502297984843,
+            "strict_cr": 0.2484076433121019,
+            "pixel_f1": 0.6975653314578774,
+            "n_total": 157,
+            "n_preserved": 39,
+            "n_missed": 82,
+            "n_fragmented": 36,
+            "pixel_confusion": [
+              220687,
+              102758,
+              88603
+            ]
+          },
+          "improved": false
+        }
+      },
+      "cumulative": [
+        {
+          "change": "hysteresis",
+          "recipe": {
+            "low": 0.4,
+            "high": 0.66,
+            "min_area": 0,
+            "max_gap": 0
+          },
+          "metrics": {
+            "cldice": 0.6639741905716192,
+            "strict_cr": 0.3821656050955414,
+            "pixel_f1": 0.5951183529620683,
+            "n_total": 157,
+            "n_preserved": 60,
+            "n_missed": 65,
+            "n_fragmented": 32,
+            "pixel_confusion": [
+              261398,
+              307786,
+              47892
+            ]
+          }
+        },
+        {
+          "change": "component_removal",
+          "recipe": {
+            "low": 0.4,
+            "high": 0.66,
+            "min_area": 50,
+            "max_gap": 0
+          },
+          "metrics": {
+            "cldice": 0.6656029316911205,
+            "strict_cr": 0.39490445859872614,
+            "pixel_f1": 0.5958415651848573,
+            "n_total": 157,
+            "n_preserved": 62,
+            "n_missed": 66,
+            "n_fragmented": 29,
+            "pixel_confusion": [
+              261180,
+              306206,
+              48110
+            ]
+          }
+        },
+        {
+          "change": "gap_bridging",
+          "recipe": {
+            "low": 0.4,
+            "high": 0.66,
+            "min_area": 50,
+            "max_gap": 12
+          },
+          "metrics": {
+            "cldice": 0.665981762633768,
+            "strict_cr": 0.42038216560509556,
+            "pixel_f1": 0.595944008567743,
+            "n_total": 157,
+            "n_preserved": 66,
+            "n_missed": 66,
+            "n_fragmented": 25,
+            "pixel_confusion": [
+              261255,
+              306232,
+              48035
+            ]
+          }
+        }
+      ],
+      "improved": true,
+      "trials": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\validation_trials\\M4_finer600_seed42.jsonl",
+      "unique_candidates": 206
+    },
+    "loss": "focal",
+    "skeleton_weight": 0.0,
+    "segments": 600,
+    "timing_restricted": false
+  },
+  "negative_results": [
+    "M4_wce",
+    "M4_wce_skeleton_0p1",
+    "M4_wce_skeleton_0p3",
+    "M4_wce_skeleton_0p5"
+  ],
+  "calibration_asymmetry": "M4 and blends recalibrated per seed; M2/DeepCrack use locked seed-42 operating points",
+  "finer_slic_confound": "600-segment native training also changes cached connectivity=True to False",
+  "pretest_review": {
+    "path": "pretest_review.json",
+    "changed_seeds": [],
+    "original_draft_sha256": "6e138f3e03baea99123f80fa98354f5328242b660dddf24d7248f093819531f7"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "runs": [
+    {
+      "candidate": "A",
+      "seed": 42,
+      "status": "not_started",
+      "training": null
+    },
+    {
+      "candidate": "A",
+      "seed": 1,
+      "status": "not_started",
+      "training": null
+    },
+    {
+      "candidate": "A",
+      "seed": 2,
+      "status": "not_started",
+      "training": null
+    },
+    {
+      "candidate": "B",
+      "seed": 42,
+      "status": "not_started",
+      "training": null
+    },
+    {
+      "candidate": "B",
+      "seed": 1,
+      "status": "not_started",
+      "training": null
+    },
+    {
+      "candidate": "B",
+      "seed": 2,
+      "status": "not_started",
+      "training": null
+    },
+    {
+      "candidate": "C",
+      "seed": 42,
+      "status": "not_started",
+      "training": null
+    },
+    {
+      "candidate": "C",
+      "seed": 1,
+      "status": "not_started",
+      "training": null
+    },
+    {
+      "candidate": "C",
+      "seed": 2,
+      "status": "not_started",
+      "training": null
+    },
+    {
+      "candidate": "D",
+      "seed": 42,
+      "status": "not_started",
+      "training": null
+    },
+    {
+      "candidate": "D",
+      "seed": 1,
+      "status": "not_started",
+      "training": null
+    },
+    {
+      "candidate": "D",
+      "seed": 2,
+      "status": "not_started",
+      "training": null
+    }
+  ],
+  "failures": [
+    {
+      "time": "2026-10-14T16:17:02.078994+00:00",
+      "stage": "preflight",
+      "candidate": null,
+      "seed": null,
+      "error": "TITS mask polarity or binary encoding unexpected: C:\\Users\\ragha\\Downloads\\CrackDataset\\TITS\\GROUND_TRUTH\\AIGLE_RN\\GT_AIGLE_RN_F03b.png",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\paper_v2\\m4_training_fix_v2.py\", line 592, in main\n    if args.stage=='preflight':study.preflight()\n                               ^^^^^^^^^^^^^^^^^\n  File \"C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\paper_v2\\m4_training_fix_v2.py\", line 142, in preflight\n    raise ValueError(f'TITS mask polarity or binary encoding unexpected: {mask}')\nValueError: TITS mask polarity or binary encoding unexpected: C:\\Users\\ragha\\Downloads\\CrackDataset\\TITS\\GROUND_TRUTH\\AIGLE_RN\\GT_AIGLE_RN_F03b.png\n"
+    }
+  ],
+  "total_wall_seconds": 458.23580145835876,
+  "status": "partial"
+}

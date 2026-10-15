@@ -1,0 +1,10 @@
+# Preserve experiment evidence bytes so recorded SHA-256 values survive checkout.
+/results/paper_v2/m4_training_fix*/** -text
+/pipeline-crack-gnn/paper_v2/audit_improvement.py -text
+/pipeline-crack-gnn/paper_v2/finish_held_experiment.py -text
+/pipeline-crack-gnn/paper_v2/improve_m2_m4.py -text
+/pipeline-crack-gnn/paper_v2/improvement_core.py -text
+/pipeline-crack-gnn/paper_v2/m4_training_fix_v2.py -text
+/pipeline-crack-gnn/paper_v2/review_blend_locks.py -text
+/pipeline-crack-gnn/paper_v2/test_blend_selection.py -text
+/pipeline-crack-gnn/paper_v2/test_improvement.py -text

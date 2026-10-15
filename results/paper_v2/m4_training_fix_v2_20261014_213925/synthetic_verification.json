@@ -1,0 +1,8 @@
+{
+  "command": "python -m unittest discover -s pipeline-crack-gnn/paper_v2 -p test_improvement.py -v",
+  "tests": 13,
+  "status": "passed",
+  "test_wall_seconds": 19.517,
+  "scope": "synthetic only, no real test data",
+  "baseline_epoch_log_checks_through": 47
+}

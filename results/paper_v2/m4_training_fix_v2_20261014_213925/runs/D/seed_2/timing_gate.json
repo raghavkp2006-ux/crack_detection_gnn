@@ -1,0 +1,10 @@
+{
+  "first_three_epoch_seconds": [
+    11.230647699994734,
+    4.756590900011361,
+    4.514281000010669
+  ],
+  "projected_seconds": 481.89083690111875,
+  "limit_seconds": 2400,
+  "passed": true
+}

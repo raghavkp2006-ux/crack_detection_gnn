@@ -1,0 +1,150 @@
+{
+  "records": [
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\crack_metrics.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\crack_metrics.py",
+      "sha256": "8472295a9ad63bb30602058b7f5b75cff760e52f1c21c2d26b8a2fb55f03e773"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepSegmentor\\models\\__init__.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\DeepSegmentor\\models\\__init__.py",
+      "sha256": "282904045143cdb3a5aa0178303cbf909eb52962341526a6104f5525f08e881f"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepSegmentor\\models\\base_model.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\DeepSegmentor\\models\\base_model.py",
+      "sha256": "f80a26be2a7cd7dc0a5b057d628aa7dd6278359e4ea782a5097158d31f127a03"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepSegmentor\\models\\deepcrack_model.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\DeepSegmentor\\models\\deepcrack_model.py",
+      "sha256": "5cba1f21a165403930fa76ca561416ab51d671d21ee1dbdfa51d356e3ae64202"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepSegmentor\\models\\deepcrack_networks.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\DeepSegmentor\\models\\deepcrack_networks.py",
+      "sha256": "81ec1f818644413f64a49427630321b20f93210efd3b072778f3b7ae12abc251"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepSegmentor\\models\\networks.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\DeepSegmentor\\models\\networks.py",
+      "sha256": "b9946201bd95ccefe5a524783cd338b6a769bac47f8b427f8efd371888c207b7"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepSegmentor\\models\\roadnet_model.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\DeepSegmentor\\models\\roadnet_model.py",
+      "sha256": "5c5c5c2669288b7e253c84f174975e10877e8d6a1673c26f914513f83b4b25e5"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\DeepSegmentor\\models\\roadnet_networks.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\DeepSegmentor\\models\\roadnet_networks.py",
+      "sha256": "e2d3d187d1fe6cd19ecf4d6ae6783061317d8724fe3f4f8b227976aa3057e9c4"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\paper_v2\\improve_m2_m4.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\pipeline-crack-gnn\\paper_v2\\improve_m2_m4.py",
+      "sha256": "ba65db6ad03e4b56073e05871cafebf208c81c1a24ed99df6846679eb96e3b46"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\paper_v2\\improvement_core.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\pipeline-crack-gnn\\paper_v2\\improvement_core.py",
+      "sha256": "617e7c833fee822e007a86a2c3eb04d1486729f43f57af39f0d6f15aeef72c5c"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\paper_v2\\m4_training_fix_v2.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\pipeline-crack-gnn\\paper_v2\\m4_training_fix_v2.py",
+      "sha256": "46d4e4ee7f0ac3e7efcf581320d7ef0596fecd792e4e2dd55f16fc9ed76295e0"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\locked_configs.json",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\locked_configs.json",
+      "sha256": "fe95bbed18784bb31d817b59b4cf39b7bfa444961c18d82d1ce662b38df9eabc"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\protocol.json",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\protocol.json",
+      "sha256": "ad625bb7d69bbed18c022659964771257769f121965cfcc3f8865b5c3992feaf"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\src\\models\\__init__.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\pipeline-crack-gnn\\src\\models\\__init__.py",
+      "sha256": "ef1b8fb383200e53a738166d9775a04ca4473437cd6aa6c2b529f667478bb7cd"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\src\\models\\gnn_encoder.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\pipeline-crack-gnn\\src\\models\\gnn_encoder.py",
+      "sha256": "f16a1daa7797e9d5812ddea041e086842d20ccfad5062d5de6a819d4fba36d28"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\src\\models\\hybrid_model.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\pipeline-crack-gnn\\src\\models\\hybrid_model.py",
+      "sha256": "f11e35f03300c5fe06d23b9c55ec6b40b87d119cb61fba5ca071924093460462"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\src\\models\\positional_encoding.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\pipeline-crack-gnn\\src\\models\\positional_encoding.py",
+      "sha256": "4e0b578561d092d3796eb78540da0cd5497fc7d637d148db54175fd95a8216a0"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\src\\models\\transformer_block.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\pipeline-crack-gnn\\src\\models\\transformer_block.py",
+      "sha256": "41df7924f16e084b5308bcd99de49485d0b68b1c0c85e43f787cbc64666c104c"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\src\\preprocessing\\__init__.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\pipeline-crack-gnn\\src\\preprocessing\\__init__.py",
+      "sha256": "ef1b8fb383200e53a738166d9775a04ca4473437cd6aa6c2b529f667478bb7cd"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\src\\preprocessing\\build_dataset.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\pipeline-crack-gnn\\src\\preprocessing\\build_dataset.py",
+      "sha256": "5e411789aea787ed191c7d6cf68cd5d9a16b4da731ea5f4b06ac06c4ea17acaa"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\src\\preprocessing\\features.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\pipeline-crack-gnn\\src\\preprocessing\\features.py",
+      "sha256": "f76f6be6b1e968168a9fd5c9d7cb1c951feb1db6e41f7d73dda403b17b429e72"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\src\\preprocessing\\pirm_graph.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\pipeline-crack-gnn\\src\\preprocessing\\pirm_graph.py",
+      "sha256": "8aa0f206913bb51b6e07b2153506f401c5f6e280c98df2c73a62a57da33c5371"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\src\\preprocessing\\superpixel.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\pipeline-crack-gnn\\src\\preprocessing\\superpixel.py",
+      "sha256": "dd166feb780c118443fdd1a3c8d5cfe47c1d2f3011aa392ab2e24d4b65c72950"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\src\\train.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\pipeline-crack-gnn\\src\\train.py",
+      "sha256": "077d75d1fffcb12cb3fbdc2730d67650a5deab261f8162603fa5c377e6113631"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\src\\utils\\__init__.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\pipeline-crack-gnn\\src\\utils\\__init__.py",
+      "sha256": "ef1b8fb383200e53a738166d9775a04ca4473437cd6aa6c2b529f667478bb7cd"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\src\\utils\\dataset.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\pipeline-crack-gnn\\src\\utils\\dataset.py",
+      "sha256": "a918bb77cd59f4ce3d686c93c865f4b9699b5c8bc95363111b5551007c636eaf"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\src\\utils\\metrics.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\pipeline-crack-gnn\\src\\utils\\metrics.py",
+      "sha256": "3e73b5b1ad7f913d2785f6e48142cb410e1c168ebefdbd36dff75a138cdbb7ef"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\src\\utils\\visualize.py",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\pipeline-crack-gnn\\src\\utils\\visualize.py",
+      "sha256": "8d2fce2e293f4000b2da8902a84ec2f2b9f4f225711a3ce0083e91cf8e907c69"
+    },
+    {
+      "path": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\claim.md",
+      "snapshot": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\source_snapshot_repository\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\claim.md",
+      "sha256": "598ad38f279ddc9f055b085688fed1f6b5ae0ef7913025f416c8d5fa36dd1b39"
+    }
+  ],
+  "transitive_model_preprocessing_sources_included": true
+}

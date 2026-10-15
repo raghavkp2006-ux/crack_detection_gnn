@@ -29,3 +29,7 @@ Thumbs.db
 # Paper v2 DeepCrack checkpoints are distributed through a GitHub Release.
 results/paper_v2/runs/DeepCrack/**/best_model.pt
 pipeline-crack-gnn/results/paper_v2/runs/DeepCrack/**/best_model.pt
+
+# M4 stabilization experiment binaries remain local; commit reports/manifests.
+results/paper_v2/m4_training_fix*/**/*.pt
+results/paper_v2/m4_training_fix*/**/*.npz

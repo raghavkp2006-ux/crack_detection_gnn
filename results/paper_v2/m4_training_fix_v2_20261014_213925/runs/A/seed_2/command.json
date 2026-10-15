@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "C:\\Users\\ragha\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\paper_v2\\m4_training_fix_v2.py",
+    "train-one",
+    "--output",
+    "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925",
+    "--candidate",
+    "A",
+    "--seed",
+    "2"
+  ],
+  "command": "C:\\Users\\ragha\\AppData\\Local\\Programs\\Python\\Python311\\python.exe C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\paper_v2\\m4_training_fix_v2.py train-one --output C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925 --candidate A --seed 2",
+  "cwd": "C:\\antigravity_projects\\dcsnew"
+}

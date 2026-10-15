@@ -1,0 +1,16 @@
+{
+  "source_records_verified": 29,
+  "checkpoint_hashes_verified": 284,
+  "historical_files_metadata_verified": 3959,
+  "deepcrack_train_validation_pairs_verified": 255,
+  "tits_pairs_hash_verified_read_only": 66,
+  "tits_consumed.json_absent": true,
+  "held_out_results.json_absent": true,
+  "locked_configs.sha256.json_absent": true,
+  "selection.json_absent": true,
+  "completed_runs": 11,
+  "logged_epochs": 1156,
+  "verification_utc": "2026-10-15T01:24:14.218921+00:00",
+  "elapsed_wall_seconds_including_report_finalization": 33288.518853,
+  "errors": []
+}

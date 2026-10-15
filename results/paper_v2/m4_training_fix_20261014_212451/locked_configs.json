@@ -1,0 +1,13 @@
+{
+  "status": "NOT_LOCKED_STOPPED_NO_SECOND_DATASET",
+  "winning_recipe": null,
+  "inference_thresholds": null,
+  "held_out_authorized": false,
+  "reason": "No new training, validation selection, or held-out confirmation performed",
+  "intended_selection": {
+    "checkpoint_metric": "mean(validation cldice, validation strict_cr)",
+    "replacement_min_strict_cr_gain": 0.01,
+    "cldice_must_not_fall": true
+  },
+  "split_sha256": "7564ce3034d244cb40d48619057547d0ba07393db18dd51e5135b9f6021c6d40"
+}

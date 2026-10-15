@@ -1,0 +1,107 @@
+[
+  {
+    "seed": 42,
+    "smoothed_peaks": {
+      "node_f1": {
+        "epoch": 84,
+        "value": 0.5840468135514514
+      },
+      "pixel_f1": {
+        "epoch": 84,
+        "value": 0.5088976585386613
+      },
+      "cldice": {
+        "epoch": 84,
+        "value": 0.6238358521493274
+      },
+      "strict_cr": {
+        "epoch": 7,
+        "value": 0.6968152866242038
+      }
+    },
+    "connectivity_after_node_peak": {
+      "cldice": {
+        "at_node_peak": 0.6238358521493274,
+        "later_max": 0.6214210917725309,
+        "improves_later": false
+      },
+      "strict_cr": {
+        "at_node_peak": 0.43312101910828027,
+        "later_max": 0.5159235668789809,
+        "improves_later": true
+      }
+    },
+    "train_loss_first5_mean": 0.0036508763701948777,
+    "train_loss_last5_mean": 0.0028455944296937167
+  },
+  {
+    "seed": 1,
+    "smoothed_peaks": {
+      "node_f1": {
+        "epoch": 61,
+        "value": 0.5582030768632691
+      },
+      "pixel_f1": {
+        "epoch": 61,
+        "value": 0.47983115274513705
+      },
+      "cldice": {
+        "epoch": 99,
+        "value": 0.6160130990536588
+      },
+      "strict_cr": {
+        "epoch": 10,
+        "value": 0.6878980891719745
+      }
+    },
+    "connectivity_after_node_peak": {
+      "cldice": {
+        "at_node_peak": 0.6139722663607359,
+        "later_max": 0.6160130990536588,
+        "improves_later": true
+      },
+      "strict_cr": {
+        "at_node_peak": 0.44203821656050957,
+        "later_max": 0.5515923566878981,
+        "improves_later": true
+      }
+    },
+    "train_loss_first5_mean": 0.0037905262608269583,
+    "train_loss_last5_mean": 0.0028126480067814036
+  },
+  {
+    "seed": 2,
+    "smoothed_peaks": {
+      "node_f1": {
+        "epoch": 89,
+        "value": 0.5800276917013767
+      },
+      "pixel_f1": {
+        "epoch": 89,
+        "value": 0.5007197405546427
+      },
+      "cldice": {
+        "epoch": 89,
+        "value": 0.6209215674712297
+      },
+      "strict_cr": {
+        "epoch": 10,
+        "value": 0.5490445859872611
+      }
+    },
+    "connectivity_after_node_peak": {
+      "cldice": {
+        "at_node_peak": 0.6209215674712297,
+        "later_max": 0.6066616789667606,
+        "improves_later": false
+      },
+      "strict_cr": {
+        "at_node_peak": 0.43312101910828027,
+        "later_max": 0.4853503184713376,
+        "improves_later": true
+      }
+    },
+    "train_loss_first5_mean": 0.0037138806293729606,
+    "train_loss_last5_mean": 0.002901346587875326
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "parameters": {
+    "M4": "116802",
+    "M2+M4": "127428",
+    "M2": "10626",
+    "DeepCrack raw": "14720389",
+    "DeepCrack processed": "14720389"
+  },
+  "complexity_table": [
+    "| Model | Actual graph nodes | Actual directed edges | GFLOPs fvcore | GFLOPs analytic graph estimate |",
+    "| --- | --- | --- | --- | --- |",
+    "| M4 | 676 | 6902 | 0.112832512 | 0.390120404 |",
+    "| M2+M4 | 676+289 | 6902+2956 | 0.118899200 | 0.396506172 |",
+    "| M2 | 289 | 2956 | 0.006066688 | 0.006385768 |",
+    "| DeepCrack raw | CNN 256\u00d7256 | \u2014 | 40.178679808 | not applicable |",
+    "| DeepCrack processed | CNN 256\u00d7256 | \u2014 | 40.178679808 | not applicable |",
+    ""
+  ],
+  "source": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\RESULTS.md",
+  "provenance": "Historical model-cost measurements, not new held-out evidence; graph counts depend on input"
+}

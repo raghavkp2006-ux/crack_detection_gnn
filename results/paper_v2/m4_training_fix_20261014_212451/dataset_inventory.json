@@ -1,0 +1,87 @@
+{
+  "image_directories": {
+    "DeepCrack/test_img": 237,
+    "DeepCrack/test_lab": 237,
+    "DeepCrack/train_img": 300,
+    "DeepCrack/train_lab": 300,
+    "DeepSegmentor/datasets/DeepCrack/test_img": 237,
+    "DeepSegmentor/datasets/DeepCrack/test_lab": 237,
+    "DeepSegmentor/datasets/DeepCrack/train_img": 300,
+    "DeepSegmentor/datasets/DeepCrack/train_lab": 300,
+    "DeepSegmentor/datasets/demo": 6,
+    "DeepSegmentor/figures/deepcrack": 108,
+    "DeepSegmentor/figures/roadnet": 39,
+    "DeepSegmentor/plots": 1,
+    "images": 32,
+    "pipeline-crack-gnn/results/deepcrack/test_latest/images": 237,
+    "pipeline-crack-gnn/results/paper_v2/figures": 8,
+    "pipeline-crack-gnn/results/plots": 12
+  },
+  "archives": [
+    {
+      "path": "images.zip",
+      "bytes": 13292035,
+      "members": [
+        "images/",
+        "images/bucketed_significance_cis.png",
+        "images/dirichlet_energy_curves.png",
+        "images/fig01_pipeline_overview.png",
+        "images/fig02_graph_construction.png",
+        "images/fig03_hybrid_model_architecture.png",
+        "images/fig04_threshold_calibration.png",
+        "images/fig05_multiseed_benchmark.png",
+        "images/fig06_loss_comparison.png",
+        "images/fig07_accuracy_cost_tradeoff.png",
+        "images/fig08_latency_breakdown.png",
+        "images/fig09_topology_metrics.png",
+        "images/fig10_morphology_stratified_f1.png",
+        "images/fig11_qualitative_results.png",
+        "images/fig12_dirichlet_energy.png",
+        "images/fig13_cross_sensor_transfer.png",
+        "images/figS1_training_curves.png",
+        "images/figS2_precision_recall_curves.png",
+        "images/figS3_gate_trajectory.png",
+        "images/figS4_attention_temperature_ablation.png",
+        "images/figS5_routing_error_by_bucket.png",
+        "images/figS6_threshold_spread_draws.png",
+        "images/figS7_sensor_examples.png",
+        "images/figS8_superpixel_ceiling.png",
+        "images/gate_trajectory_analysis.png",
+        "images/graph_construction_example.png",
+        "images/hybrid_model_block_diagram.png",
+        "images/multiseed_benchmark_errorbars.png",
+        "images/pipeline_overview.png",
+        "images/step2_focal_loss_comparison.png",
+        "images/step4_complete_benchmark.png",
+        "images/threshold_calibration_curves.png",
+        "images/training_curves.png"
+      ]
+    }
+  ],
+  "cached_tits": {
+    "graphs/tits": {
+      "pt": 94,
+      "npy": 0
+    },
+    "graphs/tits_test": {
+      "pt": 1,
+      "npy": 0
+    },
+    "superpixels/tits": {
+      "pt": 0,
+      "npy": 100
+    },
+    "superpixels/tits_test": {
+      "pt": 0,
+      "npy": 1
+    }
+  },
+  "eligible_second_dataset": null,
+  "excluded": [
+    "DeepCrack and DeepSegmentor/datasets/DeepCrack are the same named training dataset, not independent datasets.",
+    "TITS source RGB images and native masks are absent from the repo; run_tits_pipeline.py points to C:/Users/ragha/Downloads/CrackDataset/TITS. That external path was not followed.",
+    "TITS graph caches contain node features/labels; superpixel caches contain segment IDs. Neither substitutes for source RGB images for DeepCrack or native GT masks for scoring.",
+    "DeepSegmentor/figures/roadnet contains published output figures; datasets/demo contains examples, not a complete held-out crack dataset.",
+    "images.zip contains visualization assets, not another dataset."
+  ]
+}

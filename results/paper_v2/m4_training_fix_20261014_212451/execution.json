@@ -1,0 +1,19 @@
+{
+  "status": "partial_stopped",
+  "command": [
+    "C:\\Users\\ragha\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_20261014_212451\\audit_partial.py",
+    "--output",
+    "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_20261014_212451"
+  ],
+  "cwd": "C:\\antigravity_projects\\dcsnew",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "started_after_preregistration": true,
+  "audit_wall_seconds": 3.983264499998768,
+  "training_runs": 0,
+  "new_inference_runs": 0,
+  "held_out_passes": 0,
+  "historical_test_reused": false,
+  "finished_at_utc": "2026-10-14T15:59:43.307066+00:00"
+}

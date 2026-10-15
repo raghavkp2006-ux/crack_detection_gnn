@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "historical_source_hashes_verified": 17,
+  "historical_checkpoint_hashes_matched_to_previous_manifest": 11,
+  "all_json_valid": true,
+  "new_checkpoints": 0,
+  "training_runs": 0,
+  "inference_runs": 0,
+  "held_out_passes": 0,
+  "plot_visually_checked": true,
+  "total_session_wall_seconds": 338.40942,
+  "finished_at_utc": "2026-10-14T16:00:29.728420+00:00"
+}

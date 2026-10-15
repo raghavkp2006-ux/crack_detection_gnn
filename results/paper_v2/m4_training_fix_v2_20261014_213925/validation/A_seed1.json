@@ -1,0 +1,188 @@
+{
+  "tag": "A_seed1",
+  "guard": 0.5894477048431743,
+  "baseline": {
+    "cldice": 0.5894477048431743,
+    "strict_cr": 0.5159235668789809,
+    "pixel_f1": 0.3885585382483993,
+    "n_total": 157,
+    "n_preserved": 81,
+    "n_missed": 42,
+    "n_fragmented": 34,
+    "pixel_confusion": [
+      281798,
+      859391,
+      27492
+    ]
+  },
+  "recipe": {
+    "low": 0.5,
+    "high": 0.5,
+    "min_area": 50,
+    "max_gap": 12
+  },
+  "metrics": {
+    "cldice": 0.5933049364190934,
+    "strict_cr": 0.5414012738853503,
+    "pixel_f1": 0.38983738261871015,
+    "n_total": 157,
+    "n_preserved": 85,
+    "n_missed": 44,
+    "n_fragmented": 28,
+    "pixel_confusion": [
+      281631,
+      853943,
+      27659
+    ]
+  },
+  "independent": {
+    "component_removal": {
+      "recipe": {
+        "low": 0.5,
+        "high": 0.5,
+        "min_area": 50,
+        "max_gap": 0
+      },
+      "before": {
+        "cldice": 0.5894477048431743,
+        "strict_cr": 0.5159235668789809,
+        "pixel_f1": 0.3885585382483993,
+        "n_total": 157,
+        "n_preserved": 81,
+        "n_missed": 42,
+        "n_fragmented": 34,
+        "pixel_confusion": [
+          281798,
+          859391,
+          27492
+        ]
+      },
+      "after": {
+        "cldice": 0.5932298076326913,
+        "strict_cr": 0.5286624203821656,
+        "pixel_f1": 0.3898037358983198,
+        "n_total": 157,
+        "n_preserved": 83,
+        "n_missed": 44,
+        "n_fragmented": 30,
+        "pixel_confusion": [
+          281572,
+          853824,
+          27718
+        ]
+      },
+      "improved": true
+    },
+    "gap_bridging": {
+      "recipe": {
+        "low": 0.5,
+        "high": 0.5,
+        "min_area": 0,
+        "max_gap": 0
+      },
+      "before": {
+        "cldice": 0.5894477048431743,
+        "strict_cr": 0.5159235668789809,
+        "pixel_f1": 0.3885585382483993,
+        "n_total": 157,
+        "n_preserved": 81,
+        "n_missed": 42,
+        "n_fragmented": 34,
+        "pixel_confusion": [
+          281798,
+          859391,
+          27492
+        ]
+      },
+      "after": {
+        "cldice": 0.5894477048431743,
+        "strict_cr": 0.5159235668789809,
+        "pixel_f1": 0.3885585382483993,
+        "n_total": 157,
+        "n_preserved": 81,
+        "n_missed": 42,
+        "n_fragmented": 34,
+        "pixel_confusion": [
+          281798,
+          859391,
+          27492
+        ]
+      },
+      "improved": false
+    }
+  },
+  "cumulative": [
+    {
+      "change": "hysteresis",
+      "recipe": {
+        "low": 0.5,
+        "high": 0.5,
+        "min_area": 0,
+        "max_gap": 0
+      },
+      "metrics": {
+        "cldice": 0.5894477048431743,
+        "strict_cr": 0.5159235668789809,
+        "pixel_f1": 0.3885585382483993,
+        "n_total": 157,
+        "n_preserved": 81,
+        "n_missed": 42,
+        "n_fragmented": 34,
+        "pixel_confusion": [
+          281798,
+          859391,
+          27492
+        ]
+      }
+    },
+    {
+      "change": "component_removal",
+      "recipe": {
+        "low": 0.5,
+        "high": 0.5,
+        "min_area": 50,
+        "max_gap": 0
+      },
+      "metrics": {
+        "cldice": 0.5932298076326913,
+        "strict_cr": 0.5286624203821656,
+        "pixel_f1": 0.3898037358983198,
+        "n_total": 157,
+        "n_preserved": 83,
+        "n_missed": 44,
+        "n_fragmented": 30,
+        "pixel_confusion": [
+          281572,
+          853824,
+          27718
+        ]
+      }
+    },
+    {
+      "change": "gap_bridging",
+      "recipe": {
+        "low": 0.5,
+        "high": 0.5,
+        "min_area": 50,
+        "max_gap": 12
+      },
+      "metrics": {
+        "cldice": 0.5933049364190934,
+        "strict_cr": 0.5414012738853503,
+        "pixel_f1": 0.38983738261871015,
+        "n_total": 157,
+        "n_preserved": 85,
+        "n_missed": 44,
+        "n_fragmented": 28,
+        "pixel_confusion": [
+          281631,
+          853943,
+          27659
+        ]
+      }
+    }
+  ],
+  "improved": true,
+  "trials": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\validation_trials\\A_seed1.jsonl",
+  "unique_candidates": 202
+}

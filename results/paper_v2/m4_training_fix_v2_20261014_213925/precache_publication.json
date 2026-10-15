@@ -1,0 +1,11 @@
+{
+  "time": "2026-10-14T17:35:06.164844+00:00",
+  "argv": [
+    "C:\\Users\\ragha\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\precache_augmentation.py"
+  ],
+  "operation": "registered augmentation prebuild overlapped B seed2; atomic complete-cache publication",
+  "source_sha256": "9e08d01f8eee56c50a0169c6b07817316caf795c0d73218e77a6d3abf9a80264",
+  "graph_count": 1680,
+  "wall_seconds": 377.146159099997
+}

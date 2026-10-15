@@ -1,0 +1,6 @@
+{
+  "status": "NOT_LOCKED_BUDGET_EXHAUSTED",
+  "winning_recipe": null,
+  "held_out_executed": false,
+  "reason": "D seed 1 stopped after 56 of 100 epochs at nine-hour budget gate"
+}

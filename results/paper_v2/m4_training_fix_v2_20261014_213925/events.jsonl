@@ -1,0 +1,38 @@
+{"time": "2026-10-14T16:17:02.081727+00:00", "kind": "failure", "stage": "validation", "error": "TITS mask polarity or binary encoding unexpected: C:\\Users\\ragha\\Downloads\\CrackDataset\\TITS\\GROUND_TRUTH\\AIGLE_RN\\GT_AIGLE_RN_F03b.png"}
+{"time": "2026-10-14T16:18:20.586813+00:00", "kind": "preflight_complete", "stage": "validation", "wall_seconds": 1.6829509000090184, "pairs": 66}
+{"time": "2026-10-14T16:19:09.785404+00:00", "kind": "prepare_complete", "stage": "validation", "wall_seconds": 7.281091600001673}
+{"time": "2026-10-14T16:30:57.909969+00:00", "kind": "run_completed", "stage": "validation", "candidate": "A", "seed": 42, "wall_seconds": 692.9547278999962}
+{"time": "2026-10-14T16:30:58.751721+00:00", "kind": "operation", "stage": "validation", "name": "predict_val_A_seed42", "wall_seconds": 0.8086921000067377}
+{"time": "2026-10-14T16:37:02.170142+00:00", "kind": "operation", "stage": "validation", "name": "validation_search_A_seed42", "wall_seconds": 362.78678569999465}
+{"time": "2026-10-14T16:37:56.326515+00:00", "kind": "prepare_complete", "stage": "validation", "wall_seconds": 7.656826200007345}
+{"time": "2026-10-14T16:46:33.627001+00:00", "kind": "run_completed", "stage": "validation", "candidate": "A", "seed": 1, "wall_seconds": 501.57320230000187}
+{"time": "2026-10-14T16:46:34.528788+00:00", "kind": "operation", "stage": "validation", "name": "predict_val_A_seed1", "wall_seconds": 0.8690723999898182}
+{"time": "2026-10-14T16:51:40.873558+00:00", "kind": "operation", "stage": "validation", "name": "validation_search_A_seed1", "wall_seconds": 305.77537659999507}
+{"time": "2026-10-14T17:02:29.968836+00:00", "kind": "run_completed", "stage": "validation", "candidate": "A", "seed": 2, "wall_seconds": 646.9286761999974}
+{"time": "2026-10-14T17:02:30.809053+00:00", "kind": "operation", "stage": "validation", "name": "predict_val_A_seed2", "wall_seconds": 0.8099846000259276}
+{"time": "2026-10-14T17:06:17.590827+00:00", "kind": "operation", "stage": "validation", "name": "validation_search_A_seed2", "wall_seconds": 226.2989067999879}
+{"time": "2026-10-14T17:12:36.593091+00:00", "kind": "run_completed", "stage": "validation", "candidate": "B", "seed": 42, "wall_seconds": 378.47748709999723}
+{"time": "2026-10-14T17:12:37.210212+00:00", "kind": "operation", "stage": "validation", "name": "predict_val_B_seed42", "wall_seconds": 0.5957486999977846}
+{"time": "2026-10-14T17:16:17.325371+00:00", "kind": "operation", "stage": "validation", "name": "validation_search_B_seed42", "wall_seconds": 219.79865280000377}
+{"time": "2026-10-14T17:22:21.295351+00:00", "kind": "run_completed", "stage": "validation", "candidate": "B", "seed": 1, "wall_seconds": 362.69739410001785}
+{"time": "2026-10-14T17:22:21.697975+00:00", "kind": "operation", "stage": "validation", "name": "predict_val_B_seed1", "wall_seconds": 0.39078990000416525}
+{"time": "2026-10-14T17:26:05.818432+00:00", "kind": "operation", "stage": "validation", "name": "validation_search_B_seed1", "wall_seconds": 223.83528219998698}
+{"time": "2026-10-14T17:33:19.163725+00:00", "kind": "run_completed", "stage": "validation", "candidate": "B", "seed": 2, "wall_seconds": 432.17110490001505}
+{"time": "2026-10-14T17:33:19.947401+00:00", "kind": "operation", "stage": "validation", "name": "predict_val_B_seed2", "wall_seconds": 0.7569246999919415}
+{"time": "2026-10-14T17:36:47.544388+00:00", "kind": "operation", "stage": "validation", "name": "validation_search_B_seed2", "wall_seconds": 207.2122934999934}
+{"time": "2026-10-14T17:42:01.645459+00:00", "kind": "run_completed", "stage": "validation", "candidate": "C", "seed": 42, "wall_seconds": 310.2904320000089}
+{"time": "2026-10-14T17:42:02.206569+00:00", "kind": "operation", "stage": "validation", "name": "predict_val_C_seed42", "wall_seconds": 0.5414940000046045}
+{"time": "2026-10-14T17:45:43.907242+00:00", "kind": "operation", "stage": "validation", "name": "validation_search_C_seed42", "wall_seconds": 221.27180940000108}
+{"time": "2026-10-14T17:50:45.232046+00:00", "kind": "run_completed", "stage": "validation", "candidate": "C", "seed": 1, "wall_seconds": 298.2878910000145}
+{"time": "2026-10-14T17:50:46.028808+00:00", "kind": "operation", "stage": "validation", "name": "predict_val_C_seed1", "wall_seconds": 0.7599154000054114}
+{"time": "2026-10-14T17:52:22.705162+00:00", "kind": "prepare_complete", "stage": "validation", "wall_seconds": 9.007755200000247}
+{"time": "2026-10-14T17:56:02.585603+00:00", "kind": "operation", "stage": "validation", "name": "validation_search_C_seed1", "wall_seconds": 315.91068469997845}
+{"time": "2026-10-14T17:59:10.064741+00:00", "kind": "run_completed", "stage": "validation", "candidate": "D", "seed": 2, "wall_seconds": 390.34671620000154}
+{"time": "2026-10-14T17:59:10.785219+00:00", "kind": "operation", "stage": "validation", "name": "predict_val_D_seed2", "wall_seconds": 0.6693146000034176}
+{"time": "2026-10-14T18:02:13.342640+00:00", "kind": "run_completed", "stage": "validation", "candidate": "C", "seed": 2, "wall_seconds": 366.2861417999957}
+{"time": "2026-10-14T18:02:13.841862+00:00", "kind": "operation", "stage": "validation", "name": "predict_val_C_seed2", "wall_seconds": 0.46904820000054315}
+{"time": "2026-10-14T18:02:38.272566+00:00", "kind": "operation", "stage": "validation", "name": "validation_search_D_seed2", "wall_seconds": 206.9734807999921}
+{"time": "2026-10-14T18:22:43.669002+00:00", "kind": "operation", "stage": "validation", "name": "validation_search_C_seed2", "wall_seconds": 1229.5970268999808}
+{"time": "2026-10-14T18:27:22.274688+00:00", "kind": "run_completed", "stage": "validation", "candidate": "D", "seed": 42, "wall_seconds": 273.76306890000706}
+{"time": "2026-10-14T18:27:22.766423+00:00", "kind": "operation", "stage": "validation", "name": "predict_val_D_seed42", "wall_seconds": 0.462897499994142}
+{"time": "2026-10-14T18:32:22.372300+00:00", "kind": "operation", "stage": "validation", "name": "validation_search_D_seed42", "wall_seconds": 298.6324281000125}

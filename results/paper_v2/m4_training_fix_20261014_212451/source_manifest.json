@@ -1,0 +1,22 @@
+{
+  "sha256": {
+    "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\protocol.json": "ad625bb7d69bbed18c022659964771257769f121965cfcc3f8865b5c3992feaf",
+    "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\locked_configs.json": "fe95bbed18784bb31d817b59b4cf39b7bfa444961c18d82d1ce662b38df9eabc",
+    "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\selected_model.json": "2ba10bd6eb3a552d47a17c7af527bc580f0e68075217eb60e35d2e1f231b895a",
+    "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\paper_v2\\improve_m2_m4.py": "ba65db6ad03e4b56073e05871cafebf208c81c1a24ed99df6846679eb96e3b46",
+    "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\paper_v2\\improvement_core.py": "617e7c833fee822e007a86a2c3eb04d1486729f43f57af39f0d6f15aeef72c5c",
+    "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\src\\preprocessing\\build_dataset.py": "5e411789aea787ed191c7d6cf68cd5d9a16b4da731ea5f4b06ac06c4ea17acaa",
+    "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\run_tits_pipeline.py": "eb2ea7e92ca36d39e4e2ed83afe740380ac9f569e9195c435a462b85c8ec1f7d",
+    "C:\\antigravity_projects\\dcsnew\\DeepSegmentor\\datasets\\README.md": "2aff4e466359c72d9681897dd2e18dd5f98cc92676e5e0e52617a15286d136b0",
+    "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\RESULTS.md": "b2c54e9c3015d0eb0b91e282349dbc761d9126b5d9b0601b4b5896cbd83ff4ae",
+    "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_finer600\\seed_42\\training.json": "db17da9fc3238b6c6935891bd44a72e8e12cc57071be90b36664737b1e59bb4a",
+    "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_finer600\\seed_42\\epochs.jsonl": "0e168d67c5d4ca03e133b0d50699796ed9b09672852bb1a99bd75ef6ef0d0458",
+    "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_selected\\seed_1\\training.json": "cd767a7d21f024ab6e8578aabeeaca7cfb120d7bee05db8e3f5664e65ed32968",
+    "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_selected\\seed_1\\epochs.jsonl": "8437d15ec9d1b49b1789407c6a899072ab849734a66b4681c29ec9a66b9712aa",
+    "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_selected\\seed_2\\training.json": "35a3b49316a9cdbd8715793927f5db3214ff9bddb40b5dcaee23c9e59eb3c450",
+    "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_selected\\seed_2\\epochs.jsonl": "72143aa5d2c0679669dc8af2ec6d598f74de67d94a9695da0e380c6269d81f41",
+    "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_20261014_212451\\audit_partial.py": "9f1c5ef52f21c032be70b536ede66a608a25d7076e4953a3e2358aacae192232",
+    "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_20261014_212451\\claim.md": "504b717a9bd68e83630231309019b73fd6fa272f2310a42de3c4389b333d6643"
+  },
+  "historical_sources_unchanged": true
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "seed": 42,
+    "run": "M4_finer600",
+    "epochs": 42,
+    "logged_f1_kind": "node-label positive-class F1 (argmax logits); not native pixel F1",
+    "node_f1_peak_epochs": [
+      22
+    ],
+    "node_f1_peak": 0.6872852233676976,
+    "selected_checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_finer600\\seed_42\\checkpoint_epoch_022.pt",
+    "pixel_f1_peak_epoch": null,
+    "cldice_peak_epoch": null,
+    "strict_cr_peak_epoch": null,
+    "connectivity_after_pixel_f1_peak": "unknown: native per-epoch metrics were not logged",
+    "historical_wall_seconds": 205.23370109999087,
+    "logged_fields": [
+      "epoch",
+      "lr",
+      "train_loss",
+      "val_f1",
+      "wall_seconds"
+    ],
+    "source": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_finer600\\seed_42\\epochs.jsonl"
+  },
+  {
+    "seed": 1,
+    "run": "M4_selected",
+    "epochs": 21,
+    "logged_f1_kind": "node-label positive-class F1 (argmax logits); not native pixel F1",
+    "node_f1_peak_epochs": [
+      1
+    ],
+    "node_f1_peak": 0.5695920889987639,
+    "selected_checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_selected\\seed_1\\checkpoint_epoch_001.pt",
+    "pixel_f1_peak_epoch": null,
+    "cldice_peak_epoch": null,
+    "strict_cr_peak_epoch": null,
+    "connectivity_after_pixel_f1_peak": "unknown: native per-epoch metrics were not logged",
+    "historical_wall_seconds": 52.052756200006115,
+    "logged_fields": [
+      "epoch",
+      "lr",
+      "train_loss",
+      "val_f1",
+      "wall_seconds"
+    ],
+    "source": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_selected\\seed_1\\epochs.jsonl"
+  },
+  {
+    "seed": 2,
+    "run": "M4_selected",
+    "epochs": 28,
+    "logged_f1_kind": "node-label positive-class F1 (argmax logits); not native pixel F1",
+    "node_f1_peak_epochs": [
+      8
+    ],
+    "node_f1_peak": 0.6507149110008754,
+    "selected_checkpoint": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_selected\\seed_2\\checkpoint_epoch_008.pt",
+    "pixel_f1_peak_epoch": null,
+    "cldice_peak_epoch": null,
+    "strict_cr_peak_epoch": null,
+    "connectivity_after_pixel_f1_peak": "unknown: native per-epoch metrics were not logged",
+    "historical_wall_seconds": 72.69423090000055,
+    "logged_fields": [
+      "epoch",
+      "lr",
+      "train_loss",
+      "val_f1",
+      "wall_seconds"
+    ],
+    "source": "C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\results\\paper_v2\\improve_m2_m4_20261014_1112_02\\runs\\M4_selected\\seed_2\\epochs.jsonl"
+  }
+]

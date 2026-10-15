@@ -1,0 +1,853 @@
+{
+  "runs": [
+    {
+      "candidate": "A",
+      "seed": 42,
+      "status": "completed",
+      "training": {
+        "candidate": "A",
+        "seed": 42,
+        "epochs": 100,
+        "selected_checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_079.pt",
+        "selected_checkpoint_sha256": "fa4b207e8d997ab9b13b442dc106a54193dec5d36ffad52076a4df66dc45e0ca",
+        "best_smoothed_connectivity": 0.5465605506618672,
+        "selected_epoch": 79,
+        "final_checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_100.pt",
+        "wall_seconds": 692.9547278999962,
+        "training_class_counts": [
+          116394.0,
+          5406.0
+        ],
+        "descriptor": {
+          "name": "M4_A",
+          "seed": 42,
+          "config": {
+            "data": {
+              "graph_dir": "data/graphs/train",
+              "train_ratio": 0.7,
+              "val_ratio": 0.15
+            },
+            "graph": {
+              "k": 8,
+              "sigma": 0.1
+            },
+            "labels": {
+              "threshold": 0.3
+            },
+            "model": {
+              "gnn_dropout": 0.3,
+              "gnn_layers": 2,
+              "heads": 4,
+              "hidden_dim": 64,
+              "in_dim": 15,
+              "num_freqs": 8,
+              "pe_dim": 32,
+              "transformer_dropout": 0.1,
+              "transformer_layers": 2,
+              "type": "hybrid",
+              "use_pe": true
+            },
+            "output_dir": "results/step2_loss/M4_hybrid_full",
+            "superpixels": {
+              "compactness": 10.0,
+              "n_segments": 600,
+              "sigma": 1.0,
+              "enforce_connectivity": false
+            },
+            "training": {
+              "batch_size": 1,
+              "early_stopping_patience": null,
+              "epochs": 100,
+              "focal_gamma": 2.0,
+              "grad_clip_norm": 1.0,
+              "loss": "focal",
+              "lr": 0.001,
+              "seed": 42,
+              "warmup_epochs": 5,
+              "weight_decay": 0.0005
+            }
+          },
+          "checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_42\\checkpoint_epoch_079.pt",
+          "checkpoint_sha256": "fa4b207e8d997ab9b13b442dc106a54193dec5d36ffad52076a4df66dc45e0ca",
+          "segments": 600,
+          "raw_tau": 0.5,
+          "origin": "m4_training_fix_v2"
+        }
+      }
+    },
+    {
+      "candidate": "A",
+      "seed": 1,
+      "status": "completed",
+      "training": {
+        "candidate": "A",
+        "seed": 1,
+        "epochs": 100,
+        "selected_checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_096.pt",
+        "selected_checkpoint_sha256": "0dc759561679a805cd9f5b0e94042089f1774c25d6e70c576ac8abeec6c0e666",
+        "best_smoothed_connectivity": 0.5490764009830785,
+        "selected_epoch": 96,
+        "final_checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_100.pt",
+        "wall_seconds": 501.57320230000187,
+        "training_class_counts": [
+          116394.0,
+          5406.0
+        ],
+        "descriptor": {
+          "name": "M4_A",
+          "seed": 1,
+          "config": {
+            "data": {
+              "graph_dir": "data/graphs/train",
+              "train_ratio": 0.7,
+              "val_ratio": 0.15
+            },
+            "graph": {
+              "k": 8,
+              "sigma": 0.1
+            },
+            "labels": {
+              "threshold": 0.3
+            },
+            "model": {
+              "gnn_dropout": 0.3,
+              "gnn_layers": 2,
+              "heads": 4,
+              "hidden_dim": 64,
+              "in_dim": 15,
+              "num_freqs": 8,
+              "pe_dim": 32,
+              "transformer_dropout": 0.1,
+              "transformer_layers": 2,
+              "type": "hybrid",
+              "use_pe": true
+            },
+            "output_dir": "results/step2_loss/M4_hybrid_full",
+            "superpixels": {
+              "compactness": 10.0,
+              "n_segments": 600,
+              "sigma": 1.0,
+              "enforce_connectivity": false
+            },
+            "training": {
+              "batch_size": 1,
+              "early_stopping_patience": null,
+              "epochs": 100,
+              "focal_gamma": 2.0,
+              "grad_clip_norm": 1.0,
+              "loss": "focal",
+              "lr": 0.001,
+              "seed": 1,
+              "warmup_epochs": 5,
+              "weight_decay": 0.0005
+            }
+          },
+          "checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_1\\checkpoint_epoch_096.pt",
+          "checkpoint_sha256": "0dc759561679a805cd9f5b0e94042089f1774c25d6e70c576ac8abeec6c0e666",
+          "segments": 600,
+          "raw_tau": 0.5,
+          "origin": "m4_training_fix_v2"
+        }
+      }
+    },
+    {
+      "candidate": "A",
+      "seed": 2,
+      "status": "completed",
+      "training": {
+        "candidate": "A",
+        "seed": 2,
+        "epochs": 100,
+        "selected_checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_080.pt",
+        "selected_checkpoint_sha256": "a6129936c0381e328fe62ceae8a5f5c5d68482f62240d75ee75ae376d17dd7e9",
+        "best_smoothed_connectivity": 0.5491030382140976,
+        "selected_epoch": 80,
+        "final_checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_100.pt",
+        "wall_seconds": 646.9286761999974,
+        "training_class_counts": [
+          116394.0,
+          5406.0
+        ],
+        "descriptor": {
+          "name": "M4_A",
+          "seed": 2,
+          "config": {
+            "data": {
+              "graph_dir": "data/graphs/train",
+              "train_ratio": 0.7,
+              "val_ratio": 0.15
+            },
+            "graph": {
+              "k": 8,
+              "sigma": 0.1
+            },
+            "labels": {
+              "threshold": 0.3
+            },
+            "model": {
+              "gnn_dropout": 0.3,
+              "gnn_layers": 2,
+              "heads": 4,
+              "hidden_dim": 64,
+              "in_dim": 15,
+              "num_freqs": 8,
+              "pe_dim": 32,
+              "transformer_dropout": 0.1,
+              "transformer_layers": 2,
+              "type": "hybrid",
+              "use_pe": true
+            },
+            "output_dir": "results/step2_loss/M4_hybrid_full",
+            "superpixels": {
+              "compactness": 10.0,
+              "n_segments": 600,
+              "sigma": 1.0,
+              "enforce_connectivity": false
+            },
+            "training": {
+              "batch_size": 1,
+              "early_stopping_patience": null,
+              "epochs": 100,
+              "focal_gamma": 2.0,
+              "grad_clip_norm": 1.0,
+              "loss": "focal",
+              "lr": 0.001,
+              "seed": 2,
+              "warmup_epochs": 5,
+              "weight_decay": 0.0005
+            }
+          },
+          "checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\A\\seed_2\\checkpoint_epoch_080.pt",
+          "checkpoint_sha256": "a6129936c0381e328fe62ceae8a5f5c5d68482f62240d75ee75ae376d17dd7e9",
+          "segments": 600,
+          "raw_tau": 0.5,
+          "origin": "m4_training_fix_v2"
+        }
+      }
+    },
+    {
+      "candidate": "B",
+      "seed": 42,
+      "status": "completed",
+      "training": {
+        "candidate": "B",
+        "seed": 42,
+        "epochs": 100,
+        "selected_checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_095.pt",
+        "selected_checkpoint_sha256": "1c3d23d03b460aa0acae45c8daaf8afd1a0416b1262ec5df67fb3a06b5022079",
+        "best_smoothed_connectivity": 0.5395614467081185,
+        "selected_epoch": 95,
+        "final_checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_100.pt",
+        "wall_seconds": 378.47748709999723,
+        "training_class_counts": [
+          116394.0,
+          5406.0
+        ],
+        "descriptor": {
+          "name": "M4_B",
+          "seed": 42,
+          "config": {
+            "data": {
+              "graph_dir": "data/graphs/train",
+              "train_ratio": 0.7,
+              "val_ratio": 0.15
+            },
+            "graph": {
+              "k": 8,
+              "sigma": 0.1
+            },
+            "labels": {
+              "threshold": 0.3
+            },
+            "model": {
+              "gnn_dropout": 0.3,
+              "gnn_layers": 2,
+              "heads": 4,
+              "hidden_dim": 64,
+              "in_dim": 15,
+              "num_freqs": 8,
+              "pe_dim": 32,
+              "transformer_dropout": 0.1,
+              "transformer_layers": 2,
+              "type": "hybrid",
+              "use_pe": true
+            },
+            "output_dir": "results/step2_loss/M4_hybrid_full",
+            "superpixels": {
+              "compactness": 10.0,
+              "n_segments": 600,
+              "sigma": 1.0,
+              "enforce_connectivity": false
+            },
+            "training": {
+              "batch_size": 1,
+              "early_stopping_patience": null,
+              "epochs": 100,
+              "focal_gamma": 2.0,
+              "grad_clip_norm": 1.0,
+              "loss": "focal",
+              "lr": 0.001,
+              "seed": 42,
+              "warmup_epochs": 5,
+              "weight_decay": 0.0005
+            }
+          },
+          "checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_42\\checkpoint_epoch_095.pt",
+          "checkpoint_sha256": "1c3d23d03b460aa0acae45c8daaf8afd1a0416b1262ec5df67fb3a06b5022079",
+          "segments": 600,
+          "raw_tau": 0.5,
+          "origin": "m4_training_fix_v2"
+        }
+      }
+    },
+    {
+      "candidate": "B",
+      "seed": 1,
+      "status": "completed",
+      "training": {
+        "candidate": "B",
+        "seed": 1,
+        "epochs": 100,
+        "selected_checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_076.pt",
+        "selected_checkpoint_sha256": "38a70938ae20debb35cb5c0070bc01b63ce2dd5cf9db0bf47e4e639bd4cd7134",
+        "best_smoothed_connectivity": 0.5425900795028971,
+        "selected_epoch": 76,
+        "final_checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_100.pt",
+        "wall_seconds": 362.69739410001785,
+        "training_class_counts": [
+          116394.0,
+          5406.0
+        ],
+        "descriptor": {
+          "name": "M4_B",
+          "seed": 1,
+          "config": {
+            "data": {
+              "graph_dir": "data/graphs/train",
+              "train_ratio": 0.7,
+              "val_ratio": 0.15
+            },
+            "graph": {
+              "k": 8,
+              "sigma": 0.1
+            },
+            "labels": {
+              "threshold": 0.3
+            },
+            "model": {
+              "gnn_dropout": 0.3,
+              "gnn_layers": 2,
+              "heads": 4,
+              "hidden_dim": 64,
+              "in_dim": 15,
+              "num_freqs": 8,
+              "pe_dim": 32,
+              "transformer_dropout": 0.1,
+              "transformer_layers": 2,
+              "type": "hybrid",
+              "use_pe": true
+            },
+            "output_dir": "results/step2_loss/M4_hybrid_full",
+            "superpixels": {
+              "compactness": 10.0,
+              "n_segments": 600,
+              "sigma": 1.0,
+              "enforce_connectivity": false
+            },
+            "training": {
+              "batch_size": 1,
+              "early_stopping_patience": null,
+              "epochs": 100,
+              "focal_gamma": 2.0,
+              "grad_clip_norm": 1.0,
+              "loss": "focal",
+              "lr": 0.001,
+              "seed": 1,
+              "warmup_epochs": 5,
+              "weight_decay": 0.0005
+            }
+          },
+          "checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_1\\checkpoint_epoch_076.pt",
+          "checkpoint_sha256": "38a70938ae20debb35cb5c0070bc01b63ce2dd5cf9db0bf47e4e639bd4cd7134",
+          "segments": 600,
+          "raw_tau": 0.5,
+          "origin": "m4_training_fix_v2"
+        }
+      }
+    },
+    {
+      "candidate": "B",
+      "seed": 2,
+      "status": "completed",
+      "training": {
+        "candidate": "B",
+        "seed": 2,
+        "epochs": 100,
+        "selected_checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_2\\checkpoint_epoch_070.pt",
+        "selected_checkpoint_sha256": "3444f88269909d59549a76b9a4175115cc925898600173f81267b04643cad7e0",
+        "best_smoothed_connectivity": 0.5469715172750822,
+        "selected_epoch": 70,
+        "final_checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_2\\checkpoint_epoch_100.pt",
+        "wall_seconds": 432.17110490001505,
+        "training_class_counts": [
+          116394.0,
+          5406.0
+        ],
+        "descriptor": {
+          "name": "M4_B",
+          "seed": 2,
+          "config": {
+            "data": {
+              "graph_dir": "data/graphs/train",
+              "train_ratio": 0.7,
+              "val_ratio": 0.15
+            },
+            "graph": {
+              "k": 8,
+              "sigma": 0.1
+            },
+            "labels": {
+              "threshold": 0.3
+            },
+            "model": {
+              "gnn_dropout": 0.3,
+              "gnn_layers": 2,
+              "heads": 4,
+              "hidden_dim": 64,
+              "in_dim": 15,
+              "num_freqs": 8,
+              "pe_dim": 32,
+              "transformer_dropout": 0.1,
+              "transformer_layers": 2,
+              "type": "hybrid",
+              "use_pe": true
+            },
+            "output_dir": "results/step2_loss/M4_hybrid_full",
+            "superpixels": {
+              "compactness": 10.0,
+              "n_segments": 600,
+              "sigma": 1.0,
+              "enforce_connectivity": false
+            },
+            "training": {
+              "batch_size": 1,
+              "early_stopping_patience": null,
+              "epochs": 100,
+              "focal_gamma": 2.0,
+              "grad_clip_norm": 1.0,
+              "loss": "focal",
+              "lr": 0.001,
+              "seed": 2,
+              "warmup_epochs": 5,
+              "weight_decay": 0.0005
+            }
+          },
+          "checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\B\\seed_2\\checkpoint_epoch_070.pt",
+          "checkpoint_sha256": "3444f88269909d59549a76b9a4175115cc925898600173f81267b04643cad7e0",
+          "segments": 600,
+          "raw_tau": 0.5,
+          "origin": "m4_training_fix_v2"
+        }
+      }
+    },
+    {
+      "candidate": "C",
+      "seed": 42,
+      "status": "completed",
+      "training": {
+        "candidate": "C",
+        "seed": 42,
+        "epochs": 100,
+        "selected_checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_099.pt",
+        "selected_checkpoint_sha256": "c0f98d327283144bc09bea2187b4e6a8ed03daaccd844c91a1d86310e6da846d",
+        "best_smoothed_connectivity": 0.5459440224293676,
+        "selected_epoch": 99,
+        "final_checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_100.pt",
+        "wall_seconds": 310.2904320000089,
+        "training_class_counts": [
+          116394.0,
+          5406.0
+        ],
+        "descriptor": {
+          "name": "M4_C",
+          "seed": 42,
+          "config": {
+            "data": {
+              "graph_dir": "data/graphs/train",
+              "train_ratio": 0.7,
+              "val_ratio": 0.15
+            },
+            "graph": {
+              "k": 8,
+              "sigma": 0.1
+            },
+            "labels": {
+              "threshold": 0.3
+            },
+            "model": {
+              "gnn_dropout": 0.3,
+              "gnn_layers": 2,
+              "heads": 4,
+              "hidden_dim": 64,
+              "in_dim": 15,
+              "num_freqs": 8,
+              "pe_dim": 32,
+              "transformer_dropout": 0.1,
+              "transformer_layers": 2,
+              "type": "hybrid",
+              "use_pe": true
+            },
+            "output_dir": "results/step2_loss/M4_hybrid_full",
+            "superpixels": {
+              "compactness": 10.0,
+              "n_segments": 600,
+              "sigma": 1.0,
+              "enforce_connectivity": false
+            },
+            "training": {
+              "batch_size": 1,
+              "early_stopping_patience": null,
+              "epochs": 100,
+              "focal_gamma": 2.0,
+              "grad_clip_norm": 1.0,
+              "loss": "focal",
+              "lr": 0.001,
+              "seed": 42,
+              "warmup_epochs": 5,
+              "weight_decay": 0.0005
+            }
+          },
+          "checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_42\\checkpoint_epoch_099.pt",
+          "checkpoint_sha256": "c0f98d327283144bc09bea2187b4e6a8ed03daaccd844c91a1d86310e6da846d",
+          "segments": 600,
+          "raw_tau": 0.5,
+          "origin": "m4_training_fix_v2"
+        }
+      }
+    },
+    {
+      "candidate": "C",
+      "seed": 1,
+      "status": "completed",
+      "training": {
+        "candidate": "C",
+        "seed": 1,
+        "epochs": 100,
+        "selected_checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_090.pt",
+        "selected_checkpoint_sha256": "5c53b48b02629830892d321d612d1feb9bf8ea6fc7bfeef29f469870332ed824",
+        "best_smoothed_connectivity": 0.5396946574845897,
+        "selected_epoch": 90,
+        "final_checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_100.pt",
+        "wall_seconds": 298.2878910000145,
+        "training_class_counts": [
+          116394.0,
+          5406.0
+        ],
+        "descriptor": {
+          "name": "M4_C",
+          "seed": 1,
+          "config": {
+            "data": {
+              "graph_dir": "data/graphs/train",
+              "train_ratio": 0.7,
+              "val_ratio": 0.15
+            },
+            "graph": {
+              "k": 8,
+              "sigma": 0.1
+            },
+            "labels": {
+              "threshold": 0.3
+            },
+            "model": {
+              "gnn_dropout": 0.3,
+              "gnn_layers": 2,
+              "heads": 4,
+              "hidden_dim": 64,
+              "in_dim": 15,
+              "num_freqs": 8,
+              "pe_dim": 32,
+              "transformer_dropout": 0.1,
+              "transformer_layers": 2,
+              "type": "hybrid",
+              "use_pe": true
+            },
+            "output_dir": "results/step2_loss/M4_hybrid_full",
+            "superpixels": {
+              "compactness": 10.0,
+              "n_segments": 600,
+              "sigma": 1.0,
+              "enforce_connectivity": false
+            },
+            "training": {
+              "batch_size": 1,
+              "early_stopping_patience": null,
+              "epochs": 100,
+              "focal_gamma": 2.0,
+              "grad_clip_norm": 1.0,
+              "loss": "focal",
+              "lr": 0.001,
+              "seed": 1,
+              "warmup_epochs": 5,
+              "weight_decay": 0.0005
+            }
+          },
+          "checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_1\\checkpoint_epoch_090.pt",
+          "checkpoint_sha256": "5c53b48b02629830892d321d612d1feb9bf8ea6fc7bfeef29f469870332ed824",
+          "segments": 600,
+          "raw_tau": 0.5,
+          "origin": "m4_training_fix_v2"
+        }
+      }
+    },
+    {
+      "candidate": "C",
+      "seed": 2,
+      "status": "completed",
+      "training": {
+        "candidate": "C",
+        "seed": 2,
+        "epochs": 100,
+        "selected_checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_2\\checkpoint_epoch_093.pt",
+        "selected_checkpoint_sha256": "a2fef507b6843eee4c04705942fbd3a5d570e172c567cbb083a5c3758ddfe5ac",
+        "best_smoothed_connectivity": 0.5440181295529076,
+        "selected_epoch": 93,
+        "final_checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_2\\checkpoint_epoch_100.pt",
+        "wall_seconds": 366.2861417999957,
+        "training_class_counts": [
+          116394.0,
+          5406.0
+        ],
+        "descriptor": {
+          "name": "M4_C",
+          "seed": 2,
+          "config": {
+            "data": {
+              "graph_dir": "data/graphs/train",
+              "train_ratio": 0.7,
+              "val_ratio": 0.15
+            },
+            "graph": {
+              "k": 8,
+              "sigma": 0.1
+            },
+            "labels": {
+              "threshold": 0.3
+            },
+            "model": {
+              "gnn_dropout": 0.3,
+              "gnn_layers": 2,
+              "heads": 4,
+              "hidden_dim": 64,
+              "in_dim": 15,
+              "num_freqs": 8,
+              "pe_dim": 32,
+              "transformer_dropout": 0.1,
+              "transformer_layers": 2,
+              "type": "hybrid",
+              "use_pe": true
+            },
+            "output_dir": "results/step2_loss/M4_hybrid_full",
+            "superpixels": {
+              "compactness": 10.0,
+              "n_segments": 600,
+              "sigma": 1.0,
+              "enforce_connectivity": false
+            },
+            "training": {
+              "batch_size": 1,
+              "early_stopping_patience": null,
+              "epochs": 100,
+              "focal_gamma": 2.0,
+              "grad_clip_norm": 1.0,
+              "loss": "focal",
+              "lr": 0.001,
+              "seed": 2,
+              "warmup_epochs": 5,
+              "weight_decay": 0.0005
+            }
+          },
+          "checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\C\\seed_2\\checkpoint_epoch_093.pt",
+          "checkpoint_sha256": "a2fef507b6843eee4c04705942fbd3a5d570e172c567cbb083a5c3758ddfe5ac",
+          "segments": 600,
+          "raw_tau": 0.5,
+          "origin": "m4_training_fix_v2"
+        }
+      }
+    },
+    {
+      "candidate": "D",
+      "seed": 42,
+      "status": "completed",
+      "training": {
+        "candidate": "D",
+        "seed": 42,
+        "epochs": 100,
+        "selected_checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_079.pt",
+        "selected_checkpoint_sha256": "3a79bb2484426ff9a4620f711e8fbae84b04a8c3f7ae4ff4a1b8cd00e7724290",
+        "best_smoothed_connectivity": 0.5354311892306224,
+        "selected_epoch": 79,
+        "final_checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_100.pt",
+        "wall_seconds": 273.76306890000706,
+        "training_class_counts": [
+          116394.0,
+          5406.0
+        ],
+        "descriptor": {
+          "name": "M4_D",
+          "seed": 42,
+          "config": {
+            "data": {
+              "graph_dir": "data/graphs/train",
+              "train_ratio": 0.7,
+              "val_ratio": 0.15
+            },
+            "graph": {
+              "k": 8,
+              "sigma": 0.1
+            },
+            "labels": {
+              "threshold": 0.3
+            },
+            "model": {
+              "gnn_dropout": 0.3,
+              "gnn_layers": 2,
+              "heads": 4,
+              "hidden_dim": 64,
+              "in_dim": 15,
+              "num_freqs": 8,
+              "pe_dim": 32,
+              "transformer_dropout": 0.1,
+              "transformer_layers": 2,
+              "type": "hybrid",
+              "use_pe": true
+            },
+            "output_dir": "results/step2_loss/M4_hybrid_full",
+            "superpixels": {
+              "compactness": 10.0,
+              "n_segments": 600,
+              "sigma": 1.0,
+              "enforce_connectivity": false
+            },
+            "training": {
+              "batch_size": 1,
+              "early_stopping_patience": null,
+              "epochs": 100,
+              "focal_gamma": 2.0,
+              "grad_clip_norm": 1.0,
+              "loss": "focal",
+              "lr": 0.001,
+              "seed": 42,
+              "warmup_epochs": 5,
+              "weight_decay": 0.0005
+            }
+          },
+          "checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_42\\checkpoint_epoch_079.pt",
+          "checkpoint_sha256": "3a79bb2484426ff9a4620f711e8fbae84b04a8c3f7ae4ff4a1b8cd00e7724290",
+          "segments": 600,
+          "raw_tau": 0.5,
+          "origin": "m4_training_fix_v2"
+        }
+      }
+    },
+    {
+      "candidate": "D",
+      "seed": 1,
+      "status": "incomplete",
+      "training": null
+    },
+    {
+      "candidate": "D",
+      "seed": 2,
+      "status": "completed",
+      "training": {
+        "candidate": "D",
+        "seed": 2,
+        "epochs": 100,
+        "selected_checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_100.pt",
+        "selected_checkpoint_sha256": "36e9dcdeb284cad3f3f62b66bbc387817c82bfe5f9b0fc37043d3278dd094483",
+        "best_smoothed_connectivity": 0.5378761449582208,
+        "selected_epoch": 100,
+        "final_checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_100.pt",
+        "wall_seconds": 390.34671620000154,
+        "training_class_counts": [
+          116394.0,
+          5406.0
+        ],
+        "descriptor": {
+          "name": "M4_D",
+          "seed": 2,
+          "config": {
+            "data": {
+              "graph_dir": "data/graphs/train",
+              "train_ratio": 0.7,
+              "val_ratio": 0.15
+            },
+            "graph": {
+              "k": 8,
+              "sigma": 0.1
+            },
+            "labels": {
+              "threshold": 0.3
+            },
+            "model": {
+              "gnn_dropout": 0.3,
+              "gnn_layers": 2,
+              "heads": 4,
+              "hidden_dim": 64,
+              "in_dim": 15,
+              "num_freqs": 8,
+              "pe_dim": 32,
+              "transformer_dropout": 0.1,
+              "transformer_layers": 2,
+              "type": "hybrid",
+              "use_pe": true
+            },
+            "output_dir": "results/step2_loss/M4_hybrid_full",
+            "superpixels": {
+              "compactness": 10.0,
+              "n_segments": 600,
+              "sigma": 1.0,
+              "enforce_connectivity": false
+            },
+            "training": {
+              "batch_size": 1,
+              "early_stopping_patience": null,
+              "epochs": 100,
+              "focal_gamma": 2.0,
+              "grad_clip_norm": 1.0,
+              "loss": "focal",
+              "lr": 0.001,
+              "seed": 2,
+              "warmup_epochs": 5,
+              "weight_decay": 0.0005
+            }
+          },
+          "checkpoint": "C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\runs\\D\\seed_2\\checkpoint_epoch_100.pt",
+          "checkpoint_sha256": "36e9dcdeb284cad3f3f62b66bbc387817c82bfe5f9b0fc37043d3278dd094483",
+          "segments": 600,
+          "raw_tau": 0.5,
+          "origin": "m4_training_fix_v2"
+        }
+      }
+    }
+  ],
+  "failures": [
+    {
+      "time": "2026-10-14T16:17:02.078994+00:00",
+      "stage": "preflight",
+      "candidate": null,
+      "seed": null,
+      "error": "TITS mask polarity or binary encoding unexpected: C:\\Users\\ragha\\Downloads\\CrackDataset\\TITS\\GROUND_TRUTH\\AIGLE_RN\\GT_AIGLE_RN_F03b.png",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\paper_v2\\m4_training_fix_v2.py\", line 592, in main\n    if args.stage=='preflight':study.preflight()\n                               ^^^^^^^^^^^^^^^^^\n  File \"C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\paper_v2\\m4_training_fix_v2.py\", line 142, in preflight\n    raise ValueError(f'TITS mask polarity or binary encoding unexpected: {mask}')\nValueError: TITS mask polarity or binary encoding unexpected: C:\\Users\\ragha\\Downloads\\CrackDataset\\TITS\\GROUND_TRUTH\\AIGLE_RN\\GT_AIGLE_RN_F03b.png\n"
+    },
+    {
+      "time": "2026-10-15T01:21:09.402190+00:00",
+      "stage": "validation_continuation",
+      "error": "Nine-hour budget cannot fit next mandatory operation (0.0s)",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\antigravity_projects\\dcsnew\\results\\paper_v2\\m4_training_fix_v2_20261014_213925\\run_validation.py\", line 28, in <module>\n    study.train_all()\n  File \"C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\paper_v2\\m4_training_fix_v2.py\", line 352, in train_all\n    self.train(candidate,seed)\n  File \"C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\paper_v2\\m4_training_fix_v2.py\", line 276, in train\n    self.check(); epstart=time.perf_counter();model.train();loss_sum=0.;n_nodes=0;optimizer_steps=0\n    ^^^^^^^^^^^^\n  File \"C:\\antigravity_projects\\dcsnew\\pipeline-crack-gnn\\paper_v2\\m4_training_fix_v2.py\", line 98, in check\n    raise RuntimeError(f'Nine-hour budget cannot fit next mandatory operation ({estimate:.1f}s)')\nRuntimeError: Nine-hour budget cannot fit next mandatory operation (0.0s)\n"
+    }
+  ],
+  "total_wall_seconds": 33109.46630239487,
+  "status": "partial"
+}
